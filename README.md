@@ -47,12 +47,6 @@ The static site under `docs/` is published via GitHub Pages at
 **https://mroswell.github.io/phmpt-index/**. Permalinks and saved
 searches work the same way as locally.
 
-## What's *not* in the repo
-
-- The 18 GB of zip archives themselves (`data/zips/`)
-- The Playwright browser profile (`.profile/`)
-- Per-zip TOC cache (`data/cache/`) — regenerable
-
 ## Filename → metadata key
 
 Zip filenames carry the batch code as a prefix:
