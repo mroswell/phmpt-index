@@ -81,6 +81,15 @@
   </label>
 
   <label class="filter">
+    <span>Individual download</span>
+    <select id="f-individual">
+      <option value="">All</option>
+      <option value="yes">Has individual download</option>
+      <option value="no">Zip only</option>
+    </select>
+  </label>
+
+  <label class="filter">
     <span>Date from</span>
     <input type="date" id="f-date-from">
   </label>
@@ -134,7 +143,6 @@
       <th data-sort="module">Module</th>
       <th data-sort="bates_start" class="num">Bates</th>
       <th>Source zip</th>
-      <th>Individual</th>
     </tr>
   </thead>
   <tbody id="rows"></tbody>

@@ -5,15 +5,16 @@ const SAVED_KEY = "phmpt-saved-searches-v1";
 
 // URL hash <-> state field names. Compact param names keep links short.
 const FIELD_PARAMS = {
-  "f-name":      "q",
-  "f-company":   "co",
-  "f-license":   "li",
-  "f-age":       "ag",
-  "f-date-from": "df",
-  "f-date-to":   "dt",
-  "f-pages-min": "pmin",
-  "f-pages-max": "pmax",
-  "f-bates":     "bates",
+  "f-name":       "q",
+  "f-company":    "co",
+  "f-license":    "li",
+  "f-age":        "ag",
+  "f-individual": "indiv",
+  "f-date-from":  "df",
+  "f-date-to":    "dt",
+  "f-pages-min":  "pmin",
+  "f-pages-max":  "pmax",
+  "f-bates":      "bates",
 };
 
 const state = {
@@ -70,6 +71,7 @@ function applyFilters() {
   const company = $("f-company").value;
   const license = $("f-license").value;
   const age = $("f-age").value;
+  const individual = $("f-individual").value;
   const dateFrom = $("f-date-from").value;
   const dateTo = $("f-date-to").value;
   const pMinV = $("f-pages-min").value;
@@ -86,6 +88,8 @@ function applyFilters() {
     if (company && r.company !== company) return false;
     if (license && r.license !== license) return false;
     if (age && r.age_group !== age) return false;
+    if (individual === "yes" && !r.individual_url) return false;
+    if (individual === "no" && r.individual_url) return false;
     if (dateFrom && (!r.modified || r.modified.slice(0, 10) < dateFrom)) return false;
     if (dateTo && (!r.modified || r.modified.slice(0, 10) > dateTo)) return false;
     if (pMin != null) {
@@ -172,6 +176,7 @@ function rowEl(r) {
     a.target = "_blank";
     a.rel = "noopener";
     a.textContent = r.filename;
+    a.appendChild(externalIcon());
     tdName.appendChild(a);
   } else {
     tdName.textContent = r.filename;
@@ -230,24 +235,32 @@ function rowEl(r) {
     a.target = "_blank";
     a.rel = "noopener";
     a.textContent = r.zip_source;
+    a.appendChild(externalIcon());
     tdZip.appendChild(a);
   } else {
     tdZip.textContent = r.zip_source || "";
   }
   tr.appendChild(tdZip);
 
-  const tdInd = document.createElement("td");
-  if (r.individual_url) {
-    const a = document.createElement("a");
-    a.href = r.individual_url;
-    a.target = "_blank";
-    a.rel = "noopener";
-    a.textContent = "open";
-    tdInd.appendChild(a);
-  }
-  tr.appendChild(tdInd);
-
   return tr;
+}
+
+function externalIcon() {
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("class", "ext-icon");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("aria-hidden", "true");
+  const a = document.createElementNS(NS, "path");
+  a.setAttribute("d", "M14 4h6v6");
+  const b = document.createElementNS(NS, "path");
+  b.setAttribute("d", "M20 4L10 14");
+  const c = document.createElementNS(NS, "path");
+  c.setAttribute("d", "M19 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6");
+  svg.appendChild(a);
+  svg.appendChild(b);
+  svg.appendChild(c);
+  return svg;
 }
 
 // ── URL state ──────────────────────────────────────────────────────
@@ -463,7 +476,7 @@ function showToast(msg) {
 
 function resetAllFilters() {
   for (const id of ["f-name", "f-date-from", "f-date-to", "f-pages-min", "f-pages-max", "f-bates"]) $(id).value = "";
-  for (const id of ["f-company", "f-license", "f-age"]) $(id).value = "";
+  for (const id of ["f-company", "f-license", "f-age", "f-individual"]) $(id).value = "";
   state.extSelected.clear();
   state.modSelected.clear();
   for (const cb of document.querySelectorAll("#f-ext input, #f-module input")) cb.checked = false;
@@ -514,7 +527,7 @@ function init() {
   for (const id of ["f-name", "f-date-from", "f-date-to", "f-pages-min", "f-pages-max", "f-bates"]) {
     $(id).addEventListener("input", debounced);
   }
-  for (const id of ["f-company", "f-license", "f-age"]) {
+  for (const id of ["f-company", "f-license", "f-age", "f-individual"]) {
     $(id).addEventListener("change", applyFilters);
   }
 
@@ -585,5 +598,5 @@ async function load() {
 }
 
 load().catch((e) => {
-  $("rows").innerHTML = `<tr><td colspan="13" style="padding:24px;color:#900">load failed: ${e}</td></tr>`;
+  $("rows").innerHTML = `<tr><td colspan="12" style="padding:24px;color:#900">load failed: ${e}</td></tr>`;
 });
