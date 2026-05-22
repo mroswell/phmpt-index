@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Playwright persistent profile + downloaded archives
+.profile/
+data/zips/
+data/cache/
+.scratch/
+
+# macOS junk
+.DS_Store

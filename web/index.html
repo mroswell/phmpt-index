@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PHMPT FOIA Document Index</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>PHMPT FOIA Document Index</h1>
+  <p class="subtitle">
+    A filterable index of every file inside every zip on
+    <a href="https://phmpt.org/multiple-file-downloads/" target="_blank" rel="noopener">phmpt.org/multiple-file-downloads/</a>.
+    <span id="stats"></span>
+  </p>
+</header>
+
+<section class="savedbar">
+  <label for="saved-pick">Saved search:</label>
+  <select id="saved-pick">
+    <option value="" disabled hidden selected>—</option>
+    <option value="__reset__">— pick —</option>
+  </select>
+  <span id="active-name" class="active-name" aria-live="polite"></span>
+  <button type="button" id="saved-save">Save current as…</button>
+  <button type="button" id="copy-link" class="primary">Copy link</button>
+  <button type="button" id="saved-manage">Manage…</button>
+  <span id="toast" class="toast"></span>
+  <button type="button" id="reset">Reset filters</button>
+</section>
+
+<div class="modal-backdrop" id="manage-modal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-labelledby="manage-title">
+    <header>
+      <h2 id="manage-title">Manage saved searches</h2>
+      <button type="button" class="modal-close" aria-label="Close" data-close>×</button>
+    </header>
+    <div class="body">
+      <ul class="saved-list" id="saved-list"></ul>
+    </div>
+    <footer>
+      <button type="button" data-close>Close</button>
+    </footer>
+  </div>
+</div>
+
+<section class="filters">
+  <label class="filter wide">
+    <span>Filename contains</span>
+    <input type="search" id="f-name" placeholder="any substring, case-insensitive">
+  </label>
+
+  <label class="filter">
+    <span>Company</span>
+    <select id="f-company">
+      <option value="">All</option>
+      <option value="Moderna">Moderna</option>
+      <option value="Pfizer">Pfizer</option>
+    </select>
+  </label>
+
+  <label class="filter">
+    <span>License</span>
+    <select id="f-license">
+      <option value="">All</option>
+      <option value="BLA">BLA</option>
+      <option value="EUA">EUA</option>
+    </select>
+  </label>
+
+  <label class="filter">
+    <span>Age group</span>
+    <select id="f-age">
+      <option value="">All</option>
+      <option value="adult">adult</option>
+      <option value="16+">16+</option>
+      <option value="12-15">12-15</option>
+    </select>
+  </label>
+
+  <label class="filter">
+    <span>Date from</span>
+    <input type="date" id="f-date-from">
+  </label>
+  <label class="filter">
+    <span>Date to</span>
+    <input type="date" id="f-date-to">
+  </label>
+
+  <label class="filter">
+    <span>Pages ≥</span>
+    <input type="number" id="f-pages-min" min="0" step="1">
+  </label>
+  <label class="filter">
+    <span>Pages ≤</span>
+    <input type="number" id="f-pages-max" min="0" step="1">
+  </label>
+
+  <fieldset class="filter wide" id="f-ext-wrap">
+    <legend>File type</legend>
+    <div id="f-ext"></div>
+  </fieldset>
+
+  <fieldset class="filter wide" id="f-module-wrap">
+    <legend>eCTD module</legend>
+    <div id="f-module"></div>
+  </fieldset>
+
+  <label class="filter">
+    <span>Contains Bates #</span>
+    <input type="number" id="f-bates" min="0" step="1" placeholder="e.g. 5239100">
+  </label>
+</section>
+
+<div class="result-bar">
+  <span id="count">…</span>
+  <span id="page-info"></span>
+</div>
+
+<table id="results">
+  <thead>
+    <tr>
+      <th data-sort="id" class="num">#</th>
+      <th data-sort="filename">Filename</th>
+      <th data-sort="extension">Type</th>
+      <th data-sort="size" class="num">Size</th>
+      <th data-sort="page_count" class="num">Pages</th>
+      <th data-sort="modified">Modified</th>
+      <th data-sort="company">Company</th>
+      <th data-sort="license">License</th>
+      <th data-sort="age_group">Age</th>
+      <th data-sort="module">Module</th>
+      <th data-sort="bates_start" class="num">Bates</th>
+      <th>Source zip</th>
+      <th>Individual</th>
+    </tr>
+  </thead>
+  <tbody id="rows"></tbody>
+</table>
+
+<nav class="pager">
+  <button type="button" id="prev">← Prev</button>
+  <span id="pager-info"></span>
+  <button type="button" id="next">Next →</button>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

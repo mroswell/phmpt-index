@@ -1,0 +1,659 @@
+[
+  {
+    "filename": "md-eua-050126.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-050126.zip",
+    "date": "2026-05-01",
+    "date_text": "May 1, 2026",
+    "size_text": "158 MB",
+    "size_bytes": 165675008,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-040126.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-040126.zip",
+    "date": "2026-04-01",
+    "date_text": "April 1, 2026",
+    "size_text": "267 MB",
+    "size_bytes": 279969792,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-030226.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-030226.zip",
+    "date": "2026-03-02",
+    "date_text": "March 2, 2026",
+    "size_text": "16 MB",
+    "size_bytes": 16777216,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-020226.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-020226.zip",
+    "date": "2026-02-02",
+    "date_text": "February 2, 2026",
+    "size_text": "278 MB",
+    "size_bytes": 291504128,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-010226.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip",
+    "date": "2026-01-02",
+    "date_text": "January 2, 2026",
+    "size_text": "303 MB",
+    "size_bytes": 317718528,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-120125.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-120125.zip",
+    "date": "2025-12-01",
+    "date_text": "December 1, 2025",
+    "size_text": "205 MB",
+    "size_bytes": 214958080,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-110325.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-110325.zip",
+    "date": "2025-11-03",
+    "date_text": "November 3, 2025",
+    "size_text": "260 MB",
+    "size_bytes": 272629760,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-100125.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-100125.zip",
+    "date": "2025-10-01",
+    "date_text": "October 1, 2025",
+    "size_text": "97 MB",
+    "size_bytes": 101711872,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "p1215d-eua-production-090225.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-eua-production-090225.zip",
+    "date": "2025-09-02",
+    "date_text": "September 2, 2025",
+    "size_text": "266 MB",
+    "size_bytes": 278921216,
+    "batch_code": "p1215d-eua"
+  },
+  {
+    "filename": "pd-eua-production-082625.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-eua-production-082625.zip",
+    "date": "2025-08-26",
+    "date_text": "August 26, 2025",
+    "size_text": "27 MB",
+    "size_bytes": 28311552,
+    "batch_code": "pd-eua"
+  },
+  {
+    "filename": "p1215d-eua-production-080125.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-eua-production-080125.zip",
+    "date": "2025-08-01",
+    "date_text": "August 1, 2025",
+    "size_text": "270 MB",
+    "size_bytes": 283115520,
+    "batch_code": "p1215d-eua"
+  },
+  {
+    "filename": "pd-eua-production-063025.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-eua-production-063025.zip",
+    "date": "2025-06-30",
+    "date_text": "June 30, 2025",
+    "size_text": "402 MB",
+    "size_bytes": 421527552,
+    "batch_code": "pd-eua"
+  },
+  {
+    "filename": "md-production-063025.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-063025.zip",
+    "date": "2025-06-30",
+    "date_text": "June 30, 2025",
+    "size_text": "1.1 GB",
+    "size_bytes": 1181116006,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-060225.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-060225.zip",
+    "date": "2025-06-02",
+    "date_text": "June 2, 2025",
+    "size_text": "1 GB",
+    "size_bytes": 1073741824,
+    "batch_code": "md"
+  },
+  {
+    "filename": "pd-eua-production-051925.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-eua-production-051925.zip",
+    "date": "2025-05-19",
+    "date_text": "May 19, 2025",
+    "size_text": "975 MB",
+    "size_bytes": 1022361600,
+    "batch_code": "pd-eua"
+  },
+  {
+    "filename": "md-production-050125.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-050125.zip",
+    "date": "2025-05-01",
+    "date_text": "May 1, 2025",
+    "size_text": "796 MB",
+    "size_bytes": 834666496,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-040125.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-040125.zip",
+    "date": "2025-04-01",
+    "date_text": "April 1, 2025",
+    "size_text": "667 MB",
+    "size_bytes": 699400192,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-030325.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-030325.zip",
+    "date": "2025-03-03",
+    "date_text": "March 3, 2025",
+    "size_text": "208 MB",
+    "size_bytes": 218103808,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-020325.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-020325.zip",
+    "date": "2025-02-03",
+    "date_text": "February 3, 2025",
+    "size_text": "264 MB",
+    "size_bytes": 276824064,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-010225.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-010225.zip",
+    "date": "2025-01-02",
+    "date_text": "January 2, 2025",
+    "size_text": "320 MB",
+    "size_bytes": 335544320,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-120224.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-120224.zip",
+    "date": "2024-12-02",
+    "date_text": "December 2, 2024",
+    "size_text": "282 MB",
+    "size_bytes": 295698432,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-110124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-110124.zip",
+    "date": "2024-11-01",
+    "date_text": "November 1, 2024",
+    "size_text": "354 MB",
+    "size_bytes": 371195904,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-100124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-100124.zip",
+    "date": "2024-10-01",
+    "date_text": "October 1, 2024",
+    "size_text": "643 MB",
+    "size_bytes": 674234368,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-090324.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-090324.zip",
+    "date": "2024-09-03",
+    "date_text": "September 3, 2024",
+    "size_text": "146 MB",
+    "size_bytes": 153092096,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-080124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-080124.zip",
+    "date": "2024-08-01",
+    "date_text": "August 1, 2024",
+    "size_text": "479 MB",
+    "size_bytes": 502267904,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-070124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-070124.zip",
+    "date": "2024-07-01",
+    "date_text": "July 1, 2024",
+    "size_text": "218 MB",
+    "size_bytes": 228589568,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-060324.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-060324.zip",
+    "date": "2024-06-03",
+    "date_text": "June 3, 2024",
+    "size_text": "360 MB",
+    "size_bytes": 377487360,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-050124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-050124.zip",
+    "date": "2024-05-01",
+    "date_text": "May 1, 2024",
+    "size_text": "309 MB",
+    "size_bytes": 324009984,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-040124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-040124.zip",
+    "date": "2024-04-01",
+    "date_text": "April 1, 2024",
+    "size_text": "172 MB",
+    "size_bytes": 180355072,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-030124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-030124.zip",
+    "date": "2024-03-01",
+    "date_text": "March 1, 2024",
+    "size_text": "125 MB",
+    "size_bytes": 131072000,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-020124.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-020124.zip",
+    "date": "2024-02-01",
+    "date_text": "February 1, 2024",
+    "size_text": "330 MB",
+    "size_bytes": 346030080,
+    "batch_code": "md"
+  },
+  {
+    "filename": "md-production-010224.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-010224.zip",
+    "date": "2024-01-02",
+    "date_text": "January 2, 2024",
+    "size_text": "220 MB",
+    "size_bytes": 230686720,
+    "batch_code": "md"
+  },
+  {
+    "filename": "p1215d-production-010224.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-production-010224.zip",
+    "date": "2024-01-02",
+    "date_text": "January 2, 2024",
+    "size_text": "194 MB",
+    "size_bytes": 203423744,
+    "batch_code": "p1215d"
+  },
+  {
+    "filename": "md-production-120423.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-120423.zip",
+    "date": "2023-12-04",
+    "date_text": "December 4, 2023",
+    "size_text": "103 MB",
+    "size_bytes": 108003328,
+    "batch_code": "md"
+  },
+  {
+    "filename": "p1215d-production-120423.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-production-120423.zip",
+    "date": "2023-12-04",
+    "date_text": "December 4, 2023",
+    "size_text": "568 MB",
+    "size_bytes": 595591168,
+    "batch_code": "p1215d"
+  },
+  {
+    "filename": "pd-production-110123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/110123/pd-production-110123.zip",
+    "date": "2023-11-01",
+    "date_text": "November 1, 2023",
+    "size_text": "337 MB",
+    "size_bytes": 353370112,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "p1215d-production-110123.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-production-110123.zip",
+    "date": "2023-11-01",
+    "date_text": "November 1, 2023",
+    "size_text": "70 MB",
+    "size_bytes": 73400320,
+    "batch_code": "p1215d"
+  },
+  {
+    "filename": "md-production-110123.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-110123.zip",
+    "date": "2023-11-01",
+    "date_text": "November 1, 2023",
+    "size_text": "11 MB",
+    "size_bytes": 11534336,
+    "batch_code": "md"
+  },
+  {
+    "filename": "pd-production-100123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-100123.zip",
+    "date": "2023-10-01",
+    "date_text": "October 1, 2023",
+    "size_text": "1.3 GB",
+    "size_bytes": 1395864371,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "md-production-100123.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-100123.zip",
+    "date": "2023-10-01",
+    "date_text": "October 1, 2023",
+    "size_text": "437 KB",
+    "size_bytes": 447488,
+    "batch_code": "md"
+  },
+  {
+    "filename": "p1215d-production-100123.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-production-100123.zip",
+    "date": "2023-10-01",
+    "date_text": "October 1, 2023",
+    "size_text": "90 MB",
+    "size_bytes": 94371840,
+    "batch_code": "p1215d"
+  },
+  {
+    "filename": "pd-production-090123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-090123.zip",
+    "date": "2023-09-01",
+    "date_text": "September 1, 2023",
+    "size_text": "248MB",
+    "size_bytes": 260046848,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "p1215d-production-090123.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-production-090123.zip",
+    "date": "2023-09-01",
+    "date_text": "September 1, 2023",
+    "size_text": "99MB",
+    "size_bytes": 103809024,
+    "batch_code": "p1215d"
+  },
+  {
+    "filename": "md-production-090123.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-090123.zip",
+    "date": "2023-09-01",
+    "date_text": "September 1, 2023",
+    "size_text": "154MB",
+    "size_bytes": 161480704,
+    "batch_code": "md"
+  },
+  {
+    "filename": "p1215d-production-080123.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-production-080123.zip",
+    "date": "2023-08-01",
+    "date_text": "August 1, 2023",
+    "size_text": "8MB",
+    "size_bytes": 8388608,
+    "batch_code": "p1215d"
+  },
+  {
+    "filename": "md-production-080123.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-080123.zip",
+    "date": "2023-08-01",
+    "date_text": "August 1, 2023",
+    "size_text": "79MB",
+    "size_bytes": 82837504,
+    "batch_code": "md"
+  },
+  {
+    "filename": "pd-production-080123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-080123.zip",
+    "date": "2023-08-01",
+    "date_text": "August 1, 2023",
+    "size_text": "804MB",
+    "size_bytes": 843055104,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "p1215d-production-070323.zip",
+    "url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/p1215d-production-070323.zip",
+    "date": "2023-07-03",
+    "date_text": "July 3, 2023",
+    "size_text": "12MB",
+    "size_bytes": 12582912,
+    "batch_code": "p1215d"
+  },
+  {
+    "filename": "pd-production-070323.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-070323.zip",
+    "date": "2023-07-03",
+    "date_text": "July 3, 2023",
+    "size_text": "357MB",
+    "size_bytes": 374341632,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-060123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060123/pd-production-060123.zip",
+    "date": "2023-06-01",
+    "date_text": "June 1, 2023",
+    "size_text": "317 MB",
+    "size_bytes": 332398592,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-050123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-050123.zip",
+    "date": "2023-05-01",
+    "date_text": "May 1, 2023",
+    "size_text": "356 MB",
+    "size_bytes": 373293056,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-040323.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-040323.zip",
+    "date": "2023-04-03",
+    "date_text": "April 3, 2023",
+    "size_text": "196 MB",
+    "size_bytes": 205520896,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-030123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-030123.zip",
+    "date": "2023-03-01",
+    "date_text": "March 1, 2023",
+    "size_text": "45 MB",
+    "size_bytes": 47185920,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-020123.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-020123.zip",
+    "date": "2023-02-01",
+    "date_text": "February 1, 2023",
+    "size_text": "126 MB",
+    "size_bytes": 132120576,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-010323.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-010323.zip",
+    "date": "2023-01-03",
+    "date_text": "January 3, 2023",
+    "size_text": "162 MB",
+    "size_bytes": 169869312,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-120122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-120122.zip",
+    "date": "2022-12-01",
+    "date_text": "December 1, 2022",
+    "size_text": "19.6 MB",
+    "size_bytes": 20552089,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-110122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-110122.zip",
+    "date": "2022-11-01",
+    "date_text": "November 1, 2022",
+    "size_text": "71 MB",
+    "size_bytes": 74448896,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-100322.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-100322.zip",
+    "date": "2022-10-03",
+    "date_text": "October 3, 2022",
+    "size_text": "57 MB",
+    "size_bytes": 59768832,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-090122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-090122.zip",
+    "date": "2022-09-01",
+    "date_text": "September 1, 2022",
+    "size_text": "11.1 MB",
+    "size_bytes": 11639193,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-080122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/080122/pd-production-080122.zip",
+    "date": "2022-08-01",
+    "date_text": "August 1, 2022",
+    "size_text": "48 MB",
+    "size_bytes": 50331648,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-070122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-070122.zip",
+    "date": "2022-07-01",
+    "date_text": "July 1, 2022",
+    "size_text": "204 MB",
+    "size_bytes": 213909504,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-060122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-060122.zip",
+    "date": "2022-06-01",
+    "date_text": "June 1, 2022",
+    "size_text": "157 MB",
+    "size_bytes": 164626432,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-050222.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-050222.zip",
+    "date": "2022-05-02",
+    "date_text": "May 2, 2022",
+    "size_text": "396 MB",
+    "size_bytes": 415236096,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-040122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-040122.zip",
+    "date": "2022-04-01",
+    "date_text": "April 1, 2022",
+    "size_text": "128 MB",
+    "size_bytes": 134217728,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-032422.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-032422.zip",
+    "date": "2022-03-24",
+    "date_text": "March 24, 2022",
+    "size_text": "2 MB",
+    "size_bytes": 2097152,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-030122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-030122.zip",
+    "date": "2022-03-01",
+    "date_text": "March 1, 2022",
+    "size_text": "195 MB",
+    "size_bytes": 204472320,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-013122.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-013122.zip",
+    "date": "2022-01-31",
+    "date_text": "January 31, 2022",
+    "size_text": "14 MB",
+    "size_bytes": 14680064,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-011822.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-011822.zip",
+    "date": "2022-01-18",
+    "date_text": "January 18, 2022",
+    "size_text": "11 MB",
+    "size_bytes": 11534336,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-123021.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-123021.zip",
+    "date": "2021-12-30",
+    "date_text": "December 30, 2021",
+    "size_text": "13 MB",
+    "size_bytes": 13631488,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-122221.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-122221.zip",
+    "date": "2021-12-22",
+    "date_text": "December 22, 2021",
+    "size_text": "2 MB",
+    "size_bytes": 2097152,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-121321.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-121321.zip",
+    "date": "2021-12-13",
+    "date_text": "December 13, 2021",
+    "size_text": "21 MB",
+    "size_bytes": 22020096,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-120121.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-120121.zip",
+    "date": "2021-12-01",
+    "date_text": "December 1, 2021",
+    "size_text": "26 MB",
+    "size_bytes": 27262976,
+    "batch_code": "pd"
+  },
+  {
+    "filename": "pd-production-111721.zip",
+    "url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-production-111721.zip",
+    "date": "2021-11-17",
+    "date_text": "November 17, 2021",
+    "size_text": "11 MB",
+    "size_bytes": 11534336,
+    "batch_code": "pd"
+  }
+]
