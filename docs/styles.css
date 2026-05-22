@@ -4,6 +4,7 @@
   --ink: #1c1c1c;
   --muted: #6b6b6b;
   --line: #d8d6cf;
+  --filter-line: #9aa0a6;
   --accent: #1e4d8c;
   --accent-soft: #e8eef7;
   --pfizer: #0093d0;
@@ -59,7 +60,7 @@ header h1 { margin: 0 0 4px; font-size: 22px; font-weight: 600; }
 .filter select {
   font: inherit;
   padding: 6px 8px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--filter-line);
   border-radius: 4px;
   background: var(--surface);
   color: var(--ink);
@@ -73,7 +74,7 @@ header h1 { margin: 0 0 4px; font-size: 22px; font-weight: 600; }
 }
 
 fieldset.filter {
-  border: 1px solid var(--line);
+  border: 1px solid var(--filter-line);
   border-radius: 4px;
   padding: 6px 10px 8px;
   margin: 0;

@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 TOC = DATA / "toc.json"
 INDIVIDUAL = DATA / "individual_urls.json"
+ORPHANS = DATA / "orphans.json"
 ID_REGISTRY = DATA / "id_registry.json"
 OUT = ROOT / "docs" / "data" / "index.json"
 
@@ -37,6 +38,18 @@ BATCH_META: dict[str, tuple[str, str, str]] = {
     "p1215d":     ("Pfizer",  "BLA", "12-15"),
     "p1215d-eua": ("Pfizer",  "EUA", "12-15"),
 }
+
+# product_page -> (company, age_group). License is BLA-or-EUA-mixed on these
+# pages, so we leave it null for orphans.
+PRODUCT_META: dict[str, tuple[str | None, str | None]] = {
+    "/pfizer-16-plus-documents/":                  ("Pfizer",  "16+"),
+    "/moderna-documents/":                         ("Moderna", "adult"),
+    "/pfizer-12-15-documents/":                    ("Pfizer",  "12-15"),
+    "/pfizer-court-documents/":                    ("Pfizer",  None),
+    "/pfizer-12-15-and-moderna-court-documents/":  (None,      None),
+}
+
+URL_DATE_RE = re.compile(r"/wp-content/uploads/(\d{4})/(\d{2})/")
 
 
 def extension_of(name: str) -> str:
@@ -133,6 +146,51 @@ def main() -> None:
             }
         )
 
+    # Append phmpt-only files (files on phmpt.org not present in any zip).
+    orphan_count = 0
+    if ORPHANS.exists():
+        orphans = json.loads(ORPHANS.read_text())
+        for o in orphans:
+            fname = (o.get("filename") or "").strip()
+            if not fname:
+                continue  # blank-filename row on at least one product page
+            url = o["url"]
+            page = o.get("product_page", "")
+            company, age_group = PRODUCT_META.get(page, (None, None))
+            bates_start, bates_end = bates_of(fname)
+            # Try to recover a date from /wp-content/uploads/YYYY/MM/...
+            m = URL_DATE_RE.search(url)
+            modified = f"{m.group(1)}-{m.group(2)}-01T00:00:00" if m else None
+
+            reg_key = f"orphan||{url}"
+            if reg_key not in registry:
+                registry[reg_key] = next_id
+                next_id += 1
+                new_ids += 1
+            row_id = registry[reg_key]
+
+            out_rows.append(
+                {
+                    "id":             row_id,
+                    "filename":       fname,
+                    "extension":      extension_of(fname),
+                    "size":           None,
+                    "page_count":     None,
+                    "modified":       modified,
+                    "company":        company,
+                    "license":        None,           # BLA vs EUA unknown for orphans
+                    "age_group":      age_group,
+                    "module":         module_of(fname),
+                    "bates_start":    bates_start,
+                    "bates_end":      bates_end,
+                    "batch_code":     None,
+                    "zip_source":     None,
+                    "zip_url":        None,
+                    "individual_url": url,
+                }
+            )
+            orphan_count += 1
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out_rows, separators=(",", ":")))
     save_registry(registry)
@@ -151,10 +209,20 @@ def main() -> None:
         if r["bates_start"] is not None:
             bates_count += 1
 
+    zip_rows = len(out_rows) - orphan_count
+    both = sum(1 for r in out_rows[:zip_rows] if r["individual_url"])
+    zip_only = zip_rows - both
+    indiv_only = orphan_count
+
     size_kb = OUT.stat().st_size / 1024
     print(f"wrote {len(out_rows):,} rows  ({size_kb:.0f} KB) -> {OUT}")
+    print(f"  zip-member rows:        {zip_rows:,}")
+    print(f"  individual-only rows:   {orphan_count:,}")
     print(f"id registry: {len(registry):,} total, {new_ids:,} newly assigned this run")
-    print(f"matched individual_url: {matched_indiv:,} / {len(out_rows):,}")
+    print(f"breakdown by source:")
+    print(f"  in zip + individual:    {both:,}")
+    print(f"  zip only:               {zip_only:,}")
+    print(f"  individual only:        {indiv_only:,}")
     print(f"company: {by_company}")
     print(f"license: {by_license}")
     print(f"age:     {by_age}")

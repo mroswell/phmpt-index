@@ -88,8 +88,9 @@ function applyFilters() {
     if (company && r.company !== company) return false;
     if (license && r.license !== license) return false;
     if (age && r.age_group !== age) return false;
-    if (individual === "yes" && !r.individual_url) return false;
-    if (individual === "no" && r.individual_url) return false;
+    if (individual === "both"  && !(r.zip_source && r.individual_url)) return false;
+    if (individual === "zip"   && !(r.zip_source && !r.individual_url)) return false;
+    if (individual === "indiv" && !(!r.zip_source && r.individual_url)) return false;
     if (dateFrom && (!r.modified || r.modified.slice(0, 10) < dateFrom)) return false;
     if (dateTo && (!r.modified || r.modified.slice(0, 10) > dateTo)) return false;
     if (pMin != null) {
