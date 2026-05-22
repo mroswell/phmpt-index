@@ -279,8 +279,13 @@ function applyParamsToControls(params) {
     for (const [id, key] of Object.entries(FIELD_PARAMS)) {
       $(id).value = params.get(key) || "";
     }
-    state.extSelected = new Set((params.get("ext") || "").split(",").filter(Boolean));
-    state.modSelected = new Set((params.get("mod") || "").split(",").filter(Boolean));
+    // Mutate the existing Sets in place — the checkbox change handlers
+    // captured a closure over these references, so replacing the Sets would
+    // orphan the listeners.
+    state.extSelected.clear();
+    for (const v of (params.get("ext") || "").split(",").filter(Boolean)) state.extSelected.add(v);
+    state.modSelected.clear();
+    for (const v of (params.get("mod") || "").split(",").filter(Boolean)) state.modSelected.add(v);
     // Re-sync the existing checkbox UIs.
     for (const cb of document.querySelectorAll("#f-ext input")) cb.checked = state.extSelected.has(cb.value);
     for (const cb of document.querySelectorAll("#f-module input")) cb.checked = state.modSelected.has(cb.value);
