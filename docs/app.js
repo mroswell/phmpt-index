@@ -209,15 +209,16 @@ function rowEl(r) {
   tr.appendChild(tdAge);
 
   const tdMod = document.createElement("td");
+  tdMod.className = "col-module";
   if (r.module) tdMod.appendChild(tag("ext", r.module));
   tr.appendChild(tdMod);
 
   const tdBates = document.createElement("td");
-  tdBates.className = "num";
+  tdBates.className = "num col-bates";
   if (r.bates_start != null) {
     tdBates.textContent = r.bates_start === r.bates_end
-      ? fmtNum(r.bates_start)
-      : `${fmtNum(r.bates_start)}–${fmtNum(r.bates_end)}`;
+      ? String(r.bates_start)
+      : `${r.bates_start}–${r.bates_end}`;
   }
   tr.appendChild(tdBates);
 
