@@ -2,7 +2,7 @@
 
 Reads data/toc.json (raw per-zip member listing) and, when present,
 data/individual_urls.json (filename -> per-file URL on phmpt.org).
-Writes web/data/index.json — the single artifact the front-end loads.
+Writes docs/data/index.json — the single artifact the front-end loads.
 
 Member metadata (company, license, age_group) is derived from the
 zip's batch_code, since member filenames inside each zip don't carry
@@ -26,7 +26,7 @@ DATA = ROOT / "data"
 TOC = DATA / "toc.json"
 INDIVIDUAL = DATA / "individual_urls.json"
 ID_REGISTRY = DATA / "id_registry.json"
-OUT = ROOT / "web" / "data" / "index.json"
+OUT = ROOT / "docs" / "data" / "index.json"
 
 # batch_code -> (company, license, age_group)
 BATCH_META: dict[str, tuple[str, str, str]] = {

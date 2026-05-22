@@ -22,7 +22,7 @@ Two practical constraints shape the plan:
    download via HTTP range requests, but since you want the zip bytes anyway,
    we download once and read locally.)
 
-End state: a generated `web/data/index.json` and a static, filterable HTML/JS
+End state: a generated `docs/data/index.json` and a static, filterable HTML/JS
 site that lets you slice the corpus by any part of the filename, date range,
 company (Moderna/Pfizer), license (EUA vs. BLA), and age group (adult / 12–15).
 
@@ -61,8 +61,8 @@ foia-toc/
 │   ├── download_zips.py        # download archives with resume + verify
 │   ├── extract_toc.py          # zipfile.infolist() inventory
 │   ├── crawl_files.py          # individual per-file page crawl
-│   └── build_index.py          # join + emit web/data/index.json
-└── web/
+│   └── build_index.py          # join + emit docs/data/index.json
+└── docs/
     ├── index.html              # table + filter controls
     ├── app.js                  # client-side filtering
     ├── styles.css
@@ -148,7 +148,7 @@ agree, and with `pdfinfo` on three random PDFs to confirm page counts match.
   above to populate `company`, `license`, `age_group`.
 - Derive `extension` from the lowercased suffix after the final `.` in
   `filename` (e.g. `pdf`, `xlsx`, `xpt`, `docx`). Empty string if none.
-- Emit `web/data/index.json` as an array of:
+- Emit `docs/data/index.json` as an array of:
 
 ```json
 {
@@ -169,7 +169,7 @@ agree, and with `pdfinfo` on three random PDFs to confirm page counts match.
 `page_count` is `null` for non-PDF members. This shape is the API contract
 for the front-end — change with care once the site ships against it.
 
-### 7. `web/` — static filterable site
+### 7. `docs/` — static filterable site
 
 - `index.html` + `app.js` + `styles.css`, no framework.
 - Loads `data/index.json` once; renders a table with controls:
@@ -218,7 +218,7 @@ point you'd extract PDFs and run OCR/text-extraction.
   unclassified filenames (likely indicate a new batch code we should add);
   every row has a non-null `extension` (or empty string) and PDFs have
   non-null `page_count`.
-- Site: open `web/index.html`; each filter (text, date, company, license,
+- Site: open `docs/index.html` (or the live Pages URL); each filter (text, date, company, license,
   age, pages, extension) independently narrows the row count and the
   cleared state restores the full count.
 
@@ -227,4 +227,4 @@ point you'd extract PDFs and run OCR/text-extraction.
 - `scripts/bootstrap.py` — the one-way door. Decides cookie/storage location.
 - `scripts/build_index.py` — defines `index.json` schema, the API the
   front-end depends on.
-- `web/data/index.json` — generated artifact, but its shape is load-bearing.
+- `docs/data/index.json` — generated artifact, but its shape is load-bearing.
