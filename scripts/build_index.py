@@ -26,6 +26,7 @@ DATA = ROOT / "data"
 TOC = DATA / "toc.json"
 INDIVIDUAL = DATA / "individual_urls.json"
 ORPHANS = DATA / "orphans.json"
+VERIFICATION = DATA / "complete_orphan_verification.json"
 ID_REGISTRY = DATA / "id_registry.json"
 OUT = ROOT / "docs" / "data" / "index.json"
 
@@ -146,11 +147,22 @@ def main() -> None:
             }
         )
 
+    # Load allowed orphan URLs (only the 4 unique files, not the 304 duplicates)
+    allowed_orphan_urls = set()
+    if VERIFICATION.exists():
+        verification = json.loads(VERIFICATION.read_text())
+        for new_file in verification.get("new_files", []):
+            allowed_orphan_urls.add(new_file["orphan_url"])
+
     # Append phmpt-only files (files on phmpt.org not present in any zip).
+    # Only include files that are NOT duplicates of multiple-file-downloads content.
     orphan_count = 0
     if ORPHANS.exists():
         orphans = json.loads(ORPHANS.read_text())
         for o in orphans:
+            # Skip duplicate files - only include the 4 unique ones
+            if o["url"] not in allowed_orphan_urls:
+                continue
             fname = (o.get("filename") or "").strip()
             if not fname:
                 continue  # blank-filename row on at least one product page
