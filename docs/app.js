@@ -195,7 +195,13 @@ function rowEl(r) {
 
   const tdPages = document.createElement("td");
   tdPages.className = "num";
-  tdPages.textContent = fmtNum(r.page_count);
+  if (r.page_count == null && r.extension === "pdf") {
+    tdPages.textContent = "—";
+    tdPages.title = "Page count unavailable for individual PDFs not bundled in a multiple-file-downloads zip";
+    tdPages.style.color = "var(--muted)";
+  } else {
+    tdPages.textContent = fmtNum(r.page_count);
+  }
   tr.appendChild(tdPages);
 
   const tdDate = document.createElement("td");

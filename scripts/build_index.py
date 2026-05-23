@@ -27,6 +27,7 @@ TOC = DATA / "toc.json"
 INDIVIDUAL = DATA / "individual_urls.json"
 ORPHANS = DATA / "orphans.json"
 VERIFICATION = DATA / "complete_orphan_verification.json"
+PDF_PAGE_COUNTS = DATA / "individual_pdf_page_counts.json"
 ID_REGISTRY = DATA / "id_registry.json"
 OUT = ROOT / "docs" / "data" / "index.json"
 
@@ -154,6 +155,11 @@ def main() -> None:
         for new_file in verification.get("new_files", []):
             allowed_orphan_zip_urls.add(new_file["orphan_url"])
 
+    # Load individual PDF page counts
+    pdf_page_counts = {}
+    if PDF_PAGE_COUNTS.exists():
+        pdf_page_counts = json.loads(PDF_PAGE_COUNTS.read_text())
+
     # Append phmpt-only files (files on phmpt.org not present in any zip).
     # Include: ALL non-zip files + only the 4 unique zip files
     orphan_count = 0
@@ -176,6 +182,11 @@ def main() -> None:
             m = URL_DATE_RE.search(url)
             modified = f"{m.group(1)}-{m.group(2)}-01T00:00:00" if m else None
 
+            # Get page count for PDFs from cache
+            page_count = None
+            if fname.lower().endswith('.pdf') and url in pdf_page_counts:
+                page_count = pdf_page_counts[url]
+
             reg_key = f"orphan||{url}"
             if reg_key not in registry:
                 registry[reg_key] = next_id
@@ -189,7 +200,7 @@ def main() -> None:
                     "filename":       fname,
                     "extension":      extension_of(fname),
                     "size":           None,
-                    "page_count":     None,
+                    "page_count":     page_count,
                     "modified":       modified,
                     "company":        company,
                     "license":        None,           # BLA vs EUA unknown for orphans
