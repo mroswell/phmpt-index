@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multiple-File-Downloads vs Company-Documents Pages</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .explanation {
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      padding: 16px;
+      border-radius: 6px;
+      margin: 20px 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .x-files {
+      background: #f1f8ff;
+      border: 1px solid #c8e1ff;
+      padding: 16px;
+      border-radius: 6px;
+      margin: 20px 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .x-files h3 {
+      margin-top: 0;
+      color: #0969da;
+    }
+    .summary-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .stat {
+      background: var(--surface);
+      padding: 16px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    .mapping-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 13px;
+    }
+    .mapping-table th {
+      background: #f8f9fa;
+      padding: 12px;
+      text-align: left;
+      font-weight: 600;
+      border: 1px solid var(--line);
+    }
+    .mapping-table td {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      vertical-align: top;
+    }
+    .multifile-zip {
+      font-family: monospace;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    .companydocs-zip {
+      font-family: monospace;
+      font-size: 12px;
+      word-break: break-all;
+      color: #444;
+    }
+    .new-file {
+      background: rgba(128,128,128,0.08);
+      color: #555;
+    }
+    .duplicate-file {
+      background: rgba(128,128,128,0.04);
+      color: #666;
+    }
+    .duplicate-file td {
+      border-top: none;
+      border-bottom: none;
+      padding: 2px 12px;
+    }
+    .duplicate-file.first-in-group td {
+      border-top: 1px solid #000;
+      padding-top: 6px;
+    }
+    .new-file td {
+      padding: 2px 12px;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    .nav-menu {
+      display: flex;
+      gap: 16px;
+      font-size: 14px;
+      margin: 12px 0 16px 0;
+    }
+    .nav-menu a {
+      color: var(--accent);
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+    .nav-menu a:hover {
+      background: #f8f9fa;
+    }
+    .nav-menu a[data-tooltip]:hover::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 8px;
+      padding: 8px 12px;
+      background: #333;
+      color: white;
+      border-radius: 4px;
+      font-size: 12px;
+      white-space: pre-line;
+      z-index: 1000;
+      min-width: 200px;
+      text-align: center;
+    }
+    .nav-menu a[data-tooltip]:hover::before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 2px;
+      border: 6px solid transparent;
+      border-bottom-color: #333;
+      z-index: 1000;
+    }
+    .nav-menu a {
+      position: relative;
+    }
+    /* Override pink table hover */
+    tr:hover td {
+      background: #f8f9fa !important;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Multiple-File-Downloads vs Company-Documents Pages</h1>
+  <nav class="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="duplicates.html" data-tooltip="Compare zips on multiple-file-downloads&#10;with company-documents pages">Content Overlap Analysis</a>
+  </nav>
+  <p class="subtitle">
+    Comparison of zip files from /multiple-file-downloads/ versus individual company document pages
+  </p>
+</header>
+
+<div style="padding: 0 24px;">
+  <div class="explanation">
+    <h3>Two types of zip files on phmpt.org</h3>
+    <p><strong>Multiple-file-downloads zips:</strong> The 73 zip bundles from <code>phmpt.org/multiple-file-downloads/</code> - the main bulk download page for FOIA documents.</p>
+
+    <p><strong>Company-documents page zips:</strong> 308 additional zip files found on individual company document pages like <code>phmpt.org/pfizer-16-plus-documents/</code>, <code>phmpt.org/moderna-documents/</code>, etc.</p>
+
+    <p><strong>Content overlap:</strong> 99% of company-documents page zips contain files that already exist in multiple-file-downloads zips. Only 4 company-documents zips provide unique content.</p>
+  </div>
+
+  <div class="summary-stats">
+    <div class="stat">
+      <div class="stat-number">73</div>
+      <div class="stat-label">Multiple-File-Downloads Zips</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">308</div>
+      <div class="stat-label">Company-Documents Page Zips</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">304</div>
+      <div class="stat-label">Overlapping Content</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Unique Content</div>
+    </div>
+  </div>
+
+  <div class="x-files">
+    <h3>📁 File types</h3>
+    <ul>
+      <li><strong>.doc</strong> - Word Documents (protocols, reports)</li>
+      <li><strong>.pdf</strong> - Portable Document Format (reports, protocols, correspondence)</li>
+      <li><strong>.xls</strong> - Excel Spreadsheets (older format)</li>
+      <li><strong>.xlsx</strong> - Excel Spreadsheets (subject lists, data tables)</li>
+      <li><strong>.xsl</strong> - XSL Stylesheets (data formatting templates)</li>
+      <li><strong>.xml</strong> - Structured Data Files (clinical trial metadata)</li>
+      <li><strong>.xpt</strong> - SAS Transport Files (statistical analysis datasets)</li>
+    </ul>
+    <p><em>Most FOIA releases are statistical datasets (.xpt) and PDF documents, with Excel files typically containing participant lists or summary data.</em></p>
+  </div>
+
+  <h2>Unique Content from Company-Documents Pages (4 files extracted)</h2>
+  <p>These 4 company-documents page zips contain Excel files that are <strong>not available</strong> in any multiple-file-downloads zip:</p>
+
+  <table class="mapping-table">
+    <thead>
+      <tr>
+        <th>Extracted File</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Source Company-Documents Zip</th>
+      </tr>
+    </thead>
+    <tbody id="new-files">
+      <!-- Populated by JavaScript -->
+    </tbody>
+  </table>
+
+  <h2>Content Overlap Analysis (All 308 verified)</h2>
+  <p>Complete cross-reference showing which multiple-file-downloads zips contain the same documents found in company-documents page zips:</p>
+
+  <table class="mapping-table">
+    <thead>
+      <tr>
+        <th>Multiple-File-Downloads Zip</th>
+        <th>Company-Documents Page Zip</th>
+        <th>Unzips to:</th>
+      </tr>
+    </thead>
+    <tbody id="duplicate-mappings">
+      <!-- Populated by JavaScript -->
+    </tbody>
+  </table>
+
+  <h2>Summary</h2>
+  <div class="explanation">
+    <p><strong>Complete verification:</strong> Of 308 company-documents page zips analyzed, exactly 304 contain documents that already exist in multiple-file-downloads zips.</p>
+
+    <p><strong>Minimal unique content:</strong> Only 4 Excel subject lists for Pfizer 12-15 trials are unique to company-documents pages.</p>
+
+    <p><strong>Recommendation:</strong> Researchers can rely primarily on multiple-file-downloads zips for comprehensive coverage, with these 4 extracted Excel files providing complete FOIA document access.</p>
+  </div>
+
+</div>
+
+<script>
+async function loadData() {
+  try {
+    console.log('Loading overlap analysis data...');
+    const response = await fetch('data/complete_orphan_verification.json');
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    const data = await response.json();
+    console.log('Data loaded successfully:', data.summary);
+
+    // Load unique files
+    const newFiles = data.new_files;
+    const newFilesTable = document.getElementById('new-files');
+
+    for (const file of newFiles) {
+      const row = newFilesTable.insertRow();
+      const filename = file.inner_files[0];
+      const shortName = filename.split('_').pop();
+      row.innerHTML = `
+        <td><a href="../data/extracted_new_files/${filename}" target="_blank">${shortName}</a></td>
+        <td>Excel file</td>
+        <td>${getFileDescription(shortName)}</td>
+        <td class="companydocs-zip"><a href="${file.orphan_url}" target="_blank" rel="noopener">${file.orphan_zip}</a></td>
+      `;
+      row.className = 'new-file';
+    }
+
+    // Load overlap mappings
+    const byMainZip = data.by_main_zip;
+    const duplicatesTable = document.getElementById('duplicate-mappings');
+
+    const sortedMainZips = Object.entries(byMainZip).sort((a, b) => b[1].length - a[1].length);
+
+    sortedMainZips.forEach(([multifileZip, companydocsZips]) => {
+      companydocsZips.forEach((companyZip, index) => {
+        const row = duplicatesTable.insertRow();
+        const fileName = companyZip.duplicate_files[0]; // Each company zip has 1 file
+        row.innerHTML = `
+          <td class="multifile-zip">${index === 0 ? multifileZip : ''}</td>
+          <td class="companydocs-zip"><a href="${companyZip.orphan_url}" target="_blank" rel="noopener">${companyZip.orphan_zip}</a></td>
+          <td class="companydocs-zip">${fileName}</td>
+        `;
+        row.className = index === 0 ? 'duplicate-file first-in-group' : 'duplicate-file';
+      });
+    });
+
+  } catch (error) {
+    console.error('Error loading data:', error);
+    document.getElementById('new-files').innerHTML = '<tr><td colspan="4">Error loading data. Check console for details.</td></tr>';
+    document.getElementById('duplicate-mappings').innerHTML = '<tr><td colspan="4">Error loading data. Check console for details.</td></tr>';
+  }
+}
+
+function getFileDescription(filename) {
+  if (filename.includes('1mth') && filename.includes('immuno')) return 'Pfizer 12-15: 1-month immunogenicity subject list';
+  if (filename.includes('6mth') && filename.includes('immuno')) return 'Pfizer 12-15: 6-month immunogenicity subject list';
+  if (filename.includes('360-participants')) return 'Pfizer 12-15: First 360 participants enrolled';
+  if (filename.includes('6k-participants')) return 'Pfizer 12-15: 6,000 participants enrolled list';
+  return 'Pfizer 12-15 clinical trial data';
+}
+
+document.addEventListener('DOMContentLoaded', loadData);
+</script>
+
+</body>
+</html>

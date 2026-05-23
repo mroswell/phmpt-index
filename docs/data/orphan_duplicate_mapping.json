@@ -1,0 +1,717 @@
+{
+  "summary": {
+    "total_orphan_zips": 308,
+    "duplicates": 41,
+    "new_files": 4
+  },
+  "duplicates": [
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0059000+to+-0065773_125742_S1_M5_c4591001-A-D-adcevd.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/050222/FDA-CBER-2021-5683-0059000+to+-0065773_125742_S1_M5_c4591001-A-D-adcevd.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0059000 to -0065773_125742_S1_M5_c4591001-A-D-adcevd.xpt",
+      "main_zip_source": "pd-production-050222.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0066701+to+-0123167_125742_S1_M5_c4591001-A-D-adfacevd.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/050222/FDA-CBER-2021-5683-0066701+to+-0123167_125742_S1_M5_c4591001-A-D-adfacevd.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0066701 to -0123167_125742_S1_M5_c4591001-A-D-adfacevd.xpt",
+      "main_zip_source": "pd-production-050222.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0123168+to+-0126026_125742_S1_M5_c4591001-A-D-adva.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/050222/FDA-CBER-2021-5683-0123168+to+-0126026_125742_S1_M5_c4591001-A-D-adva.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0123168 to -0126026_125742_S1_M5_c4591001-A-D-adva.xpt",
+      "main_zip_source": "pd-production-050222.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0142307+to+-0149081_125742_S1_M5_c4591001-A-Supp-D-adcevd.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0142307+to+-0149081_125742_S1_M5_c4591001-A-Supp-D-adcevd.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0142307 to -0149081_125742_S1_M5_c4591001-A-Supp-D-adcevd.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0149082+to+-0158559_125742_S1_M5_c4591001-S-D-ce.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0149082+to+-0158559_125742_S1_M5_c4591001-S-D-ce.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0149082 to -0158559_125742_S1_M5_c4591001-S-D-ce.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0158560+to+-0159486_125742_S1_M5_c4591001-S-D-dv.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0158560+to+-0159486_125742_S1_M5_c4591001-S-D-dv.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0158560 to -0159486_125742_S1_M5_c4591001-S-D-dv.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0159487+to+-0162689_125742_S1_M5_c4591001-S-D-ec.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0159487+to+-0162689_125742_S1_M5_c4591001-S-D-ec.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0159487 to -0162689_125742_S1_M5_c4591001-S-D-ec.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0162690+to+-0165892_125742_S1_M5_c4591001-S-D-ex.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0162690+to+-0165892_125742_S1_M5_c4591001-S-D-ex.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0162690 to -0165892_125742_S1_M5_c4591001-S-D-ex.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0165893+to+-0168682_125742_S1_M5_c4591001-S-D-is.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0165893+to+-0168682_125742_S1_M5_c4591001-S-D-is.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0165893 to -0168682_125742_S1_M5_c4591001-S-D-is.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0168683+to+-0169081_125742_S1_M5_c4591001-S-D-suppcm.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0168683+to+-0169081_125742_S1_M5_c4591001-S-D-suppcm.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0168683 to -0169081_125742_S1_M5_c4591001-S-D-suppcm.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0169082+to+-0171523_125742_S1_M5_c4591001-S-D-suppdm.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0169082+to+-0171523_125742_S1_M5_c4591001-S-D-suppdm.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0169082 to -0171523_125742_S1_M5_c4591001-S-D-suppdm.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0171524+to+-0174606_125742_S1_M5_c4591001-S-D-suppds.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0171524+to+-0174606_125742_S1_M5_c4591001-S-D-suppds.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0171524 to -0174606_125742_S1_M5_c4591001-S-D-suppds.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0174607+to+-0178318_125742_S1_M5_c4591001-S-D-suppdv.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0174607+to+-0178318_125742_S1_M5_c4591001-S-D-suppdv.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0174607 to -0178318_125742_S1_M5_c4591001-S-D-suppdv.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0178319+to+-0180190_125742_S1_M5_c4591001-S-D-suppho.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0178319+to+-0180190_125742_S1_M5_c4591001-S-D-suppho.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0178319 to -0180190_125742_S1_M5_c4591001-S-D-suppho.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0180191+to+-0182980_125742_S1_M5_c4591001-S-D-suppis.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0180191+to+-0182980_125742_S1_M5_c4591001-S-D-suppis.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0180191 to -0182980_125742_S1_M5_c4591001-S-D-suppis.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0182981+to+-0187905_125742_S1_M5_c4591001-S-D-suppmh.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0182981+to+-0187905_125742_S1_M5_c4591001-S-D-suppmh.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0182981 to -0187905_125742_S1_M5_c4591001-S-D-suppmh.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0187906+to+-0196048_125742_S1_M5_c4591001-S-D-suppvs.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0187906+to+-0196048_125742_S1_M5_c4591001-S-D-suppvs.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0187906 to -0196048_125742_S1_M5_c4591001-S-D-suppvs.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0196049+to+-0205317_125742_S1_M5_c4591001-S-Supp-D-ce.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0196049+to+-0205317_125742_S1_M5_c4591001-S-Supp-D-ce.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0196049 to -0205317_125742_S1_M5_c4591001-S-Supp-D-ce.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0205318+to+-0208520_125742_S1_M5_c4591001-S-Supp-D-ex.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0205318+to+-0208520_125742_S1_M5_c4591001-S-Supp-D-ex.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0205318 to -0208520_125742_S1_M5_c4591001-S-Supp-D-ex.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0208521+to+-0216666_125742_S1_M5_c4591001-S-Supp-D-suppvs.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0208521+to+-0216666_125742_S1_M5_c4591001-S-Supp-D-suppvs.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0208521 to -0216666_125742_S1_M5_c4591001-S-Supp-D-suppvs.xpt",
+      "main_zip_source": "pd-production-060122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0225100+to+-0225597_125742_S1_M5_c4591001-A-D-adcm.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0225100+to+-0225597_125742_S1_M5_c4591001-A-D-adcm.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0225100 to -0225597_125742_S1_M5_c4591001-A-D-adcm.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0225598+to+-0282129_125742_S1_M5_c4591001-A-Supp-D-adfacevd.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0225598+to+-0282129_125742_S1_M5_c4591001-A-Supp-D-adfacevd.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0225598 to -0282129_125742_S1_M5_c4591001-A-Supp-D-adfacevd.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0282130+to+-0282328_125742_S1_M5_c4591001-S-D-cm.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0282130+to+-0282328_125742_S1_M5_c4591001-S-D-cm.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0282130 to -0282328_125742_S1_M5_c4591001-S-D-cm.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0282329+to+-0282365_125742_S1_M5_c4591001-S-D-ie.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0282329+to+-0282365_125742_S1_M5_c4591001-S-D-ie.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0282329 to -0282365_125742_S1_M5_c4591001-S-D-ie.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0282366+to+-0285643_125742_S1_M5_c4591001-S-D-mb.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0282366+to+-0285643_125742_S1_M5_c4591001-S-D-mb.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0282366 to -0285643_125742_S1_M5_c4591001-S-D-mb.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0285644+to+-0285651_125742_S1_M5_c4591001-S-D-mo.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0285644+to+-0285651_125742_S1_M5_c4591001-S-D-mo.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0285644 to -0285651_125742_S1_M5_c4591001-S-D-mo.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0285652+to+-0286071_125742_S1_M5_c4591001-S-D-pe.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0285652+to+-0286071_125742_S1_M5_c4591001-S-D-pe.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0285652 to -0286071_125742_S1_M5_c4591001-S-D-pe.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0286072+to+-0286266_125742_S1_M5_c4591001-S-Supp-D-relrec.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0286072+to+-0286266_125742_S1_M5_c4591001-S-Supp-D-relrec.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0286072 to -0286266_125742_S1_M5_c4591001-S-Supp-D-relrec.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0286267+to+-0296903_125742_S1_M5_c4591001-S-Supp-D-suppce.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0286267+to+-0296903_125742_S1_M5_c4591001-S-Supp-D-suppce.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0286267 to -0296903_125742_S1_M5_c4591001-S-Supp-D-suppce.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0296904+to+-0307543_125742_S1_M5_c4591001-S-D-suppce.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0296904+to+-0307543_125742_S1_M5_c4591001-S-D-suppce.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0296904 to -0307543_125742_S1_M5_c4591001-S-D-suppce.xpt",
+      "main_zip_source": "pd-production-070122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0308157+to+-0396186_125742_S1_M5_c4591001-S-D-suppface.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/080122/FDA-CBER-2021-5683-0308157+to+-0396186_125742_S1_M5_c4591001-S-D-suppface.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0308157 to -0396186_125742_S1_M5_c4591001-S-D-suppface.xpt",
+      "main_zip_source": "pd-production-080122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0396188+to+-0396192_125742_S1_M5_c4591001-S-D-suppmo.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/080122/FDA-CBER-2021-5683-0396188+to+-0396192_125742_S1_M5_c4591001-S-D-suppmo.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0396188 to -0396192_125742_S1_M5_c4591001-S-D-suppmo.xpt",
+      "main_zip_source": "pd-production-080122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0396193+to+-0396194_125742_S1_M5_c4591001-S-D-supppe.zip",
+      "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/080122/FDA-CBER-2021-5683-0396193+to+-0396194_125742_S1_M5_c4591001-S-D-supppe.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0396193 to -0396194_125742_S1_M5_c4591001-S-D-supppe.xpt",
+      "main_zip_source": "pd-production-080122.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0768063-0768092_125742_S1_M4_20gr142_define2-0-0.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2023/03/FDA-CBER-2021-5683-0768063-0768092_125742_S1_M4_20gr142_define2-0-0.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0768063-0768092_125742_S1_M4_20gr142_define2-0-0.xsl",
+      "main_zip_source": "pd-production-030123.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0768159-0768188_125742_S1_M4_38166_define2-0-0.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2023/03/FDA-CBER-2021-5683-0768159-0768188_125742_S1_M4_38166_define2-0-0.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0768159-0768188_125742_S1_M4_38166_define2-0-0.xsl",
+      "main_zip_source": "pd-production-030123.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2021-5683-0779197-0779201_125742_S1_M5_bnt162-01-A-D_adsl-.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2023/03/FDA-CBER-2021-5683-0779197-0779201_125742_S1_M5_bnt162-01-A-D_adsl-.zip",
+      "product_page": "/pfizer-16-plus-documents/",
+      "inner_file": "FDA-CBER-2021-5683-0779197-0779201_125742_S1_M5_bnt162-01-A-D_adsl .xpt",
+      "main_zip_source": "pd-production-030123.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-1614-2782091-2788258_125752_S3_M5_mrna-1273-p301_S_suppdv.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2025/04/FDA-CBER-2022-1614-2782091-2788258_125752_S3_M5_mrna-1273-p301_S_suppdv.zip",
+      "product_page": "/moderna-documents/",
+      "inner_file": "FDA-CBER-2022-1614-2782091-2788258_125752_S3_M5_mrna-1273-p301_S_suppdv.jmp",
+      "main_zip_source": "md-production-010225.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-1614-2982713-2982753_125752_S3_M5_mrna-1273-p301_A_D_adslsf.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2025/04/FDA-CBER-2022-1614-2982713-2982753_125752_S3_M5_mrna-1273-p301_A_D_adslsf.zip",
+      "product_page": "/moderna-documents/",
+      "inner_file": "FDA-CBER-2022-1614-2982713-2982753_125752_S3_M5_mrna-1273-p301_A_D_adslsf.jmp",
+      "main_zip_source": "md-production-020325.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-1614-3824347-3825106_125752_S3_M5_mrna-1273-p301_A_D_adsl.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2025/05/FDA-CBER-2022-1614-3824347-3825106_125752_S3_M5_mrna-1273-p301_A_D_adsl.zip",
+      "product_page": "/moderna-documents/",
+      "inner_file": "FDA-CBER-2022-1614-3824347-3825106_125752_S3_M5_mrna-1273-p301_A_D_adsl.jmp",
+      "main_zip_source": "md-production-050125.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-1614-3825911-3830059_125752_S3_M5_mrna-1273-p301_S_ds.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2025/05/FDA-CBER-2022-1614-3825911-3830059_125752_S3_M5_mrna-1273-p301_S_ds.zip",
+      "product_page": "/moderna-documents/",
+      "inner_file": "FDA-CBER-2022-1614-3825911-3830059_125752_S3_M5_mrna-1273-p301_S_ds.jmp",
+      "main_zip_source": "md-production-050125.zip",
+      "status": "duplicate"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-1614-3830060-3830345_125752_S3_M5_mrna-1273-p301_S_pr.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2025/05/FDA-CBER-2022-1614-3830060-3830345_125752_S3_M5_mrna-1273-p301_S_pr.zip",
+      "product_page": "/moderna-documents/",
+      "inner_file": "FDA-CBER-2022-1614-3830060-3830345_125752_S3_M5_mrna-1273-p301_S_pr.jmp",
+      "main_zip_source": "md-production-050125.zip",
+      "status": "duplicate"
+    }
+  ],
+  "new_files": [
+    {
+      "orphan_zip": "FDA-CBER-2022-5812-0219000-0219015_125742-45_S211_M5_c4591001-A_1mth-c4591001-subject-list-for-12-25-immuno.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2023/12/FDA-CBER-2022-5812-0219000-0219015_125742-45_S211_M5_c4591001-A_1mth-c4591001-subject-list-for-12-25-immuno.zip",
+      "product_page": "/pfizer-12-15-documents/",
+      "inner_file": "FDA-CBER-2022-5812-0219000-0219015_125742-45_S211_M5_c4591001-A_1mth-c4591001-subject-list-for-12-25-immuno-analysis-27jan2021.xls",
+      "main_zip_source": null,
+      "status": "new"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-5812-0219019-0219034_125742-45_S211_M5_c4591001-A_6mth-c4591001-subject-list-for-12-25-immuno.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2023/12/FDA-CBER-2022-5812-0219019-0219034_125742-45_S211_M5_c4591001-A_6mth-c4591001-subject-list-for-12-25-immuno.zip",
+      "product_page": "/pfizer-12-15-documents/",
+      "inner_file": "FDA-CBER-2022-5812-0219019-0219034_125742-45_S211_M5_c4591001-A_6mth-c4591001-subject-list-for-12-25-immuno-analysis-27jan2021.xlsx",
+      "main_zip_source": null,
+      "status": "new"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-5812-0219036-0219055_125742-45_S211_M5_c4591001-A_6mth-first-c4591001-360-participants-enrolled.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2023/12/FDA-CBER-2022-5812-0219036-0219055_125742-45_S211_M5_c4591001-A_6mth-first-c4591001-360-participants-enrolled.zip",
+      "product_page": "/pfizer-12-15-documents/",
+      "inner_file": "FDA-CBER-2022-5812-0219036-0219055_125742-45_S211_M5_c4591001-A_6mth-first-c4591001-360-participants-enrolled-v1-13aug20-update.xlsx",
+      "main_zip_source": null,
+      "status": "new"
+    },
+    {
+      "orphan_zip": "FDA-CBER-2022-5812-0219056-0219220_125742-45_S211_M5_c4591001-A_6mth-newlist-c4591001-6k-participants-enrolled.zip",
+      "orphan_url": "https://phmpt.org/wp-content/uploads/2023/12/FDA-CBER-2022-5812-0219056-0219220_125742-45_S211_M5_c4591001-A_6mth-newlist-c4591001-6k-participants-enrolled.zip",
+      "product_page": "/pfizer-12-15-documents/",
+      "inner_file": "FDA-CBER-2022-5812-0219056-0219220_125742-45_S211_M5_c4591001-A_6mth-newlist-c4591001-6k-participants-enrolled-v3-17sep2020.xlsx",
+      "main_zip_source": null,
+      "status": "new"
+    }
+  ],
+  "by_main_zip": {
+    "pd-production-050222.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0059000+to+-0065773_125742_S1_M5_c4591001-A-D-adcevd.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/050222/FDA-CBER-2021-5683-0059000+to+-0065773_125742_S1_M5_c4591001-A-D-adcevd.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0059000 to -0065773_125742_S1_M5_c4591001-A-D-adcevd.xpt",
+        "main_zip_source": "pd-production-050222.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0066701+to+-0123167_125742_S1_M5_c4591001-A-D-adfacevd.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/050222/FDA-CBER-2021-5683-0066701+to+-0123167_125742_S1_M5_c4591001-A-D-adfacevd.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0066701 to -0123167_125742_S1_M5_c4591001-A-D-adfacevd.xpt",
+        "main_zip_source": "pd-production-050222.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0123168+to+-0126026_125742_S1_M5_c4591001-A-D-adva.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/050222/FDA-CBER-2021-5683-0123168+to+-0126026_125742_S1_M5_c4591001-A-D-adva.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0123168 to -0126026_125742_S1_M5_c4591001-A-D-adva.xpt",
+        "main_zip_source": "pd-production-050222.zip",
+        "status": "duplicate"
+      }
+    ],
+    "pd-production-060122.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0142307+to+-0149081_125742_S1_M5_c4591001-A-Supp-D-adcevd.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0142307+to+-0149081_125742_S1_M5_c4591001-A-Supp-D-adcevd.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0142307 to -0149081_125742_S1_M5_c4591001-A-Supp-D-adcevd.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0149082+to+-0158559_125742_S1_M5_c4591001-S-D-ce.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0149082+to+-0158559_125742_S1_M5_c4591001-S-D-ce.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0149082 to -0158559_125742_S1_M5_c4591001-S-D-ce.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0158560+to+-0159486_125742_S1_M5_c4591001-S-D-dv.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0158560+to+-0159486_125742_S1_M5_c4591001-S-D-dv.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0158560 to -0159486_125742_S1_M5_c4591001-S-D-dv.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0159487+to+-0162689_125742_S1_M5_c4591001-S-D-ec.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0159487+to+-0162689_125742_S1_M5_c4591001-S-D-ec.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0159487 to -0162689_125742_S1_M5_c4591001-S-D-ec.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0162690+to+-0165892_125742_S1_M5_c4591001-S-D-ex.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0162690+to+-0165892_125742_S1_M5_c4591001-S-D-ex.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0162690 to -0165892_125742_S1_M5_c4591001-S-D-ex.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0165893+to+-0168682_125742_S1_M5_c4591001-S-D-is.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0165893+to+-0168682_125742_S1_M5_c4591001-S-D-is.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0165893 to -0168682_125742_S1_M5_c4591001-S-D-is.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0168683+to+-0169081_125742_S1_M5_c4591001-S-D-suppcm.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0168683+to+-0169081_125742_S1_M5_c4591001-S-D-suppcm.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0168683 to -0169081_125742_S1_M5_c4591001-S-D-suppcm.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0169082+to+-0171523_125742_S1_M5_c4591001-S-D-suppdm.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0169082+to+-0171523_125742_S1_M5_c4591001-S-D-suppdm.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0169082 to -0171523_125742_S1_M5_c4591001-S-D-suppdm.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0171524+to+-0174606_125742_S1_M5_c4591001-S-D-suppds.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0171524+to+-0174606_125742_S1_M5_c4591001-S-D-suppds.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0171524 to -0174606_125742_S1_M5_c4591001-S-D-suppds.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0174607+to+-0178318_125742_S1_M5_c4591001-S-D-suppdv.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0174607+to+-0178318_125742_S1_M5_c4591001-S-D-suppdv.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0174607 to -0178318_125742_S1_M5_c4591001-S-D-suppdv.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0178319+to+-0180190_125742_S1_M5_c4591001-S-D-suppho.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0178319+to+-0180190_125742_S1_M5_c4591001-S-D-suppho.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0178319 to -0180190_125742_S1_M5_c4591001-S-D-suppho.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0180191+to+-0182980_125742_S1_M5_c4591001-S-D-suppis.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0180191+to+-0182980_125742_S1_M5_c4591001-S-D-suppis.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0180191 to -0182980_125742_S1_M5_c4591001-S-D-suppis.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0182981+to+-0187905_125742_S1_M5_c4591001-S-D-suppmh.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0182981+to+-0187905_125742_S1_M5_c4591001-S-D-suppmh.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0182981 to -0187905_125742_S1_M5_c4591001-S-D-suppmh.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0187906+to+-0196048_125742_S1_M5_c4591001-S-D-suppvs.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0187906+to+-0196048_125742_S1_M5_c4591001-S-D-suppvs.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0187906 to -0196048_125742_S1_M5_c4591001-S-D-suppvs.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0196049+to+-0205317_125742_S1_M5_c4591001-S-Supp-D-ce.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0196049+to+-0205317_125742_S1_M5_c4591001-S-Supp-D-ce.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0196049 to -0205317_125742_S1_M5_c4591001-S-Supp-D-ce.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0205318+to+-0208520_125742_S1_M5_c4591001-S-Supp-D-ex.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0205318+to+-0208520_125742_S1_M5_c4591001-S-Supp-D-ex.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0205318 to -0208520_125742_S1_M5_c4591001-S-Supp-D-ex.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0208521+to+-0216666_125742_S1_M5_c4591001-S-Supp-D-suppvs.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/060122/FDA-CBER-2021-5683-0208521+to+-0216666_125742_S1_M5_c4591001-S-Supp-D-suppvs.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0208521 to -0216666_125742_S1_M5_c4591001-S-Supp-D-suppvs.xpt",
+        "main_zip_source": "pd-production-060122.zip",
+        "status": "duplicate"
+      }
+    ],
+    "pd-production-070122.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0225100+to+-0225597_125742_S1_M5_c4591001-A-D-adcm.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0225100+to+-0225597_125742_S1_M5_c4591001-A-D-adcm.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0225100 to -0225597_125742_S1_M5_c4591001-A-D-adcm.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0225598+to+-0282129_125742_S1_M5_c4591001-A-Supp-D-adfacevd.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0225598+to+-0282129_125742_S1_M5_c4591001-A-Supp-D-adfacevd.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0225598 to -0282129_125742_S1_M5_c4591001-A-Supp-D-adfacevd.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0282130+to+-0282328_125742_S1_M5_c4591001-S-D-cm.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0282130+to+-0282328_125742_S1_M5_c4591001-S-D-cm.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0282130 to -0282328_125742_S1_M5_c4591001-S-D-cm.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0282329+to+-0282365_125742_S1_M5_c4591001-S-D-ie.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0282329+to+-0282365_125742_S1_M5_c4591001-S-D-ie.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0282329 to -0282365_125742_S1_M5_c4591001-S-D-ie.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0282366+to+-0285643_125742_S1_M5_c4591001-S-D-mb.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0282366+to+-0285643_125742_S1_M5_c4591001-S-D-mb.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0282366 to -0285643_125742_S1_M5_c4591001-S-D-mb.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0285644+to+-0285651_125742_S1_M5_c4591001-S-D-mo.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0285644+to+-0285651_125742_S1_M5_c4591001-S-D-mo.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0285644 to -0285651_125742_S1_M5_c4591001-S-D-mo.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0285652+to+-0286071_125742_S1_M5_c4591001-S-D-pe.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0285652+to+-0286071_125742_S1_M5_c4591001-S-D-pe.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0285652 to -0286071_125742_S1_M5_c4591001-S-D-pe.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0286072+to+-0286266_125742_S1_M5_c4591001-S-Supp-D-relrec.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0286072+to+-0286266_125742_S1_M5_c4591001-S-Supp-D-relrec.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0286072 to -0286266_125742_S1_M5_c4591001-S-Supp-D-relrec.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0286267+to+-0296903_125742_S1_M5_c4591001-S-Supp-D-suppce.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0286267+to+-0296903_125742_S1_M5_c4591001-S-Supp-D-suppce.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0286267 to -0296903_125742_S1_M5_c4591001-S-Supp-D-suppce.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0296904+to+-0307543_125742_S1_M5_c4591001-S-D-suppce.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/070122/FDA-CBER-2021-5683-0296904+to+-0307543_125742_S1_M5_c4591001-S-D-suppce.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0296904 to -0307543_125742_S1_M5_c4591001-S-D-suppce.xpt",
+        "main_zip_source": "pd-production-070122.zip",
+        "status": "duplicate"
+      }
+    ],
+    "pd-production-080122.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0308157+to+-0396186_125742_S1_M5_c4591001-S-D-suppface.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/080122/FDA-CBER-2021-5683-0308157+to+-0396186_125742_S1_M5_c4591001-S-D-suppface.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0308157 to -0396186_125742_S1_M5_c4591001-S-D-suppface.xpt",
+        "main_zip_source": "pd-production-080122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0396188+to+-0396192_125742_S1_M5_c4591001-S-D-suppmo.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/080122/FDA-CBER-2021-5683-0396188+to+-0396192_125742_S1_M5_c4591001-S-D-suppmo.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0396188 to -0396192_125742_S1_M5_c4591001-S-D-suppmo.xpt",
+        "main_zip_source": "pd-production-080122.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0396193+to+-0396194_125742_S1_M5_c4591001-S-D-supppe.zip",
+        "orphan_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/080122/FDA-CBER-2021-5683-0396193+to+-0396194_125742_S1_M5_c4591001-S-D-supppe.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0396193 to -0396194_125742_S1_M5_c4591001-S-D-supppe.xpt",
+        "main_zip_source": "pd-production-080122.zip",
+        "status": "duplicate"
+      }
+    ],
+    "pd-production-030123.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0768063-0768092_125742_S1_M4_20gr142_define2-0-0.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2023/03/FDA-CBER-2021-5683-0768063-0768092_125742_S1_M4_20gr142_define2-0-0.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0768063-0768092_125742_S1_M4_20gr142_define2-0-0.xsl",
+        "main_zip_source": "pd-production-030123.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0768159-0768188_125742_S1_M4_38166_define2-0-0.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2023/03/FDA-CBER-2021-5683-0768159-0768188_125742_S1_M4_38166_define2-0-0.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0768159-0768188_125742_S1_M4_38166_define2-0-0.xsl",
+        "main_zip_source": "pd-production-030123.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2021-5683-0779197-0779201_125742_S1_M5_bnt162-01-A-D_adsl-.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2023/03/FDA-CBER-2021-5683-0779197-0779201_125742_S1_M5_bnt162-01-A-D_adsl-.zip",
+        "product_page": "/pfizer-16-plus-documents/",
+        "inner_file": "FDA-CBER-2021-5683-0779197-0779201_125742_S1_M5_bnt162-01-A-D_adsl .xpt",
+        "main_zip_source": "pd-production-030123.zip",
+        "status": "duplicate"
+      }
+    ],
+    "md-production-010225.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2022-1614-2782091-2788258_125752_S3_M5_mrna-1273-p301_S_suppdv.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2025/04/FDA-CBER-2022-1614-2782091-2788258_125752_S3_M5_mrna-1273-p301_S_suppdv.zip",
+        "product_page": "/moderna-documents/",
+        "inner_file": "FDA-CBER-2022-1614-2782091-2788258_125752_S3_M5_mrna-1273-p301_S_suppdv.jmp",
+        "main_zip_source": "md-production-010225.zip",
+        "status": "duplicate"
+      }
+    ],
+    "md-production-020325.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2022-1614-2982713-2982753_125752_S3_M5_mrna-1273-p301_A_D_adslsf.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2025/04/FDA-CBER-2022-1614-2982713-2982753_125752_S3_M5_mrna-1273-p301_A_D_adslsf.zip",
+        "product_page": "/moderna-documents/",
+        "inner_file": "FDA-CBER-2022-1614-2982713-2982753_125752_S3_M5_mrna-1273-p301_A_D_adslsf.jmp",
+        "main_zip_source": "md-production-020325.zip",
+        "status": "duplicate"
+      }
+    ],
+    "md-production-050125.zip": [
+      {
+        "orphan_zip": "FDA-CBER-2022-1614-3824347-3825106_125752_S3_M5_mrna-1273-p301_A_D_adsl.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2025/05/FDA-CBER-2022-1614-3824347-3825106_125752_S3_M5_mrna-1273-p301_A_D_adsl.zip",
+        "product_page": "/moderna-documents/",
+        "inner_file": "FDA-CBER-2022-1614-3824347-3825106_125752_S3_M5_mrna-1273-p301_A_D_adsl.jmp",
+        "main_zip_source": "md-production-050125.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2022-1614-3825911-3830059_125752_S3_M5_mrna-1273-p301_S_ds.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2025/05/FDA-CBER-2022-1614-3825911-3830059_125752_S3_M5_mrna-1273-p301_S_ds.zip",
+        "product_page": "/moderna-documents/",
+        "inner_file": "FDA-CBER-2022-1614-3825911-3830059_125752_S3_M5_mrna-1273-p301_S_ds.jmp",
+        "main_zip_source": "md-production-050125.zip",
+        "status": "duplicate"
+      },
+      {
+        "orphan_zip": "FDA-CBER-2022-1614-3830060-3830345_125752_S3_M5_mrna-1273-p301_S_pr.zip",
+        "orphan_url": "https://phmpt.org/wp-content/uploads/2025/05/FDA-CBER-2022-1614-3830060-3830345_125752_S3_M5_mrna-1273-p301_S_pr.zip",
+        "product_page": "/moderna-documents/",
+        "inner_file": "FDA-CBER-2022-1614-3830060-3830345_125752_S3_M5_mrna-1273-p301_S_pr.jmp",
+        "main_zip_source": "md-production-050125.zip",
+        "status": "duplicate"
+      }
+    ]
+  }
+}
