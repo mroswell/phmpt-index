@@ -6,11 +6,30 @@
   <title>PHMPT FOIA Document Index</title>
   <link rel="stylesheet" href="styles.css">
   <style>
+    header {
+      display: flex;
+      flex-direction: column;
+    }
+    .title-nav-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      width: 100%;
+    }
+    .title-nav-row h1 {
+      justify-self: start;
+    }
+    .title-nav-row .nav-menu {
+      justify-self: center;
+    }
+    .title-nav-row h1 {
+      margin: 0;
+    }
     .nav-menu {
       display: flex;
       gap: 16px;
       font-size: 14px;
-      margin: 12px 0 16px 0;
+      margin: 0;
     }
     .nav-menu a {
       color: var(--accent);
@@ -57,11 +76,13 @@
 <body>
 
 <header>
-  <h1>PHMPT FOIA Document Index</h1>
-  <nav class="nav-menu">
-    <a href="index.html">Home</a>
-    <a href="duplicates.html" data-tooltip="Compare zips on multiple-file-downloads&#10;with company-documents pages">Content Overlap Analysis</a>
-  </nav>
+  <div class="title-nav-row">
+    <h1>PHMPT FOIA Document Index</h1>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="duplicates.html" data-tooltip="Compare zips on multiple-file-downloads&#10;with company-documents pages">Content Overlap Analysis</a>
+    </nav>
+  </div>
   <p class="subtitle">
     A filterable index of every file inside every zip on
     <a href="https://phmpt.org/multiple-file-downloads/" target="_blank" rel="noopener">phmpt.org/multiple-file-downloads/</a>.

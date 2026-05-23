@@ -1,0 +1,219 @@
+name: Update PHMPT Index
+
+on:
+  schedule:
+    # Run every 3 days at 6 AM UTC
+    - cron: '0 6 */3 * *'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install uv
+        uv sync
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser xvfb
+
+    - name: Set up Playwright
+      run: |
+        uv run playwright install chromium
+        uv run playwright install-deps
+
+    - name: Create backup of current data
+      run: |
+        mkdir -p .github/backups
+        cp data/zips.json .github/backups/zips.json.backup || true
+        cp data/individual_urls.json .github/backups/individual_urls.json.backup || true
+        cp data/orphans.json .github/backups/orphans.json.backup || true
+
+    - name: Bootstrap browser profile
+      run: |
+        # Create browser profile for Cloudflare bypass
+        timeout 120s uv run python scripts/bootstrap.py || true
+
+    - name: Check for new multiple-file-downloads content
+      run: |
+        echo "Checking multiple-file-downloads page..."
+        uv run python scripts/crawl_listing.py
+
+    - name: Check for new company-documents pages
+      run: |
+        echo "Checking company document pages..."
+        timeout 600s uv run python scripts/crawl_files.py || true
+
+    - name: Detect changes and create update log
+      id: detect_changes
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        from datetime import datetime
+        from pathlib import Path
+
+        def file_changed(current_file, backup_file):
+            """Check if file content changed."""
+            if not backup_file.exists():
+                return current_file.exists()
+
+            if not current_file.exists():
+                return True
+
+            try:
+                current_data = json.loads(current_file.read_text())
+                backup_data = json.loads(backup_file.read_text())
+                return current_data != backup_data
+            except:
+                return True
+
+        # Check for changes
+        changes = {}
+
+        zips_changed = file_changed(
+            Path("data/zips.json"),
+            Path(".github/backups/zips.json.backup")
+        )
+        if zips_changed:
+            changes["multiple_file_downloads"] = "New ZIP bundles detected"
+
+        individual_changed = file_changed(
+            Path("data/individual_urls.json"),
+            Path(".github/backups/individual_urls.json.backup")
+        )
+        if individual_changed:
+            changes["individual_urls"] = "New individual file URLs detected"
+
+        orphans_changed = file_changed(
+            Path("data/orphans.json"),
+            Path(".github/backups/orphans.json.backup")
+        )
+        if orphans_changed:
+            changes["orphans"] = "New orphan files detected"
+
+        # Create update log
+        update_log = {
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "changes_detected": bool(changes),
+            "changes": changes,
+            "files_updated": [],
+            "status": "completed" if not changes else "changes_detected"
+        }
+
+        # Write update log
+        log_file = Path("data/update_log.json")
+        log_file.write_text(json.dumps(update_log, indent=2))
+
+        # Set GitHub Actions output
+        print(f"::set-output name=changes_detected::{bool(changes)}")
+        print(f"::set-output name=changes_summary::{'; '.join(changes.values()) if changes else 'No changes'}")
+
+        if changes:
+            print("Changes detected:")
+            for key, desc in changes.items():
+                print(f"  - {desc}")
+        else:
+            print("No changes detected")
+        EOF
+
+    - name: Update index if changes detected
+      if: steps.detect_changes.outputs.changes_detected == 'True'
+      run: |
+        echo "Changes detected, updating full index..."
+
+        # Download new ZIP files if needed
+        echo "Downloading any new ZIP files..."
+        timeout 3600s uv run python scripts/download_zips.py || true
+
+        # Extract table of contents from ZIPs
+        echo "Extracting table of contents..."
+        timeout 1800s uv run python scripts/extract_toc.py || true
+
+        # Build final searchable index
+        echo "Building searchable index..."
+        uv run python scripts/build_index.py
+
+        # Update the update log with completed status
+        python << 'EOF'
+        import json
+        from datetime import datetime
+        from pathlib import Path
+
+        log_file = Path("data/update_log.json")
+        if log_file.exists():
+            update_log = json.loads(log_file.read_text())
+            update_log["status"] = "index_updated"
+            update_log["index_updated_at"] = datetime.utcnow().isoformat() + "Z"
+            update_log["files_updated"] = [
+                "data/zips.json",
+                "data/individual_urls.json",
+                "data/orphans.json",
+                "data/toc.json",
+                "docs/data/index.json"
+            ]
+            log_file.write_text(json.dumps(update_log, indent=2))
+        EOF
+
+    - name: Commit and push changes
+      if: steps.detect_changes.outputs.changes_detected == 'True'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ docs/data/
+
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-update: ${{ steps.detect_changes.outputs.changes_summary }}
+
+          Updated by scheduled GitHub Action on $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+
+          Changes detected:
+          ${{ steps.detect_changes.outputs.changes_summary }}"
+
+          git push
+          echo "Changes committed and pushed"
+        else
+          echo "No staged changes to commit"
+        fi
+
+    - name: Create summary
+      run: |
+        echo "## PHMPT Index Update Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Date:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "**Changes Detected:** ${{ steps.detect_changes.outputs.changes_detected }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+
+        if [[ "${{ steps.detect_changes.outputs.changes_detected }}" == "True" ]]; then
+          echo "**Changes Summary:**" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.detect_changes.outputs.changes_summary }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Index has been updated automatically" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "ℹ️ No new content found - index is up to date" >> $GITHUB_STEP_SUMMARY
+        fi
+
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Next check:** $(date -u -d '+3 days' +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+
+    - name: Upload update log as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: update-log-${{ github.run_number }}
+        path: data/update_log.json
+        retention-days: 90
