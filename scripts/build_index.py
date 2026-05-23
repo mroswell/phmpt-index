@@ -147,22 +147,24 @@ def main() -> None:
             }
         )
 
-    # Load allowed orphan URLs (only the 4 unique files, not the 304 duplicates)
-    allowed_orphan_urls = set()
+    # Load allowed orphan URLs for zip files (only the 4 unique zips, not the 304 duplicates)
+    allowed_orphan_zip_urls = set()
     if VERIFICATION.exists():
         verification = json.loads(VERIFICATION.read_text())
         for new_file in verification.get("new_files", []):
-            allowed_orphan_urls.add(new_file["orphan_url"])
+            allowed_orphan_zip_urls.add(new_file["orphan_url"])
 
     # Append phmpt-only files (files on phmpt.org not present in any zip).
-    # Only include files that are NOT duplicates of multiple-file-downloads content.
+    # Include: ALL non-zip files + only the 4 unique zip files
     orphan_count = 0
     if ORPHANS.exists():
         orphans = json.loads(ORPHANS.read_text())
         for o in orphans:
-            # Skip duplicate files - only include the 4 unique ones
-            if o["url"] not in allowed_orphan_urls:
-                continue
+            # For zip files: only include the 4 unique ones, exclude 304 duplicates
+            # For non-zip files: include all of them
+            if o["filename"].lower().endswith(".zip"):
+                if o["url"] not in allowed_orphan_zip_urls:
+                    continue  # Skip duplicate zip files
             fname = (o.get("filename") or "").strip()
             if not fname:
                 continue  # blank-filename row on at least one product page
