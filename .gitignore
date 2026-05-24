@@ -16,5 +16,14 @@ data/cache/
 data/files/
 .scratch/
 
+# Per-module detailed exemption catalogs (regenerable via
+# scripts/extract_module_exemptions.py from data/cache/exemptions/).
+# Slim aggregate at data/exemptions.json is committed instead.
+data/M1_exemptions.json
+data/M2_exemptions.json
+data/M3_exemptions.json
+data/M4_exemptions.json
+data/M5_exemptions.json
+
 # macOS junk
 .DS_Store
