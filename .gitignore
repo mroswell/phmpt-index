@@ -13,6 +13,7 @@ wheels/
 .profile/
 data/zips/
 data/cache/
+data/files/
 .scratch/
 
 # macOS junk
