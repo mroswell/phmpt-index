@@ -24,6 +24,13 @@
         "mention_files": 1,
         "mention_hits": 1
       },
+      "(b)(7)(C)": {
+        "total": 302,
+        "redaction_files": 2,
+        "redaction_hits": 302,
+        "mention_files": 0,
+        "mention_hits": 0
+      },
       "(b)(7)(E)": {
         "total": 38,
         "redaction_files": 8,
@@ -37,13 +44,6 @@
         "redaction_hits": 0,
         "mention_files": 1,
         "mention_hits": 1
-      },
-      "(b)(7)(C)": {
-        "total": 302,
-        "redaction_files": 2,
-        "redaction_hits": 302,
-        "mention_files": 0,
-        "mention_hits": 0
       }
     },
     "descriptions": {
@@ -476,242 +476,6 @@
               "category": "foia_legal_reference",
               "contexts": [
                 "xempt from the FOIA, such that the government must redact that information before providing responsive records to the plaintiff. See 5 U.S.C. \u00a7 552(b)(1)\u2013(b)(9). Reviewing and redacting records for exempt information is a time-consuming process that often requires government information specialists"
-              ]
-            }
-          ],
-          "total_hits": 1,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2021/11/111521-Second-Joint-Status-Report.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf"
-        }
-      ]
-    },
-    "(b)(7)(E)": {
-      "redaction": [
-        {
-          "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 3,
-              "count": 1,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 6,
-              "count": 2,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 10,
-              "count": 1,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 12,
-              "count": 2,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 14,
-              "count": 2,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 18,
-              "count": 1,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 19,
-              "count": 3,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 12,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf"
-        },
-        {
-          "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
-          "module": "Individual",
-          "company": "Moderna",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 1,
-              "count": 2,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 2,
-              "count": 2,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 3,
-              "count": 1,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 4,
-              "count": 2,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 6,
-              "count": 2,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 7,
-              "count": 1,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 10,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2025/05/93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
-          "ican_url": null
-        },
-        {
-          "filename": "120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 11,
-              "count": 3,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 50,
-              "count": 1,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 66,
-              "count": 1,
-              "category": "foia_redaction"
-            },
-            {
-              "page": 124,
-              "count": 1,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 6,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf"
-        },
-        {
-          "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 3,
-              "count": 3,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 3,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf"
-        },
-        {
-          "filename": "100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 3,
-              "count": 3,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 3,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf"
-        },
-        {
-          "filename": "118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 1,
-              "count": 2,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 2,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf"
-        },
-        {
-          "filename": "109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 52,
-              "count": 1,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 1,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf"
-        },
-        {
-          "filename": "62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 2,
-              "count": 1,
-              "category": "foia_redaction"
-            }
-          ],
-          "total_hits": 1,
-          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
-          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf"
-        }
-      ],
-      "mention": []
-    },
-    "(b)(9)": {
-      "redaction": [],
-      "mention": [
-        {
-          "filename": "111521-Second-Joint-Status-Report.pdf",
-          "module": "Individual",
-          "company": "Pfizer",
-          "license": null,
-          "batch_code": null,
-          "pages": [
-            {
-              "page": 2,
-              "count": 1,
-              "category": "foia_legal_reference",
-              "contexts": [
-                "from the FOIA, such that the government must redact that information before providing responsive records to the plaintiff. See 5 U.S.C. \u00a7 552(b)(1)\u2013(b)(9). Reviewing and redacting records for exempt information is a time-consuming process that often requires government information specialists to revi"
               ]
             }
           ],
@@ -1264,6 +1028,242 @@
         }
       ],
       "mention": []
+    },
+    "(b)(7)(E)": {
+      "redaction": [
+        {
+          "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 3,
+              "count": 1,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 6,
+              "count": 2,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 10,
+              "count": 1,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 12,
+              "count": 2,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 14,
+              "count": 2,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 18,
+              "count": 1,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 19,
+              "count": 3,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 12,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf"
+        },
+        {
+          "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+          "module": "Individual",
+          "company": "Moderna",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 1,
+              "count": 2,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 2,
+              "count": 2,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 3,
+              "count": 1,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 4,
+              "count": 2,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 6,
+              "count": 2,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 7,
+              "count": 1,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 10,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2025/05/93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+          "ican_url": null
+        },
+        {
+          "filename": "120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 11,
+              "count": 3,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 50,
+              "count": 1,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 66,
+              "count": 1,
+              "category": "foia_redaction"
+            },
+            {
+              "page": 124,
+              "count": 1,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 6,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf"
+        },
+        {
+          "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 3,
+              "count": 3,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 3,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf"
+        },
+        {
+          "filename": "100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 3,
+              "count": 3,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 3,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf"
+        },
+        {
+          "filename": "118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 1,
+              "count": 2,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 2,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf"
+        },
+        {
+          "filename": "109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 52,
+              "count": 1,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 1,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf"
+        },
+        {
+          "filename": "62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 2,
+              "count": 1,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 1,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf"
+        }
+      ],
+      "mention": []
+    },
+    "(b)(9)": {
+      "redaction": [],
+      "mention": [
+        {
+          "filename": "111521-Second-Joint-Status-Report.pdf",
+          "module": "Individual",
+          "company": "Pfizer",
+          "license": null,
+          "batch_code": null,
+          "pages": [
+            {
+              "page": 2,
+              "count": 1,
+              "category": "foia_legal_reference",
+              "contexts": [
+                "from the FOIA, such that the government must redact that information before providing responsive records to the plaintiff. See 5 U.S.C. \u00a7 552(b)(1)\u2013(b)(9). Reviewing and redacting records for exempt information is a time-consuming process that often requires government information specialists to revi"
+              ]
+            }
+          ],
+          "total_hits": 1,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2021/11/111521-Second-Joint-Status-Report.pdf",
+          "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf"
+        }
+      ]
     }
   }
 }

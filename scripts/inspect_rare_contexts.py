@@ -34,6 +34,8 @@ from pathlib import Path
 import fitz
 import zipfile_deflate64 as zipfile
 
+from _pdf_text import get_page_text  # OCR-aware text extraction
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 WEB = ROOT / "docs" / "data"
@@ -200,7 +202,8 @@ def main() -> None:
             for page_num, page in enumerate(doc, start=1):
                 if page_num not in needed:
                     continue
-                text = page.get_text("text") or ""
+                # Use OCR-aware text so we don't undercount on image-only pages
+                text = get_page_text(filename, page, page_num)
                 wanted_markers = needed[page_num]
                 # Find each match position so we can grab surrounding text
                 for m in MARKER_RE.finditer(text):

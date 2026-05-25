@@ -1,9 +1,9 @@
 {
   "summary": {
-    "files_inspected": 48,
+    "files_inspected": 54,
     "files_missing_pdf": [],
-    "total_hits": 474,
-    "hits_classified_not_foia": 68,
+    "total_hits": 525,
+    "hits_classified_not_foia": 119,
     "hits_classified_legal_reference": 8,
     "hits_classified_redaction": 398,
     "by_marker": {
@@ -20,8 +20,8 @@
         "redaction": 56
       },
       "(b)(1)": {
-        "total": 37,
-        "not_foia": 36,
+        "total": 86,
+        "not_foia": 85,
         "legal_ref": 1,
         "redaction": 0
       },
@@ -38,8 +38,8 @@
         "redaction": 0
       },
       "(b)(2)": {
-        "total": 24,
-        "not_foia": 24,
+        "total": 26,
+        "not_foia": 26,
         "legal_ref": 0,
         "redaction": 0
       },
@@ -48,6 +48,12 @@
         "not_foia": 0,
         "legal_ref": 1,
         "redaction": 0
+      },
+      "(b)(7)(C)": {
+        "total": 302,
+        "not_foia": 0,
+        "legal_ref": 0,
+        "redaction": 302
       },
       "(b)(1)(B)": {
         "total": 1,
@@ -60,12 +66,6 @@
         "not_foia": 1,
         "legal_ref": 0,
         "redaction": 0
-      },
-      "(b)(7)(C)": {
-        "total": 302,
-        "not_foia": 0,
-        "legal_ref": 0,
-        "redaction": 302
       }
     }
   },
@@ -2029,6 +2029,481 @@
     },
     {
       "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 8,
+      "marker": "(b)(1)",
+      "context": "c Uae ele declaration that circumstances exist justifying the authorization of emergency use of the (12 Years & Up) medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 EUA Fact Sheet for Recipients and Caregivers (12 Years & Up",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 12,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 | *The licensed COMIRNATY\u00ae vaccine has the same formulation",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 23,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 *The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 26,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 *The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 32,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 *The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 44,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 *The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 72,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 *The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 91,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. * | *The licensed COMIRNATY\u00ae vaccine has the same formulation",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 113,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 \u2018The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 115,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 \"The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 116,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 \"The lnensed COMIRNATY\u00ae voodne bers the some formulation 05",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 117,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 The loenced COMIRNATY\u00ae vaocine bes the same formulation 05 t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 120,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 121,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 122,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 123,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 124,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 125,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 127,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist Justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os the oothored woocine Pfizer-Bio",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 128,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist Justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os the oothored woocine Pfizer-Bio",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 129,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist Justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os the oothored woocine Pfizer-Bio",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 130,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist Justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os the oothored woocine Pfizer-Bio",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 131,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist Justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os the oothored woocine Pfizer-Bio",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 132,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist Justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os the oothored woocine Pfizer-Bio",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+      "page": 133,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist Justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or \"The licensed COMIRNATY\u00ae vaccine hos the some formulation os the oothored woocine Pfizer-Bio",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
       "page": 137,
       "marker": "(b)(1)(C)",
       "context": "zer Inc. Attention: Ms. Elisa Harkins 500 Arcola Road Collegeville, PA 19426 Dear Ms. Harkins: On February 4, 2020, pursuant to Section 564(b)(1)(C) of the Federal Food, Drug, and Cosmetic Act (the FD&C Act or the Act), the Secretary of the Department of Health and Human Services (HHS) determine",
@@ -2598,6 +3073,44 @@
       "license": null
     },
     {
+      "filename": "125742_S75_M1_356h.pdf",
+      "page": 1,
+      "marker": "(b)(2)",
+      "context": "tify the biological reference product that is the basis for the submission. Name of Biologic: Holder of Licensed Application: 20. If an ANDA, or 505(b)(2), identify the listed drug product that is/are the basis for the submission. Name of Drug: Application Number of Relied Upon Product: Indicate Patent",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S75_M1_356h.pdf",
+      "page": 3,
+      "marker": "(b)(2)",
+      "context": "ims the drug/ \u2018= 14. Apatent certification with respect to any patent that claims the biologic (21 U.S.C. 355(b) or (c)) drug/biologic (27 U.S.C. 355 (b)(2) or (j)(2)(A)) [~ 15. Establishment description (21 CFR Part 600, if applicable) [ 16. Debarment certification (FD&C Act 306 (k)(1)) [~ 17. Field co",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": true,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
       "filename": "017-Answer-2023-01-06.pdf",
       "page": 21,
       "marker": "(b)(2)",
@@ -2712,6 +3225,272 @@
       "license": null
     },
     {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 20,
+      "marker": "(b)(1)",
+      "context": "for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. For these authorized uses, the vaccine has not been approved",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 47,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is 0) 5 a ta} FDA-CBER-2021-5683-0950994",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 57,
+      "marker": "(b)(1)",
+      "context": "on of the declaration that circumstances exist justifying the ; d= 4562384, t= authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act ic~ ormar= unless the declaration is terminated or authorization revoked sooner. par CDC VACCINE FINDER* Drives to https:// www.vacc",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 60,
+      "marker": "(b)(1)",
+      "context": "tion of the declaration that circumstances exist justifying the vaers.hhs.gov/ authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act re ort ey ent html unless the declaration is terminated or authorization revoked sooner. P : Drives to https:// a www.pfizersafetyr",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 61,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. hitp.// p Drives to http:// labeling. pfizer.com labeling.pfi",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 62,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. CDC VACCINE FINDER* What you need to know about the vaccine",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 69,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. CDC VACCINE FINDER* What you need to know about the vaccine",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 79,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. CDC VACCINE FINDER* What you need to know about the vaccine",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 84,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked SOONET. ersistent ISI on All mobile content every page here in reflect",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 86,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 964(b)(1) of the FD&C Act unless the declaration Is terminated or authorization revoked sooner. Important Safety Information \u201d\u00bb You should not get the Pfizer",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 87,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 964(b)(1) of the FD&C Act unless the declaration Is terminated or authorization revoked sooner. Important Safety Information a\u00bb You should not get the Pfizer",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 88,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. CDC VACCINE FINDER* What you need to know about the vaccine",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 89,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. CDC VACCINE FINDER* What you need to know about the vaccine",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+      "page": 90,
+      "marker": "(b)(1)",
+      "context": "d for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. CDC VACCINE FINDER* What you need to know about the vaccine",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
       "filename": "125752_S3_M5_5314_eua-roche-elecsys-ifu.pdf",
       "page": 3,
       "marker": "(b)(1)",
@@ -2823,6 +3602,120 @@
       "category": "not_foia",
       "module": "M5",
       "company": "Moderna",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S117_M1_pp-cvv-usa-0422.pdf",
+      "page": 3,
+      "marker": "(b)(1)",
+      "context": "n of the declaration that circumstances exist justifying the authorization of emergency use of the medical product = (12 Years & Up) under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or Indication & Authorized Use The FDA-approved COMIRNATY\u00ae (COVID-19 Vaccine, mRNA) and the EU",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S117_M1_pp-cvv-usa-0422.pdf",
+      "page": 6,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 \"The licensed COMIRNATY\u00ae vaccine has the same formulation os",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S117_M1_pp-cvv-usa-0422.pdf",
+      "page": 16,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 *The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S141_M1_pp-cvv-usa-0473.pdf",
+      "page": 3,
+      "marker": "(b)(1)",
+      "context": "IIZeU PUL LH UUIULIUIE UF Lie USUI ULV that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b) (1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 EVA Fact Sheet for Vaccination Providers (12 Years & Up) EU",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S141_M1_pp-cvv-usa-0473.pdf",
+      "page": 4,
+      "marker": "(b)(1)",
+      "context": "IZeU PUL LH UUIULIUIE UF Lie USUI ULV that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b) (1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 \u201cThe licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S141_M1_pp-cvv-usa-0473.pdf",
+      "page": 5,
+      "marker": "(b)(1)",
+      "context": "IIZeU PUL LH UUIULIUIE UF Lie USUI ULV that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b) (1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 EVA Fact Sheet for Vaccination Providers (12 Years & Up) EU",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
       "license": "BLA"
     },
     {
@@ -2940,6 +3833,44 @@
       "license": "BLA"
     },
     {
+      "filename": "125742_S129_M1_pp-cvv-usa-0442.pdf",
+      "page": 2,
+      "marker": "(b)(1)",
+      "context": "m at high risk of serious complications of COVID-19 including severe COVID-19 authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the or authorization revoked sooner. 2 \"The licensed COMIRNATY\u00ae vaccine has the same formulation as the authorized vaccine Pf",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S129_M1_pp-cvv-usa-0442.pdf",
+      "page": 4,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. 2 EVA Fact Sheet for Vaccination Providers (12 Years & Up) EU",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
       "filename": "125742_S131_M1_pp-cvv-usa-0391.pdf",
       "page": 1,
       "marker": "(b)(1)",
@@ -3039,6 +3970,44 @@
       "page": 4,
       "marker": "(b)(1)",
       "context": "for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. This is an update to PP-CVV- USA-0304, Section 1.0 Welcome",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S94_M1_pp-cvv-usa-0408.pdf",
+      "page": 4,
+      "marker": "(b)(1)",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. * *The licensed COMIRNATY\u00ae vaccine has the same formulation as",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": true,
+        "has_21_usc": false,
+        "preceded_by_section_n": true,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M1",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S94_M1_pp-cvv-usa-0408.pdf",
+      "page": 21,
+      "marker": "(b)(1)",
+      "context": "and older; and the emergency use of this product is only authorized for the duration of the declaration that circumstances product under Section 564(b)(1) of the FD&C Act unless the declaration Is terminated or authorization revoked sooner. 2 The Ioesed COMIRNATY\u00ae voodme fos the some formulation os the",
       "signals": {
         "has_section_sign": false,
         "has_usc_552": false,
@@ -3282,10 +4251,10 @@
       "license": null
     },
     {
-      "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
-      "page": 20,
+      "filename": "125742_S123_M1_pp-cvv-usa-0430.pdf",
+      "page": 16,
       "marker": "(b)(1)",
-      "context": "for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration is terminated or authorization revoked sooner. For these authorized uses, the vaccine has not been approved",
+      "context": "ed for the duration of the declaration that circumstances exist justifying the authorization of emergency use of the medical product under Section 564(b)(1) of the FD&C Act unless the declaration ts terminated or authorization revoked sooner. Important Safety Information ra% You should not get the vacci",
       "signals": {
         "has_section_sign": false,
         "has_usc_552": false,
@@ -3299,44 +4268,6 @@
       "module": "M1",
       "company": "Pfizer",
       "license": "BLA"
-    },
-    {
-      "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
-      "page": 15,
-      "marker": "(b)(1)(B)",
-      "context": "o permit intervention where the movant \u201chas a claim or defense that shares with the main action a common question of law or fact.\u201d Fed. R. Civ. P. 24(b)(1)(B). In considering a motion for permissive intervention, the Court considers whether the motion is timely and whether the proposed intervention will",
-      "signals": {
-        "has_section_sign": false,
-        "has_usc_552": false,
-        "has_foia": false,
-        "has_fdc_act": false,
-        "has_21_usc": false,
-        "preceded_by_section_n": false,
-        "preceded_by_digits_no_gap": true
-      },
-      "category": "not_foia",
-      "module": null,
-      "company": "Pfizer",
-      "license": null
-    },
-    {
-      "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
-      "page": 15,
-      "marker": "(b)(3)",
-      "context": "ly and whether the proposed intervention will \u201cunduly delay or prejudice the adjudication of the rights of the original parties.\u201d Fed. R. Civ. P. 24(b)(3); see also United States v. Colvin, 203 B.R. 930, 941 (N.D. Tex. 1996). Pfizer\u2019s interest in protecting its trade secrets and confidential commerci",
-      "signals": {
-        "has_section_sign": false,
-        "has_usc_552": false,
-        "has_foia": false,
-        "has_fdc_act": false,
-        "has_21_usc": false,
-        "preceded_by_section_n": false,
-        "preceded_by_digits_no_gap": true
-      },
-      "category": "not_foia",
-      "module": null,
-      "company": "Pfizer",
-      "license": null
     },
     {
       "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
@@ -9072,6 +10003,44 @@
         "preceded_by_digits_no_gap": false
       },
       "category": "foia_redaction",
+      "module": null,
+      "company": "Pfizer",
+      "license": null
+    },
+    {
+      "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+      "page": 15,
+      "marker": "(b)(1)(B)",
+      "context": "o permit intervention where the movant \u201chas a claim or defense that shares with the main action a common question of law or fact.\u201d Fed. R. Civ. P. 24(b)(1)(B). In considering a motion for permissive intervention, the Court considers whether the motion is timely and whether the proposed intervention will",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": null,
+      "company": "Pfizer",
+      "license": null
+    },
+    {
+      "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+      "page": 15,
+      "marker": "(b)(3)",
+      "context": "ly and whether the proposed intervention will \u201cunduly delay or prejudice the adjudication of the rights of the original parties.\u201d Fed. R. Civ. P. 24(b)(3); see also United States v. Colvin, 203 B.R. 930, 941 (N.D. Tex. 1996). Pfizer\u2019s interest in protecting its trade secrets and confidential commerci",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
       "module": null,
       "company": "Pfizer",
       "license": null

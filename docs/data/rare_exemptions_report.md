@@ -1,6 +1,6 @@
 # Rare FOIA Exemptions — Eyeball Report
 
-Every occurrence of the 5 rarely-used exemption types across all five modules. **474 occurrences across 65 file–marker combinations** (a single file may appear in multiple sections if it uses more than one rare type).
+Every occurrence of the 5 rarely-used exemption types across all five modules. **525 occurrences across 71 file–marker combinations** (a single file may appear in multiple sections if it uses more than one rare type).
 
 The dominant `(b)(4)` (trade secrets) and `(b)(6)` (personal privacy) markers are excluded — see `data/exemptions_report.md` for those.
 
@@ -16,6 +16,37 @@ Each row links to the file on PHMPT (the original source; clicking opens the PDF
 | --- | --- | --- | --- | --- | --- |
 | `116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf` | Individual | Pfizer | — | 7-8, 11-23, 25, 27-41, 43-44, 46-55, 58-61, 63-71, 75-79 *(×153 hits)* | [PHMPT](https://phmpt.org/wp-content/uploads/2023/11/116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/11/116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf) |
 | `92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf` | Individual | Pfizer | — | 3, 6-12, 15-27, 29-31, 33-39, 47, 53-56, 58, 65, 71, 75-77 *(×149 hits)* | [PHMPT](https://phmpt.org/wp-content/uploads/2023/11/92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/11/92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf) |
+
+## `(b)(1)` — Classified information
+
+**86 occurrence(s) across 24 file(s).**
+
+| File | Module | Company | License | Pages | Links |
+| --- | --- | --- | --- | --- | --- |
+| `94_BLA-125752-0_01-26-2022_Memo_Other.pdf` | Individual | Moderna | — | 1-2 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/94_BLA-125752-0_01-26-2022_Memo_Other.pdf) |
+| `032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf` | Individual | Pfizer | — | 70 | [PHMPT](https://phmpt.org/wp-content/uploads/2021/12/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf) |
+| `111521-Second-Joint-Status-Report.pdf` | Individual | Pfizer | — | 2 | [PHMPT](https://phmpt.org/wp-content/uploads/2021/11/111521-Second-Joint-Status-Report.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf) |
+| `125742_S66_M1_pp-cvv-usa-0357.pdf` | M1 | Pfizer | BLA | 8, 12, 23, 26, 32, 44, 72, 91, 113, 115-117, 120-125, 127-133, 144, 148 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) |
+| `125742_S65_M1_pp-cvv-usa-0349-01.pdf` | M1 | Pfizer | BLA | 20, 47, 57, 60-62, 69, 79, 84, 86-90 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S65_M1_pp-cvv-usa-0349-01.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S65_M1_pp-cvv-usa-0349-01.pdf) |
+| `125742_S117_M1_pp-cvv-usa-0422.pdf` | M1 | Pfizer | BLA | 3, 6, 16 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S117_M1_pp-cvv-usa-0422.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S117_M1_pp-cvv-usa-0422.pdf) |
+| `125742_S141_M1_pp-cvv-usa-0473.pdf` | M1 | Pfizer | BLA | 3-5 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S141_M1_pp-cvv-usa-0473.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S141_M1_pp-cvv-usa-0473.pdf) |
+| `125742_S116_M1_pp-cvv-usa-0387.pdf` | M1 | Pfizer | BLA | 1, 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0387.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0387.pdf) |
+| `125742_S116_M1_pp-cvv-usa-0389.pdf` | M1 | Pfizer | BLA | 1, 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0389.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0389.pdf) |
+| `125742_S118_M1_pp-cvv-usa-0426.pdf` | M1 | Pfizer | BLA | 1, 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S118_M1_pp-cvv-usa-0426.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S118_M1_pp-cvv-usa-0426.pdf) |
+| `125742_S129_M1_pp-cvv-usa-0442.pdf` | M1 | Pfizer | BLA | 2, 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S129_M1_pp-cvv-usa-0442.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S129_M1_pp-cvv-usa-0442.pdf) |
+| `125742_S131_M1_pp-cvv-usa-0391.pdf` | M1 | Pfizer | BLA | 1, 6 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0391.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0391.pdf) |
+| `125742_S131_M1_pp-cvv-usa-0432.pdf` | M1 | Pfizer | BLA | 1, 5 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0432.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0432.pdf) |
+| `125742_S88_M1_pp-cvv-usa-0378.pdf` | M1 | Pfizer | BLA | 1, 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S88_M1_pp-cvv-usa-0378.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S88_M1_pp-cvv-usa-0378.pdf) |
+| `125742_S94_M1_pp-cvv-usa-0408.pdf` | M1 | Pfizer | BLA | 4, 21 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S94_M1_pp-cvv-usa-0408.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S94_M1_pp-cvv-usa-0408.pdf) |
+| `27034_S24_M1_thermal-shipping-instructions.pdf` | M1 | Pfizer | EUA | 1 *(×2 hits)* | [PHMPT zip](https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-eua-production-051925.zip) |
+| `125742_S123_M1_pp-cvv-usa-0430.pdf` | M1 | Pfizer | BLA | 16 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S123_M1_pp-cvv-usa-0430.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S123_M1_pp-cvv-usa-0430.pdf) |
+| `125742_S1_M1_356h.pdf` | M1 | Pfizer | BLA | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf) |
+| `125742_S2_M1_356h.pdf` | M1 | Pfizer | BLA | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf) |
+| `125752_S3_M5_5314_eua-roche-elecsys-ifu.pdf` | M5 | Moderna | BLA | 3, 20, 23 *(×6 hits)* | [PHMPT](https://phmpt.org/wp-content/uploads/2024/11/125752_S3_M5_5314_eua-roche-elecsys-ifu.pdf) |
+| `19745_S73_M5_5314_21120-517-report.pdf` | M5 | Moderna | EUA | 12 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
+| `19745_S73_M5_5314_21120-578-approved.pdf` | M5 | Moderna | EUA | 7 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
+| `19745_S73_M5_5314_21120-705-report.pdf` | M5 | Moderna | EUA | 37 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
+| `19745_S73_M5_5314_21120-9152-report.pdf` | M5 | Moderna | EUA | 10 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
 
 ## `(b)(5)` — Deliberative process / attorney privilege
 
@@ -54,35 +85,9 @@ Each row links to the file on PHMPT (the original source; clicking opens the PDF
 | `109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf` | Individual | Pfizer | — | 52 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf) |
 | `62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf` | Individual | Pfizer | — | 2 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf) |
 
-## `(b)(1)` — Classified information
-
-**37 occurrence(s) across 19 file(s).**
-
-| File | Module | Company | License | Pages | Links |
-| --- | --- | --- | --- | --- | --- |
-| `94_BLA-125752-0_01-26-2022_Memo_Other.pdf` | Individual | Moderna | — | 1-2 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/94_BLA-125752-0_01-26-2022_Memo_Other.pdf) |
-| `032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf` | Individual | Pfizer | — | 70 | [PHMPT](https://phmpt.org/wp-content/uploads/2021/12/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf) |
-| `111521-Second-Joint-Status-Report.pdf` | Individual | Pfizer | — | 2 | [PHMPT](https://phmpt.org/wp-content/uploads/2021/11/111521-Second-Joint-Status-Report.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf) |
-| `125742_S116_M1_pp-cvv-usa-0387.pdf` | M1 | Pfizer | BLA | 1, 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0387.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0387.pdf) |
-| `125742_S116_M1_pp-cvv-usa-0389.pdf` | M1 | Pfizer | BLA | 1, 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0389.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0389.pdf) |
-| `125742_S118_M1_pp-cvv-usa-0426.pdf` | M1 | Pfizer | BLA | 1, 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S118_M1_pp-cvv-usa-0426.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S118_M1_pp-cvv-usa-0426.pdf) |
-| `125742_S131_M1_pp-cvv-usa-0391.pdf` | M1 | Pfizer | BLA | 1, 6 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0391.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0391.pdf) |
-| `125742_S131_M1_pp-cvv-usa-0432.pdf` | M1 | Pfizer | BLA | 1, 5 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0432.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0432.pdf) |
-| `125742_S66_M1_pp-cvv-usa-0357.pdf` | M1 | Pfizer | BLA | 144, 148 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) |
-| `125742_S88_M1_pp-cvv-usa-0378.pdf` | M1 | Pfizer | BLA | 1, 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S88_M1_pp-cvv-usa-0378.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S88_M1_pp-cvv-usa-0378.pdf) |
-| `27034_S24_M1_thermal-shipping-instructions.pdf` | M1 | Pfizer | EUA | 1 *(×2 hits)* | [PHMPT zip](https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-eua-production-051925.zip) |
-| `125742_S1_M1_356h.pdf` | M1 | Pfizer | BLA | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf) |
-| `125742_S2_M1_356h.pdf` | M1 | Pfizer | BLA | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf) |
-| `125742_S65_M1_pp-cvv-usa-0349-01.pdf` | M1 | Pfizer | BLA | 20 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S65_M1_pp-cvv-usa-0349-01.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S65_M1_pp-cvv-usa-0349-01.pdf) |
-| `125752_S3_M5_5314_eua-roche-elecsys-ifu.pdf` | M5 | Moderna | BLA | 3, 20, 23 *(×6 hits)* | [PHMPT](https://phmpt.org/wp-content/uploads/2024/11/125752_S3_M5_5314_eua-roche-elecsys-ifu.pdf) |
-| `19745_S73_M5_5314_21120-517-report.pdf` | M5 | Moderna | EUA | 12 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
-| `19745_S73_M5_5314_21120-578-approved.pdf` | M5 | Moderna | EUA | 7 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
-| `19745_S73_M5_5314_21120-705-report.pdf` | M5 | Moderna | EUA | 37 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
-| `19745_S73_M5_5314_21120-9152-report.pdf` | M5 | Moderna | EUA | 10 *(×2 hits)* | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip) |
-
 ## `(b)(2)` — Internal personnel rules and practices
 
-**24 occurrence(s) across 11 file(s).**
+**26 occurrence(s) across 12 file(s).**
 
 | File | Module | Company | License | Pages | Links |
 | --- | --- | --- | --- | --- | --- |
@@ -96,6 +101,7 @@ Each row links to the file on PHMPT (the original source; clicking opens the PDF
 | `125742_S1_M1_meeting-correspondence.pdf` | M1 | Pfizer | BLA | 172, 214, 557, 614, 622 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/125742_S1_M1_meeting-correspondence.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/125742_S1_M1_meeting-correspondence.pdf) |
 | `125742_S1_M1_356h.pdf` | M1 | Pfizer | BLA | 1, 3 *(×3 hits)* | [PHMPT](https://phmpt.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf) |
 | `125742_S2_M1_356h.pdf` | M1 | Pfizer | BLA | 1, 3 *(×3 hits)* | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf) |
+| `125742_S75_M1_356h.pdf` | M1 | Pfizer | BLA | 1, 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/125742_S75_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/125742_S75_M1_356h.pdf) |
 | `125742_S66_M1_pp-cvv-usa-0357.pdf` | M1 | Pfizer | BLA | 149 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) |
 
 ## `(b)(1)(C)` — Classified information (subpart C)

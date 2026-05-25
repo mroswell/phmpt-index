@@ -2,16 +2,16 @@
   "summary": {
     "in_scope_files": 6136,
     "files_processed": 6136,
-    "files_with_hits": 171,
+    "files_with_hits": 177,
     "files_errored": [],
     "by_term": {
-      "Risk management plan": 1563,
-      "Pharmacovigilance plan": 435,
-      "Bayesian": 202,
+      "Risk management plan": 1617,
+      "Pharmacovigilance plan": 438,
+      "Bayesian": 214,
       "PRR": 25,
       "Disproportionality analysis": 24
     },
-    "total_term_occurrences": 2249,
+    "total_term_occurrences": 2318,
     "m3_included": false
   },
   "files": [
@@ -11929,7 +11929,28 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/125752_S1_M4.3_deming-2006.pdf",
       "ican_url": null,
       "total_pages": 17,
-      "matches": []
+      "matches": [
+        {
+          "page": 4,
+          "term": "Bayesian",
+          "context": "ustalX 1.83 with default settings [37]. A phylogenetic tree was generated using Bayesian inference as implemented in the program MrBayes v3.0b4 [38]. Briefly, the align"
+        },
+        {
+          "page": 6,
+          "term": "Bayesian",
+          "context": "a heterologous SARS-CoV. Selection of a likely candidate strain was made after Bayesian analysis of the SARS-CoV S glycoprotein, which demonstrated three main phylogen"
+        },
+        {
+          "page": 16,
+          "term": "Bayesian",
+          "context": "s. Nucleic Acids Res 31: 3497-3500. Huelsenbeck JP, Ronquist F (2001) MRBAYES: Bayesian inference of phylogenetic trees, Bioinformatics 17: 754-755. Jones DT, Taylor"
+        },
+        {
+          "page": 16,
+          "term": "Bayesian",
+          "context": "s. Comput Appl Biosci 8: 275-282. Ronquist F, Huelsenbeck JP (2003) MrBayes 3: Bayesian phylogenetic inference under mixed models. Bioinformatics 19; 1572-1574, Chen"
+        }
+      ]
     },
     {
       "filename": "125752_S1_M4.3_deming-2007-correction.pdf",
@@ -12265,7 +12286,13 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/125752_S1_M4.3_tostanoski-2020.pdf",
       "ican_url": null,
       "total_pages": 23,
-      "matches": []
+      "matches": [
+        {
+          "page": 21,
+          "term": "Bayesian",
+          "context": "freedom and P value noted Give P values as exact values whenever suitable. For Bayesian analysis, information on the choice of priors and Markov chain Monte Carlo sett"
+        }
+      ]
     },
     {
       "filename": "125752_S1_M4.3_tseng-2012.pdf",
@@ -20134,7 +20161,28 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2024/08/125752_S3_M5_54_deming-2006.pdf",
       "ican_url": null,
       "total_pages": 17,
-      "matches": []
+      "matches": [
+        {
+          "page": 4,
+          "term": "Bayesian",
+          "context": "ustalX 1.83 with default settings [37]. A phylogenetic tree was generated using Bayesian inference as implemented in the program MrBayes v3.0b4 [38]. Briefly, the align"
+        },
+        {
+          "page": 6,
+          "term": "Bayesian",
+          "context": "a heterologous SARS-CoV. Selection of a likely candidate strain was made after Bayesian analysis of the SARS-CoV S glycoprotein, which demonstrated three main phylogen"
+        },
+        {
+          "page": 16,
+          "term": "Bayesian",
+          "context": "s. Nucleic Acids Res 31: 3497-3500. Huelsenbeck JP, Ronquist F (2001) MRBAYES: Bayesian inference of phylogenetic trees, Bioinformatics 17: 754-755. Jones DT, Taylor"
+        },
+        {
+          "page": 16,
+          "term": "Bayesian",
+          "context": "s. Comput Appl Biosci 8: 275-282. Ronquist F, Huelsenbeck JP (2003) MrBayes 3: Bayesian phylogenetic inference under mixed models. Bioinformatics 19; 1572-1574, Chen"
+        }
+      ]
     },
     {
       "filename": "125752_S3_M5_54_desmet-2012.pdf",
@@ -20718,7 +20766,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2024/08/125752_S3_M5_54_miettinen-1985.pdf",
       "ican_url": null,
       "total_pages": 14,
-      "matches": []
+      "matches": [
+        {
+          "page": 3,
+          "term": "Bayesian",
+          "context": "is the function\u2019s value at R = Ro. Moreover, the likelihood ratio function\u2014the Bayesian summary of evidence\u2014is implicit in the chi-square function. TWO PROPORTIONS WI"
+        },
+        {
+          "page": 13,
+          "term": "Bayesian",
+          "context": "ng that this approach is questionable in general, at least without resorting to Bayesian techniques. APPENDIX III. CHI-SQUARE FUNCTION BASED ON LIKELIHOOD RATIO When"
+        }
+      ]
     },
     {
       "filename": "125752_S3_M5_54_munoz-2021.pdf",
@@ -21018,7 +21077,13 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2024/08/125752_S3_M5_54_zhou-2020.pdf",
       "ican_url": null,
       "total_pages": 42,
-      "matches": []
+      "matches": [
+        {
+          "page": 32,
+          "term": "Bayesian",
+          "context": "xiv, 2020.2005.201 1.088674. Scheres, S.H. (2012). RELION: implementation of a Bayesian approach to cryo-EM structure determination. J Struct Biol /80, 519-530. Seydo"
+        }
+      ]
     },
     {
       "filename": "125752_S3_M5_54_zhu-2020.pdf",
@@ -21497,6 +21562,21 @@
       "ican_url": null,
       "total_pages": 1025,
       "matches": [
+        {
+          "page": 2,
+          "term": "Pharmacovigilance plan",
+          "context": "021 to 31 May 2021. It has been prepared in accordance with ModernaTX (Moderna) Pharmacovigilance Plan and Health Authority requirements. The submission of this report does not repla"
+        },
+        {
+          "page": 13,
+          "term": "Risk management plan",
+          "context": "fied Person for Pharmacovigilance QR Quick Response RA Regulatory Authority RMP Risk Management Plan RSI Reference Safety Information SAE Serious Adverse Event SARS-CoV-2 Severe Ac"
+        },
+        {
+          "page": 62,
+          "term": "Risk management plan",
+          "context": "ModernaTX, Inc. Monthly Safety Report for mRNA-1273 15 June 2021 MSSR Risk Management Plan for the COVID-19 Moderna vaccine. Appropriate risk minimization strategies are"
+        },
         {
           "page": 668,
           "term": "Disproportionality analysis",
@@ -22560,7 +22640,13 @@
       "individual_url": null,
       "ican_url": null,
       "total_pages": 135,
-      "matches": []
+      "matches": [
+        {
+          "page": 122,
+          "term": "Risk management plan",
+          "context": "ng) are provided in the study Monitoring Plan, Centralized Monitoring Plan, and Risk Management Plan. The Sponsor or designee is responsible for the data management of this study"
+        }
+      ]
     },
     {
       "filename": "125752_S5008_M1_115214_annotated-ref-5-el-sahly-2021.pdf",
@@ -29115,7 +29201,13 @@
       "individual_url": null,
       "ican_url": null,
       "total_pages": 77,
-      "matches": []
+      "matches": [
+        {
+          "page": 68,
+          "term": "Risk management plan",
+          "context": "l Vaccine Safety Monitoring in Global Pandemic = Moderna Pharmacovigilance and Risk Management Plans being reviewed by FDA and international regulators = Interface with vaccine s"
+        }
+      ]
     },
     {
       "filename": "27073_S16_M1_vrbpac-briefing-doc-addendum.pdf",
@@ -35928,6 +36020,26 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 15"
         },
         {
+          "page": 16,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 3. Exposure to BNT1"
+        },
+        {
+          "page": 17,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 3. Exposure to BNT1"
+        },
+        {
+          "page": 18,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 4. Exposure to BNT1"
+        },
+        {
+          "page": 19,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 5. Exposure to BNT1"
+        },
+        {
           "page": 20,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 20"
@@ -35938,9 +36050,29 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 21"
         },
         {
+          "page": 22,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 7. Exposure to BNT1"
+        },
+        {
+          "page": 23,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 9. Exposure to BNT1"
+        },
+        {
           "page": 24,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 24"
+        },
+        {
+          "page": 25,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 11. Exposure to BNT"
+        },
+        {
+          "page": 26,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 12. Exposure to BNT"
         },
         {
           "page": 27,
@@ -35948,9 +36080,74 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 27"
         },
         {
+          "page": 28,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 15. Exposure to BNT"
+        },
+        {
+          "page": 29,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 15. Exposure to BNT"
+        },
+        {
+          "page": 30,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 15. Exposure to BNT"
+        },
+        {
+          "page": 31,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 15. Exposure to BNT"
+        },
+        {
+          "page": 32,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 16. Exposure to BNT"
+        },
+        {
+          "page": 33,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 16. Exposure to BNT"
+        },
+        {
+          "page": 34,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 17. Exposure to BNT"
+        },
+        {
+          "page": 35,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 17. Exposure to BNT"
+        },
+        {
+          "page": 36,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 17. Exposure to BNT"
+        },
+        {
+          "page": 37,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 18. Exposure to BNT"
+        },
+        {
+          "page": 38,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 19. Exposure to BNT"
+        },
+        {
           "page": 39,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 39"
+        },
+        {
+          "page": 40,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 21. Exposure to BNT"
+        },
+        {
+          "page": 41,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 23. Exposure to BNT"
         },
         {
           "page": 42,
@@ -35978,6 +36175,41 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 46"
         },
         {
+          "page": 47,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 e The following reactogen"
+        },
+        {
+          "page": 48,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 26. Myocarditis and"
+        },
+        {
+          "page": 49,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 26. Myocarditis and"
+        },
+        {
+          "page": 50,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 26. Myocarditis and"
+        },
+        {
+          "page": 51,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 27. Anaphylaxis Po"
+        },
+        {
+          "page": 52,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 27. Anaphylaxis *"
+        },
+        {
+          "page": 53,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Important Potential Risks"
+        },
+        {
           "page": 54,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 54"
@@ -35986,6 +36218,36 @@
           "page": 55,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 55"
+        },
+        {
+          "page": 56,
+          "term": "Pharmacovigilance plan",
+          "context": "uthorization experience, of the Important Missing Information identified in the Pharmacovigilance Plan. More detailed information is available in the cumulative analysis of post- aut"
+        },
+        {
+          "page": 56,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 2.1.2.c.2.2. Presentation"
+        },
+        {
+          "page": 57,
+          "term": "Pharmacovigilance plan",
+          "context": "uthorization experience, of the Important Missing Information identified in the Pharmacovigilance Plan. More detailed information is available in the cumulative analysis of post- aut"
+        },
+        {
+          "page": 57,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 30. Vaccine Effecti"
+        },
+        {
+          "page": 58,
+          "term": "Pharmacovigilance plan",
+          "context": "uthorization experience, of the Important Missing Information identified in the Pharmacovigilance Plan. More detailed information is available in the cumulative analysis of post- aut"
+        },
+        {
+          "page": 58,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 31. Use in Paediatr"
         },
         {
           "page": 59,
@@ -36068,6 +36330,11 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 72"
         },
         {
+          "page": 73,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 3.1.3. Action Plan for Sa"
+        },
+        {
           "page": 74,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 74"
@@ -36083,14 +36350,29 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 76"
         },
         {
+          "page": 77,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 41. Action Plan for"
+        },
+        {
           "page": 78,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 78"
         },
         {
+          "page": 79,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 42. Action Plan for"
+        },
+        {
           "page": 80,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 80"
+        },
+        {
+          "page": 81,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 43. Action Plan for"
         },
         {
           "page": 82,
@@ -36103,6 +36385,31 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 83"
         },
         {
+          "page": 84,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 45. Action Plan for"
+        },
+        {
+          "page": 85,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 3.1.4. Summary of Actions"
+        },
+        {
+          "page": 86,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan on-REMS) for Biologic License Application # 125742 Table 46. Summary of Safet"
+        },
+        {
+          "page": 87,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 46. Summary of Safe"
+        },
+        {
+          "page": 88,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan on-REMS) for Biologic License Application # 125742 Table 46. Summary of Satet"
+        },
+        {
           "page": 89,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 89"
@@ -36113,6 +36420,11 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 90"
         },
         {
+          "page": 91,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 Table 46. Summary of Safe"
+        },
+        {
           "page": 92,
           "term": "Pharmacovigilance plan",
           "context": "naphylactic Reaction Data Capture Aid. 3.2.1. List of Studies Included in the Pharmacovigilance Plan C4591001 C4591007 C4591008 C4591009 C4591011 C4591012 C4591014 C4591015"
@@ -36121,6 +36433,11 @@
           "page": 92,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 92"
+        },
+        {
+          "page": 93,
+          "term": "Risk management plan",
+          "context": "090177e197ac5206\\Final\\Final On: 28-Jul-2021 17:01 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 REFERENCES 10 11 12 L"
         },
         {
           "page": 94,
@@ -38083,14 +38400,8 @@
       "license": "BLA",
       "individual_url": "https://phmpt.org/wp-content/uploads/2022/03/125742_S1_M1_priority-review-request.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/125742_S1_M1_priority-review-request.pdf",
-      "total_pages": 17,
-      "matches": [
-        {
-          "page": 14,
-          "term": "Pharmacovigilance plan",
-          "context": "f causality assessment. Through 28 February 2021 (data lock point aligned with Pharmacovigilance Plan), there were a total of 42,086 case reports (25,379 medically confirmed and 16"
-        }
-      ]
+      "total_pages": 104,
+      "matches": []
     },
     {
       "filename": "125742_S1_M1_trans-of-oblig.pdf",
@@ -58057,6 +58368,11 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 10"
         },
         {
+          "page": 11,
+          "term": "Risk management plan",
+          "context": "090177e198e19252\\Final\\Final On: 15-Dec-2021 09:55 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License lication # 125742 Table 1. Product Details* B"
+        },
+        {
           "page": 12,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 12"
@@ -58387,6 +58703,16 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 77"
         },
         {
+          "page": 78,
+          "term": "Risk management plan",
+          "context": "090177e198e19252\\Final\\Final On: 15-Dec-2021 09:55 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 EU and the UK, by $3-Mare"
+        },
+        {
+          "page": 79,
+          "term": "Risk management plan",
+          "context": "090177e198e19252\\Final\\Final On: 15-Dec-2021 09:55 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License lication # 125742 Table 40. Incidence, Prevale"
+        },
+        {
           "page": 80,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 80"
@@ -58645,6 +58971,11 @@
           "page": 129,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 129"
+        },
+        {
+          "page": 130,
+          "term": "Risk management plan",
+          "context": "090177e198e19252\\Final\\Final On: 15-Dec-2021 09:55 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Table 57. lication # 125742 Summary of Safet"
         },
         {
           "page": 131,
@@ -60608,6 +60939,16 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 124 REFE"
         },
         {
+          "page": 125,
+          "term": "Risk management plan",
+          "context": "090177e19a101be3\\Approved\\Approved On: 29-Apr-2022 19:59 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 13 14 15 16 17 18 1"
+        },
+        {
+          "page": 126,
+          "term": "Risk management plan",
+          "context": "090177e19a101be3\\Approved\\Approved On: 29-Apr-2022 19:59 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 25 26 27 28 29 30 3"
+        },
+        {
           "page": 127,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 127 36 H"
@@ -60618,6 +60959,11 @@
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 128 47 C"
         },
         {
+          "page": 129,
+          "term": "Risk management plan",
+          "context": "090177e19a101be3\\Approved\\Approved On: 29-Apr-2022 19:59 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 59 61 62 63 65 67 m"
+        },
+        {
           "page": 130,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 130 68 G"
@@ -60626,6 +60972,11 @@
           "page": 131,
           "term": "Risk management plan",
           "context": "BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 CONFIDENTIAL Page 131 79 H"
+        },
+        {
+          "page": 132,
+          "term": "Risk management plan",
+          "context": "090177e19a101be3\\Approved\\Approved On: 29-Apr-2022 19:59 (GMT) BNT162b2 1.16 Risk Management Plan (Non-REMS) for Biologic License Application # 125742 89 CDC 2021g. COVID Data"
         }
       ]
     },

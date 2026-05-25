@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pharmacovigilance Findings — PHMPT FOIA Index</title>
+  <title>Statutes & Regulations — PHMPT FOIA Index</title>
   <link rel="stylesheet" href="styles.css">
   <style>
     header {
@@ -33,15 +33,13 @@
       background: var(--surface);
       position: relative;
     }
-    .nav-menu a:hover {
-      background: #f8f9fa;
-    }
+    .nav-menu a:hover { background: #f8f9fa; }
     .nav-menu a[aria-current="page"] {
       background: var(--accent-soft, #eef);
       font-weight: 600;
     }
 
-    .pv-summary {
+    .st-summary {
       background: #f8f9fa;
       border: 1px solid #e9ecef;
       padding: 14px 18px;
@@ -50,24 +48,22 @@
       font-size: 14px;
       line-height: 1.6;
     }
-    .pv-summary .stat {
-      display: inline-block;
-      margin-right: 24px;
-    }
-    .pv-summary .num {
+    .st-summary .stat { display: inline-block; margin-right: 24px; }
+    .st-summary .num {
       font-weight: 600;
       font-size: 18px;
       color: var(--accent);
     }
 
-    /* term-filter chip strip */
-    .term-strip {
+    /* family chip strip */
+    .family-strip, .statute-strip {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
       margin: 12px 0;
     }
-    .term-chip {
+    .family-strip { margin-top: 0; }
+    .family-chip, .statute-chip {
       cursor: pointer;
       padding: 6px 12px;
       border-radius: 16px;
@@ -76,16 +72,23 @@
       font-size: 13px;
       user-select: none;
     }
-    .term-chip:hover { background: #f8f9fa; }
-    .term-chip.active {
+    .family-chip:hover, .statute-chip:hover { background: #f8f9fa; }
+    .family-chip.active, .statute-chip.active {
       background: var(--accent);
       color: white;
       border-color: var(--accent);
     }
-    .term-chip .count {
+    .family-chip .count, .statute-chip .count {
       opacity: 0.75;
       margin-left: 6px;
       font-size: 12px;
+    }
+    .statute-strip-label {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 16px 0 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
 
     .src-tag {
@@ -101,21 +104,15 @@
     .src-tag.ican       { background: #e3eef7; color: #1e5d8c; }
     .src-tag.zip        { background: #f3f3f3; color: #555; }
 
-    .terms-cell {
+    .statutes-cell {
       font-size: 12px;
       line-height: 1.4;
-      max-width: 280px;
+      max-width: 300px;
     }
-    .terms-cell .term-line { display: block; }
-    .pages-cell {
-      font-size: 12px;
-      color: var(--muted);
-      max-width: 200px;
-    }
-    .hits-num { font-weight: 600; text-align: right; }
+    .statutes-cell .statute-line { display: block; }
     .files-cell { max-width: 380px; word-break: break-all; }
+    .hits-num { font-weight: 600; text-align: right; }
 
-    /* Hide context details by default; toggle on click */
     .ctx-toggle {
       cursor: pointer;
       color: var(--accent);
@@ -132,7 +129,7 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
       font-size: 11px;
       line-height: 1.5;
-      max-height: 280px;
+      max-height: 320px;
       overflow-y: auto;
     }
     .ctx-panel.open { display: block; }
@@ -149,29 +146,32 @@
 
 <header>
   <div class="title-nav-row">
-    <h1>Pharmacovigilance Findings</h1>
+    <h1>Statutes &amp; Regulations</h1>
     <nav class="nav-menu">
       <a href="index.html">Home</a>
       <a href="duplicates.html">Content Overlap</a>
-      <a href="pharmacovigilance.html" aria-current="page">Pharmacovigilance</a>
+      <a href="pharmacovigilance.html">Pharmacovigilance</a>
       <a href="exemptions.html">Exemptions</a>
-      <a href="statutes.html">Statutes</a>
+      <a href="statutes.html" aria-current="page">Statutes</a>
     </nav>
   </div>
   <p class="subtitle">
-    Files containing any of six pharmacovigilance / signal-detection terms.
-    Click a filename to open the source PDF: individual download where
-    available, ICAN re-host as fallback, ZIP only as last resort.
-    <a href="data/pharmacovigilance_report.md" target="_blank" rel="noopener">Markdown report</a> ·
-    <a href="data/pharmacovigilance.json" target="_blank" rel="noopener">Raw JSON</a>
+    Citations of statutes, regulations, court cases, and international rules
+    found across the corpus. Click a filename to open the source PDF: PHMPT
+    individual link preferred, ICAN fallback, ZIP last resort.
+    <a href="data/statutes.json" target="_blank" rel="noopener">Raw JSON</a>
   </p>
 </header>
 
 <div style="padding: 0 24px;">
 
-  <div class="pv-summary" id="summary">Loading…</div>
+  <div class="st-summary" id="summary">Loading…</div>
 
-  <div class="term-strip" id="term-strip"></div>
+  <div class="statute-strip-label">Family</div>
+  <div class="family-strip" id="family-strip"></div>
+
+  <div class="statute-strip-label">Top statutes — click to filter</div>
+  <div class="statute-strip" id="statute-strip"></div>
 
   <section class="filters">
     <label class="filter wide">
@@ -185,6 +185,7 @@
         <option value="">All</option>
         <option value="M1">M1</option>
         <option value="M2">M2</option>
+        <option value="M3">M3</option>
         <option value="M4">M4</option>
         <option value="M5">M5</option>
         <option value="Individual">Individual</option>
@@ -230,13 +231,12 @@
     <thead>
       <tr>
         <th data-sort="filename">File</th>
-        <th data-sort="module">Module</th>
+        <th data-sort="moduleLabel">Module</th>
         <th data-sort="company">Co.</th>
         <th data-sort="license">Lic.</th>
         <th data-sort="total_pages" class="num">Pages</th>
-        <th data-sort="total_hits" class="num">Hits</th>
-        <th>Terms (count)</th>
-        <th>Pages w/ hits</th>
+        <th data-sort="total_hits" class="num">Citations</th>
+        <th>Top statutes</th>
       </tr>
     </thead>
     <tbody id="rows"></tbody>
@@ -244,6 +244,6 @@
 
 </div>
 
-<script src="pharmacovigilance.js"></script>
+<script src="statutes.js"></script>
 </body>
 </html>
