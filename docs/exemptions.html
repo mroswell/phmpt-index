@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FOIA Exemption Findings — PHMPT FOIA Index</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    header {
+      display: flex;
+      flex-direction: column;
+    }
+    .title-nav-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      width: 100%;
+    }
+    .title-nav-row h1 { margin: 0; justify-self: start; }
+    .title-nav-row .nav-menu { justify-self: center; }
+    .nav-menu {
+      display: flex;
+      gap: 16px;
+      font-size: 14px;
+      margin: 0;
+    }
+    .nav-menu a {
+      color: var(--accent);
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      position: relative;
+    }
+    .nav-menu a:hover { background: #f8f9fa; }
+    .nav-menu a[aria-current="page"] {
+      background: var(--accent-soft, #eef);
+      font-weight: 600;
+    }
+
+    /* Dashboard ---- */
+    .ex-summary {
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 16px 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .ex-summary .stat { display: inline-block; margin-right: 24px; }
+    .ex-summary .num {
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--accent);
+    }
+
+    /* Collapsible sections */
+    details.panel {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      margin: 16px 0;
+      padding: 0;
+    }
+    details.panel > summary {
+      cursor: pointer;
+      padding: 12px 16px;
+      font-weight: 600;
+      list-style: none;
+      user-select: none;
+    }
+    details.panel > summary::-webkit-details-marker { display: none; }
+    details.panel > summary::before {
+      content: "▶ ";
+      display: inline-block;
+      margin-right: 6px;
+      transition: transform 0.15s ease;
+      color: var(--muted);
+    }
+    details.panel[open] > summary::before { transform: rotate(90deg); }
+    details.panel > summary:hover { background: #f8f9fa; }
+    .panel-body { padding: 0 16px 16px; }
+
+    /* Cross-tab tables */
+    .xtab-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .xtab-grid .xtab { min-width: 0; }
+    .xtab h3 {
+      margin: 16px 0 6px;
+      font-size: 13px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .xtab table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    .xtab th, .xtab td {
+      padding: 4px 8px;
+      border-bottom: 1px solid var(--line);
+      text-align: right;
+    }
+    .xtab th:first-child, .xtab td:first-child { text-align: left; }
+    .xtab thead th {
+      background: #f8f9fa;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .xtab tbody tr:last-child td { border-bottom: 2px solid var(--line); }
+    .xtab tfoot td {
+      font-style: italic;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      border-bottom: none;
+    }
+
+    /* Exemption chips */
+    .ex-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0;
+    }
+    .ex-chip {
+      cursor: pointer;
+      padding: 6px 12px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      font-size: 13px;
+      user-select: none;
+    }
+    .ex-chip:hover { background: #f8f9fa; }
+    .ex-chip.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    .ex-chip .count {
+      opacity: 0.75;
+      margin-left: 6px;
+      font-size: 12px;
+    }
+
+    /* Rare-exemption rows */
+    .rare-marker {
+      margin-bottom: 18px;
+    }
+    .rare-marker h3 {
+      margin: 8px 0 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 14px;
+    }
+    .rare-marker .desc {
+      color: var(--muted);
+      font-size: 12px;
+      margin: 0 0 8px;
+    }
+    .rare-marker table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+    .rare-marker th, .rare-marker td {
+      padding: 4px 8px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    .rare-marker th {
+      background: #f8f9fa;
+      font-weight: 600;
+    }
+    .rare-marker .pages-cell {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--muted);
+    }
+    .rare-marker .filename-cell {
+      max-width: 380px;
+      word-break: break-all;
+    }
+
+    /* Per-file table */
+    .src-tag {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .src-tag.individual { background: #e3f7e3; color: #2a6e2a; }
+    .src-tag.ican       { background: #e3eef7; color: #1e5d8c; }
+    .src-tag.zip        { background: #f3f3f3; color: #555; }
+
+    .markers-cell {
+      font-size: 12px;
+      line-height: 1.4;
+      max-width: 260px;
+    }
+    .markers-cell .marker-line { display: block; }
+    .files-cell { max-width: 380px; word-break: break-all; }
+    .hits-num { font-weight: 600; text-align: right; }
+    tr:hover td { background: #f8f9fa !important; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="title-nav-row">
+    <h1>FOIA Exemption Findings</h1>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="duplicates.html">Content Overlap</a>
+      <a href="pharmacovigilance.html">Pharmacovigilance</a>
+      <a href="exemptions.html" aria-current="page">Exemptions</a>
+    </nav>
+  </div>
+  <p class="subtitle">
+    Every <code>(b)(N)</code> redaction marker the scanner found across the
+    6,505 PDFs in the corpus. Click a filename to open the source PDF
+    (individual PHMPT link preferred, ICAN fallback, ZIP last resort).
+    <a href="data/exemptions_report.md" target="_blank" rel="noopener">Cross-tab markdown</a> ·
+    <a href="data/rare_exemptions_report.md" target="_blank" rel="noopener">Rare report MD</a> ·
+    <a href="data/per_file_report_non_m5.md" target="_blank" rel="noopener">Per-file MD (no M5)</a> ·
+    <a href="data/exemptions.json" target="_blank" rel="noopener">Raw JSON</a>
+  </p>
+</header>
+
+<div style="padding: 0 24px;">
+
+  <div class="ex-summary" id="summary">Loading…</div>
+
+  <details class="panel" id="xtab-panel">
+    <summary>📊 Cross-tab summaries (counts by exemption type × module / company / license / age group)</summary>
+    <div class="panel-body" id="xtab-body">Loading…</div>
+  </details>
+
+  <details class="panel" id="rare-panel">
+    <summary>🔎 Rare exemption types (everything other than the dominant <code>(b)(4)</code> and <code>(b)(6)</code>)</summary>
+    <div class="panel-body" id="rare-body">Loading…</div>
+  </details>
+
+  <h2 style="margin: 28px 0 10px;">Per-file exemption table</h2>
+
+  <div class="ex-strip" id="exemption-strip"></div>
+
+  <section class="filters">
+    <label class="filter wide">
+      <span>Filename contains</span>
+      <input type="search" id="f-name" placeholder="any substring, case-insensitive">
+    </label>
+
+    <label class="filter">
+      <span>Module</span>
+      <select id="f-module">
+        <option value="">All</option>
+        <option value="M1">M1</option>
+        <option value="M2">M2</option>
+        <option value="M3">M3</option>
+        <option value="M4">M4</option>
+        <option value="M5">M5</option>
+        <option value="Individual">Individual</option>
+      </select>
+    </label>
+
+    <label class="filter">
+      <span>Company</span>
+      <select id="f-company">
+        <option value="">All</option>
+        <option value="Moderna">Moderna</option>
+        <option value="Pfizer">Pfizer</option>
+      </select>
+    </label>
+
+    <label class="filter">
+      <span>License</span>
+      <select id="f-license">
+        <option value="">All</option>
+        <option value="BLA">BLA</option>
+        <option value="EUA">EUA</option>
+      </select>
+    </label>
+
+    <label class="filter">
+      <span>Source</span>
+      <select id="f-source">
+        <option value="">All</option>
+        <option value="individual">Individual link</option>
+        <option value="ican">ICAN fallback</option>
+        <option value="zip">ZIP only</option>
+      </select>
+    </label>
+
+    <label class="filter">
+      <span>Min markers</span>
+      <input type="number" id="f-min" min="0" step="1" placeholder="e.g. 100">
+    </label>
+
+    <button type="button" id="reset" style="margin-left:auto">Reset filters</button>
+  </section>
+
+  <div class="result-bar">
+    <span id="count">…</span>
+  </div>
+
+  <table id="results">
+    <thead>
+      <tr>
+        <th data-sort="filename">File</th>
+        <th data-sort="moduleLabel">Module</th>
+        <th data-sort="company">Co.</th>
+        <th data-sort="license">Lic.</th>
+        <th data-sort="total_pages" class="num">Pages</th>
+        <th data-sort="total_markers" class="num">Markers</th>
+        <th data-sort="markers_per_page" class="num">Per page</th>
+        <th>Marker breakdown</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+</div>
+
+<script src="exemptions.js"></script>
+</body>
+</html>

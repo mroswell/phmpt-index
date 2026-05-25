@@ -1,0 +1,1704 @@
+{
+  "summary": {
+    "total_occurrences": 474,
+    "file_marker_combos": 65,
+    "by_marker": {
+      "(b)(7)(A)": 2,
+      "(b)(5)": 62,
+      "(b)(1)(C)": 6,
+      "(b)(2)": 24,
+      "(b)(1)": 37,
+      "(b)(1)(B)": 1,
+      "(b)(3)": 1,
+      "(b)(7)(E)": 38,
+      "(b)(9)": 1,
+      "(b)(7)(C)": 302
+    },
+    "descriptions": {
+      "(b)(1)": "Classified information",
+      "(b)(1)(B)": "Classified information (subpart B)",
+      "(b)(1)(C)": "Classified information (subpart C)",
+      "(b)(2)": "Internal personnel rules and practices",
+      "(b)(3)": "Information exempt under other statutes",
+      "(b)(5)": "Deliberative process / attorney privilege",
+      "(b)(7)(A)": "Law enforcement records \u2014 ongoing investigations",
+      "(b)(7)(C)": "Law enforcement records \u2014 personal privacy",
+      "(b)(7)(E)": "Law enforcement records \u2014 techniques",
+      "(b)(9)": "Geological / geophysical information"
+    }
+  },
+  "by_marker": {
+    "(b)(7)(A)": [
+      {
+        "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3032110.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "BLA",
+        "batch_code": "md",
+        "pages": [
+          {
+            "page": 608,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S3_M5_CRF_mrna-1273-p301-us3032110.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "125752_S55_M1_pbrer-2-01jul2021-31dec2021.pdf",
+        "module": "M1",
+        "company": "Moderna",
+        "license": "BLA",
+        "batch_code": "md",
+        "pages": [
+          {
+            "page": 5339,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-063025.zip",
+        "ican_url": null
+      }
+    ],
+    "(b)(5)": [
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 129,
+            "count": 2
+          },
+          {
+            "page": 130,
+            "count": 3
+          },
+          {
+            "page": 137,
+            "count": 9
+          },
+          {
+            "page": 138,
+            "count": 1
+          }
+        ],
+        "total_hits": 15,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2021/12/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf"
+      },
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 3,
+            "count": 1
+          },
+          {
+            "page": 6,
+            "count": 2
+          },
+          {
+            "page": 10,
+            "count": 1
+          },
+          {
+            "page": 12,
+            "count": 2
+          },
+          {
+            "page": 14,
+            "count": 2
+          },
+          {
+            "page": 18,
+            "count": 1
+          },
+          {
+            "page": 19,
+            "count": 3
+          }
+        ],
+        "total_hits": 12,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf"
+      },
+      {
+        "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+        "module": "Individual",
+        "company": "Moderna",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 1,
+            "count": 2
+          },
+          {
+            "page": 2,
+            "count": 2
+          },
+          {
+            "page": 3,
+            "count": 1
+          },
+          {
+            "page": 4,
+            "count": 2
+          },
+          {
+            "page": 6,
+            "count": 2
+          },
+          {
+            "page": 7,
+            "count": 1
+          }
+        ],
+        "total_hits": 10,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2025/05/93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 11,
+            "count": 3
+          },
+          {
+            "page": 50,
+            "count": 1
+          },
+          {
+            "page": 66,
+            "count": 1
+          },
+          {
+            "page": 124,
+            "count": 1
+          }
+        ],
+        "total_hits": 6,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf"
+      },
+      {
+        "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 3,
+            "count": 3
+          }
+        ],
+        "total_hits": 3,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf"
+      },
+      {
+        "filename": "100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 3,
+            "count": 3
+          }
+        ],
+        "total_hits": 3,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf"
+      },
+      {
+        "filename": "125752_S55_M1_pbrer-2-01jul2021-31dec2021.pdf",
+        "module": "M1",
+        "company": "Moderna",
+        "license": "BLA",
+        "batch_code": "md",
+        "pages": [
+          {
+            "page": 5361,
+            "count": 1
+          },
+          {
+            "page": 5555,
+            "count": 1
+          },
+          {
+            "page": 5605,
+            "count": 1
+          }
+        ],
+        "total_hits": 3,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-063025.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 1,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf"
+      },
+      {
+        "filename": "125742-45_05-06-2022_Meeting-Summary_Committee.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 4,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-06-2022_Meeting-Summary_Committee.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "027-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-26-Brief-Memorandum-in-Support-of-Motion.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 605,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2021/12/027-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-26-Brief-Memorandum-in-Support-of-Motion.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/027-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-26-Brief-Memorandum-in-Support-of-Motion.pdf"
+      },
+      {
+        "filename": "109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 52,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf"
+      },
+      {
+        "filename": "125742_S1_M5_CRF_c4591001-1092-10921208.pdf",
+        "module": "M5",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 168,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/07/125742_S1_M5_CRF_c4591001-1092-10921208.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/07/125742_S1_M5_CRF_c4591001-1092-10921208.pdf"
+      },
+      {
+        "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3032172.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "BLA",
+        "batch_code": "md",
+        "pages": [
+          {
+            "page": 771,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S3_M5_CRF_mrna-1273-p301-us3032172.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3062018.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "BLA",
+        "batch_code": "md",
+        "pages": [
+          {
+            "page": 2102,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S3_M5_CRF_mrna-1273-p301-us3062018.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 2,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf"
+      }
+    ],
+    "(b)(1)(C)": [
+      {
+        "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 137,
+            "count": 1
+          },
+          {
+            "page": 144,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf"
+      },
+      {
+        "filename": "27073_S1_M1_eua-request-moderna-covid-19-vaccine.pdf",
+        "module": "M1",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 31,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "27073_S1_M2_clinical-overview.pdf",
+        "module": "M2",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 84,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "27073_S3_M1_vrbpac-briefing-doc.pdf",
+        "module": "M1",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 77,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-110325.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "27073_S8_M1_vrbpac-briefing-doc.pdf",
+        "module": "M1",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 77,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-110325.zip",
+        "ican_url": null
+      }
+    ],
+    "(b)(2)": [
+      {
+        "filename": "125742_S1_M1_meeting-correspondence.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 172,
+            "count": 1
+          },
+          {
+            "page": 214,
+            "count": 1
+          },
+          {
+            "page": 557,
+            "count": 1
+          },
+          {
+            "page": 614,
+            "count": 1
+          },
+          {
+            "page": 622,
+            "count": 1
+          }
+        ],
+        "total_hits": 5,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/10/125742_S1_M1_meeting-correspondence.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/10/125742_S1_M1_meeting-correspondence.pdf"
+      },
+      {
+        "filename": "12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 17,
+            "count": 3
+          }
+        ],
+        "total_hits": 4,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/09/12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf"
+      },
+      {
+        "filename": "125742_S1_M1_356h.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 2
+          },
+          {
+            "page": 3,
+            "count": 1
+          }
+        ],
+        "total_hits": 3,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf"
+      },
+      {
+        "filename": "125742_S2_M1_356h.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 2
+          },
+          {
+            "page": 3,
+            "count": 1
+          }
+        ],
+        "total_hits": 3,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf"
+      },
+      {
+        "filename": "019-ORDER-re-Conduct-an-in-person-Scheduling-Conference-and-submit-a-Joint-Status-Report-by-Jan-27-2023-2023-0.pdf",
+        "module": "Individual",
+        "company": null,
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 4,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/05/019-ORDER-re-Conduct-an-in-person-Scheduling-Conference-and-submit-a-Joint-Status-Report-by-Jan-27-2023-2023-0.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/019-ORDER-re-Conduct-an-in-person-Scheduling-Conference-and-submit-a-Joint-Status-Report-by-Jan-27-2023-2023-0.pdf"
+      },
+      {
+        "filename": "125742-45_02-07-2022_Memo_Filing-Checklist_RPM.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 16,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_02-07-2022_Memo_Filing-Checklist_RPM.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "017-Answer-2023-01-06.pdf",
+        "module": "Individual",
+        "company": null,
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 21,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/05/017-Answer-2023-01-06.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/017-Answer-2023-01-06.pdf"
+      },
+      {
+        "filename": "027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+        "module": "Individual",
+        "company": null,
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 36,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/05/027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf"
+      },
+      {
+        "filename": "047-PLAINTIFFS-RESPONSE-TO-PFIZER-INC.S-MOTION-FOR-LEAVE-TO-INTERVENE-FOR-A-LIMITED-PURPOSE.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 15,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2022/01/047-PLAINTIFFS-RESPONSE-TO-PFIZER-INC.S-MOTION-FOR-LEAVE-TO-INTERVENE-FOR-A-LIMITED-PURPOSE.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/047-PLAINTIFFS-RESPONSE-TO-PFIZER-INC.S-MOTION-FOR-LEAVE-TO-INTERVENE-FOR-A-LIMITED-PURPOSE.pdf"
+      },
+      {
+        "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 149,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf"
+      },
+      {
+        "filename": "94_BLA-125752-0_01-26-2022_Memo_Other.pdf",
+        "module": "Individual",
+        "company": "Moderna",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 2,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2025/05/94_BLA-125752-0_01-26-2022_Memo_Other.pdf",
+        "ican_url": null
+      }
+    ],
+    "(b)(1)": [
+      {
+        "filename": "125752_S3_M5_5314_eua-roche-elecsys-ifu.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "BLA",
+        "batch_code": "md",
+        "pages": [
+          {
+            "page": 3,
+            "count": 2
+          },
+          {
+            "page": 20,
+            "count": 2
+          },
+          {
+            "page": 23,
+            "count": 2
+          }
+        ],
+        "total_hits": 6,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2024/11/125752_S3_M5_5314_eua-roche-elecsys-ifu.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "125742_S116_M1_pp-cvv-usa-0387.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 4,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0387.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0387.pdf"
+      },
+      {
+        "filename": "125742_S116_M1_pp-cvv-usa-0389.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 3,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0389.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S116_M1_pp-cvv-usa-0389.pdf"
+      },
+      {
+        "filename": "125742_S118_M1_pp-cvv-usa-0426.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 4,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S118_M1_pp-cvv-usa-0426.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S118_M1_pp-cvv-usa-0426.pdf"
+      },
+      {
+        "filename": "125742_S131_M1_pp-cvv-usa-0391.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 6,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0391.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0391.pdf"
+      },
+      {
+        "filename": "125742_S131_M1_pp-cvv-usa-0432.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 5,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0432.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S131_M1_pp-cvv-usa-0432.pdf"
+      },
+      {
+        "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 144,
+            "count": 1
+          },
+          {
+            "page": 148,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf"
+      },
+      {
+        "filename": "125742_S88_M1_pp-cvv-usa-0378.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 4,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S88_M1_pp-cvv-usa-0378.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S88_M1_pp-cvv-usa-0378.pdf"
+      },
+      {
+        "filename": "19745_S73_M5_5314_21120-517-report.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 12,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "19745_S73_M5_5314_21120-578-approved.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 7,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "19745_S73_M5_5314_21120-705-report.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 37,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "19745_S73_M5_5314_21120-9152-report.pdf",
+        "module": "M5",
+        "company": "Moderna",
+        "license": "EUA",
+        "batch_code": "md-eua",
+        "pages": [
+          {
+            "page": 10,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-010226.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "27034_S24_M1_thermal-shipping-instructions.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "EUA",
+        "batch_code": "pd-eua",
+        "pages": [
+          {
+            "page": 1,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://p1215data0612.s3.us-east-2.amazonaws.com/pdocs/multiple/pd-eua-production-051925.zip",
+        "ican_url": null
+      },
+      {
+        "filename": "94_BLA-125752-0_01-26-2022_Memo_Other.pdf",
+        "module": "Individual",
+        "company": "Moderna",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          },
+          {
+            "page": 2,
+            "count": 1
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2025/05/94_BLA-125752-0_01-26-2022_Memo_Other.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 70,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2021/12/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf"
+      },
+      {
+        "filename": "111521-Second-Joint-Status-Report.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 2,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2021/11/111521-Second-Joint-Status-Report.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf"
+      },
+      {
+        "filename": "125742_S1_M1_356h.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/125742_S1_M1_356h.pdf"
+      },
+      {
+        "filename": "125742_S2_M1_356h.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 1,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/10/125742_S2_M1_356h.pdf"
+      },
+      {
+        "filename": "125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+        "module": "M1",
+        "company": "Pfizer",
+        "license": "BLA",
+        "batch_code": "pd",
+        "pages": [
+          {
+            "page": 20,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/08/125742_S65_M1_pp-cvv-usa-0349-01.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/08/125742_S65_M1_pp-cvv-usa-0349-01.pdf"
+      }
+    ],
+    "(b)(1)(B)": [
+      {
+        "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 15,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2022/01/041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf"
+      }
+    ],
+    "(b)(3)": [
+      {
+        "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 15,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2022/01/041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf"
+      }
+    ],
+    "(b)(7)(E)": [
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 3,
+            "count": 1
+          },
+          {
+            "page": 6,
+            "count": 2
+          },
+          {
+            "page": 10,
+            "count": 1
+          },
+          {
+            "page": 12,
+            "count": 2
+          },
+          {
+            "page": 14,
+            "count": 2
+          },
+          {
+            "page": 18,
+            "count": 1
+          },
+          {
+            "page": 19,
+            "count": 3
+          }
+        ],
+        "total_hits": 12,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf"
+      },
+      {
+        "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+        "module": "Individual",
+        "company": "Moderna",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 1,
+            "count": 2
+          },
+          {
+            "page": 2,
+            "count": 2
+          },
+          {
+            "page": 3,
+            "count": 1
+          },
+          {
+            "page": 4,
+            "count": 2
+          },
+          {
+            "page": 6,
+            "count": 2
+          },
+          {
+            "page": 7,
+            "count": 1
+          }
+        ],
+        "total_hits": 10,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2025/05/93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+        "ican_url": null
+      },
+      {
+        "filename": "120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 11,
+            "count": 3
+          },
+          {
+            "page": 50,
+            "count": 1
+          },
+          {
+            "page": 66,
+            "count": 1
+          },
+          {
+            "page": 124,
+            "count": 1
+          }
+        ],
+        "total_hits": 6,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf"
+      },
+      {
+        "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 3,
+            "count": 3
+          }
+        ],
+        "total_hits": 3,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100A_BLA-125742-0_08-20-2021_Memo_Other.pdf"
+      },
+      {
+        "filename": "100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 3,
+            "count": 3
+          }
+        ],
+        "total_hits": 3,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/100_BLA-125742-0_08-20-2021_Memo_Other.pdf"
+      },
+      {
+        "filename": "118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 1,
+            "count": 2
+          }
+        ],
+        "total_hits": 2,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf"
+      },
+      {
+        "filename": "109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 52,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf"
+      },
+      {
+        "filename": "62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 2,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf"
+      }
+    ],
+    "(b)(9)": [
+      {
+        "filename": "111521-Second-Joint-Status-Report.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 2,
+            "count": 1
+          }
+        ],
+        "total_hits": 1,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2021/11/111521-Second-Joint-Status-Report.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf"
+      }
+    ],
+    "(b)(7)(C)": [
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 7,
+            "count": 2
+          },
+          {
+            "page": 8,
+            "count": 1
+          },
+          {
+            "page": 11,
+            "count": 6
+          },
+          {
+            "page": 12,
+            "count": 2
+          },
+          {
+            "page": 13,
+            "count": 1
+          },
+          {
+            "page": 14,
+            "count": 4
+          },
+          {
+            "page": 15,
+            "count": 5
+          },
+          {
+            "page": 16,
+            "count": 1
+          },
+          {
+            "page": 17,
+            "count": 6
+          },
+          {
+            "page": 18,
+            "count": 1
+          },
+          {
+            "page": 19,
+            "count": 6
+          },
+          {
+            "page": 20,
+            "count": 2
+          },
+          {
+            "page": 21,
+            "count": 2
+          },
+          {
+            "page": 22,
+            "count": 2
+          },
+          {
+            "page": 23,
+            "count": 1
+          },
+          {
+            "page": 25,
+            "count": 1
+          },
+          {
+            "page": 27,
+            "count": 1
+          },
+          {
+            "page": 28,
+            "count": 2
+          },
+          {
+            "page": 29,
+            "count": 1
+          },
+          {
+            "page": 30,
+            "count": 1
+          },
+          {
+            "page": 31,
+            "count": 1
+          },
+          {
+            "page": 32,
+            "count": 1
+          },
+          {
+            "page": 33,
+            "count": 1
+          },
+          {
+            "page": 34,
+            "count": 1
+          },
+          {
+            "page": 35,
+            "count": 1
+          },
+          {
+            "page": 36,
+            "count": 2
+          },
+          {
+            "page": 37,
+            "count": 1
+          },
+          {
+            "page": 38,
+            "count": 1
+          },
+          {
+            "page": 39,
+            "count": 1
+          },
+          {
+            "page": 40,
+            "count": 1
+          },
+          {
+            "page": 41,
+            "count": 1
+          },
+          {
+            "page": 43,
+            "count": 7
+          },
+          {
+            "page": 44,
+            "count": 6
+          },
+          {
+            "page": 46,
+            "count": 2
+          },
+          {
+            "page": 47,
+            "count": 2
+          },
+          {
+            "page": 48,
+            "count": 3
+          },
+          {
+            "page": 49,
+            "count": 4
+          },
+          {
+            "page": 50,
+            "count": 3
+          },
+          {
+            "page": 51,
+            "count": 3
+          },
+          {
+            "page": 52,
+            "count": 1
+          },
+          {
+            "page": 53,
+            "count": 1
+          },
+          {
+            "page": 54,
+            "count": 3
+          },
+          {
+            "page": 55,
+            "count": 4
+          },
+          {
+            "page": 58,
+            "count": 2
+          },
+          {
+            "page": 59,
+            "count": 5
+          },
+          {
+            "page": 60,
+            "count": 6
+          },
+          {
+            "page": 61,
+            "count": 4
+          },
+          {
+            "page": 63,
+            "count": 2
+          },
+          {
+            "page": 64,
+            "count": 1
+          },
+          {
+            "page": 65,
+            "count": 2
+          },
+          {
+            "page": 66,
+            "count": 2
+          },
+          {
+            "page": 67,
+            "count": 1
+          },
+          {
+            "page": 68,
+            "count": 4
+          },
+          {
+            "page": 69,
+            "count": 3
+          },
+          {
+            "page": 70,
+            "count": 2
+          },
+          {
+            "page": 71,
+            "count": 1
+          },
+          {
+            "page": 75,
+            "count": 3
+          },
+          {
+            "page": 76,
+            "count": 9
+          },
+          {
+            "page": 77,
+            "count": 1
+          },
+          {
+            "page": 78,
+            "count": 4
+          },
+          {
+            "page": 79,
+            "count": 2
+          }
+        ],
+        "total_hits": 153,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf"
+      },
+      {
+        "filename": "92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+        "module": "Individual",
+        "company": "Pfizer",
+        "license": null,
+        "batch_code": null,
+        "pages": [
+          {
+            "page": 3,
+            "count": 5
+          },
+          {
+            "page": 6,
+            "count": 5
+          },
+          {
+            "page": 7,
+            "count": 5
+          },
+          {
+            "page": 8,
+            "count": 9
+          },
+          {
+            "page": 9,
+            "count": 10
+          },
+          {
+            "page": 10,
+            "count": 2
+          },
+          {
+            "page": 11,
+            "count": 2
+          },
+          {
+            "page": 12,
+            "count": 1
+          },
+          {
+            "page": 15,
+            "count": 1
+          },
+          {
+            "page": 16,
+            "count": 5
+          },
+          {
+            "page": 17,
+            "count": 4
+          },
+          {
+            "page": 18,
+            "count": 2
+          },
+          {
+            "page": 19,
+            "count": 3
+          },
+          {
+            "page": 20,
+            "count": 3
+          },
+          {
+            "page": 21,
+            "count": 3
+          },
+          {
+            "page": 22,
+            "count": 1
+          },
+          {
+            "page": 23,
+            "count": 3
+          },
+          {
+            "page": 24,
+            "count": 2
+          },
+          {
+            "page": 25,
+            "count": 2
+          },
+          {
+            "page": 26,
+            "count": 5
+          },
+          {
+            "page": 27,
+            "count": 4
+          },
+          {
+            "page": 29,
+            "count": 2
+          },
+          {
+            "page": 30,
+            "count": 1
+          },
+          {
+            "page": 31,
+            "count": 3
+          },
+          {
+            "page": 33,
+            "count": 8
+          },
+          {
+            "page": 34,
+            "count": 4
+          },
+          {
+            "page": 35,
+            "count": 1
+          },
+          {
+            "page": 36,
+            "count": 5
+          },
+          {
+            "page": 37,
+            "count": 4
+          },
+          {
+            "page": 38,
+            "count": 3
+          },
+          {
+            "page": 39,
+            "count": 2
+          },
+          {
+            "page": 47,
+            "count": 3
+          },
+          {
+            "page": 53,
+            "count": 2
+          },
+          {
+            "page": 54,
+            "count": 5
+          },
+          {
+            "page": 55,
+            "count": 2
+          },
+          {
+            "page": 56,
+            "count": 3
+          },
+          {
+            "page": 58,
+            "count": 3
+          },
+          {
+            "page": 65,
+            "count": 1
+          },
+          {
+            "page": 71,
+            "count": 5
+          },
+          {
+            "page": 75,
+            "count": 7
+          },
+          {
+            "page": 76,
+            "count": 5
+          },
+          {
+            "page": 77,
+            "count": 3
+          }
+        ],
+        "total_hits": 149,
+        "phmpt_url": "https://phmpt.org/wp-content/uploads/2023/11/92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+        "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf"
+      }
+    ]
+  }
+}

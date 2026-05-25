@@ -25,7 +25,8 @@ INDIVIDUAL_SOURCES = [
     DATA / "individual_exemptions.json",
     DATA / "individual_phmpt_exemptions.json",
 ]
-OUT = DATA / "exemptions.json"
+# Web-facing aggregate consumed by docs/exemptions.html.
+OUT = ROOT / "docs" / "data" / "exemptions.json"
 
 
 def main() -> None:

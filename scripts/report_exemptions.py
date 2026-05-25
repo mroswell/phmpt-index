@@ -20,9 +20,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-IN = DATA / "exemptions.json"
-OUT_MD = DATA / "exemptions_report.md"
-OUT_JSON = DATA / "exemptions_report.json"
+WEB = ROOT / "docs" / "data"
+IN = WEB / "exemptions.json"   # produced by aggregate_exemptions.py
+OUT_MD = WEB / "exemptions_report.md"
+OUT_JSON = WEB / "exemptions_report.json"
 
 # batch_code → age_group (mirrors BATCH_META in scripts/build_index.py)
 BATCH_TO_AGE = {

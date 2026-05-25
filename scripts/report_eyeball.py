@@ -28,9 +28,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-INDEX = ROOT / "docs" / "data" / "index.json"
+WEB = ROOT / "docs" / "data"
+INDEX = WEB / "index.json"
 ICAN = DATA / "ican_comparison.json"
-SLIM = DATA / "exemptions.json"
+SLIM = WEB / "exemptions.json"   # produced by aggregate_exemptions.py
 
 # "Rare" = everything other than the two dominant exemption types
 # (b)(4) trade secrets and (b)(6) personal privacy. Includes the new
@@ -59,8 +60,11 @@ EXEMPTION_DESC = {
     "(b)(9)": "Geological / geophysical information",
 }
 
-OUT_RARE = DATA / "rare_exemptions_report.md"
-OUT_PERFILE = DATA / "per_file_report_non_m5.md"
+OUT_RARE = WEB / "rare_exemptions_report.md"
+OUT_PERFILE = WEB / "per_file_report_non_m5.md"
+# Structured JSON of rare-exemption hits (consumed by docs/exemptions.html
+# "rare exemptions" section so it doesn't have to parse markdown).
+OUT_RARE_JSON = WEB / "rare_exemptions.json"
 
 
 def load_url_map() -> tuple[dict[str, dict], dict[str, str]]:
@@ -226,6 +230,46 @@ def build_rare_report(phmpt_url_map: dict, ican_url_map: dict) -> None:
 
     OUT_RARE.write_text("\n".join(lines))
     print(f"Wrote: {OUT_RARE}  ({total_files} rows, {total_occurrences} occurrences)")
+
+    # Also emit a structured JSON for docs/exemptions.html to render
+    rare_json = {
+        "summary": {
+            "total_occurrences": total_occurrences,
+            "file_marker_combos": total_files,
+            "by_marker": {
+                m: sum(c for _, c in sum((r["page_hits"] for r in rows), []))
+                for m, rows in by_exemption.items()
+            },
+            "descriptions": EXEMPTION_DESC,
+        },
+        # Per-marker list of {filename, module, company, license, batch_code,
+        # pages: [{page, count}], phmpt_url, ican_url}
+        "by_marker": {
+            marker: [
+                {
+                    "filename": r["filename"],
+                    "module": r["module"],
+                    "company": r.get("company"),
+                    "license": r.get("license"),
+                    "batch_code": r.get("batch_code"),
+                    "pages": [{"page": p, "count": c} for p, c in r["page_hits"]],
+                    "total_hits": sum(c for _, c in r["page_hits"]),
+                    "phmpt_url": (
+                        phmpt_url_map.get(r["filename"], {}).get("individual_url")
+                        or phmpt_url_map.get(r["filename"], {}).get("zip_url")
+                    ),
+                    "ican_url": ican_url_map.get(r["filename"]),
+                }
+                for r in sorted(
+                    rows,
+                    key=lambda x: (-sum(c for _, c in x["page_hits"]), x["filename"]),
+                )
+            ]
+            for marker, rows in by_exemption.items()
+        },
+    }
+    OUT_RARE_JSON.write_text(json.dumps(rare_json, indent=2))
+    print(f"Wrote: {OUT_RARE_JSON}")
 
 
 # --- Report 2: per-file non-M5 ----------------------------------------------
