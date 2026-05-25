@@ -49,8 +49,10 @@ INDEX = ROOT / "docs" / "data" / "index.json"
 ICAN_COMPARISON = DATA / "ican_comparison.json"
 CACHE = DATA / "cache" / "pharmacovigilance"
 INDIVIDUAL_PDF_CACHE = DATA / "cache" / "individual_pdfs"
-OUT_JSON = DATA / "pharmacovigilance.json"
-OUT_MD = DATA / "pharmacovigilance_report.md"
+# Web-facing outputs live in docs/data/ so the pharmacovigilance.html
+# browse page can fetch them with a relative URL.
+OUT_JSON = ROOT / "docs" / "data" / "pharmacovigilance.json"
+OUT_MD = ROOT / "docs" / "data" / "pharmacovigilance_report.md"
 
 # Term name -> compiled regex.
 # Order in the dict drives section order in the report.
