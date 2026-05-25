@@ -1,0 +1,322 @@
+{
+  "source": "data/exemptions.json",
+  "file_records": 6145,
+  "exemption_by_module": {
+    "file_counts": {
+      "M1": 1172,
+      "M2": 63,
+      "M3": 369,
+      "M4": 145,
+      "M5": 4396
+    },
+    "markers": {
+      "M1": {
+        "(b)(6)": 51001,
+        "(b)(4)": 7610,
+        "(b)(5)": 3,
+        "(b)(7)(A)": 1,
+        "(b)(1)(C)": 5,
+        "(b)(2)": 12,
+        "(b)(1)": 19
+      },
+      "M2": {
+        "(b)(4)": 1468,
+        "(b)(6)": 5,
+        "(b)(1)(C)": 1
+      },
+      "M3": {
+        "(b)(4)": 5517,
+        "(b)(6)": 791
+      },
+      "M4": {
+        "(b)(6)": 3574,
+        "(b)(4)": 5305
+      },
+      "M5": {
+        "(b)(4)": 8130314,
+        "(b)(6)": 3402296,
+        "(b)(7)(A)": 1,
+        "(b)(5)": 3,
+        "(b)(1)": 14
+      }
+    }
+  },
+  "exemption_by_company": {
+    "file_counts": {
+      "Pfizer": 2821,
+      "Moderna": 3324
+    },
+    "markers": {
+      "Moderna": {
+        "(b)(6)": 3020525,
+        "(b)(4)": 7391162,
+        "(b)(5)": 5,
+        "(b)(7)(A)": 2,
+        "(b)(1)(C)": 4,
+        "(b)(1)": 14
+      },
+      "Pfizer": {
+        "(b)(6)": 437142,
+        "(b)(4)": 759052,
+        "(b)(2)": 12,
+        "(b)(1)": 19,
+        "(b)(1)(C)": 2,
+        "(b)(5)": 1
+      }
+    }
+  },
+  "exemption_by_license": {
+    "file_counts": {
+      "Unknown": 40,
+      "BLA": 4870,
+      "EUA": 1235
+    },
+    "markers": {
+      "BLA": {
+        "(b)(6)": 3226214,
+        "(b)(4)": 7590399,
+        "(b)(5)": 6,
+        "(b)(7)(A)": 2,
+        "(b)(2)": 12,
+        "(b)(1)": 23,
+        "(b)(1)(C)": 2
+      },
+      "EUA": {
+        "(b)(4)": 559815,
+        "(b)(6)": 231453,
+        "(b)(1)(C)": 4,
+        "(b)(1)": 10
+      }
+    }
+  },
+  "exemption_by_age_group": {
+    "file_counts": {
+      "Unknown": 40,
+      "adult": 3312,
+      "12-15": 363,
+      "16+": 2430
+    },
+    "markers": {
+      "adult": {
+        "(b)(6)": 3020525,
+        "(b)(4)": 7391162,
+        "(b)(5)": 5,
+        "(b)(7)(A)": 2,
+        "(b)(1)(C)": 4,
+        "(b)(1)": 14
+      },
+      "12-15": {
+        "(b)(6)": 14249,
+        "(b)(4)": 27882
+      },
+      "16+": {
+        "(b)(2)": 12,
+        "(b)(1)": 19,
+        "(b)(6)": 422893,
+        "(b)(4)": 731170,
+        "(b)(1)(C)": 2,
+        "(b)(5)": 1
+      }
+    }
+  },
+  "module_by_company": {
+    "M1": {
+      "Pfizer": {
+        "file_count": 694,
+        "total_markers": 9836
+      },
+      "Moderna": {
+        "file_count": 478,
+        "total_markers": 48815
+      }
+    },
+    "M2": {
+      "Pfizer": {
+        "file_count": 35,
+        "total_markers": 765
+      },
+      "Moderna": {
+        "file_count": 28,
+        "total_markers": 709
+      }
+    },
+    "M3": {
+      "Moderna": {
+        "file_count": 305,
+        "total_markers": 4390
+      },
+      "Pfizer": {
+        "file_count": 64,
+        "total_markers": 1918
+      }
+    },
+    "M4": {
+      "Pfizer": {
+        "file_count": 88,
+        "total_markers": 4753
+      },
+      "Moderna": {
+        "file_count": 57,
+        "total_markers": 4126
+      }
+    },
+    "M5": {
+      "Pfizer": {
+        "file_count": 1940,
+        "total_markers": 1178956
+      },
+      "Moderna": {
+        "file_count": 2456,
+        "total_markers": 10353672
+      }
+    }
+  },
+  "module_by_license": {
+    "M1": {
+      "Unknown": {
+        "file_count": 1,
+        "total_markers": 0
+      },
+      "BLA": {
+        "file_count": 877,
+        "total_markers": 55827
+      },
+      "EUA": {
+        "file_count": 294,
+        "total_markers": 2824
+      }
+    },
+    "M2": {
+      "Unknown": {
+        "file_count": 4,
+        "total_markers": 0
+      },
+      "BLA": {
+        "file_count": 42,
+        "total_markers": 1395
+      },
+      "EUA": {
+        "file_count": 17,
+        "total_markers": 79
+      }
+    },
+    "M3": {
+      "BLA": {
+        "file_count": 299,
+        "total_markers": 4087
+      },
+      "EUA": {
+        "file_count": 70,
+        "total_markers": 2221
+      }
+    },
+    "M4": {
+      "Unknown": {
+        "file_count": 23,
+        "total_markers": 0
+      },
+      "BLA": {
+        "file_count": 69,
+        "total_markers": 8019
+      },
+      "EUA": {
+        "file_count": 53,
+        "total_markers": 860
+      }
+    },
+    "M5": {
+      "Unknown": {
+        "file_count": 12,
+        "total_markers": 0
+      },
+      "BLA": {
+        "file_count": 3583,
+        "total_markers": 10747330
+      },
+      "EUA": {
+        "file_count": 801,
+        "total_markers": 785298
+      }
+    }
+  },
+  "module_by_age_group": {
+    "M1": {
+      "Unknown": {
+        "file_count": 1,
+        "total_markers": 0
+      },
+      "adult": {
+        "file_count": 478,
+        "total_markers": 48815
+      },
+      "12-15": {
+        "file_count": 98,
+        "total_markers": 1270
+      },
+      "16+": {
+        "file_count": 595,
+        "total_markers": 8566
+      }
+    },
+    "M2": {
+      "Unknown": {
+        "file_count": 4,
+        "total_markers": 0
+      },
+      "adult": {
+        "file_count": 28,
+        "total_markers": 709
+      },
+      "12-15": {
+        "file_count": 2,
+        "total_markers": 0
+      },
+      "16+": {
+        "file_count": 29,
+        "total_markers": 765
+      }
+    },
+    "M3": {
+      "adult": {
+        "file_count": 305,
+        "total_markers": 4390
+      },
+      "16+": {
+        "file_count": 64,
+        "total_markers": 1918
+      }
+    },
+    "M4": {
+      "Unknown": {
+        "file_count": 23,
+        "total_markers": 0
+      },
+      "adult": {
+        "file_count": 50,
+        "total_markers": 4126
+      },
+      "16+": {
+        "file_count": 72,
+        "total_markers": 4753
+      }
+    },
+    "M5": {
+      "Unknown": {
+        "file_count": 12,
+        "total_markers": 0
+      },
+      "adult": {
+        "file_count": 2451,
+        "total_markers": 10353672
+      },
+      "12-15": {
+        "file_count": 263,
+        "total_markers": 40861
+      },
+      "16+": {
+        "file_count": 1670,
+        "total_markers": 1138095
+      }
+    }
+  }
+}
