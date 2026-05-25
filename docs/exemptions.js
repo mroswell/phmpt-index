@@ -171,17 +171,20 @@
       for (const r of rows) {
         const pagesStr = r.pages.map((p) => p.page).join(", ");
         const totalHits = r.total_hits;
-        // Build link cell: prefer ican_url (no Cloudflare friction) when present
-        const url = r.phmpt_url || r.ican_url;
         const filename = r.filename;
-        const fileCell = url
-          ? `<a href="${url}" target="_blank" rel="noopener">${filename}</a>`
-          : filename;
+        // Filename hyperlink: prefer PHMPT (the canonical source), fall back
+        // to ICAN if PHMPT has no individual URL for this file.
+        const fileUrl = r.phmpt_url || r.ican_url;
+        const fileCell = fileUrl
+          ? `<a href="${fileUrl}" target="_blank" rel="noopener"><code>${filename}</code></a>`
+          : `<code>${filename}</code>`;
+        // Link column lists every available source separately so the user
+        // can choose (ICAN avoids the Cloudflare challenge).
         let linkParts = [];
         if (r.phmpt_url) linkParts.push(`<a href="${r.phmpt_url}" target="_blank" rel="noopener">PHMPT</a>`);
         if (r.ican_url)  linkParts.push(`<a href="${r.ican_url}"  target="_blank" rel="noopener">ICAN</a>`);
         html += `<tr>
-          <td class="filename-cell"><code>${filename}</code></td>
+          <td class="filename-cell">${fileCell}</td>
           <td>${r.module || ""}</td>
           <td>${r.company || ""}</td>
           <td>${r.license || ""}</td>

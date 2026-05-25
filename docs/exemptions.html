@@ -223,6 +223,8 @@
       align-self: end;  /* aligns with the bottom of labeled filters */
     }
     .segctrl > label {
+      position: relative;       /* contain the absolutely-positioned radio */
+      white-space: nowrap;      /* keep "Exclude CRFs" on one line */
       cursor: pointer;
       user-select: none;
       padding: 6px 14px;
