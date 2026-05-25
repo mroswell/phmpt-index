@@ -8,6 +8,7 @@ dependencies = [
     "httpx>=0.28.1",
     "playwright>=1.60.0",
     "pymupdf>=1.27.2.3",
+    "pytesseract>=0.3.13",
     "tqdm>=4.67.3",
     "zipfile-deflate64>=0.2.0",
 ]

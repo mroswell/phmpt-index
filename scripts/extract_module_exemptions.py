@@ -33,6 +33,8 @@ import fitz  # PyMuPDF
 import zipfile_deflate64 as zipfile  # matches scripts/extract_toc.py
 from tqdm import tqdm
 
+from _pdf_text import get_page_text  # OCR-aware text extraction
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ZIPS_DIR = DATA / "zips"
@@ -47,8 +49,12 @@ def normalize_marker(num: str, subpart: str | None) -> str:
     return f"(b)({num})" + (f"({subpart})" if subpart else "")
 
 
-def scan_pdf_bytes(pdf_bytes: bytes) -> dict:
-    """Scan PDF bytes for exemption markers; return per-page record."""
+def scan_pdf_bytes(pdf_bytes: bytes, filename: str) -> dict:
+    """Scan PDF bytes for exemption markers; return per-page record.
+
+    Uses the OCR cache via get_page_text() so image-only pages still
+    contribute when they've been processed by extract_ocr_text.py.
+    """
     try:
         doc = fitz.open(stream=pdf_bytes, filetype="pdf")
     except Exception as e:
@@ -61,8 +67,12 @@ def scan_pdf_bytes(pdf_bytes: bytes) -> dict:
     try:
         for page_num in range(total_pages):
             page = doc.load_page(page_num)
-            text = page.get_text("text") or ""
+            text = get_page_text(filename, page, page_num + 1,
+                                 ocr_threshold=OCR_TEXT_THRESHOLD)
 
+            # Still flag as ocr_candidate if the page yielded too little
+            # text — even after consulting OCR cache. That way a future
+            # OCR re-run can target only the pages still missing.
             if len(text.strip()) < OCR_TEXT_THRESHOLD:
                 ocr_candidate_pages.append(page_num + 1)
 
@@ -174,7 +184,7 @@ def main(module: str, rebuild: bool = False) -> None:
                     else:
                         with zf.open(info) as f:
                             pdf_bytes = f.read()
-                        scan = scan_pdf_bytes(pdf_bytes)
+                        scan = scan_pdf_bytes(pdf_bytes, fname)
                     cache_path.write_text(json.dumps(scan, indent=2))
 
                 if "error" in scan:

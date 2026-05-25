@@ -42,6 +42,8 @@ import fitz  # PyMuPDF
 import zipfile_deflate64 as zipfile
 from tqdm import tqdm
 
+from _pdf_text import get_page_text  # OCR-aware text extraction
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ZIPS_DIR = DATA / "zips"
@@ -82,7 +84,7 @@ def find_matches(text: str) -> list[dict]:
     return hits
 
 
-def scan_pdf_bytes(pdf_bytes: bytes) -> dict:
+def scan_pdf_bytes(pdf_bytes: bytes, filename: str) -> dict:
     """Open PDF; return {total_pages, matches: [{page, term, context}, ...]}."""
     try:
         doc = fitz.open(stream=pdf_bytes, filetype="pdf")
@@ -92,7 +94,8 @@ def scan_pdf_bytes(pdf_bytes: bytes) -> dict:
     matches: list[dict] = []
     try:
         for page_num in range(total_pages):
-            text = doc.load_page(page_num).get_text("text") or ""
+            page = doc.load_page(page_num)
+            text = get_page_text(filename, page, page_num + 1)
             for hit in find_matches(text):
                 matches.append({"page": page_num + 1, **hit})
     finally:
@@ -187,7 +190,7 @@ def main(include_m3: bool = False, rebuild: bool = False) -> None:
         elif pdf_bytes is None:
             return  # nothing to scan and no cache
         else:
-            scan = scan_pdf_bytes(pdf_bytes)
+            scan = scan_pdf_bytes(pdf_bytes, fname)
             cache_path.write_text(json.dumps(scan, indent=2))
 
         record = {

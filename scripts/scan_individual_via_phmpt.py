@@ -40,6 +40,8 @@ import fitz  # PyMuPDF
 from curl_cffi import requests as curl_requests
 from tqdm import tqdm
 
+from _pdf_text import get_page_text  # OCR-aware text extraction
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 INDEX = ROOT / "docs" / "data" / "index.json"
@@ -61,7 +63,7 @@ def normalize_marker(num: str, subpart: str | None) -> str:
     return f"(b)({num})" + (f"({subpart})" if subpart else "")
 
 
-def scan_pdf_bytes(pdf_bytes: bytes) -> dict:
+def scan_pdf_bytes(pdf_bytes: bytes, filename: str) -> dict:
     try:
         doc = fitz.open(stream=pdf_bytes, filetype="pdf")
     except Exception as e:
@@ -72,7 +74,8 @@ def scan_pdf_bytes(pdf_bytes: bytes) -> dict:
     try:
         for page_num in range(total_pages):
             page = doc.load_page(page_num)
-            text = page.get_text("text") or ""
+            text = get_page_text(filename, page, page_num + 1,
+                                 ocr_threshold=OCR_TEXT_THRESHOLD)
             if len(text.strip()) < OCR_TEXT_THRESHOLD:
                 ocr_candidate_pages.append(page_num + 1)
             per_marker: Counter[str] = Counter()
@@ -250,7 +253,7 @@ def main(rebuild: bool = False) -> None:
 
         consecutive_403 = 0
         cache_pdf.write_bytes(body)
-        scan = scan_pdf_bytes(body)
+        scan = scan_pdf_bytes(body, fname)
         cache_ex.write_text(json.dumps(scan, indent=2))
 
         if "error" in scan:

@@ -27,5 +27,9 @@ data/M5_exemptions.json
 data/individual_exemptions.json
 data/individual_phmpt_exemptions.json
 
+# OCR text cache + statute scan cache
+data/cache/ocr_text/
+data/cache/statutes/
+
 # macOS junk
 .DS_Store
