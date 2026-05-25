@@ -140,8 +140,9 @@
     const root = $("rare-body");
     root.innerHTML = "";
 
+    // Sort markers by total_occurrences desc
     const order = Object.entries(rareDoc.summary.by_marker)
-      .sort((a, b) => b[1] - a[1]);
+      .sort((a, b) => b[1].total - a[1].total);
     if (order.length === 0) {
       root.textContent = "No rare exemption hits.";
       return;
@@ -150,52 +151,65 @@
     const intro = document.createElement("p");
     intro.style.fontSize = "13px";
     intro.style.color = "var(--muted)";
-    intro.textContent =
-      `${rareDoc.summary.total_occurrences.toLocaleString()} occurrences across ` +
-      `${rareDoc.summary.file_marker_combos} file × marker combos. ` +
-      `A single file may appear under multiple rare types.`;
+    intro.innerHTML =
+      `<strong>${rareDoc.summary.total_occurrences.toLocaleString()} occurrences</strong> across ` +
+      `${rareDoc.summary.file_marker_combos} file × marker combo(s). ` +
+      `Each marker is categorized as either an actual <span style="background:#e3f7e3;padding:1px 5px;border-radius:3px;color:#2a6e2a;font-weight:600">Redaction</span> ` +
+      `or a <span style="background:#fff3a8;padding:1px 5px;border-radius:3px;color:#7a5a00;font-weight:600">Mentions exemption</span> ` +
+      `(body-text reference to the FOIA statute, e.g. <code>5 U.S.C. § 552(b)(5)</code>). ` +
+      `Hits where the <code>(b)(N)</code> pattern matched a different statute (FD&C Act, 21 CFR, etc.) have been excluded — they'll surface on a future "Other statutes" page.`;
     root.appendChild(intro);
 
-    for (const [marker, total] of order) {
-      const rows = rareDoc.by_marker[marker] || [];
-      const desc = rareDoc.summary.descriptions[marker] || "";
-
-      const wrap = document.createElement("div");
-      wrap.className = "rare-marker";
-      wrap.innerHTML = `
-        <h3><code>${marker}</code> — ${desc}</h3>
-        <p class="desc">${total.toLocaleString()} occurrence(s) across ${rows.length} file(s).</p>`;
-
-      const table = document.createElement("table");
-      let html = "<thead><tr><th>File</th><th>Module</th><th>Co.</th><th>Lic.</th><th>Hits</th><th>Pages</th><th>Link</th></tr></thead><tbody>";
+    const renderFileTable = (label, badgeClass, rows) => {
+      if (!rows.length) return "";
+      let html = `<h4 style="margin:14px 0 6px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em">${label} — ${rows.length} file(s)</h4>`;
+      html += `<table><thead><tr><th>File</th><th>Module</th><th>Co.</th><th>Lic.</th><th>Hits</th><th>Pages</th><th>Link</th></tr></thead><tbody>`;
       for (const r of rows) {
         const pagesStr = r.pages.map((p) => p.page).join(", ");
         const totalHits = r.total_hits;
         const filename = r.filename;
-        // Filename hyperlink: prefer PHMPT (the canonical source), fall back
-        // to ICAN if PHMPT has no individual URL for this file.
         const fileUrl = r.phmpt_url || r.ican_url;
         const fileCell = fileUrl
           ? `<a href="${fileUrl}" target="_blank" rel="noopener"><code>${filename}</code></a>`
           : `<code>${filename}</code>`;
-        // Link column lists every available source separately so the user
-        // can choose (ICAN avoids the Cloudflare challenge).
-        let linkParts = [];
+        const linkParts = [];
         if (r.phmpt_url) linkParts.push(`<a href="${r.phmpt_url}" target="_blank" rel="noopener">PHMPT</a>`);
         if (r.ican_url)  linkParts.push(`<a href="${r.ican_url}"  target="_blank" rel="noopener">ICAN</a>`);
+        // For "mention" rows, surface the first context snippet so it's
+        // immediately clear what the file is referring to.
+        const allContexts = r.pages.flatMap((p) => p.contexts || []);
+        const ctxRow = allContexts.length
+          ? `<tr class="ctx-row"><td colspan="7" style="background:#fffdf2;font-size:11px;color:#5a4500;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;padding:6px 12px;line-height:1.4">…${allContexts[0]}…</td></tr>`
+          : "";
         html += `<tr>
-          <td class="filename-cell">${fileCell}</td>
+          <td class="filename-cell"><span class="src-tag ${badgeClass}">${label.toLowerCase().includes("mention") ? "mention" : "redaction"}</span> ${fileCell}</td>
           <td>${r.module || ""}</td>
           <td>${r.company || ""}</td>
           <td>${r.license || ""}</td>
           <td>${totalHits}</td>
           <td class="pages-cell">${pagesStr}</td>
           <td>${linkParts.join(" · ") || "—"}</td>
-        </tr>`;
+        </tr>${ctxRow}`;
       }
-      html += "</tbody>";
-      table.innerHTML = html;
-      wrap.appendChild(table);
+      html += "</tbody></table>";
+      return html;
+    };
+
+    for (const [marker, b] of order) {
+      const bucket = rareDoc.by_marker[marker] || {redaction: [], mention: []};
+      const desc = rareDoc.summary.descriptions[marker] || "";
+
+      const wrap = document.createElement("div");
+      wrap.className = "rare-marker";
+      const breakdown = [];
+      if (b.redaction_hits) breakdown.push(`${b.redaction_hits} redaction(s) in ${b.redaction_files} file(s)`);
+      if (b.mention_hits)   breakdown.push(`${b.mention_hits} mention(s) in ${b.mention_files} file(s)`);
+      wrap.innerHTML = `
+        <h3><code>${marker}</code> — ${desc}</h3>
+        <p class="desc">${b.total.toLocaleString()} occurrence(s): ${breakdown.join(", ")}.</p>
+        ${renderFileTable("Redaction", "individual", bucket.redaction || [])}
+        ${renderFileTable("Mentions exemption", "ican", bucket.mention || [])}
+      `;
       root.appendChild(wrap);
     }
   }
