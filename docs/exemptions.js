@@ -206,6 +206,7 @@
     const src = $("f-source").value;
     const minMarkers = parseInt($("f-min").value, 10);
     const hasMinFilter = !Number.isNaN(minMarkers);
+    const cat = $("f-category").value;
 
     state.filteredRows = state.rows.filter((r) => {
       if (state.activeExemptions.size > 0) {
@@ -218,6 +219,10 @@
       if (lic && r.license !== lic) return false;
       if (src && r.source.kind !== src) return false;
       if (hasMinFilter && r.total_markers < minMarkers) return false;
+      // Category exclusion. CRFs (Case Report Forms) carry per-patient
+      // identifying info that's heavily (b)(6)-redacted by design;
+      // hiding them lets you see the rest of the corpus clearly.
+      if (cat === "non-crf" && r.isCRF) return false;
       return true;
     });
 
@@ -408,6 +413,11 @@
       };
       row.markers_per_page = row.total_pages > 0 ? row.total_markers / row.total_pages : null;
       row.source = sourceFor(row);
+      // Flag Case Report Forms by filename. Convention: "_CRF_" appears
+      // in the canonical eCTD section in the filename, but the substring
+      // "CRF" alone (case-insensitive) is unique enough — it never shows
+      // up in non-CRF FOIA filenames in this corpus.
+      row.isCRF = /CRF/i.test(row.filename);
       return row;
     });
 
@@ -423,12 +433,19 @@
     // Summary
     const totalFiles = state.rows.length;
     const totalMarkers = state.rows.reduce((s, r) => s + r.total_markers, 0);
+    const crfFiles = state.rows.filter((r) => r.isCRF).length;
+    const crfMarkers = state.rows.filter((r) => r.isCRF).reduce((s, r) => s + r.total_markers, 0);
     const haveIndividual = state.rows.filter((r) => r.source.kind === "individual").length;
     const haveIcan = state.rows.filter((r) => r.source.kind === "ican").length;
     const onlyZip = state.rows.filter((r) => r.source.kind === "zip").length;
     $("summary").innerHTML =
       `<span class="stat"><span class="num">${totalFiles.toLocaleString()}</span> files with at least one redaction marker</span>` +
       `<span class="stat"><span class="num">${totalMarkers.toLocaleString()}</span> total markers</span>` +
+      `<span class="stat" title="CRFs carry per-patient identifying data that's heavily (b)(6)-redacted by design — use the Category filter to hide them.">` +
+        `<span class="num">${crfFiles.toLocaleString()}</span> are CRFs ` +
+        `(${((crfFiles / totalFiles) * 100).toFixed(0)}% of files, ` +
+        `${((crfMarkers / totalMarkers) * 100).toFixed(0)}% of markers)` +
+      `</span>` +
       `<span class="stat"><span class="num">${haveIndividual.toLocaleString()}</span> individual link</span>` +
       `<span class="stat"><span class="num">${haveIcan.toLocaleString()}</span> via ICAN</span>` +
       `<span class="stat"><span class="num">${onlyZip.toLocaleString()}</span> ZIP-only</span>`;
@@ -441,14 +458,13 @@
 
     renderExemptionChips(sortedEx);
 
-    ["f-name", "f-module", "f-company", "f-license", "f-source", "f-min"].forEach((id) => {
+    const filterIds = ["f-name", "f-module", "f-company", "f-license", "f-source", "f-min", "f-category"];
+    filterIds.forEach((id) => {
       const ev = (id === "f-name" || id === "f-min") ? "input" : "change";
       $(id).addEventListener(ev, rerender);
     });
     $("reset").addEventListener("click", () => {
-      ["f-name", "f-module", "f-company", "f-license", "f-source", "f-min"].forEach((id) => {
-        $(id).value = "";
-      });
+      filterIds.forEach((id) => { $(id).value = ""; });
       state.activeExemptions.clear();
       rerender();
     });
