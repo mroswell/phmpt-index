@@ -1,17 +1,17 @@
 {
   "summary": {
-    "in_scope_files": 5968,
-    "files_processed": 5968,
-    "files_with_hits": 161,
+    "in_scope_files": 6136,
+    "files_processed": 6136,
+    "files_with_hits": 171,
     "files_errored": [],
     "by_term": {
-      "Risk management plan": 1558,
-      "Pharmacovigilance plan": 421,
+      "Risk management plan": 1563,
+      "Pharmacovigilance plan": 435,
       "Bayesian": 202,
       "PRR": 25,
       "Disproportionality analysis": 24
     },
-    "total_term_occurrences": 2230,
+    "total_term_occurrences": 2249,
     "m3_included": false
   },
   "files": [
@@ -80339,6 +80339,30 @@
       ]
     },
     {
+      "filename": "102A_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "id": 8105,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/102A_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "102D_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "id": 8106,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/102D_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "102_1_BLA-125742-0_08-20-2021_Memo_Test-Results.pdf",
       "id": 8107,
       "module": null,
@@ -80351,6 +80375,42 @@
       "matches": []
     },
     {
+      "filename": "102_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "id": 8108,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/102_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "ican_url": null,
+      "total_pages": 4,
+      "matches": []
+    },
+    {
+      "filename": "103A_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "id": 8109,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/103A_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "103D_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "id": 8110,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/103D_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "103_2_BLA-125742-0_08-20-2021_Memo_Test-Results.pdf",
       "id": 8111,
       "module": null,
@@ -80360,6 +80420,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/103_2_BLA-125742-0_08-20-2021_Memo_Test-Results.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/103_2_BLA-125742-0_08-20-2021_Memo_Test-Results.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "103_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "id": 8112,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/103_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "ican_url": null,
+      "total_pages": 3,
       "matches": []
     },
     {
@@ -80399,6 +80471,18 @@
       "matches": []
     },
     {
+      "filename": "105A_BLA-125752-0_01-28-2022_Telecon_Information-Reques.pdf",
+      "id": 8116,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/105A_BLA-125752-0_01-28-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 17,
+      "matches": []
+    },
+    {
       "filename": "105_BLA-125742-0_08-20-2021_Telecon_Advice_Information.pdf",
       "id": 8117,
       "module": null,
@@ -80408,6 +80492,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/105_BLA-125742-0_08-20-2021_Telecon_Advice_Information.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/105_BLA-125742-0_08-20-2021_Telecon_Advice_Information.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "105_BLA-125752-0_01-28-2022_Telecon_Information-Reques.pdf",
+      "id": 8118,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/105_BLA-125752-0_01-28-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -80459,6 +80555,18 @@
       "matches": []
     },
     {
+      "filename": "107_BLA-125752-0_01-31-2022_Inspection-Related_Inspect.pdf",
+      "id": 8123,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/107_BLA-125752-0_01-31-2022_Inspection-Related_Inspect.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
       "id": 8124,
       "module": null,
@@ -80492,6 +80600,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/10_BLA-125742-11_12-22-2021_Memo_Committee-Memo_CMC.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/10_BLA-125742-11_12-22-2021_Memo_Committee-Memo_CMC.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "10_BLA-125752-0_09-24-2021_Telecon_Information-Reques.pdf",
+      "id": 8127,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/10_BLA-125752-0_09-24-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 6,
       "matches": []
     },
     {
@@ -80552,6 +80672,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/112_1_BLA-125742-0_08-21-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/112_1_BLA-125742-0_08-21-2021_Telecon_Information-Reques.pdf",
       "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "112_BLA-125752-0_01-31-2022_Memo_Other.pdf",
+      "id": 8133,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/112_BLA-125752-0_01-31-2022_Memo_Other.pdf",
+      "ican_url": null,
+      "total_pages": 2,
       "matches": []
     },
     {
@@ -80681,6 +80813,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/11_BLA-125742-0_06-29-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/11_BLA-125742-0_06-29-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "11_BLA-125752-0_09-27-2021_Memo_Committee-Memo_APLB.pdf",
+      "id": 8143,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/11_BLA-125752-0_09-27-2021_Memo_Committee-Memo_APLB.pdf",
+      "ican_url": null,
+      "total_pages": 5,
       "matches": []
     },
     {
@@ -80822,6 +80966,506 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/125742-0_20219006.PC1_.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/125742-0_20219006.PC1_.pdf",
       "total_pages": 18,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_01-05-2022_Letter_Acknowledgement-Le.pdf",
+      "id": 8154,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_01-05-2022_Letter_Acknowledgement-Le.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_01-06-2022_Meeting-Summary_First-Com.pdf",
+      "id": 8155,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_01-06-2022_Meeting-Summary_First-Com.pdf",
+      "ican_url": null,
+      "total_pages": 6,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_01-19-2022_Telecon_Information-Reque.pdf",
+      "id": 8156,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_01-19-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_01-25-2022_Telecon_Information-Reque.pdf",
+      "id": 8157,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_01-25-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_01-31-2022_Meeting-Summary_Filing-Me.pdf",
+      "id": 8158,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_01-31-2022_Meeting-Summary_Filing-Me.pdf",
+      "ican_url": null,
+      "total_pages": 6,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_02-07-2022_Memo_Filing-Checklist_RPM.pdf",
+      "id": 8159,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_02-07-2022_Memo_Filing-Checklist_RPM.pdf",
+      "ican_url": null,
+      "total_pages": 17,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_02-07-2022_Memo_Filing-Checklist_RPM_A.pdf",
+      "id": 8160,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_02-07-2022_Memo_Filing-Checklist_RPM_A.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_02-09-2022_Letter_Filing-Notificatio.pdf",
+      "id": 8161,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_02-09-2022_Letter_Filing-Notificatio.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_02-23-2022_Telecon_Information-Reque.pdf",
+      "id": 8162,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_02-23-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_03-02-2022_Meeting-Summary_Committee.pdf",
+      "id": 8163,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_03-02-2022_Meeting-Summary_Committee.pdf",
+      "ican_url": null,
+      "total_pages": 5,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_03-07-2022_Telecon_Information-Reque.pdf",
+      "id": 8164,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_03-07-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_03-14-2022_Telecon_Information-Reque.pdf",
+      "id": 8165,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_03-14-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_04-07-2022_Meeting-Summary_Mid-Cycle.pdf",
+      "id": 8166,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-07-2022_Meeting-Summary_Mid-Cycle.pdf",
+      "ican_url": null,
+      "total_pages": 9,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_04-08-2022_Telecon_Information-Reque.pdf",
+      "id": 8167,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-08-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_04-20-2022_Telecon_Information-Reque.pdf",
+      "id": 8168,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-20-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": [
+        {
+          "page": 1,
+          "term": "Pharmacovigilance plan",
+          "context": "IR RE PVP Kate, The review team has the below information request regarding the Pharmacovigilance Plan (PVP) that was submitted to STN 125742.45. In reference to sBLA 125742/45, plea"
+        },
+        {
+          "page": 1,
+          "term": "Pharmacovigilance plan",
+          "context": "submitted to STN 125742.45. In reference to sBLA 125742/45, please revise your Pharmacovigilance Plan (PVP) (Version 1.4, dated December 15, 2021) to include both Tris/Sucrose and"
+        }
+      ]
+    },
+    {
+      "filename": "125742-45_04-20-2022_Telecon_Labeling-Target-C.pdf",
+      "id": 8169,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-20-2022_Telecon_Labeling-Target-C.pdf",
+      "ican_url": null,
+      "total_pages": 27,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_04-22-2022_Memo_Committee-Memo_Consu.pdf",
+      "id": 8170,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-22-2022_Memo_Committee-Memo_Consu.pdf",
+      "ican_url": null,
+      "total_pages": 6,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_04-22-2022_Telecon_Information-Reque.pdf",
+      "id": 8171,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-22-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": [
+        {
+          "page": 1,
+          "term": "Pharmacovigilance plan",
+          "context": "23, 2021 ) includes individuals aged 18 years and older. In the context of the Pharmacovigilance Plan (PVP, version 1.4) submitted with sBLA 125742/45 to extend the use of COMIRNAT"
+        }
+      ]
+    },
+    {
+      "filename": "125742-45_04-26-2022_Telecon_Information-Reque.pdf",
+      "id": 8172,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-26-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_05-02-2022_Memo_Committee-Memo_CMC.pdf",
+      "id": 8173,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-02-2022_Memo_Committee-Memo_CMC.pdf",
+      "ican_url": null,
+      "total_pages": 5,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_05-04-2022_Telecon_Information-Reque.pdf",
+      "id": 8174,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-04-2022_Telecon_Information-Reque.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_05-06-2022_Meeting-Summary_Committee.pdf",
+      "id": 8175,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-06-2022_Meeting-Summary_Committee.pdf",
+      "ican_url": null,
+      "total_pages": 7,
+      "matches": [
+        {
+          "page": 4,
+          "term": "Pharmacovigilance plan",
+          "context": "being reviewed since none were included in the submission. x Epidemiology/Pharmacovigilance Plan (Deborah Thompson): o The review is complete and is being routed for signature"
+        },
+        {
+          "page": 7,
+          "term": "Pharmacovigilance plan",
+          "context": "nthly Meeting date: May 6, 2022 7 9. STN 125742/45.9 (05/02/2022) \u2013 Revised Pharmacovigilance Plan to include both Tris/Sucrose and PBS/Sucrose formulations (response to CBER\u2019s"
+        }
+      ]
+    },
+    {
+      "filename": "125742-45_05-10-2022_Telecon_Labeling-via-FAX.pdf",
+      "id": 8176,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-10-2022_Telecon_Labeling-via-FAX.pdf",
+      "ican_url": null,
+      "total_pages": 29,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_05-11-2022_Memo_Committee-Memo_APLB.pdf",
+      "id": 8177,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-11-2022_Memo_Committee-Memo_APLB.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_05-11-2022_Memo_Lot-Release-Clearanc.pdf",
+      "id": 8178,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-11-2022_Memo_Lot-Release-Clearanc.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_05-13-2022_Memo_Lot-Release-Clearanc.pdf",
+      "id": 8179,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-13-2022_Memo_Lot-Release-Clearanc.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_05-19-2022_Memo_Committee-Memo_Postm.pdf",
+      "id": 8180,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-19-2022_Memo_Committee-Memo_Postm.pdf",
+      "ican_url": null,
+      "total_pages": 5,
+      "matches": [
+        {
+          "page": 1,
+          "term": "Pharmacovigilance plan",
+          "context": "shee, PhD Deputy Director, OBPV CBER, FDA Subject: Review of Clinical Overview, Pharmacovigilance Plan, real world vaccine effectiveness studies against Omicron variant among adoles"
+        },
+        {
+          "page": 2,
+          "term": "Pharmacovigilance plan",
+          "context": "ls Reviewed x Clinical Overview (STN 125742/45; received December 16, 2021) x Pharmacovigilance Plan version 1.4.1 (STN 125742/45.9; received May 2, 2022) x COMIRNATY approval let"
+        },
+        {
+          "page": 3,
+          "term": "Pharmacovigilance plan",
+          "context": "tential waning effectiveness, and better protection of the booster dose. In Pharmacovigilance Plan, the sponsor stated \u201cFour post-authorization effectiveness studies in real-wor"
+        }
+      ]
+    },
+    {
+      "filename": "125742-45_06-10-2022_Memo_Committee-Memo_BIMO.pdf",
+      "id": 8181,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_06-10-2022_Memo_Committee-Memo_BIMO.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_06-13-2022_Telecon_Covid-19-Delay.pdf",
+      "id": 8182,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_06-13-2022_Telecon_Covid-19-Delay.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_06-27-2022_Memo_Request-For-Complian.pdf",
+      "id": 8183,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_06-27-2022_Memo_Request-For-Complian.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_06-29-2022_Telecon_Labeling-via-FAX.pdf",
+      "id": 8184,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_06-29-2022_Telecon_Labeling-via-FAX.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_07-01-2022_Memo_Compliance-Check-Acc.pdf",
+      "id": 8185,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_07-01-2022_Memo_Compliance-Check-Acc.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_07-05-2022_Telecon_Labeling-via-FAX.pdf",
+      "id": 8186,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_07-05-2022_Telecon_Labeling-via-FAX.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_08-02-2022_Memo_Committee-Memo_Label.pdf",
+      "id": 8187,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_08-02-2022_Memo_Committee-Memo_Label.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_08-02-2022_Memo_Committee-Memo_Revie.pdf",
+      "id": 8188,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/125742-45_08-02-2022_Memo_Committee-Memo_Revie.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_S211_M5_c4591001-A_6mth-comorbidity-categories-1.pdf",
+      "id": 8189,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/12/125742-45_S211_M5_c4591001-A_6mth-comorbidity-categories-1.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_S211_M5_c4591001-A_6mth-report-cci-diabetes-with-comp-06aug2021-1.pdf",
+      "id": 8190,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/12/125742-45_S211_M5_c4591001-A_6mth-report-cci-diabetes-with-comp-06aug2021-1.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "125742-45_S211_M5_c4591001-A_6mth-report-cci-diabetes-without-comp-30oct2020-1.pdf",
+      "id": 8191,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/12/125742-45_S211_M5_c4591001-A_6mth-report-cci-diabetes-without-comp-30oct2020-1.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -81059,6 +81703,18 @@
       "matches": []
     },
     {
+      "filename": "125742_S1_M4_4.2.3.2+38166.pdf",
+      "id": 8211,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/030123/125742_S1_M4_4.2.3.2+38166.pdf",
+      "ican_url": null,
+      "total_pages": 2237,
+      "matches": []
+    },
+    {
       "filename": "125742_S1_M4_4.2.3.2-20gr142.pdf",
       "id": 8212,
       "module": "M4",
@@ -81116,6 +81772,150 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2022/06/125742_S1_M5_CRF_c4591001-1128-11281009-reissue.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2022/06/125742_S1_M5_CRF_c4591001-1128-11281009-reissue.pdf",
       "total_pages": 364,
+      "matches": []
+    },
+    {
+      "filename": "125752_S1_M4.2.3.2-report-body-5002033.pdf",
+      "id": 8218,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S1_M4.2.3.2-report-body-5002033.pdf",
+      "ican_url": null,
+      "total_pages": 811,
+      "matches": []
+    },
+    {
+      "filename": "125752_S1_M4.2.3.2-report-body-5002034.pdf",
+      "id": 8219,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S1_M4.2.3.2-report-body-5002034.pdf",
+      "ican_url": null,
+      "total_pages": 1015,
+      "matches": []
+    },
+    {
+      "filename": "125752_S1_M4.2.3.2-report-body-5002045.pdf",
+      "id": 8220,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S1_M4.2.3.2-report-body-5002045.pdf",
+      "ican_url": null,
+      "total_pages": 831,
+      "matches": []
+    },
+    {
+      "filename": "125752_S1_M4.2.3.2-report-body-5002158.pdf",
+      "id": 8221,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S1_M4.2.3.2-report-body-5002158.pdf",
+      "ican_url": null,
+      "total_pages": 983,
+      "matches": []
+    },
+    {
+      "filename": "125752_S1_M4.2.3.2-report-body-5002231.pdf",
+      "id": 8222,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S1_M4.2.3.2-report-body-5002231.pdf",
+      "ican_url": null,
+      "total_pages": 957,
+      "matches": []
+    },
+    {
+      "filename": "125752_S1_M4.2.3.2-report-body-5002400.pdf",
+      "id": 8223,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/02/125752_S1_M4.2.3.2-report-body-5002400.pdf",
+      "ican_url": null,
+      "total_pages": 1014,
+      "matches": []
+    },
+    {
+      "filename": "125752_S1_M4_report-body-20248897-.pdf",
+      "id": 8224,
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/08/125752_S1_M4_report-body-20248897-.pdf",
+      "ican_url": null,
+      "total_pages": 814,
+      "matches": []
+    },
+    {
+      "filename": "125752_S3_M5-_Phase-2a-1273p201-16-2-7.pdf",
+      "id": 8225,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/08/125752_S3_M5-_Phase-2a-1273p201-16-2-7.pdf",
+      "ican_url": null,
+      "total_pages": 1650,
+      "matches": []
+    },
+    {
+      "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3232063-1.pdf",
+      "id": 8226,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/05/125752_S3_M5_CRF_mrna-1273-p301-us3232063-1.pdf",
+      "ican_url": null,
+      "total_pages": 4119,
+      "matches": []
+    },
+    {
+      "filename": "125752_S3_M5_Phase-2a-mrna1273p201-add1-16-2-7.pdf",
+      "id": 8227,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/08/125752_S3_M5_Phase-2a-mrna1273p201-add1-16-2-7.pdf",
+      "ican_url": null,
+      "total_pages": 312,
+      "matches": []
+    },
+    {
+      "filename": "125752_S3_M5_Phase-3-mrna1273p301-16-2-7.pdf",
+      "id": 8228,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/08/125752_S3_M5_Phase-3-mrna1273p301-16-2-7.pdf",
+      "ican_url": null,
+      "total_pages": 11505,
+      "matches": []
+    },
+    {
+      "filename": "125752_S3_M5_Phase-3-mrna1273p301-add1-16-2-7.pdf",
+      "id": 8229,
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2023/08/125752_S3_M5_Phase-3-mrna1273p301-add1-16-2-7.pdf",
+      "ican_url": null,
+      "total_pages": 218,
       "matches": []
     },
     {
@@ -81194,6 +81994,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf",
       "total_pages": 18,
+      "matches": []
+    },
+    {
+      "filename": "12_BLA-125752-0_09-27-2021_Telecon_Advice.pdf",
+      "id": 8236,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/12_BLA-125752-0_09-27-2021_Telecon_Advice.pdf",
+      "ican_url": null,
+      "total_pages": 11,
       "matches": []
     },
     {
@@ -81335,6 +82147,18 @@
       "matches": []
     },
     {
+      "filename": "13_BLA-125752-0_09-27-2021_Telecon_Other.pdf",
+      "id": 8245,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/13_BLA-125752-0_09-27-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 9,
+      "matches": []
+    },
+    {
       "filename": "13_BLA_125742-0_07-02-2021_Committee-Memo_APLB.pdf",
       "id": 8246,
       "module": null,
@@ -81371,6 +82195,18 @@
       "matches": []
     },
     {
+      "filename": "15_BLA-125752-0_09-28-2021_Telecon_Information-Reques.pdf",
+      "id": 8249,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/15_BLA-125752-0_09-28-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 4,
+      "matches": []
+    },
+    {
       "filename": "16_BLA-125742-0_07-06-2021_Telecon_Information-Reques.pdf",
       "id": 8250,
       "module": null,
@@ -81380,6 +82216,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/16_BLA-125742-0_07-06-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/16_BLA-125742-0_07-06-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "16_BLA-125752-0_09-30-2021_Memo_Other.pdf",
+      "id": 8251,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/16_BLA-125752-0_09-30-2021_Memo_Other.pdf",
+      "ican_url": null,
+      "total_pages": 4,
       "matches": []
     },
     {
@@ -81395,6 +82243,18 @@
       "matches": []
     },
     {
+      "filename": "17_BLA-125752-0_10-05-2021_Telecon_Information-Reques.pdf",
+      "id": 8253,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/17_BLA-125752-0_10-05-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "18_BLA-125742-0_07-09-2021_Telecon_Information-Reques.pdf",
       "id": 8254,
       "module": null,
@@ -81404,6 +82264,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/18_BLA-125742-0_07-09-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/18_BLA-125742-0_07-09-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "18_BLA-125752-0_10-06-2021_Telecon_Information-Reques.pdf",
+      "id": 8255,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/18_BLA-125752-0_10-06-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
       "matches": []
     },
     {
@@ -81419,6 +82291,18 @@
       "matches": []
     },
     {
+      "filename": "19_BLA-125752-0_10-14-2021_Letter_Filing-Notification.pdf",
+      "id": 8257,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/19_BLA-125752-0_10-14-2021_Letter_Filing-Notification.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "1_BLA-125742-0_05-13-2021_Letter_Acknowledgement-Let.pdf",
       "id": 8258,
       "module": null,
@@ -81427,6 +82311,18 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/1_BLA-125742-0_05-13-2021_Letter_Acknowledgement-Let.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/1_BLA-125742-0_05-13-2021_Letter_Acknowledgement-Let.pdf",
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "1_BLA-125752-0_06-09-2021_Letter_Acknowledgement-Let.pdf",
+      "id": 8259,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/1_BLA-125752-0_06-09-2021_Letter_Acknowledgement-Let.pdf",
+      "ican_url": null,
       "total_pages": 2,
       "matches": []
     },
@@ -81466,6 +82362,30 @@
       ]
     },
     {
+      "filename": "20_BLA-125752-0_10-14-2021_Telecon_Information-Reques.pdf",
+      "id": 8262,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/20_BLA-125752-0_10-14-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "21A_BLA-125752-0_10-14-2021_Telecon_Other.pdf",
+      "id": 8263,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/21A_BLA-125752-0_10-14-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "21_BLA-125742-0_07-15-2021_Letter_Filing-Notification.pdf",
       "id": 8264,
       "module": null,
@@ -81475,6 +82395,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/21_BLA-125742-0_07-15-2021_Letter_Filing-Notification.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/21_BLA-125742-0_07-15-2021_Letter_Filing-Notification.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "21_BLA-125752-0_10-14-2021_Telecon_Other.pdf",
+      "id": 8265,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/21_BLA-125752-0_10-14-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -81494,6 +82426,18 @@
           "context": "briefing materials due July 27, 2021 Post-authorization safety/Epidemiology/ Pharmacovigilance Plan review memo complete August 5, 2021 PeRC meeting August 10, 2021 First set"
         }
       ]
+    },
+    {
+      "filename": "22_BLA-125752-0_10-15-2021_Letter_PNR-Acceptance.pdf",
+      "id": 8267,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/22_BLA-125752-0_10-15-2021_Letter_PNR-Acceptance.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
     },
     {
       "filename": "23_1_BLA-125742-0_07-15-2021_Telecon_Information-Reques.pdf",
@@ -81541,6 +82485,18 @@
       "matches": []
     },
     {
+      "filename": "24_BLA-125752-0_10-20-2021_Telecon_Information-Reques.pdf",
+      "id": 8270,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/24_BLA-125752-0_10-20-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "25_1_BLA-125742-0_07-16-2021_Telecon_Information-Reques.pdf",
       "id": 8271,
       "module": null,
@@ -81550,6 +82506,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/25_1_BLA-125742-0_07-16-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/25_1_BLA-125742-0_07-16-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "25_BLA-125752-0_10-21-2021_Telecon_Information-Reques.pdf",
+      "id": 8272,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/25_BLA-125752-0_10-21-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -81565,6 +82533,18 @@
       "matches": []
     },
     {
+      "filename": "26_BLA-125752-0_10-22-2021_Telecon_Information-Reques.pdf",
+      "id": 8274,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/26_BLA-125752-0_10-22-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "27_BLA-125742-0_07-19-2021_Telecon_Advice.pdf",
       "id": 8275,
       "module": null,
@@ -81574,6 +82554,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/27_BLA-125742-0_07-19-2021_Telecon_Advice.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/27_BLA-125742-0_07-19-2021_Telecon_Advice.pdf",
       "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "27_BLA-125752-0_10-22-2021_Telecon_Information-Reques.pdf",
+      "id": 8276,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/27_BLA-125752-0_10-22-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
       "matches": []
     },
     {
@@ -81625,6 +82617,18 @@
       "matches": []
     },
     {
+      "filename": "28_BLA-125752-0_10-26-2021_Telecon_Information-Reques.pdf",
+      "id": 8281,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/28_BLA-125752-0_10-26-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "29_BLA-125742-0_07-20-2021_Telecon_Information-Reques.pdf",
       "id": 8282,
       "module": null,
@@ -81633,6 +82637,30 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/29_BLA-125742-0_07-20-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/29_BLA-125742-0_07-20-2021_Telecon_Information-Reques.pdf",
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "2A_BLA-125752-0_08-20-2021_Telecon_Information-Reques_.pdf",
+      "id": 8283,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/2A_BLA-125752-0_08-20-2021_Telecon_Information-Reques_.pdf",
+      "ican_url": null,
+      "total_pages": 17,
+      "matches": []
+    },
+    {
+      "filename": "2_BLA-125752-0_08-20-2021_Telecon_Information-Reques.pdf",
+      "id": 8284,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/2_BLA-125752-0_08-20-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
       "total_pages": 1,
       "matches": []
     },
@@ -81673,6 +82701,54 @@
       "matches": []
     },
     {
+      "filename": "30A_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "id": 8288,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/30A_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 8,
+      "matches": []
+    },
+    {
+      "filename": "30B_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "id": 8289,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/30B_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 21,
+      "matches": []
+    },
+    {
+      "filename": "30C_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "id": 8290,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/30C_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "30D_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "id": 8291,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/30D_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "30_BLA-125742-0_07-22-2021_Telecon_Information-Reques.pdf",
       "id": 8292,
       "module": null,
@@ -81682,6 +82758,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/30_BLA-125742-0_07-22-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/30_BLA-125742-0_07-22-2021_Telecon_Information-Reques.pdf",
       "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "30_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "id": 8293,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/30_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 637,
       "matches": []
     },
     {
@@ -81697,6 +82785,18 @@
       "matches": []
     },
     {
+      "filename": "31_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf",
+      "id": 8295,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/31_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 4,
+      "matches": []
+    },
+    {
       "filename": "32_1_BLA-125742-0_07-26-2021_Telecon_Information-Reques.pdf",
       "id": 8296,
       "module": null,
@@ -81707,6 +82807,29 @@
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/32_1_BLA-125742-0_07-26-2021_Telecon_Information-Reques.pdf",
       "total_pages": 4,
       "matches": []
+    },
+    {
+      "filename": "32_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf",
+      "id": 8297,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/32_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": [
+        {
+          "page": 1,
+          "term": "Risk management plan",
+          "context": "fda.hhs.gov Product: COVID-19 Vaccine, mRNA (SPIKEVAX) Subject: EU Risk Management Plan The EU Risk Management Plan submitted in your BLA 125752/2 is under ongoing"
+        },
+        {
+          "page": 1,
+          "term": "Risk management plan",
+          "context": "OVID-19 Vaccine, mRNA (SPIKEVAX) Subject: EU Risk Management Plan The EU Risk Management Plan submitted in your BLA 125752/2 is under ongoing review. Please submit the prot"
+        }
+      ]
     },
     {
       "filename": "33_1_BLA-125742-0_07-27-2021_Telecon_Information-Reques.pdf",
@@ -81721,6 +82844,18 @@
       "matches": []
     },
     {
+      "filename": "33_BLA-125752-0_11-03-2021_Telecon_Information-Reques.pdf",
+      "id": 8299,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/33_BLA-125752-0_11-03-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "34_2_BLA-125742-0_07-27-2021_Telecon_Information-Reques.pdf",
       "id": 8300,
       "module": null,
@@ -81730,6 +82865,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/34_2_BLA-125742-0_07-27-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/34_2_BLA-125742-0_07-27-2021_Telecon_Information-Reques.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "34_BLA-125752-0_11-03-2021_Telecon_Other.pdf",
+      "id": 8301,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/34_BLA-125752-0_11-03-2021_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 2,
       "matches": []
     },
     {
@@ -81747,6 +82894,29 @@
           "page": 1,
           "term": "Pharmacovigilance plan",
           "context": "ing postmarketing safety study(ies) Dear Ms. Harkins, Our review of your pharmacovigilance plan for COMIRNATY (COVID-19 Vaccine, mRNA) under BLA 125742 is ongoing. We have t"
+        }
+      ]
+    },
+    {
+      "filename": "35_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf",
+      "id": 8303,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/35_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": [
+        {
+          "page": 1,
+          "term": "Pharmacovigilance plan",
+          "context": "ki@fda.hhs.gov Product: COVID-19 Vaccine, mRNA (SPIKEVAX) Subject: Pharmacovigilance Plan Our review of your pharmacovigilance plan for SPIKEVAX under BLA STN 125752/"
+        },
+        {
+          "page": 1,
+          "term": "Pharmacovigilance plan",
+          "context": "ccine, mRNA (SPIKEVAX) Subject: Pharmacovigilance Plan Our review of your pharmacovigilance plan for SPIKEVAX under BLA STN 125752/2 is ongoing. We have the following comments"
         }
       ]
     },
@@ -81775,6 +82945,29 @@
       "matches": []
     },
     {
+      "filename": "36_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf",
+      "id": 8306,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/36_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": [
+        {
+          "page": 1,
+          "term": "Risk management plan",
+          "context": "fda.hhs.gov Product: COVID-19 Vaccine, mRNA (SPIKEVAX) Subject: EU Risk Management Plan The EU Risk Management Plan submitted in your BLA 125752/2 is under ongoing"
+        },
+        {
+          "page": 1,
+          "term": "Risk management plan",
+          "context": "OVID-19 Vaccine, mRNA (SPIKEVAX) Subject: EU Risk Management Plan The EU Risk Management Plan submitted in your BLA 125752/2 is under ongoing review. Please submit the prot"
+        }
+      ]
+    },
+    {
       "filename": "37_BLA-125742-0_07-29-2021_Telecon_Information-Reques.pdf",
       "id": 8307,
       "module": null,
@@ -81784,6 +82977,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/37_BLA-125742-0_07-29-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/37_BLA-125742-0_07-29-2021_Telecon_Information-Reques.pdf",
       "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "37_BLA-125752-0_11-10-2021_Telecon_Information-Reques.pdf",
+      "id": 8308,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/37_BLA-125752-0_11-10-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 5,
       "matches": []
     },
     {
@@ -81799,6 +83004,18 @@
       "matches": []
     },
     {
+      "filename": "38_BLA-125752-0_11-10-2021_Telecon_Information-Reques.pdf",
+      "id": 8310,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/38_BLA-125752-0_11-10-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "39_2_BLA-125742-0_08-02-2021_Telecon_Information-Reques.pdf",
       "id": 8311,
       "module": null,
@@ -81808,6 +83025,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/39_2_BLA-125742-0_08-02-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/39_2_BLA-125742-0_08-02-2021_Telecon_Information-Reques.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "39_BLA-125752-0_11-12-2021_Telecon_Information-Reques.pdf",
+      "id": 8312,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/39_BLA-125752-0_11-12-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
       "matches": []
     },
     {
@@ -81821,6 +83050,29 @@
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/3_BLA-125742-0_05-20-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
       "matches": []
+    },
+    {
+      "filename": "3_BLA-125752-0_09-09-2021_Meeting-Summary_Committee-.pdf",
+      "id": 8314,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/3_BLA-125752-0_09-09-2021_Meeting-Summary_Committee-.pdf",
+      "ican_url": null,
+      "total_pages": 11,
+      "matches": [
+        {
+          "page": 6,
+          "term": "Pharmacovigilance plan",
+          "context": "e submission and appears to be complete with all the necessary information and pharmacovigilance plan. AEs of potential concern are all listed. No major issues have been identified"
+        },
+        {
+          "page": 6,
+          "term": "Risk management plan",
+          "context": "ent to the company. \u2022 Epidemiology/Pharmacovigilance (Jane Baumblatt): The Risk Management Plan (RMP) was provided in the submission and appears to be complete with all the n"
+        }
+      ]
     },
     {
       "filename": "3_IND_19736_243_19-Mar-2021_KERRY_KERRY__RO_-.pdf",
@@ -81847,6 +83099,30 @@
       "matches": []
     },
     {
+      "filename": "40A_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "id": 8317,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/40A_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 18,
+      "matches": []
+    },
+    {
+      "filename": "40B_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "id": 8318,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/40B_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 18,
+      "matches": []
+    },
+    {
       "filename": "40_2_BLA-125742-0_08-03-2021_Telecon_Information-Reques.pdf",
       "id": 8319,
       "module": null,
@@ -81856,6 +83132,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/40_2_BLA-125742-0_08-03-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/40_2_BLA-125742-0_08-03-2021_Telecon_Information-Reques.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "40_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "id": 8320,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/40_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 20,
       "matches": []
     },
     {
@@ -81879,6 +83167,18 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/42_1_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/42_1_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "42_BLA-125752-0_11-19-2021_Telecon_Advice.pdf",
+      "id": 8323,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/42_BLA-125752-0_11-19-2021_Telecon_Advice.pdf",
+      "ican_url": null,
       "total_pages": 3,
       "matches": []
     },
@@ -81907,6 +83207,18 @@
       "matches": []
     },
     {
+      "filename": "43_BLA-125752-0_11-19-2021_Telecon_Information-Reques.pdf",
+      "id": 8326,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/43_BLA-125752-0_11-19-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "44_3_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
       "id": 8327,
       "module": null,
@@ -81915,6 +83227,18 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/44_3_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/44_3_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "44_BLA-125752-0_11-24-2021_Telecon_Other.pdf",
+      "id": 8328,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/44_BLA-125752-0_11-24-2021_Telecon_Other.pdf",
+      "ican_url": null,
       "total_pages": 2,
       "matches": []
     },
@@ -81931,6 +83255,18 @@
       "matches": []
     },
     {
+      "filename": "45_BLA-125752-0_11-29-2021_Telecon_Information-Reques.pdf",
+      "id": 8330,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/45_BLA-125752-0_11-29-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "46_2_BLA-125742-0_08-05-2021_Telecon_Information-Reques.pdf",
       "id": 8331,
       "module": null,
@@ -81943,6 +83279,18 @@
       "matches": []
     },
     {
+      "filename": "46_BLA-125752-0_11-29-2021_Telecon_Information-Reques.pdf",
+      "id": 8332,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/46_BLA-125752-0_11-29-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "47_1_BLA-125742-0_08-05-2021_Telecon_Information-Reques.pdf",
       "id": 8333,
       "module": null,
@@ -81951,6 +83299,18 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/47_1_BLA-125742-0_08-05-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/47_1_BLA-125742-0_08-05-2021_Telecon_Information-Reques.pdf",
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "47_BLA-125752-0_12-01-2021_Telecon_Information-Reques.pdf",
+      "id": 8334,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/47_BLA-125752-0_12-01-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
       "total_pages": 2,
       "matches": []
     },
@@ -81967,6 +83327,18 @@
       "matches": []
     },
     {
+      "filename": "48A_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "id": 8336,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/48A_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 5,
+      "matches": []
+    },
+    {
       "filename": "48_BLA-125742-0_08-05-2021_Telecon_Labeling-via-FAX_e.pdf",
       "id": 8337,
       "module": null,
@@ -81975,6 +83347,18 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/48_BLA-125742-0_08-05-2021_Telecon_Labeling-via-FAX_e.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/48_BLA-125742-0_08-05-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "48_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "id": 8338,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/48_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
       "total_pages": 1,
       "matches": []
     },
@@ -81988,6 +83372,30 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/49_BLA-125742-0_08-06-2021_Letter_UNII-Code-Notificat.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/49_BLA-125742-0_08-06-2021_Letter_UNII-Code-Notificat.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "49_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "id": 8340,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/49_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 6,
+      "matches": []
+    },
+    {
+      "filename": "4_BLA-125752-0_09-14-2021_Telecon_Information-Reques.pdf",
+      "id": 8341,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/4_BLA-125752-0_09-14-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
       "matches": []
     },
     {
@@ -82012,6 +83420,30 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/50_BLA-125742-0_08-06-2021_Memo_Committee-Memo_APLB.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/50_BLA-125742-0_08-06-2021_Memo_Committee-Memo_APLB.pdf",
       "total_pages": 6,
+      "matches": []
+    },
+    {
+      "filename": "50_BLA-125752-0_12-07-2021_Telecon_Information-Reques.pdf",
+      "id": 8344,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/50_BLA-125752-0_12-07-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 5,
+      "matches": []
+    },
+    {
+      "filename": "51_BLA-125752-0_12-09-2021_Telecon_Advice.pdf",
+      "id": 8345,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/51_BLA-125752-0_12-09-2021_Telecon_Advice.pdf",
+      "ican_url": null,
+      "total_pages": 7,
       "matches": []
     },
     {
@@ -82090,6 +83522,18 @@
       "matches": []
     },
     {
+      "filename": "52_BLA-125752-0_12-09-2021_Telecon_Information-Reques.pdf",
+      "id": 8348,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/52_BLA-125752-0_12-09-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "53_2_BLA-125742-0_08-06-2021_Telecon_Information-Reques.pdf",
       "id": 8349,
       "module": null,
@@ -82099,6 +83543,30 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/53_2_BLA-125742-0_08-06-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/53_2_BLA-125742-0_08-06-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "53_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "id": 8350,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/53_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "54A_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "id": 8351,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/54A_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 17,
       "matches": []
     },
     {
@@ -82114,6 +83582,18 @@
       "matches": []
     },
     {
+      "filename": "54_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "id": 8353,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/54_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "55_BLA-125742-0_08-09-2021_Telecon_Advice.pdf",
       "id": 8354,
       "module": null,
@@ -82124,6 +83604,24 @@
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/55_BLA-125742-0_08-09-2021_Telecon_Advice.pdf",
       "total_pages": 5,
       "matches": []
+    },
+    {
+      "filename": "55_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "id": 8355,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/55_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": [
+        {
+          "page": 3,
+          "term": "Pharmacovigilance plan",
+          "context": "MRs and PMCs (listed in section A of this information request) in your updated Pharmacovigilance Plan (PVP) and submit an updated PVP (tracked change and clean versions) to the BLA"
+        }
+      ]
     },
     {
       "filename": "56_BLA-125742-0_08-09-2021_Telecon_Information-Reques.pdf",
@@ -82138,6 +83636,30 @@
       "matches": []
     },
     {
+      "filename": "56_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "id": 8357,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/56_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "57A_BLA-125752-0_12-14-2021_Telecon_Information-Reques.pdf",
+      "id": 8358,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/57A_BLA-125752-0_12-14-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "57_BLA-125742-0_08-09-2021_Telecon_Labeling-via-FAX_e.pdf",
       "id": 8359,
       "module": null,
@@ -82147,6 +83669,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/57_BLA-125742-0_08-09-2021_Telecon_Labeling-via-FAX_e.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/57_BLA-125742-0_08-09-2021_Telecon_Labeling-via-FAX_e.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "57_BLA-125752-0_12-14-2021_Telecon_Information-Reques.pdf",
+      "id": 8360,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/57_BLA-125752-0_12-14-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -82180,6 +83714,18 @@
       ]
     },
     {
+      "filename": "59_BLA-125752-0_12-15-2021_Telecon_Advice.pdf",
+      "id": 8363,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/59_BLA-125752-0_12-15-2021_Telecon_Advice.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "5_BLA-125742-0_06-08-2021_Telecon_Information-Reques.pdf",
       "id": 8364,
       "module": null,
@@ -82189,6 +83735,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/5_BLA-125742-0_06-08-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/5_BLA-125742-0_06-08-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "5_BLA-125752-0_09-17-2021_Telecon_Information-Reques.pdf",
+      "id": 8365,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/5_BLA-125752-0_09-17-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
       "matches": []
     },
     {
@@ -82228,6 +83786,18 @@
       "matches": []
     },
     {
+      "filename": "61_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "id": 8369,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/61_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
       "id": 8370,
       "module": null,
@@ -82240,6 +83810,18 @@
       "matches": []
     },
     {
+      "filename": "62_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "id": 8371,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/62_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "63_BLA-125742-0_08-12-2021_Telecon_Other.pdf",
       "id": 8372,
       "module": null,
@@ -82248,6 +83830,30 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/63_BLA-125742-0_08-12-2021_Telecon_Other.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/63_BLA-125742-0_08-12-2021_Telecon_Other.pdf",
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "63_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "id": 8373,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/63_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "64_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "id": 8374,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/64_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
       "total_pages": 2,
       "matches": []
     },
@@ -82276,6 +83882,18 @@
       "matches": []
     },
     {
+      "filename": "65_BLA-125752-0_12-17-2021_Telecon_Information-Reques.pdf",
+      "id": 8377,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/65_BLA-125752-0_12-17-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "66_4_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
       "id": 8378,
       "module": null,
@@ -82288,6 +83906,18 @@
       "matches": []
     },
     {
+      "filename": "66_BLA-125752-0_12-21-2021_Telecon_Information-Reques.pdf",
+      "id": 8379,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/66_BLA-125752-0_12-21-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "67_3_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
       "id": 8380,
       "module": null,
@@ -82297,6 +83927,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/67_3_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/67_3_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
       "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "67_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "id": 8381,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/67_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -82336,6 +83978,42 @@
       "matches": []
     },
     {
+      "filename": "68_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "id": 8385,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/68_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "69A_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "id": 8386,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/69A_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 17,
+      "matches": []
+    },
+    {
+      "filename": "69B_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "id": 8387,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/69B_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 17,
+      "matches": []
+    },
+    {
       "filename": "69_1_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
       "id": 8388,
       "module": null,
@@ -82366,6 +84044,18 @@
       "matches": []
     },
     {
+      "filename": "6_BLA-125752-0_09-21-2021_Telecon_Advice.pdf",
+      "id": 8390,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/6_BLA-125752-0_09-21-2021_Telecon_Advice.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "6_PM_S102_2_BLA-125742-8_09-21-2021_Memo_600.81-Lot-Distributi.pdf",
       "id": 8391,
       "module": null,
@@ -82386,6 +84076,18 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/70_2_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/70_2_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "70_BLA-125752-0_12-28-2021_Inspection-Related_Inspect.pdf",
+      "id": 8393,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/70_BLA-125752-0_12-28-2021_Inspection-Related_Inspect.pdf",
+      "ican_url": null,
       "total_pages": 3,
       "matches": []
     },
@@ -82426,6 +84128,18 @@
       "matches": []
     },
     {
+      "filename": "72_BLA-125752-0_01-03-2022_Memo_Committee-Memo_APLB.pdf",
+      "id": 8397,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/72_BLA-125752-0_01-03-2022_Memo_Committee-Memo_APLB.pdf",
+      "ican_url": null,
+      "total_pages": 4,
+      "matches": []
+    },
+    {
       "filename": "73_2_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
       "id": 8398,
       "module": null,
@@ -82435,6 +84149,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/73_2_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/73_2_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "73_BLA-125752-0_01-04-2022_Memo_Test-Results.pdf",
+      "id": 8399,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/73_BLA-125752-0_01-04-2022_Memo_Test-Results.pdf",
+      "ican_url": null,
+      "total_pages": 3,
       "matches": []
     },
     {
@@ -82450,6 +84176,18 @@
       "matches": []
     },
     {
+      "filename": "74_BLA-125752-0_01-05-2022_Memo_Committee-Memo_Labeli.pdf",
+      "id": 8401,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/74_BLA-125752-0_01-05-2022_Memo_Committee-Memo_Labeli.pdf",
+      "ican_url": null,
+      "total_pages": 15,
+      "matches": []
+    },
+    {
       "filename": "75_1_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
       "id": 8402,
       "module": null,
@@ -82459,6 +84197,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/75_1_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/75_1_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "75_BLA-125752-0_01-05-2022_Memo_Lot-Release-Clearance.pdf",
+      "id": 8403,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/75_BLA-125752-0_01-05-2022_Memo_Lot-Release-Clearance.pdf",
+      "ican_url": null,
+      "total_pages": 3,
       "matches": []
     },
     {
@@ -82474,6 +84224,30 @@
       "matches": []
     },
     {
+      "filename": "76_BLA-125752-0_01-07-2022_Telecon_Information-Reques.pdf",
+      "id": 8405,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/76_BLA-125752-0_01-07-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "77_BLA-125752-0_01-10-2022_Memo_Committee-Memo_APLB.pdf",
+      "id": 8406,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/77_BLA-125752-0_01-10-2022_Memo_Committee-Memo_APLB.pdf",
+      "ican_url": null,
+      "total_pages": 4,
+      "matches": []
+    },
+    {
       "filename": "77_BLA_125742-0_08-17-2021_Memo_Lot-Release-Clearance.pdf",
       "id": 8407,
       "module": null,
@@ -82486,6 +84260,102 @@
       "matches": []
     },
     {
+      "filename": "78A_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8408,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78A_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 4,
+      "matches": []
+    },
+    {
+      "filename": "78B_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8409,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78B_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "78C_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8410,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78C_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "78D_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8411,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78D_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "78E_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8412,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78E_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 567,
+      "matches": []
+    },
+    {
+      "filename": "78F_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8413,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78F_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 75,
+      "matches": []
+    },
+    {
+      "filename": "78G_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8414,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78G_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 522,
+      "matches": []
+    },
+    {
+      "filename": "78_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8415,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/78_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 13,
+      "matches": []
+    },
+    {
       "filename": "79_3_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf",
       "id": 8416,
       "module": null,
@@ -82494,6 +84364,30 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/79_3_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/79_3_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf",
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "79_BLA-125752-0_01-11-2022_Telecon_Advice.pdf",
+      "id": 8417,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/79_BLA-125752-0_01-11-2022_Telecon_Advice.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "7_BLA-125752-0_09-22-2021_Telecon_Information-Reques.pdf",
+      "id": 8418,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/7_BLA-125752-0_09-22-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
       "total_pages": 2,
       "matches": []
     },
@@ -82526,6 +84420,18 @@
           "context": "ent/Postmarketing Commitment studies Dear Ms. Harkins, Our review of your pharmacovigilance plan for COMIRNATY (COVID-19 Vaccine, mRNA) under BLA STN 125742/0 is ongoing. We"
         }
       ]
+    },
+    {
+      "filename": "80_BLA-125752-0_01-12-2022_Telecon_Information-Reques.pdf",
+      "id": 8421,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/80_BLA-125752-0_01-12-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
     },
     {
       "filename": "81_1_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf",
@@ -82588,6 +84494,30 @@
       "matches": []
     },
     {
+      "filename": "84_BLA-125752-0_01-13-2022_Telecon_Information-Reques.pdf",
+      "id": 8427,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/84_BLA-125752-0_01-13-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "85_BLA-125752-0_01-14-2022_Telecon_Information-Reques.pdf",
+      "id": 8428,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/85_BLA-125752-0_01-14-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "85_Courtesy-Copy_BLA-125742-0_Statistical-Review-COMIRNATY.pdf",
       "id": 8429,
       "module": null,
@@ -82624,6 +84554,18 @@
       "matches": []
     },
     {
+      "filename": "87_BLA-125752-0_01-18-2022_Memo_Test-Results.pdf",
+      "id": 8432,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/87_BLA-125752-0_01-18-2022_Memo_Test-Results.pdf",
+      "ican_url": null,
+      "total_pages": 2,
+      "matches": []
+    },
+    {
       "filename": "88_2_BLA-125742-0_08-18-2021_Telecon_Information-Reques.pdf",
       "id": 8433,
       "module": null,
@@ -82648,6 +84590,18 @@
       "matches": []
     },
     {
+      "filename": "89_BLA-125752-0_01-20-2022_Memo_Committee-Memo_Review.pdf",
+      "id": 8435,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/89_BLA-125752-0_01-20-2022_Memo_Committee-Memo_Review.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
       "filename": "8_1_BLA-125742-0_06-25-2021_Telecon_Information-Reques.pdf",
       "id": 8436,
       "module": null,
@@ -82657,6 +84611,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/8_1_BLA-125742-0_06-25-2021_Telecon_Information-Reques.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/8_1_BLA-125742-0_06-25-2021_Telecon_Information-Reques.pdf",
       "total_pages": 4,
+      "matches": []
+    },
+    {
+      "filename": "8_BLA-125752-0_09-23-2021_Telecon_Advice.pdf",
+      "id": 8437,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/8_BLA-125752-0_09-23-2021_Telecon_Advice.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -82681,6 +84647,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/09/90_1_BLA-125742-0_08-18-2021_Telecon_Labeling-via-FAX_e.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/09/90_1_BLA-125742-0_08-18-2021_Telecon_Labeling-via-FAX_e.pdf",
       "total_pages": 2,
+      "matches": []
+    },
+    {
+      "filename": "90_BLA-125752-0_01-20-2022_Telecon_Other.pdf",
+      "id": 8440,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/90_BLA-125752-0_01-20-2022_Telecon_Other.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -82720,6 +84698,30 @@
       "matches": []
     },
     {
+      "filename": "92_BLA-125752-0_01-24-2022_Telecon_Information-Reques.pdf",
+      "id": 8444,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/92_BLA-125752-0_01-24-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "id": 8445,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "ican_url": null,
+      "total_pages": 7,
+      "matches": []
+    },
+    {
       "filename": "93_Courtesy-Copy_2_BLA-125742-0_Statistical-Review-COMIRNATY.pdf",
       "id": 8446,
       "module": null,
@@ -82729,6 +84731,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/93_Courtesy-Copy_2_BLA-125742-0_Statistical-Review-COMIRNATY.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/93_Courtesy-Copy_2_BLA-125742-0_Statistical-Review-COMIRNATY.pdf",
       "total_pages": 26,
+      "matches": []
+    },
+    {
+      "filename": "94_BLA-125752-0_01-26-2022_Memo_Other.pdf",
+      "id": 8447,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/94_BLA-125752-0_01-26-2022_Memo_Other.pdf",
+      "ican_url": null,
+      "total_pages": 4,
       "matches": []
     },
     {
@@ -82753,6 +84767,18 @@
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/11/95_BLA-125742-0_08-19-2021_Memo_Compliance-Check-Acce.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/11/95_BLA-125742-0_08-19-2021_Memo_Compliance-Check-Acce.pdf",
       "total_pages": 7,
+      "matches": []
+    },
+    {
+      "filename": "95_BLA-125752-0_01-26-2022_Telecon_Information-Reques.pdf",
+      "id": 8450,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/95_BLA-125752-0_01-26-2022_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
       "matches": []
     },
     {
@@ -82828,6 +84854,18 @@
       "matches": []
     },
     {
+      "filename": "9_BLA-125752-0_09-23-2021_Telecon_Information-Reques.pdf",
+      "id": 8457,
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2025/05/9_BLA-125752-0_09-23-2021_Telecon_Information-Reques.pdf",
+      "ican_url": null,
+      "total_pages": 1,
+      "matches": []
+    },
+    {
       "filename": "9_IND_19736_491_29-Sep-2021_DEBORAH_DEBORAH__RO_-The-Summary-Monthly-Safety-Report-has-been-reviewed.-No-furthe.pdf",
       "id": 8458,
       "module": null,
@@ -82848,6 +84886,89 @@
       "license": null,
       "individual_url": "https://phmpt.org/wp-content/uploads/2023/10/9_PM_S105_BLA-125742-9_09-20-2021_Telecon_Advice.pdf",
       "ican_url": "https://icandecide.org/wp-content/uploads/2023/10/9_PM_S105_BLA-125742-9_09-20-2021_Telecon_Advice.pdf",
+      "total_pages": 1,
+      "matches": []
+    },
+    {
+      "filename": "Courtesy-Copy_BLA-125742-45_04-11-2022_Memo_Committee-Memo-Statistical-Review-.pdf",
+      "id": 8460,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/Courtesy-Copy_BLA-125742-45_04-11-2022_Memo_Committee-Memo-Statistical-Review-.pdf",
+      "ican_url": null,
+      "total_pages": 18,
+      "matches": []
+    },
+    {
+      "filename": "Courtesy-Copy_BLA-125742-45_07-08-2022_Letter_Approval.pdf",
+      "id": 8461,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/Courtesy-Copy_BLA-125742-45_07-08-2022_Letter_Approval.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "Courtesy-Copy_BLA-125742-45_07-08-2022_Memo_Committee-Memo-Clinical-Review.pdf",
+      "id": 8462,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/Courtesy-Copy_BLA-125742-45_07-08-2022_Memo_Committee-Memo-Clinical-Review.pdf",
+      "ican_url": null,
+      "total_pages": 61,
+      "matches": [
+        {
+          "page": 16,
+          "term": "Pharmacovigilance plan",
+          "context": "s not yet available about potential long-term sequelae. Please see the CBER Pharmacovigilance Plan review memorandum for further details. 4.7 Risk-Benefit Assessment FDA conduc"
+        },
+        {
+          "page": 57,
+          "term": "Pharmacovigilance plan",
+          "context": "seling prior to vaccination according to individual risks and benefits, and a pharmacovigilance plan to further evaluate risks. x Ongoing monitoring of COVID-19 epidemiology (inc"
+        }
+      ]
+    },
+    {
+      "filename": "IND-019736_S434_IND-19736_09-24-2021_Telecon-.pdf",
+      "id": 8857,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/IND-019736_S434_IND-19736_09-24-2021_Telecon-.pdf",
+      "ican_url": null,
+      "total_pages": 4,
+      "matches": []
+    },
+    {
+      "filename": "IND-019736_S434_IND-19736_11-12-2021_Telecon-.pdf",
+      "id": 8858,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/IND-019736_S434_IND-19736_11-12-2021_Telecon-.pdf",
+      "ican_url": null,
+      "total_pages": 3,
+      "matches": []
+    },
+    {
+      "filename": "IND-019736_S434_IND-19736_RAMACHANDRA_RE_-Request-for-Comments-and-Advice-_-Proposal-for-adolesc.pdf",
+      "id": 8859,
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "individual_url": "https://phmpt.org/wp-content/uploads/2024/01/IND-019736_S434_IND-19736_RAMACHANDRA_RE_-Request-for-Comments-and-Advice-_-Proposal-for-adolesc.pdf",
+      "ican_url": null,
       "total_pages": 1,
       "matches": []
     },

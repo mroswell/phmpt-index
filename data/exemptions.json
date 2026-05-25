@@ -7,12 +7,12 @@
       "M4",
       "M5"
     ],
-    "files_in_index": 6377,
-    "files_processed": 6337,
-    "files_with_markers": 3945,
-    "files_ocr_flagged": 1037,
+    "files_in_index": 6545,
+    "files_processed": 6505,
+    "files_with_markers": 4014,
+    "files_ocr_flagged": 1051,
     "files_errored": 0,
-    "total_marker_occurrences": 11617953,
+    "total_marker_occurrences": 11645198,
     "by_module": {
       "M1": {
         "files_in_index": 1172,
@@ -89,35 +89,53 @@
         }
       }
     },
-    "individual_via_ican": {
-      "files_in_scope": 232,
-      "files_processed": 232,
-      "files_with_markers": 107,
-      "files_ocr_flagged": 15,
-      "files_errored": 0,
-      "total_marker_occurrences": 10013,
-      "by_exemption": {
-        "(b)(4)": 8639,
-        "(b)(6)": 985,
-        "(b)(7)(C)": 302,
-        "(b)(5)": 44,
-        "(b)(7)(E)": 28,
-        "(b)(2)": 9,
-        "(b)(1)": 2,
-        "(b)(1)(B)": 1,
-        "(b)(3)": 1,
-        "(b)(9)": 1,
-        "(b)(13)": 1
+    "individual_sources": {
+      "individual_exemptions": {
+        "files_in_scope": 232,
+        "files_processed": 232,
+        "files_with_markers": 107,
+        "files_ocr_flagged": 15,
+        "files_errored": 0,
+        "total_marker_occurrences": 10013,
+        "by_exemption": {
+          "(b)(4)": 8639,
+          "(b)(6)": 985,
+          "(b)(7)(C)": 302,
+          "(b)(5)": 44,
+          "(b)(7)(E)": 28,
+          "(b)(2)": 9,
+          "(b)(1)": 2,
+          "(b)(1)(B)": 1,
+          "(b)(3)": 1,
+          "(b)(9)": 1,
+          "(b)(13)": 1
+        }
+      },
+      "individual_phmpt_exemptions": {
+        "files_in_scope": 168,
+        "files_processed": 168,
+        "files_with_markers": 69,
+        "files_ocr_flagged": 14,
+        "files_errored": 0,
+        "total_marker_occurrences": 27245,
+        "by_exemption": {
+          "(b)(4)": 18731,
+          "(b)(6)": 8487,
+          "(b)(5)": 12,
+          "(b)(7)(E)": 10,
+          "(b)(2)": 3,
+          "(b)(1)": 2
+        }
       }
     },
     "by_exemption_overall": {
-      "(b)(4)": 8158853,
-      "(b)(6)": 3458652,
+      "(b)(4)": 8177584,
+      "(b)(6)": 3467139,
       "(b)(7)(C)": 302,
-      "(b)(5)": 50,
-      "(b)(1)": 35,
-      "(b)(7)(E)": 28,
-      "(b)(2)": 21,
+      "(b)(5)": 62,
+      "(b)(7)(E)": 38,
+      "(b)(1)": 37,
+      "(b)(2)": 24,
       "(b)(1)(C)": 6,
       "(b)(7)(A)": 2,
       "(b)(1)(B)": 1,
@@ -84590,7 +84608,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8071,
@@ -84605,7 +84623,7 @@
         "(b)(2)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8072,
@@ -84620,7 +84638,7 @@
         "(b)(2)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8073,
@@ -84633,7 +84651,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8074,
@@ -84646,7 +84664,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8075,
@@ -84659,7 +84677,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8076,
@@ -84675,7 +84693,7 @@
         "(b)(6)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8077,
@@ -84688,7 +84706,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8078,
@@ -84701,7 +84719,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8079,
@@ -84714,7 +84732,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8080,
@@ -84727,7 +84745,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8081,
@@ -84740,7 +84758,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8082,
@@ -84756,7 +84774,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8083,
@@ -84769,7 +84787,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8084,
@@ -84784,7 +84802,7 @@
         "(b)(5)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8085,
@@ -84801,7 +84819,7 @@
         "(b)(2)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8086,
@@ -84817,7 +84835,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8087,
@@ -84833,7 +84851,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8088,
@@ -84846,7 +84864,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8089,
@@ -84859,7 +84877,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8090,
@@ -84872,7 +84890,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8091,
@@ -84885,7 +84903,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8092,
@@ -84902,7 +84920,7 @@
         "(b)(1)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8093,
@@ -84915,7 +84933,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8094,
@@ -84928,7 +84946,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8095,
@@ -84941,7 +84959,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8096,
@@ -84959,7 +84977,7 @@
         "(b)(3)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8097,
@@ -84972,7 +84990,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8098,
@@ -84985,7 +85003,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8099,
@@ -85000,7 +85018,7 @@
         "(b)(2)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8100,
@@ -85013,7 +85031,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8101,
@@ -85026,7 +85044,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8102,
@@ -85043,7 +85061,7 @@
         "(b)(7)(E)": 3
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8103,
@@ -85060,7 +85078,7 @@
         "(b)(7)(E)": 3
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8104,
@@ -85076,7 +85094,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8107,
@@ -85091,7 +85109,7 @@
         "(b)(4)": 20
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8111,
@@ -85106,7 +85124,7 @@
         "(b)(4)": 15
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8113,
@@ -85119,7 +85137,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8114,
@@ -85132,7 +85150,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8115,
@@ -85145,7 +85163,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8117,
@@ -85160,7 +85178,7 @@
         "(b)(4)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8119,
@@ -85173,7 +85191,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8120,
@@ -85186,7 +85204,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8121,
@@ -85199,7 +85217,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8122,
@@ -85212,7 +85230,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8124,
@@ -85229,7 +85247,7 @@
         "(b)(7)(E)": 12
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8125,
@@ -85246,7 +85264,7 @@
         "(b)(7)(E)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8126,
@@ -85261,7 +85279,7 @@
         "(b)(4)": 27
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8128,
@@ -85276,7 +85294,7 @@
         "(b)(4)": 162
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8129,
@@ -85294,7 +85312,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8130,
@@ -85307,7 +85325,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8131,
@@ -85320,7 +85338,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8132,
@@ -85333,7 +85351,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8134,
@@ -85346,7 +85364,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8135,
@@ -85359,7 +85377,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8136,
@@ -85372,7 +85390,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8137,
@@ -85385,7 +85403,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8138,
@@ -85402,7 +85420,7 @@
         "(b)(6)": 152
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8139,
@@ -85417,7 +85435,7 @@
         "(b)(4)": 2
       },
       "ocr_candidate_pages_count": 2,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8140,
@@ -85434,7 +85452,7 @@
         "(b)(7)(E)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8141,
@@ -85447,7 +85465,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8142,
@@ -85460,7 +85478,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8144,
@@ -85473,7 +85491,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 2,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8145,
@@ -85490,7 +85508,7 @@
         "(b)(7)(E)": 6
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8146,
@@ -85503,7 +85521,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8147,
@@ -85516,7 +85534,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8148,
@@ -85531,7 +85549,7 @@
         "(b)(4)": 6
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8149,
@@ -85546,7 +85564,7 @@
         "(b)(4)": 31
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8150,
@@ -85562,7 +85580,7 @@
         "(b)(6)": 15
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8151,
@@ -85578,7 +85596,7 @@
         "(b)(6)": 14
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8152,
@@ -85594,7 +85612,7 @@
         "(b)(6)": 15
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8153,
@@ -85610,7 +85628,7 @@
         "(b)(6)": 15
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8192,
@@ -85623,7 +85641,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8193,
@@ -85636,7 +85654,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8194,
@@ -85651,7 +85669,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8195,
@@ -85664,7 +85682,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8196,
@@ -85677,7 +85695,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8197,
@@ -85690,7 +85708,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8198,
@@ -85706,7 +85724,7 @@
         "(b)(4)": 3
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8199,
@@ -85722,7 +85740,7 @@
         "(b)(4)": 8
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8200,
@@ -85738,7 +85756,7 @@
         "(b)(4)": 5
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8201,
@@ -85753,7 +85771,7 @@
         "(b)(6)": 5
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8202,
@@ -85768,7 +85786,7 @@
         "(b)(6)": 9
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8203,
@@ -85784,7 +85802,7 @@
         "(b)(4)": 4
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8204,
@@ -85799,7 +85817,7 @@
         "(b)(6)": 16
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8205,
@@ -85814,7 +85832,7 @@
         "(b)(6)": 15
       },
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8206,
@@ -85829,7 +85847,7 @@
         "(b)(6)": 15
       },
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8207,
@@ -85844,7 +85862,7 @@
         "(b)(6)": 16
       },
       "ocr_candidate_pages_count": 2,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8208,
@@ -85859,7 +85877,7 @@
         "(b)(6)": 15
       },
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8209,
@@ -85874,7 +85892,7 @@
         "(b)(6)": 15
       },
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8210,
@@ -85889,7 +85907,7 @@
         "(b)(6)": 24
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8212,
@@ -85905,7 +85923,7 @@
         "(b)(4)": 5
       },
       "ocr_candidate_pages_count": 45,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8213,
@@ -85918,7 +85936,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8215,
@@ -85934,7 +85952,7 @@
         "(b)(6)": 270
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8216,
@@ -85949,7 +85967,7 @@
         "(b)(6)": 4
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8217,
@@ -85964,7 +85982,7 @@
         "(b)(6)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8230,
@@ -85979,7 +85997,7 @@
         "(b)(4)": 21
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8231,
@@ -85992,7 +86010,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8232,
@@ -86005,7 +86023,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8233,
@@ -86020,7 +86038,7 @@
         "(b)(4)": 3
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8234,
@@ -86033,7 +86051,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8235,
@@ -86049,7 +86067,7 @@
         "(b)(13)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8237,
@@ -86062,7 +86080,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8238,
@@ -86078,7 +86096,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8239,
@@ -86093,7 +86111,7 @@
         "(b)(4)": 10
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8240,
@@ -86108,7 +86126,7 @@
         "(b)(6)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8241,
@@ -86123,7 +86141,7 @@
         "(b)(4)": 21
       },
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8242,
@@ -86138,7 +86156,7 @@
         "(b)(4)": 31
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8243,
@@ -86153,7 +86171,7 @@
         "(b)(4)": 80
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8244,
@@ -86168,7 +86186,7 @@
         "(b)(4)": 82
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8246,
@@ -86181,7 +86199,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8247,
@@ -86194,7 +86212,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8248,
@@ -86209,7 +86227,7 @@
         "(b)(4)": 41
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8250,
@@ -86222,7 +86240,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8252,
@@ -86235,7 +86253,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8254,
@@ -86250,7 +86268,7 @@
         "(b)(4)": 6
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8256,
@@ -86263,7 +86281,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8258,
@@ -86276,7 +86294,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8260,
@@ -86289,7 +86307,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8261,
@@ -86302,7 +86320,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8264,
@@ -86315,7 +86333,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8266,
@@ -86330,7 +86348,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8268,
@@ -86343,7 +86361,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8269,
@@ -86356,7 +86374,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8271,
@@ -86369,7 +86387,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8273,
@@ -86384,7 +86402,7 @@
         "(b)(4)": 8
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8275,
@@ -86397,7 +86415,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8277,
@@ -86410,7 +86428,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8278,
@@ -86423,7 +86441,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8279,
@@ -86436,7 +86454,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8280,
@@ -86451,7 +86469,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8282,
@@ -86464,7 +86482,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8285,
@@ -86479,7 +86497,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8286,
@@ -86492,7 +86510,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8287,
@@ -86505,7 +86523,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8292,
@@ -86518,7 +86536,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8294,
@@ -86531,7 +86549,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8296,
@@ -86546,7 +86564,7 @@
         "(b)(4)": 53
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8298,
@@ -86559,7 +86577,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8300,
@@ -86572,7 +86590,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8302,
@@ -86585,7 +86603,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8304,
@@ -86598,7 +86616,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8305,
@@ -86611,7 +86629,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8307,
@@ -86624,7 +86642,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8309,
@@ -86639,7 +86657,7 @@
         "(b)(4)": 38
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8311,
@@ -86654,7 +86672,7 @@
         "(b)(4)": 21
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8313,
@@ -86669,7 +86687,7 @@
         "(b)(4)": 3
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8315,
@@ -86684,7 +86702,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8316,
@@ -86697,7 +86715,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8319,
@@ -86712,7 +86730,7 @@
         "(b)(4)": 24
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8321,
@@ -86725,7 +86743,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8322,
@@ -86740,7 +86758,7 @@
         "(b)(4)": 20
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8324,
@@ -86755,7 +86773,7 @@
         "(b)(4)": 12
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8325,
@@ -86770,7 +86788,7 @@
         "(b)(4)": 18
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8327,
@@ -86785,7 +86803,7 @@
         "(b)(4)": 7
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8329,
@@ -86798,7 +86816,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8331,
@@ -86813,7 +86831,7 @@
         "(b)(4)": 39
       },
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8333,
@@ -86826,7 +86844,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8335,
@@ -86839,7 +86857,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8337,
@@ -86852,7 +86870,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8339,
@@ -86865,7 +86883,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 1,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8342,
@@ -86880,7 +86898,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8343,
@@ -86893,7 +86911,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8346,
@@ -86909,7 +86927,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8347,
@@ -86924,7 +86942,7 @@
         "(b)(4)": 11
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8349,
@@ -86939,7 +86957,7 @@
         "(b)(4)": 25
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8352,
@@ -86954,7 +86972,7 @@
         "(b)(4)": 21
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8354,
@@ -86970,7 +86988,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8356,
@@ -86983,7 +87001,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8359,
@@ -86996,7 +87014,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8361,
@@ -87011,7 +87029,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8362,
@@ -87024,7 +87042,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8364,
@@ -87037,7 +87055,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8366,
@@ -87050,7 +87068,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8367,
@@ -87063,7 +87081,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8368,
@@ -87079,7 +87097,7 @@
         "(b)(4)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8370,
@@ -87096,7 +87114,7 @@
         "(b)(5)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8372,
@@ -87112,7 +87130,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8375,
@@ -87125,7 +87143,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8376,
@@ -87140,7 +87158,7 @@
         "(b)(4)": 17
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8378,
@@ -87155,7 +87173,7 @@
         "(b)(4)": 10
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8380,
@@ -87168,7 +87186,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8382,
@@ -87183,7 +87201,7 @@
         "(b)(4)": 22
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8383,
@@ -87198,7 +87216,7 @@
         "(b)(4)": 22
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8384,
@@ -87211,7 +87229,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8388,
@@ -87224,7 +87242,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8389,
@@ -87237,7 +87255,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8391,
@@ -87250,7 +87268,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8392,
@@ -87263,7 +87281,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8394,
@@ -87276,7 +87294,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8395,
@@ -87289,7 +87307,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8396,
@@ -87302,7 +87320,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8398,
@@ -87315,7 +87333,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8400,
@@ -87328,7 +87346,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8402,
@@ -87344,7 +87362,7 @@
         "(b)(6)": 6
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8404,
@@ -87357,7 +87375,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8407,
@@ -87370,7 +87388,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8416,
@@ -87383,7 +87401,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8419,
@@ -87396,7 +87414,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8420,
@@ -87409,7 +87427,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8422,
@@ -87424,7 +87442,7 @@
         "(b)(4)": 11
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8423,
@@ -87437,7 +87455,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8424,
@@ -87450,7 +87468,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8425,
@@ -87466,7 +87484,7 @@
         "(b)(6)": 14
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8426,
@@ -87481,7 +87499,7 @@
         "(b)(4)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8429,
@@ -87496,7 +87514,7 @@
         "(b)(4)": 47
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8430,
@@ -87512,7 +87530,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8431,
@@ -87527,7 +87545,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8433,
@@ -87540,7 +87558,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8434,
@@ -87555,7 +87573,7 @@
         "(b)(4)": 11
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8436,
@@ -87570,7 +87588,7 @@
         "(b)(4)": 9
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8438,
@@ -87583,7 +87601,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8439,
@@ -87596,7 +87614,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8441,
@@ -87609,7 +87627,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8442,
@@ -87622,7 +87640,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8443,
@@ -87639,7 +87657,7 @@
         "(b)(7)(C)": 149
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8446,
@@ -87655,7 +87673,7 @@
         "(b)(4)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8448,
@@ -87670,7 +87688,7 @@
         "(b)(6)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8449,
@@ -87685,7 +87703,7 @@
         "(b)(4)": 39
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8451,
@@ -87698,7 +87716,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8452,
@@ -87711,7 +87729,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8453,
@@ -87724,7 +87742,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8454,
@@ -87737,7 +87755,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8455,
@@ -87752,7 +87770,7 @@
         "(b)(4)": 6
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8456,
@@ -87765,7 +87783,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8458,
@@ -87780,7 +87798,7 @@
         "(b)(4)": 2
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8459,
@@ -87795,7 +87813,7 @@
         "(b)(6)": 1
       },
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8860,
@@ -87808,7 +87826,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8861,
@@ -87821,7 +87839,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8862,
@@ -87834,7 +87852,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8863,
@@ -87847,7 +87865,7 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
     },
     {
       "id": 8864,
@@ -87860,7 +87878,2347 @@
       "total_markers": 0,
       "by_marker": {},
       "ocr_candidate_pages_count": 0,
-      "source": "ican_individual"
+      "source": "individual_exemptions"
+    },
+    {
+      "id": 8105,
+      "filename": "102A_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8106,
+      "filename": "102D_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 9,
+      "by_marker": {
+        "(b)(4)": 9
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8108,
+      "filename": "102_BLA-125752-0_01-28-2022_Memo_Compliance-Check-Acce.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8109,
+      "filename": "103A_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8110,
+      "filename": "103D_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 9,
+      "by_marker": {
+        "(b)(4)": 9
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8112,
+      "filename": "103_BLA-125752-0_01-28-2022_Memo_Request-For-Complianc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8116,
+      "filename": "105A_BLA-125752-0_01-28-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 6,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8118,
+      "filename": "105_BLA-125752-0_01-28-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8123,
+      "filename": "107_BLA-125752-0_01-31-2022_Inspection-Related_Inspect.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 8,
+      "by_marker": {
+        "(b)(4)": 8
+      },
+      "ocr_candidate_pages_count": 2,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8127,
+      "filename": "10_BLA-125752-0_09-24-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8133,
+      "filename": "112_BLA-125752-0_01-31-2022_Memo_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8143,
+      "filename": "11_BLA-125752-0_09-27-2021_Memo_Committee-Memo_APLB.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8154,
+      "filename": "125742-45_01-05-2022_Letter_Acknowledgement-Le.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8155,
+      "filename": "125742-45_01-06-2022_Meeting-Summary_First-Com.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8156,
+      "filename": "125742-45_01-19-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(6)": 4
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8157,
+      "filename": "125742-45_01-25-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(6)": 2,
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8158,
+      "filename": "125742-45_01-31-2022_Meeting-Summary_Filing-Me.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8159,
+      "filename": "125742-45_02-07-2022_Memo_Filing-Checklist_RPM.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(2)": 2,
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8160,
+      "filename": "125742-45_02-07-2022_Memo_Filing-Checklist_RPM_A.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8161,
+      "filename": "125742-45_02-09-2022_Letter_Filing-Notificatio.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8162,
+      "filename": "125742-45_02-23-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8163,
+      "filename": "125742-45_03-02-2022_Meeting-Summary_Committee.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8164,
+      "filename": "125742-45_03-07-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8165,
+      "filename": "125742-45_03-14-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8166,
+      "filename": "125742-45_04-07-2022_Meeting-Summary_Mid-Cycle.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 9,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8167,
+      "filename": "125742-45_04-08-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 5,
+      "by_marker": {
+        "(b)(4)": 3,
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8168,
+      "filename": "125742-45_04-20-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8169,
+      "filename": "125742-45_04-20-2022_Telecon_Labeling-Target-C.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 27,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8170,
+      "filename": "125742-45_04-22-2022_Memo_Committee-Memo_Consu.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8171,
+      "filename": "125742-45_04-22-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8172,
+      "filename": "125742-45_04-26-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 6,
+      "by_marker": {
+        "(b)(6)": 6
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8173,
+      "filename": "125742-45_05-02-2022_Memo_Committee-Memo_CMC.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(4)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8174,
+      "filename": "125742-45_05-04-2022_Telecon_Information-Reque.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8175,
+      "filename": "125742-45_05-06-2022_Meeting-Summary_Committee.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(5)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8176,
+      "filename": "125742-45_05-10-2022_Telecon_Labeling-via-FAX.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 29,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8177,
+      "filename": "125742-45_05-11-2022_Memo_Committee-Memo_APLB.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8178,
+      "filename": "125742-45_05-11-2022_Memo_Lot-Release-Clearanc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8179,
+      "filename": "125742-45_05-13-2022_Memo_Lot-Release-Clearanc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8180,
+      "filename": "125742-45_05-19-2022_Memo_Committee-Memo_Postm.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8181,
+      "filename": "125742-45_06-10-2022_Memo_Committee-Memo_BIMO.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8182,
+      "filename": "125742-45_06-13-2022_Telecon_Covid-19-Delay.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8183,
+      "filename": "125742-45_06-27-2022_Memo_Request-For-Complian.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8184,
+      "filename": "125742-45_06-29-2022_Telecon_Labeling-via-FAX.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8185,
+      "filename": "125742-45_07-01-2022_Memo_Compliance-Check-Acc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8186,
+      "filename": "125742-45_07-05-2022_Telecon_Labeling-via-FAX.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8187,
+      "filename": "125742-45_08-02-2022_Memo_Committee-Memo_Label.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8188,
+      "filename": "125742-45_08-02-2022_Memo_Committee-Memo_Revie.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8189,
+      "filename": "125742-45_S211_M5_c4591001-A_6mth-comorbidity-categories-1.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8190,
+      "filename": "125742-45_S211_M5_c4591001-A_6mth-report-cci-diabetes-with-comp-06aug2021-1.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8191,
+      "filename": "125742-45_S211_M5_c4591001-A_6mth-report-cci-diabetes-without-comp-30oct2020-1.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8211,
+      "filename": "125742_S1_M4_4.2.3.2+38166.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2237,
+      "total_markers": 3419,
+      "by_marker": {
+        "(b)(4)": 3178,
+        "(b)(6)": 241
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8218,
+      "filename": "125752_S1_M4.2.3.2-report-body-5002033.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 811,
+      "total_markers": 563,
+      "by_marker": {
+        "(b)(6)": 307,
+        "(b)(4)": 256
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8219,
+      "filename": "125752_S1_M4.2.3.2-report-body-5002034.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1015,
+      "total_markers": 670,
+      "by_marker": {
+        "(b)(6)": 448,
+        "(b)(4)": 222
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8220,
+      "filename": "125752_S1_M4.2.3.2-report-body-5002045.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 831,
+      "total_markers": 651,
+      "by_marker": {
+        "(b)(6)": 422,
+        "(b)(4)": 229
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8221,
+      "filename": "125752_S1_M4.2.3.2-report-body-5002158.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 983,
+      "total_markers": 825,
+      "by_marker": {
+        "(b)(6)": 485,
+        "(b)(4)": 340
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8222,
+      "filename": "125752_S1_M4.2.3.2-report-body-5002231.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 957,
+      "total_markers": 668,
+      "by_marker": {
+        "(b)(6)": 438,
+        "(b)(4)": 230
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8223,
+      "filename": "125752_S1_M4.2.3.2-report-body-5002400.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1014,
+      "total_markers": 359,
+      "by_marker": {
+        "(b)(4)": 190,
+        "(b)(6)": 169
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8224,
+      "filename": "125752_S1_M4_report-body-20248897-.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 814,
+      "total_markers": 138,
+      "by_marker": {
+        "(b)(6)": 121,
+        "(b)(4)": 17
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8225,
+      "filename": "125752_S3_M5-_Phase-2a-1273p201-16-2-7.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1650,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8226,
+      "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3232063-1.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4119,
+      "total_markers": 19411,
+      "by_marker": {
+        "(b)(4)": 13627,
+        "(b)(6)": 5784
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8227,
+      "filename": "125752_S3_M5_Phase-2a-mrna1273p201-add1-16-2-7.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 312,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8228,
+      "filename": "125752_S3_M5_Phase-3-mrna1273p301-16-2-7.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 11505,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8229,
+      "filename": "125752_S3_M5_Phase-3-mrna1273p301-add1-16-2-7.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 218,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8236,
+      "filename": "12_BLA-125752-0_09-27-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 11,
+      "total_markers": 52,
+      "by_marker": {
+        "(b)(4)": 32,
+        "(b)(6)": 20
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8245,
+      "filename": "13_BLA-125752-0_09-27-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 9,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(6)": 2,
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 2,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8249,
+      "filename": "15_BLA-125752-0_09-28-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 6,
+      "by_marker": {
+        "(b)(4)": 6
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8251,
+      "filename": "16_BLA-125752-0_09-30-2021_Memo_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8253,
+      "filename": "17_BLA-125752-0_10-05-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 13,
+      "by_marker": {
+        "(b)(4)": 13
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8255,
+      "filename": "18_BLA-125752-0_10-06-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 19,
+      "by_marker": {
+        "(b)(4)": 19
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8257,
+      "filename": "19_BLA-125752-0_10-14-2021_Letter_Filing-Notification.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8259,
+      "filename": "1_BLA-125752-0_06-09-2021_Letter_Acknowledgement-Let.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8262,
+      "filename": "20_BLA-125752-0_10-14-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 5,
+      "by_marker": {
+        "(b)(4)": 5
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8263,
+      "filename": "21A_BLA-125752-0_10-14-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(6)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8265,
+      "filename": "21_BLA-125752-0_10-14-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8267,
+      "filename": "22_BLA-125752-0_10-15-2021_Letter_PNR-Acceptance.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8270,
+      "filename": "24_BLA-125752-0_10-20-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 7,
+      "by_marker": {
+        "(b)(4)": 7
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8272,
+      "filename": "25_BLA-125752-0_10-21-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(4)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8274,
+      "filename": "26_BLA-125752-0_10-22-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8276,
+      "filename": "27_BLA-125752-0_10-22-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 32,
+      "by_marker": {
+        "(b)(4)": 32
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8281,
+      "filename": "28_BLA-125752-0_10-26-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8283,
+      "filename": "2A_BLA-125752-0_08-20-2021_Telecon_Information-Reques_.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8284,
+      "filename": "2_BLA-125752-0_08-20-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8288,
+      "filename": "30A_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 8,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8289,
+      "filename": "30B_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 21,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8290,
+      "filename": "30C_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8291,
+      "filename": "30D_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8293,
+      "filename": "30_BLA-125752-0_10-29-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 637,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 8,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8295,
+      "filename": "31_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 8,
+      "by_marker": {
+        "(b)(4)": 8
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8297,
+      "filename": "32_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8299,
+      "filename": "33_BLA-125752-0_11-03-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8301,
+      "filename": "34_BLA-125752-0_11-03-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8303,
+      "filename": "35_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8306,
+      "filename": "36_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8308,
+      "filename": "37_BLA-125752-0_11-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 14,
+      "by_marker": {
+        "(b)(4)": 14
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8310,
+      "filename": "38_BLA-125752-0_11-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8312,
+      "filename": "39_BLA-125752-0_11-12-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8314,
+      "filename": "3_BLA-125752-0_09-09-2021_Meeting-Summary_Committee-.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 11,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8317,
+      "filename": "40A_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 18,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8318,
+      "filename": "40B_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 18,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8320,
+      "filename": "40_BLA-125752-0_11-15-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 20,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8323,
+      "filename": "42_BLA-125752-0_11-19-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8326,
+      "filename": "43_BLA-125752-0_11-19-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8328,
+      "filename": "44_BLA-125752-0_11-24-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8330,
+      "filename": "45_BLA-125752-0_11-29-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8332,
+      "filename": "46_BLA-125752-0_11-29-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 29,
+      "by_marker": {
+        "(b)(4)": 29
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8334,
+      "filename": "47_BLA-125752-0_12-01-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 8,
+      "by_marker": {
+        "(b)(4)": 8
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8336,
+      "filename": "48A_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8338,
+      "filename": "48_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8340,
+      "filename": "49_BLA-125752-0_12-06-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8341,
+      "filename": "4_BLA-125752-0_09-14-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8344,
+      "filename": "50_BLA-125752-0_12-07-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 7,
+      "by_marker": {
+        "(b)(4)": 7
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8345,
+      "filename": "51_BLA-125752-0_12-09-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(4)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8348,
+      "filename": "52_BLA-125752-0_12-09-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 16,
+      "by_marker": {
+        "(b)(4)": 16
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8350,
+      "filename": "53_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8351,
+      "filename": "54A_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(4)": 4
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8353,
+      "filename": "54_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8355,
+      "filename": "55_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8357,
+      "filename": "56_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8358,
+      "filename": "57A_BLA-125752-0_12-14-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8360,
+      "filename": "57_BLA-125752-0_12-14-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8363,
+      "filename": "59_BLA-125752-0_12-15-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 6,
+      "by_marker": {
+        "(b)(6)": 3,
+        "(b)(4)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8365,
+      "filename": "5_BLA-125752-0_09-17-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8369,
+      "filename": "61_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8371,
+      "filename": "62_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 39,
+      "by_marker": {
+        "(b)(4)": 39
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8373,
+      "filename": "63_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 17,
+      "by_marker": {
+        "(b)(4)": 17
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8374,
+      "filename": "64_BLA-125752-0_12-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8377,
+      "filename": "65_BLA-125752-0_12-17-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8379,
+      "filename": "66_BLA-125752-0_12-21-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8381,
+      "filename": "67_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8385,
+      "filename": "68_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8386,
+      "filename": "69A_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8387,
+      "filename": "69B_BLA-125752-0_12-23-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8390,
+      "filename": "6_BLA-125752-0_09-21-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8393,
+      "filename": "70_BLA-125752-0_12-28-2021_Inspection-Related_Inspect.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8397,
+      "filename": "72_BLA-125752-0_01-03-2022_Memo_Committee-Memo_APLB.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8399,
+      "filename": "73_BLA-125752-0_01-04-2022_Memo_Test-Results.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 22,
+      "by_marker": {
+        "(b)(4)": 22
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8401,
+      "filename": "74_BLA-125752-0_01-05-2022_Memo_Committee-Memo_Labeli.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 15,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8403,
+      "filename": "75_BLA-125752-0_01-05-2022_Memo_Lot-Release-Clearance.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8405,
+      "filename": "76_BLA-125752-0_01-07-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8406,
+      "filename": "77_BLA-125752-0_01-10-2022_Memo_Committee-Memo_APLB.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8408,
+      "filename": "78A_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8409,
+      "filename": "78B_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8410,
+      "filename": "78C_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8411,
+      "filename": "78D_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8412,
+      "filename": "78E_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 567,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8413,
+      "filename": "78F_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 75,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8414,
+      "filename": "78G_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 522,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8415,
+      "filename": "78_BLA-125752-0_01-11-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 13,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8417,
+      "filename": "79_BLA-125752-0_01-11-2022_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8418,
+      "filename": "7_BLA-125752-0_09-22-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8421,
+      "filename": "80_BLA-125752-0_01-12-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8427,
+      "filename": "84_BLA-125752-0_01-13-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8428,
+      "filename": "85_BLA-125752-0_01-14-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(4)": 4
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8432,
+      "filename": "87_BLA-125752-0_01-18-2022_Memo_Test-Results.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 47,
+      "by_marker": {
+        "(b)(4)": 47
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8435,
+      "filename": "89_BLA-125752-0_01-20-2022_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8437,
+      "filename": "8_BLA-125752-0_09-23-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8440,
+      "filename": "90_BLA-125752-0_01-20-2022_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8444,
+      "filename": "92_BLA-125752-0_01-24-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8445,
+      "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 78,
+      "by_marker": {
+        "(b)(4)": 58,
+        "(b)(5)": 10,
+        "(b)(7)(E)": 10
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8447,
+      "filename": "94_BLA-125752-0_01-26-2022_Memo_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(1)": 2,
+        "(b)(2)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8450,
+      "filename": "95_BLA-125752-0_01-26-2022_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8457,
+      "filename": "9_BLA-125752-0_09-23-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Moderna",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8460,
+      "filename": "Courtesy-Copy_BLA-125742-45_04-11-2022_Memo_Committee-Memo-Statistical-Review-.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 18,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8461,
+      "filename": "Courtesy-Copy_BLA-125742-45_07-08-2022_Letter_Approval.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8462,
+      "filename": "Courtesy-Copy_BLA-125742-45_07-08-2022_Memo_Committee-Memo-Clinical-Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 61,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8857,
+      "filename": "IND-019736_S434_IND-19736_09-24-2021_Telecon-.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8858,
+      "filename": "IND-019736_S434_IND-19736_11-12-2021_Telecon-.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
+    },
+    {
+      "id": 8859,
+      "filename": "IND-019736_S434_IND-19736_RAMACHANDRA_RE_-Request-for-Comments-and-Advice-_-Proposal-for-adolesc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "individual_phmpt_exemptions"
     }
   ]
 }

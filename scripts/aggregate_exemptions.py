@@ -18,9 +18,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 MODULES = ["M1", "M2", "M3", "M4", "M5"]
-# Optional extra source: ICAN-downloaded individual PDFs (no zip_source).
-# Produced by scripts/scan_individual_via_ican.py.
-INDIVIDUAL = DATA / "individual_exemptions.json"
+# Optional extra sources: individual PDFs (no zip_source) scanned via
+# ICAN (scan_individual_via_ican.py) and via PHMPT with curl_cffi
+# (scan_individual_via_phmpt.py).
+INDIVIDUAL_SOURCES = [
+    DATA / "individual_exemptions.json",
+    DATA / "individual_phmpt_exemptions.json",
+]
 OUT = DATA / "exemptions.json"
 
 
@@ -76,12 +80,15 @@ def main() -> None:
         for marker, count in s.get("by_exemption", {}).items():
             by_marker_overall[marker] += count
 
-    # Ingest individual-via-ICAN scan results, if present
-    individual_summary = None
-    if INDIVIDUAL.exists():
-        doc = json.loads(INDIVIDUAL.read_text())
+    # Ingest individual-via-(ICAN|PHMPT) scan results, if present
+    individual_summaries: dict[str, dict] = {}
+    for path in INDIVIDUAL_SOURCES:
+        if not path.exists():
+            continue
+        source_tag = path.stem  # e.g. "individual_exemptions" or "individual_phmpt_exemptions"
+        doc = json.loads(path.read_text())
         s = doc["summary"]
-        individual_summary = {
+        individual_summaries[source_tag] = {
             "files_in_scope": s.get("files_in_scope", 0),
             "files_processed": s.get("files_processed", 0),
             "files_with_markers": s.get("files_with_exemptions", 0),
@@ -90,7 +97,6 @@ def main() -> None:
             "total_marker_occurrences": s.get("total_marker_occurrences", 0),
             "by_exemption": s.get("by_exemption", {}),
         }
-        # Same slim-record reduction we apply to per-module files
         for f in doc.get("files", []):
             by_marker_f: Counter[str] = Counter()
             for entry in f.get("exemption_pages", []):
@@ -98,7 +104,7 @@ def main() -> None:
             slim = {
                 "id": f.get("id"),
                 "filename": f.get("filename"),
-                "module": f.get("module"),  # may be None — these are individuals
+                "module": f.get("module"),
                 "batch_code": f.get("batch_code"),
                 "company": f.get("company"),
                 "license": f.get("license"),
@@ -106,7 +112,7 @@ def main() -> None:
                 "total_markers": sum(by_marker_f.values()),
                 "by_marker": dict(sorted(by_marker_f.items(), key=lambda kv: -kv[1])),
                 "ocr_candidate_pages_count": len(f.get("ocr_candidate_pages", [])),
-                "source": "ican_individual",
+                "source": source_tag,
             }
             if f.get("error"):
                 slim["error"] = f["error"]
@@ -123,17 +129,16 @@ def main() -> None:
         "files_errored": sum(m["files_errored"] for m in per_module.values()),
         "total_marker_occurrences": sum(by_marker_overall.values()),
         "by_module": per_module,
-        "individual_via_ican": individual_summary,
+        "individual_sources": individual_summaries,
         "by_exemption_overall": dict(sorted(by_marker_overall.items(), key=lambda kv: -kv[1])),
     }
-    if individual_summary:
-        # Roll the individual scan into the cross-source totals
-        summary["files_in_index"] += individual_summary["files_in_scope"]
-        summary["files_processed"] += individual_summary["files_processed"]
-        summary["files_with_markers"] += individual_summary["files_with_markers"]
-        summary["files_ocr_flagged"] += individual_summary["files_ocr_flagged"]
-        summary["files_errored"] += individual_summary["files_errored"]
-        summary["total_marker_occurrences"] = sum(by_marker_overall.values())
+    for ind in individual_summaries.values():
+        summary["files_in_index"] += ind["files_in_scope"]
+        summary["files_processed"] += ind["files_processed"]
+        summary["files_with_markers"] += ind["files_with_markers"]
+        summary["files_ocr_flagged"] += ind["files_ocr_flagged"]
+        summary["files_errored"] += ind["files_errored"]
+    summary["total_marker_occurrences"] = sum(by_marker_overall.values())
 
     OUT.write_text(json.dumps({"summary": summary, "files": all_files}, indent=2))
 

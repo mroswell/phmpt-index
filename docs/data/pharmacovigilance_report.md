@@ -1,6 +1,6 @@
 # Pharmacovigilance Term Scan
 
-Scanned **5,968 PDFs** (M3 excluded; 5,968 in scope total). **161 files contain at least one matching term**; 2,230 total term occurrences.
+Scanned **6,136 PDFs** (M3 excluded; 6,136 in scope total). **171 files contain at least one matching term**; 2,249 total term occurrences.
 
 Each section lists files containing that term, sorted by hit count. Context snippets are ~80 characters around each match. Click PHMPT (may show one-time Cloudflare challenge) or ICAN (no challenge) to open the PDF.
 
@@ -8,9 +8,9 @@ Each section lists files containing that term, sorted by hit count. Context snip
 
 | Term | Files | Total occurrences |
 | --- | ---: | ---: |
-| Pharmacovigilance plan | 96 | 421 |
+| Pharmacovigilance plan | 104 | 435 |
 | Disproportionality analysis | 7 | 24 |
-| Risk management plan | 65 | 1,558 |
+| Risk management plan | 68 | 1,563 |
 | PRR | 7 | 25 |
 | Proportional Reporting Ratio | 0 | 0 |
 | Bayesian | 40 | 202 |
@@ -19,7 +19,7 @@ Each section lists files containing that term, sorted by hit count. Context snip
 
 ## Pharmacovigilance plan
 
-**96 file(s), 421 hit(s).**
+**104 file(s), 435 hit(s).**
 
 | File | Module | Company | License | Hits | Pages | Links |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -57,6 +57,7 @@ Each section lists files containing that term, sorted by hit count. Context snip
 | `27073_S8_M1_vrbpac-briefing-doc.pdf` | M1 | Moderna | EUA | 3 | 3, 72 | — |
 | `27034_S16_M1_cover.pdf` | M1 | Pfizer | EUA | 3 | 1 | — |
 | `19736_S0289_M1_smsr-01mar2021-31mar2021.pdf` | M1 | Pfizer | BLA | 3 | 4, 10, 50 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/19736_S0289_M1_smsr-01mar2021-31mar2021.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/19736_S0289_M1_smsr-01mar2021-31mar2021.pdf) |
+| `125742-45_05-19-2022_Memo_Committee-Memo_Postm.pdf` | — | Pfizer | — | 3 | 1, 2, 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-19-2022_Memo_Committee-Memo_Postm.pdf) |
 | `125752_S55_M1_pbrer-2-01jul2021-31dec2021.pdf` | M1 | Moderna | BLA | 2 | 38, 1657 | — |
 | `125742-45_S211_M1_priority-review-request.pdf` | M1 | Pfizer | BLA | 2 | 10 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/125742-45_S211_M1_priority-review-request.pdf) |
 | `27073_S13_M1_rsp-cmts-ir14.pdf` | M1 | Moderna | EUA | 2 | 1, 3 | — |
@@ -81,7 +82,11 @@ Each section lists files containing that term, sorted by hit count. Context snip
 | `19736_S0408_M1_smsr-01jun2021-30jun2021.pdf` | M1 | Pfizer | BLA | 2 | 11, 46 | [PHMPT](https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/100123/19736_S0408_M1_smsr-01jun2021-30jun2021.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/19736_S0408_M1_smsr-01jun2021-30jun2021.pdf) |
 | `19736_S0453_M1_smsr-01jul2021-31jul2021.pdf` | M1 | Pfizer | BLA | 2 | 10, 47 | [ICAN](https://ican-public.s3.amazonaws.com/productions/100123/19736_S0453_M1_smsr-01jul2021-31jul2021.pdf) |
 | `19736_S0491_M1_smsr-01aug2021-31aug2021.pdf` | M1 | Pfizer | BLA | 2 | 10, 46 | [PHMPT](https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/100123/19736_S0491_M1_smsr-01aug2021-31aug2021.pdf) · [ICAN](https://ican-public.s3.amazonaws.com/productions/100123/19736_S0491_M1_smsr-01aug2021-31aug2021.pdf) |
+| `125742-45_04-20-2022_Telecon_Information-Reque.pdf` | — | Pfizer | — | 2 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-20-2022_Telecon_Information-Reque.pdf) |
+| `125742-45_05-06-2022_Meeting-Summary_Committee.pdf` | — | Pfizer | — | 2 | 4, 7 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/01/125742-45_05-06-2022_Meeting-Summary_Committee.pdf) |
 | `20_1_BLA-125742-0_07-13-2021_Telecon_Information-Reques.pdf` | — | Pfizer | — | 2 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/20_1_BLA-125742-0_07-13-2021_Telecon_Information-Reques.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/09/20_1_BLA-125742-0_07-13-2021_Telecon_Information-Reques.pdf) |
+| `35_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf` | — | Moderna | — | 2 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/35_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf) |
+| `Courtesy-Copy_BLA-125742-45_07-08-2022_Memo_Committee-Memo-Clinical-Review.pdf` | — | Pfizer | — | 2 | 16, 57 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/01/Courtesy-Copy_BLA-125742-45_07-08-2022_Memo_Committee-Memo-Clinical-Review.pdf) |
 | `125752_S22_M1_rsp-fda-cmts-safety-05nov2021.pdf` | M1 | Moderna | BLA | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/07/125752_S22_M1_rsp-fda-cmts-safety-05nov2021.pdf) |
 | `125752_S34_M1_rsp-fda-cmts-info-req31-10dec2021.pdf` | M1 | Moderna | BLA | 1 | 4 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/07/125752_S34_M1_rsp-fda-cmts-info-req31-10dec2021.pdf) |
 | `125752_S37_M1_cover-0037.pdf` | M1 | Moderna | BLA | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/07/125752_S37_M1_cover-0037.pdf) |
@@ -112,10 +117,13 @@ Each section lists files containing that term, sorted by hit count. Context snip
 | `125742_S62_M1_response-17aug2021.pdf` | M1 | Pfizer | BLA | 1 | 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S62_M1_response-17aug2021.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S62_M1_response-17aug2021.pdf) |
 | `019736_S387_M5_c4591008-interim-abstract.pdf` | M5 | Pfizer | BLA | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S387_M5_c4591008-interim-abstract.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S387_M5_c4591008-interim-abstract.pdf) |
 | `027-2-Declaration-of-Sarah-B.-Kotler-2023-03-31.pdf` | — | — | — | 1 | 7 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/05/027-2-Declaration-of-Sarah-B.-Kotler-2023-03-31.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/027-2-Declaration-of-Sarah-B.-Kotler-2023-03-31.pdf) |
+| `125742-45_04-22-2022_Telecon_Information-Reque.pdf` | — | Pfizer | — | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/01/125742-45_04-22-2022_Telecon_Information-Reque.pdf) |
 | `125742_S1_M1_priority-review-request-1.pdf` | M1 | Pfizer | — | 1 | 14 | [PHMPT](https://phmpt.org/wp-content/uploads/2022/03/125742_S1_M1_priority-review-request-1.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/125742_S1_M1_priority-review-request-1.pdf) |
 | `127_Courtesy-Copy_BLA-125742-0_CBER-Sentinel-Program-Sufficiency-Memo-COMIRNATY.pdf` | — | Pfizer | — | 1 | 2 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/11/127_Courtesy-Copy_BLA-125742-0_CBER-Sentinel-Program-Sufficiency-Memo-COMIRNATY.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/11/127_Courtesy-Copy_BLA-125742-0_CBER-Sentinel-Program-Sufficiency-Memo-COMIRNATY.pdf) |
 | `22_BLA-125742-0_07-15-2021_Meeting-Summary_Committee-.pdf` | — | Pfizer | — | 1 | 8 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/22_BLA-125742-0_07-15-2021_Meeting-Summary_Committee-.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/09/22_BLA-125742-0_07-15-2021_Meeting-Summary_Committee-.pdf) |
 | `35_BLA-125742-0_07-28-2021_Telecon_Information-Reques.pdf` | — | Pfizer | — | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/35_BLA-125742-0_07-28-2021_Telecon_Information-Reques.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/09/35_BLA-125742-0_07-28-2021_Telecon_Information-Reques.pdf) |
+| `3_BLA-125752-0_09-09-2021_Meeting-Summary_Committee-.pdf` | — | Moderna | — | 1 | 6 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/3_BLA-125752-0_09-09-2021_Meeting-Summary_Committee-.pdf) |
+| `55_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf` | — | Moderna | — | 1 | 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/55_BLA-125752-0_12-10-2021_Telecon_Information-Reques.pdf) |
 | `59_1_BLA-125742-0_08-10-2021_Telecon_Information-Reques.pdf` | — | Pfizer | — | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/59_1_BLA-125742-0_08-10-2021_Telecon_Information-Reques.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/09/59_1_BLA-125742-0_08-10-2021_Telecon_Information-Reques.pdf) |
 | `69_1_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf` | — | Pfizer | — | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/69_1_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/09/69_1_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf) |
 | `80_2_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf` | — | Pfizer | — | 1 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/80_2_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/09/80_2_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf) |
@@ -152,7 +160,7 @@ Each section lists files containing that term, sorted by hit count. Context snip
 
 ## Risk management plan
 
-**65 file(s), 1,558 hit(s).**
+**68 file(s), 1,563 hit(s).**
 
 | File | Module | Company | License | Hits | Pages | Links |
 | --- | --- | --- | --- | ---: | --- | --- |
@@ -203,6 +211,8 @@ Each section lists files containing that term, sorted by hit count. Context snip
 | `019736_S387_M5_c4591012-interim-protocol.pdf` | M5 | Pfizer | BLA | 2 | 9, 24 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S387_M5_c4591012-interim-protocol.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S387_M5_c4591012-interim-protocol.pdf) |
 | `019736_S470_M5_c4591012-protocol.pdf` | M5 | Pfizer | BLA | 2 | 10, 31 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S470_M5_c4591012-protocol.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S470_M5_c4591012-protocol.pdf) |
 | `019736_S470_M5_c4591012-protocol-track.pdf` | M5 | Pfizer | BLA | 2 | 10, 34 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S470_M5_c4591012-protocol-track.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S470_M5_c4591012-protocol-track.pdf) |
+| `32_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf` | — | Moderna | — | 2 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/32_BLA-125752-0_11-01-2021_Telecon_Information-Reques.pdf) |
+| `36_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf` | — | Moderna | — | 2 | 1 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/36_BLA-125752-0_11-05-2021_Telecon_Information-Reques.pdf) |
 | `125752_S19_M5_5354_mrna-1273-p903-covid-19-safety-protocol.pdf` | M5 | Moderna | BLA | 1 | 11 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/07/125752_S19_M5_5354_mrna-1273-p903-covid-19-safety-protocol.pdf) |
 | `125752_S3_M1_cover-0003.pdf` | M1 | Moderna | BLA | 1 | 7 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/06/125752_S3_M1_cover-0003.pdf) |
 | `125752_S3_M5_5351_mrna1273p301-body.pdf` | M5 | Moderna | BLA | 1 | 93 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/04/125752_S3_M5_5351_mrna1273p301-body.pdf) |
@@ -221,6 +231,7 @@ Each section lists files containing that term, sorted by hit count. Context snip
 | `19736_S0408_M1_smsr-01jun2021-30jun2021.pdf` | M1 | Pfizer | BLA | 1 | 11 | [PHMPT](https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/100123/19736_S0408_M1_smsr-01jun2021-30jun2021.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/19736_S0408_M1_smsr-01jun2021-30jun2021.pdf) |
 | `19736_S0453_M1_smsr-01jul2021-31jul2021.pdf` | M1 | Pfizer | BLA | 1 | 10 | [ICAN](https://ican-public.s3.amazonaws.com/productions/100123/19736_S0453_M1_smsr-01jul2021-31jul2021.pdf) |
 | `19736_S0491_M1_smsr-01aug2021-31aug2021.pdf` | M1 | Pfizer | BLA | 1 | 11 | [PHMPT](https://pdata0916.s3.us-east-2.amazonaws.com/pdocs/100123/19736_S0491_M1_smsr-01aug2021-31aug2021.pdf) · [ICAN](https://ican-public.s3.amazonaws.com/productions/100123/19736_S0491_M1_smsr-01aug2021-31aug2021.pdf) |
+| `3_BLA-125752-0_09-09-2021_Meeting-Summary_Committee-.pdf` | — | Moderna | — | 1 | 6 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/3_BLA-125752-0_09-09-2021_Meeting-Summary_Committee-.pdf) |
 
 <details><summary>Example context snippets (first 3)</summary>
 

@@ -133,9 +133,10 @@ def build_rare_report(phmpt_url_map: dict, ican_url_map: dict) -> None:
     # Collect (exemption -> list of (filename, module, company, license, pages))
     by_exemption: dict[str, list[dict]] = defaultdict(list)
 
-    # Per-module detail files + the individual-via-ICAN detail file
+    # Per-module detail files + both individual scan outputs
     sources = [(mod, DATA / f"{mod}_exemptions.json") for mod in ("M1", "M2", "M3", "M4", "M5")]
     sources.append(("Individual", DATA / "individual_exemptions.json"))
+    sources.append(("Individual", DATA / "individual_phmpt_exemptions.json"))
 
     for source_label, path in sources:
         if not path.exists():

@@ -1,14 +1,14 @@
 {
   "source": "data/exemptions.json",
-  "file_records": 6377,
+  "file_records": 6545,
   "exemption_by_module": {
     "file_counts": {
       "M1": 1173,
       "M2": 67,
       "M3": 369,
-      "M4": 160,
-      "M5": 4400,
-      "Unknown": 208
+      "M4": 168,
+      "M5": 4408,
+      "Unknown": 360
     },
     "markers": {
       "M1": {
@@ -30,25 +30,25 @@
         "(b)(6)": 791
       },
       "M4": {
-        "(b)(6)": 3837,
-        "(b)(4)": 5330
+        "(b)(6)": 6468,
+        "(b)(4)": 9992
       },
       "M5": {
-        "(b)(4)": 8130762,
-        "(b)(6)": 3402572,
+        "(b)(4)": 8144389,
+        "(b)(6)": 3408356,
         "(b)(7)(A)": 1,
         "(b)(5)": 3,
         "(b)(1)": 14
       },
       "Unknown": {
-        "(b)(2)": 9,
-        "(b)(4)": 8165,
-        "(b)(6)": 446,
-        "(b)(5)": 44,
-        "(b)(1)": 2,
+        "(b)(2)": 12,
+        "(b)(4)": 8607,
+        "(b)(6)": 518,
+        "(b)(5)": 56,
+        "(b)(1)": 4,
         "(b)(1)(B)": 1,
         "(b)(3)": 1,
-        "(b)(7)(E)": 28,
+        "(b)(7)(E)": 38,
         "(b)(9)": 1,
         "(b)(7)(C)": 302,
         "(b)(13)": 1
@@ -57,26 +57,28 @@
   },
   "exemption_by_company": {
     "file_counts": {
-      "Pfizer": 3039,
-      "Moderna": 3324,
+      "Pfizer": 3084,
+      "Moderna": 3447,
       "Unknown": 14
     },
     "markers": {
       "Moderna": {
-        "(b)(6)": 3020525,
-        "(b)(4)": 7391162,
-        "(b)(5)": 5,
+        "(b)(6)": 3028732,
+        "(b)(4)": 7406706,
+        "(b)(5)": 15,
         "(b)(7)(A)": 2,
         "(b)(1)(C)": 4,
-        "(b)(1)": 14
+        "(b)(1)": 16,
+        "(b)(7)(E)": 10,
+        "(b)(2)": 1
       },
       "Pfizer": {
-        "(b)(6)": 438123,
-        "(b)(4)": 767687,
-        "(b)(2)": 17,
+        "(b)(6)": 438403,
+        "(b)(4)": 770874,
+        "(b)(2)": 19,
         "(b)(1)": 21,
         "(b)(1)(C)": 2,
-        "(b)(5)": 45,
+        "(b)(5)": 47,
         "(b)(1)(B)": 1,
         "(b)(3)": 1,
         "(b)(7)(E)": 28,
@@ -93,7 +95,7 @@
   },
   "exemption_by_license": {
     "file_counts": {
-      "Unknown": 272,
+      "Unknown": 440,
       "BLA": 4870,
       "EUA": 1235
     },
@@ -114,14 +116,14 @@
         "(b)(1)": 10
       },
       "Unknown": {
-        "(b)(2)": 9,
-        "(b)(4)": 8639,
-        "(b)(6)": 985,
-        "(b)(5)": 44,
-        "(b)(1)": 2,
+        "(b)(2)": 12,
+        "(b)(4)": 27370,
+        "(b)(6)": 9472,
+        "(b)(5)": 56,
+        "(b)(1)": 4,
         "(b)(1)(B)": 1,
         "(b)(3)": 1,
-        "(b)(7)(E)": 28,
+        "(b)(7)(E)": 38,
         "(b)(9)": 1,
         "(b)(7)(C)": 302,
         "(b)(13)": 1
@@ -130,7 +132,7 @@
   },
   "exemption_by_age_group": {
     "file_counts": {
-      "Unknown": 272,
+      "Unknown": 440,
       "adult": 3312,
       "12-15": 363,
       "16+": 2430
@@ -157,14 +159,14 @@
         "(b)(5)": 1
       },
       "Unknown": {
-        "(b)(2)": 9,
-        "(b)(4)": 8639,
-        "(b)(6)": 985,
-        "(b)(5)": 44,
-        "(b)(1)": 2,
+        "(b)(2)": 12,
+        "(b)(4)": 27370,
+        "(b)(6)": 9472,
+        "(b)(5)": 56,
+        "(b)(1)": 4,
         "(b)(1)(B)": 1,
         "(b)(3)": 1,
-        "(b)(7)(E)": 28,
+        "(b)(7)(E)": 38,
         "(b)(9)": 1,
         "(b)(7)(C)": 302,
         "(b)(13)": 1
@@ -204,22 +206,22 @@
     },
     "M4": {
       "Pfizer": {
-        "file_count": 103,
-        "total_markers": 5041
+        "file_count": 104,
+        "total_markers": 8460
       },
       "Moderna": {
-        "file_count": 57,
-        "total_markers": 4126
+        "file_count": 64,
+        "total_markers": 8000
       }
     },
     "M5": {
       "Pfizer": {
-        "file_count": 1944,
+        "file_count": 1947,
         "total_markers": 1179680
       },
       "Moderna": {
-        "file_count": 2456,
-        "total_markers": 10353672
+        "file_count": 2461,
+        "total_markers": 10373083
       }
     },
     "Unknown": {
@@ -228,8 +230,12 @@
         "total_markers": 12
       },
       "Pfizer": {
-        "file_count": 194,
-        "total_markers": 8988
+        "file_count": 235,
+        "total_markers": 9040
+      },
+      "Moderna": {
+        "file_count": 111,
+        "total_markers": 489
       }
     }
   },
@@ -274,8 +280,8 @@
     },
     "M4": {
       "Unknown": {
-        "file_count": 38,
-        "total_markers": 288
+        "file_count": 46,
+        "total_markers": 7581
       },
       "BLA": {
         "file_count": 69,
@@ -288,8 +294,8 @@
     },
     "M5": {
       "Unknown": {
-        "file_count": 16,
-        "total_markers": 724
+        "file_count": 24,
+        "total_markers": 20135
       },
       "BLA": {
         "file_count": 3583,
@@ -302,8 +308,8 @@
     },
     "Unknown": {
       "Unknown": {
-        "file_count": 208,
-        "total_markers": 9000
+        "file_count": 360,
+        "total_markers": 9541
       }
     }
   },
@@ -356,8 +362,8 @@
     },
     "M4": {
       "Unknown": {
-        "file_count": 38,
-        "total_markers": 288
+        "file_count": 46,
+        "total_markers": 7581
       },
       "adult": {
         "file_count": 50,
@@ -370,8 +376,8 @@
     },
     "M5": {
       "Unknown": {
-        "file_count": 16,
-        "total_markers": 724
+        "file_count": 24,
+        "total_markers": 20135
       },
       "adult": {
         "file_count": 2451,
@@ -388,8 +394,8 @@
     },
     "Unknown": {
       "Unknown": {
-        "file_count": 208,
-        "total_markers": 9000
+        "file_count": 360,
+        "total_markers": 9541
       }
     }
   }
