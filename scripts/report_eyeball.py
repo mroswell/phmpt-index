@@ -32,15 +32,31 @@ INDEX = ROOT / "docs" / "data" / "index.json"
 ICAN = DATA / "ican_comparison.json"
 SLIM = DATA / "exemptions.json"
 
-RARE = {"(b)(1)", "(b)(2)", "(b)(5)", "(b)(1)(C)", "(b)(7)(A)"}
+# "Rare" = everything other than the two dominant exemption types
+# (b)(4) trade secrets and (b)(6) personal privacy. Includes the new
+# types surfaced by the individual-via-ICAN scan (court documents
+# carry a much wider exemption vocabulary than scientific PDFs).
+RARE = {
+    "(b)(1)", "(b)(1)(B)", "(b)(1)(C)",
+    "(b)(2)",
+    "(b)(3)",
+    "(b)(5)",
+    "(b)(7)(A)", "(b)(7)(C)", "(b)(7)(E)",
+    "(b)(9)",
+}
 
 # Human-friendly description of each exemption type, used in section headers.
 EXEMPTION_DESC = {
     "(b)(1)": "Classified information",
-    "(b)(2)": "Internal personnel rules and practices",
-    "(b)(5)": "Deliberative process / attorney privilege",
+    "(b)(1)(B)": "Classified information (subpart B)",
     "(b)(1)(C)": "Classified information (subpart C)",
+    "(b)(2)": "Internal personnel rules and practices",
+    "(b)(3)": "Information exempt under other statutes",
+    "(b)(5)": "Deliberative process / attorney privilege",
     "(b)(7)(A)": "Law enforcement records — ongoing investigations",
+    "(b)(7)(C)": "Law enforcement records — personal privacy",
+    "(b)(7)(E)": "Law enforcement records — techniques",
+    "(b)(9)": "Geological / geophysical information",
 }
 
 OUT_RARE = DATA / "rare_exemptions_report.md"
@@ -117,8 +133,11 @@ def build_rare_report(phmpt_url_map: dict, ican_url_map: dict) -> None:
     # Collect (exemption -> list of (filename, module, company, license, pages))
     by_exemption: dict[str, list[dict]] = defaultdict(list)
 
-    for mod in ("M1", "M2", "M3", "M4", "M5"):
-        path = DATA / f"{mod}_exemptions.json"
+    # Per-module detail files + the individual-via-ICAN detail file
+    sources = [(mod, DATA / f"{mod}_exemptions.json") for mod in ("M1", "M2", "M3", "M4", "M5")]
+    sources.append(("Individual", DATA / "individual_exemptions.json"))
+
+    for source_label, path in sources:
         if not path.exists():
             continue
         doc = json.loads(path.read_text())
@@ -135,7 +154,7 @@ def build_rare_report(phmpt_url_map: dict, ican_url_map: dict) -> None:
             for marker, page_hits in per_marker.items():
                 by_exemption[marker].append({
                     "filename": f["filename"],
-                    "module": f.get("module") or mod,
+                    "module": f.get("module") or source_label,
                     "company": f.get("company"),
                     "license": f.get("license"),
                     "batch_code": f.get("batch_code"),
@@ -217,7 +236,10 @@ def build_perfile_non_m5(phmpt_url_map: dict, ican_url_map: dict) -> None:
     pages_by_id = {row["id"]: row.get("page_count") for row in idx}
 
     slim = json.loads(SLIM.read_text())
-    files = [f for f in slim["files"] if f.get("module") and f["module"] != "M5"]
+    # Include: M1-M4 zip-sourced files + individuals (which have module=null
+    # most of the time — court documents, supplemental filings, etc.).
+    # Exclude: M5 (which dominates).
+    files = [f for f in slim["files"] if f.get("module") != "M5"]
 
     # Augment with page_count and rate
     for f in files:
@@ -233,13 +255,13 @@ def build_perfile_non_m5(phmpt_url_map: dict, ican_url_map: dict) -> None:
     total_markers = sum(f.get("total_markers", 0) for f in files)
 
     # Module breakdown for the intro
-    by_mod = Counter(f["module"] for f in files)
+    by_mod = Counter(f.get("module") or "Individual" for f in files)
     with_markers = sum(1 for f in files if f.get("total_markers", 0) > 0)
 
     lines: list[str] = [
-        "# Per-File Exemption Report — M1 through M4 (M5 excluded)",
+        "# Per-File Exemption Report — M1 through M4 + Individuals (M5 excluded)",
         "",
-        f"**{len(files):,} files** across modules "
+        f"**{len(files):,} files** across "
         + ", ".join(f"{m}: {by_mod[m]:,}" for m in sorted(by_mod))
         + ".",
         "",
@@ -275,7 +297,7 @@ def build_perfile_non_m5(phmpt_url_map: dict, ican_url_map: dict) -> None:
         links = link_cell(f["filename"], phmpt_url_map, ican_url_map)
 
         lines.append(
-            f"| `{f['filename']}` | {f['module']} | "
+            f"| `{f['filename']}` | {f.get('module') or 'Individual'} | "
             f"{f.get('company') or '—'} | {f.get('license') or '—'} | "
             f"{pages_str} | {markers_str} | {rate_str} | "
             f"`{top_marker}` | {links} |"

@@ -24,6 +24,7 @@ data/M2_exemptions.json
 data/M3_exemptions.json
 data/M4_exemptions.json
 data/M5_exemptions.json
+data/individual_exemptions.json
 
 # macOS junk
 .DS_Store

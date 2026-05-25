@@ -170,10 +170,15 @@ function rowEl(r) {
 
   const tdName = document.createElement("td");
   tdName.className = "filename";
-  tdName.title = r.filename;
-  if (r.individual_url) {
+  // Prefer PHMPT individual URL; fall back to ICAN re-host for the small
+  // set of files PHMPT only ships zipped (no Cloudflare gate on ICAN).
+  const fileUrl = r.individual_url || r.ican_url || null;
+  tdName.title = r.ican_url && !r.individual_url
+    ? `${r.filename}\n(opening via ICAN — PHMPT has no individual link)`
+    : r.filename;
+  if (fileUrl) {
     const a = document.createElement("a");
-    a.href = r.individual_url;
+    a.href = fileUrl;
     a.target = "_blank";
     a.rel = "noopener";
     a.textContent = r.filename;

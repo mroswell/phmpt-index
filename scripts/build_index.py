@@ -99,6 +99,18 @@ def main() -> None:
     if INDIVIDUAL.exists():
         individual = json.loads(INDIVIDUAL.read_text())
 
+    # ICAN URL fallback: only attached when there's no PHMPT individual URL.
+    # Source: data/ican_comparison.json (produced by an earlier crawl).
+    ican_url_by_fname: dict[str, str] = {}
+    ican_path = DATA / "ican_comparison.json"
+    if ican_path.exists():
+        ican_doc = json.loads(ican_path.read_text())
+        for d in ican_doc.get("ican_documents", []):
+            fname = d.get("filename")
+            url = d.get("ican_url")
+            if fname and url and fname not in ican_url_by_fname:
+                ican_url_by_fname[fname] = url
+
     registry = load_registry()
     next_id = (max(registry.values()) + 1) if registry else 1
     new_ids = 0
@@ -145,6 +157,8 @@ def main() -> None:
                 "zip_source":     row.get("zip_source"),
                 "zip_url":        row.get("zip_url"),
                 "individual_url": individual.get(fname),
+                # ICAN fallback only when PHMPT has no individual link
+                "ican_url":       None if individual.get(fname) else ican_url_by_fname.get(fname),
             }
         )
 
@@ -212,6 +226,9 @@ def main() -> None:
                     "zip_source":     None,
                     "zip_url":        None,
                     "individual_url": url,
+                    # Orphan rows always have individual_url, so ican_url
+                    # is None by definition under our "fallback only" rule.
+                    "ican_url":       None,
                 }
             )
             orphan_count += 1

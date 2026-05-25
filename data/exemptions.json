@@ -7,12 +7,12 @@
       "M4",
       "M5"
     ],
-    "files_in_index": 6145,
-    "files_processed": 6105,
-    "files_with_markers": 3838,
-    "files_ocr_flagged": 1022,
+    "files_in_index": 6377,
+    "files_processed": 6337,
+    "files_with_markers": 3945,
+    "files_ocr_flagged": 1037,
     "files_errored": 0,
-    "total_marker_occurrences": 11607940,
+    "total_marker_occurrences": 11617953,
     "by_module": {
       "M1": {
         "files_in_index": 1172,
@@ -89,14 +89,41 @@
         }
       }
     },
+    "individual_via_ican": {
+      "files_in_scope": 232,
+      "files_processed": 232,
+      "files_with_markers": 107,
+      "files_ocr_flagged": 15,
+      "files_errored": 0,
+      "total_marker_occurrences": 10013,
+      "by_exemption": {
+        "(b)(4)": 8639,
+        "(b)(6)": 985,
+        "(b)(7)(C)": 302,
+        "(b)(5)": 44,
+        "(b)(7)(E)": 28,
+        "(b)(2)": 9,
+        "(b)(1)": 2,
+        "(b)(1)(B)": 1,
+        "(b)(3)": 1,
+        "(b)(9)": 1,
+        "(b)(13)": 1
+      }
+    },
     "by_exemption_overall": {
-      "(b)(4)": 8150214,
-      "(b)(6)": 3457667,
-      "(b)(1)": 33,
-      "(b)(2)": 12,
+      "(b)(4)": 8158853,
+      "(b)(6)": 3458652,
+      "(b)(7)(C)": 302,
+      "(b)(5)": 50,
+      "(b)(1)": 35,
+      "(b)(7)(E)": 28,
+      "(b)(2)": 21,
       "(b)(1)(C)": 6,
-      "(b)(5)": 6,
-      "(b)(7)(A)": 2
+      "(b)(7)(A)": 2,
+      "(b)(1)(B)": 1,
+      "(b)(3)": 1,
+      "(b)(9)": 1,
+      "(b)(13)": 1
     }
   },
   "files": [
@@ -84551,6 +84578,3289 @@
         "(b)(4)": 4
       },
       "ocr_candidate_pages_count": 0
+    },
+    {
+      "id": 8070,
+      "filename": "001-Complaint-PHMPT-de-Garay-v.-FDA-2022-10-11.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 105,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8071,
+      "filename": "017-Answer-2023-01-06.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 21,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(2)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8072,
+      "filename": "019-ORDER-re-Conduct-an-in-person-Scheduling-Conference-and-submit-a-Joint-Status-Report-by-Jan-27-2023-2023-0.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(2)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8073,
+      "filename": "019736_S444_M5_c4591007-p2-3-children-assent-cont-select-dose-icd.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 9,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8074,
+      "filename": "020-Joint-Scheduling-Report-2023-01-27.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8075,
+      "filename": "021-Order-re-Joint-Scheduling-Report-20-Next-JSR-Due-February-17-2023-2023-02-07.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8076,
+      "filename": "022-FDA-Brief-in-Advance-of-Scheduling-Conference.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 19,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(4)": 2,
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8077,
+      "filename": "022-Joint-Status-Report-2023-02-17.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 8,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8078,
+      "filename": "023-FDA-Appendix-in-Support-1.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 110,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8079,
+      "filename": "023-Order-on-Briefs-2023-02-23.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8080,
+      "filename": "024-Brief-in-Support-of-Timely-Production-Schedule-2023-03-08.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 26,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8081,
+      "filename": "026-Brief-Memorandum-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-21-Order-Setting-DeadlineHearing.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 30,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8082,
+      "filename": "027-1-Declaration-of-Beth-Brockner-Ryan-2023-03-31.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 20,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 1,
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8083,
+      "filename": "027-2-Declaration-of-Sarah-B.-Kotler-2023-03-31.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 24,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8084,
+      "filename": "027-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-26-Brief-Memorandum-in-Support-of-Motion.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 633,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(5)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8085,
+      "filename": "027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 36,
+      "total_markers": 5,
+      "by_marker": {
+        "(b)(4)": 2,
+        "(b)(6)": 2,
+        "(b)(2)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8086,
+      "filename": "028-Plaintiffs-Reply-in-Support-of-Production-Schedule-2023-04-12.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 16,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 1,
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8087,
+      "filename": "029-FDAs-Reply-re-Brief-in-Support-of-Motion.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 28,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 1,
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8088,
+      "filename": "029-Order-May-1-2023-Status-Conference-2023-04-21.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8089,
+      "filename": "030-FDAs-Appendix-in-Support-of-Brief.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 36,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8090,
+      "filename": "031-ORDER-re-FDA-to-Produce-Pfizer-Moderna-12-15-Data-by-June-31-2025-2023-05-09.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": null,
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8091,
+      "filename": "031-REPLY-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-22-Brief-Memorandum-in-Support-of-Motion.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 26,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8092,
+      "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 150,
+      "total_markers": 28,
+      "by_marker": {
+        "(b)(5)": 15,
+        "(b)(4)": 12,
+        "(b)(1)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8093,
+      "filename": "034-Transcript-of-Scheduling-Conference-December-14-2021.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 56,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8094,
+      "filename": "037-Brief-Memorandum-in-Support-filed-by-FDA-re-36-MOTION-To-Partially-Modify-Scheduling-Order-1.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 12,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8095,
+      "filename": "038-Appendix-in-Support-filed-by-FDA-re-36-MOTION-To-Partially-Modify-Scheduling-Order.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 19,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8096,
+      "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 16,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(4)": 1,
+        "(b)(6)": 1,
+        "(b)(1)(B)": 1,
+        "(b)(3)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8097,
+      "filename": "044-PL-PHPMTS-MOL-IN-OPPOSITION-TO-DEFENDANTS-MOTION-TO-MODIFY-THE-SCHEDULING-ORDER-OF-THE-COURT.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 20,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8098,
+      "filename": "046-RESPONSE-filed-by-Food-and-Drug-Administration-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8099,
+      "filename": "047-PLAINTIFFS-RESPONSE-TO-PFIZER-INC.S-MOTION-FOR-LEAVE-TO-INTERVENE-FOR-A-LIMITED-PURPOSE.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 15,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(2)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8100,
+      "filename": "056-ORDER-GRANTING-IN-PART-THE-MOTION-TO-MODIFY-THE-PRODUCTION-SCHEDULE-AND-ADDOPTS-THE-JOINT-STATUS-REPORT-MODIFIED-AGREED-PRODUCTION-SCHEDULE.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8101,
+      "filename": "091621-Complaint.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 37,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8102,
+      "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 12,
+      "by_marker": {
+        "(b)(4)": 6,
+        "(b)(5)": 3,
+        "(b)(7)(E)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8103,
+      "filename": "100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 12,
+      "by_marker": {
+        "(b)(4)": 6,
+        "(b)(5)": 3,
+        "(b)(7)(E)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8104,
+      "filename": "101_Courtesy-Copy_BLA-125742-0_Pharmacovigilance-Plan-Review-Addendum-Memo-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 9,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 1,
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8107,
+      "filename": "102_1_BLA-125742-0_08-20-2021_Memo_Test-Results.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 20,
+      "by_marker": {
+        "(b)(4)": 20
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8111,
+      "filename": "103_2_BLA-125742-0_08-20-2021_Memo_Test-Results.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 15,
+      "by_marker": {
+        "(b)(4)": 15
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8113,
+      "filename": "104A_BLA-125742-0_08-20-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8114,
+      "filename": "104B_BLA-125742-0_08-20-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8115,
+      "filename": "104_BLA-125742-0_08-20-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8117,
+      "filename": "105_BLA-125742-0_08-20-2021_Telecon_Advice_Information.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8119,
+      "filename": "106A_2_BLA_125742-0_08-20-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 21,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8120,
+      "filename": "106_2_BLA-125742-0_08-20-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8121,
+      "filename": "107A_1_BLA-125742-0_08-20-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8122,
+      "filename": "107_1_BLA-125742-0_08-20-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8124,
+      "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 29,
+      "total_markers": 920,
+      "by_marker": {
+        "(b)(4)": 896,
+        "(b)(5)": 12,
+        "(b)(7)(E)": 12
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8125,
+      "filename": "109_Courtesy-Copy_2_BLA-125742-0_CMC-Review-Memo-August-21-2021-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 63,
+      "total_markers": 503,
+      "by_marker": {
+        "(b)(4)": 501,
+        "(b)(5)": 1,
+        "(b)(7)(E)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8126,
+      "filename": "10_BLA-125742-11_12-22-2021_Memo_Committee-Memo_CMC.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 27,
+      "by_marker": {
+        "(b)(4)": 27
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8128,
+      "filename": "110_1_Courtesy-Copy_BLA-125742-0_Analytical-Method-Review-Memo-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 31,
+      "total_markers": 162,
+      "by_marker": {
+        "(b)(4)": 162
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8129,
+      "filename": "111521-Second-Joint-Status-Report.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 14,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(1)": 1,
+        "(b)(9)": 1,
+        "(b)(4)": 1,
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8130,
+      "filename": "111_BLA-125742-0_08-21-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8131,
+      "filename": "112A_1_BLA-125742-0_08-21-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8132,
+      "filename": "112_1_BLA-125742-0_08-21-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8134,
+      "filename": "113_2_BLA-125742-0_08-21-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8135,
+      "filename": "114A_2_BLA_125742-0_08-21-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 20,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8136,
+      "filename": "114_2_BLA-125742-0_08-21-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8137,
+      "filename": "115_1_BLA-125742-0_08-21-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8138,
+      "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 86,
+      "total_markers": 2244,
+      "by_marker": {
+        "(b)(4)": 1939,
+        "(b)(7)(C)": 153,
+        "(b)(6)": 152
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8139,
+      "filename": "117_2_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 2,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8140,
+      "filename": "118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 7,
+      "by_marker": {
+        "(b)(4)": 3,
+        "(b)(5)": 2,
+        "(b)(7)(E)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8141,
+      "filename": "119_Courtesy-Copy_BLA-125742-0_Real-World-Evidence-BLA-Memo-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8142,
+      "filename": "11_BLA-125742-0_06-29-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8144,
+      "filename": "11_PM_S136_BLA-125742-31_10-30-2021_Memo_Final-Review-Memo.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 2,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8145,
+      "filename": "120_Courtesy-Copy_BLA-125742-0_CBER-CMC-BLA-Review-Memo-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 124,
+      "total_markers": 985,
+      "by_marker": {
+        "(b)(4)": 973,
+        "(b)(5)": 6,
+        "(b)(7)(E)": 6
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8146,
+      "filename": "121_Courtesy-Copy_BLA-125742-0_Employee-Officer-List-Memo-August-22-2021-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8147,
+      "filename": "122_BLA-125742-0_08-22-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8148,
+      "filename": "123_Courtesy-Copy_BLA-125742-0_August-23-2021-Approval-Letter-Comirnaty.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 11,
+      "total_markers": 6,
+      "by_marker": {
+        "(b)(4)": 6
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8149,
+      "filename": "124_BLA-125742-0_08-23-2021_Memo_Committee-Memo_SBRA.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 31,
+      "total_markers": 31,
+      "by_marker": {
+        "(b)(4)": 31
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8150,
+      "filename": "125742-0_20219001.PC1_.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 18,
+      "total_markers": 94,
+      "by_marker": {
+        "(b)(4)": 79,
+        "(b)(6)": 15
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8151,
+      "filename": "125742-0_20219002.PC1_.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 18,
+      "total_markers": 93,
+      "by_marker": {
+        "(b)(4)": 79,
+        "(b)(6)": 14
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8152,
+      "filename": "125742-0_20219003.PC1_.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 85,
+      "by_marker": {
+        "(b)(4)": 70,
+        "(b)(6)": 15
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8153,
+      "filename": "125742-0_20219006.PC1_.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 18,
+      "total_markers": 92,
+      "by_marker": {
+        "(b)(4)": 77,
+        "(b)(6)": 15
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8192,
+      "filename": "125742_2_BLA-125742-0_05-18-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8193,
+      "filename": "125742_S1_M1_priority-review-request-1.pdf",
+      "module": "M1",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8194,
+      "filename": "125742_S1_M2_2.6.1-introduction.pdf",
+      "module": "M2",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8195,
+      "filename": "125742_S1_M2_2.6.2-pharmacol-written-summary.pdf",
+      "module": "M2",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 42,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8196,
+      "filename": "125742_S1_M2_2.6.3.1-pharmacol-tabulated-summary.pdf",
+      "module": "M2",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8197,
+      "filename": "125742_S1_M2_2.6.6-toxicology-written-summary.pdf",
+      "module": "M2",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8198,
+      "filename": "125742_S1_M4_4.2.1-r-20-0085.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 94,
+      "total_markers": 40,
+      "by_marker": {
+        "(b)(6)": 37,
+        "(b)(4)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8199,
+      "filename": "125742_S1_M4_4.2.1-r-20-0112.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 105,
+      "total_markers": 43,
+      "by_marker": {
+        "(b)(6)": 35,
+        "(b)(4)": 8
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8200,
+      "filename": "125742_S1_M4_4.2.1-r-20-0211.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 22,
+      "total_markers": 19,
+      "by_marker": {
+        "(b)(6)": 14,
+        "(b)(4)": 5
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8201,
+      "filename": "125742_S1_M4_4.2.1-vr-vtr-10741.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 14,
+      "total_markers": 5,
+      "by_marker": {
+        "(b)(6)": 5
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8202,
+      "filename": "125742_S1_M4_4.2.2-072424.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 16,
+      "total_markers": 9,
+      "by_marker": {
+        "(b)(6)": 9
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8203,
+      "filename": "125742_S1_M4_4.2.2.1-vr-vtr-10671.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 32,
+      "total_markers": 10,
+      "by_marker": {
+        "(b)(6)": 6,
+        "(b)(4)": 4
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8204,
+      "filename": "125742_S1_M4_4.2.2.4-01049-20008.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 29,
+      "total_markers": 16,
+      "by_marker": {
+        "(b)(6)": 16
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8205,
+      "filename": "125742_S1_M4_4.2.2.4-01049-20009.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 31,
+      "total_markers": 15,
+      "by_marker": {
+        "(b)(6)": 15
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8206,
+      "filename": "125742_S1_M4_4.2.2.4-01049-20010.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 32,
+      "total_markers": 15,
+      "by_marker": {
+        "(b)(6)": 15
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8207,
+      "filename": "125742_S1_M4_4.2.2.4-01049-20020.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 28,
+      "total_markers": 16,
+      "by_marker": {
+        "(b)(6)": 16
+      },
+      "ocr_candidate_pages_count": 2,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8208,
+      "filename": "125742_S1_M4_4.2.2.4-01049-20021.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 31,
+      "total_markers": 15,
+      "by_marker": {
+        "(b)(6)": 15
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8209,
+      "filename": "125742_S1_M4_4.2.2.4-01049-20022.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 32,
+      "total_markers": 15,
+      "by_marker": {
+        "(b)(6)": 15
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8210,
+      "filename": "125742_S1_M4_4.2.2.4-043725.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 35,
+      "total_markers": 24,
+      "by_marker": {
+        "(b)(6)": 24
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8212,
+      "filename": "125742_S1_M4_4.2.3.2-20gr142.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 603,
+      "total_markers": 46,
+      "by_marker": {
+        "(b)(6)": 41,
+        "(b)(4)": 5
+      },
+      "ocr_candidate_pages_count": 45,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8213,
+      "filename": "125742_S1_M4_4.3-munster-jv-2020.pdf",
+      "module": "M4",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 19,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8215,
+      "filename": "125742_S1_M5_CRF_c4591001-1019-10191002.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 194,
+      "total_markers": 718,
+      "by_marker": {
+        "(b)(4)": 448,
+        "(b)(6)": 270
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8216,
+      "filename": "125742_S1_M5_CRF_c4591001-1081-10811194-reissue.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 355,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(6)": 4
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8217,
+      "filename": "125742_S1_M5_CRF_c4591001-1128-11281009-reissue.pdf",
+      "module": "M5",
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 364,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8230,
+      "filename": "125_BLA-125742-0_08-23-2021_Memo_Committee-Memo_Toxico.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 124,
+      "total_markers": 21,
+      "by_marker": {
+        "(b)(4)": 21
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8231,
+      "filename": "126_BLA-125742-0_08-23-2021_Memo_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8232,
+      "filename": "127_Courtesy-Copy_BLA-125742-0_CBER-Sentinel-Program-Sufficiency-Memo-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8233,
+      "filename": "128_BLA-125742-0_08-30-2021_Telecon_Other-1.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(4)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8234,
+      "filename": "129_BLA-125742-0_08-30-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8235,
+      "filename": "12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 18,
+      "total_markers": 5,
+      "by_marker": {
+        "(b)(2)": 4,
+        "(b)(13)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8237,
+      "filename": "130_BLA-_125742-0_09-01-2021_Committee-Memo_Labeling.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8238,
+      "filename": "131_Courtesy-Copy_BLA-125742-0_Clinical-Review-Memo-August-23-2021-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 107,
+      "total_markers": 37,
+      "by_marker": {
+        "(b)(6)": 36,
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8239,
+      "filename": "132_BLA-125742-0_09-13-2021_Memo_Committee-Memo_Review-1.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 11,
+      "total_markers": 10,
+      "by_marker": {
+        "(b)(4)": 10
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8240,
+      "filename": "133_Courtesy-Copy_BLA-125742-0_Benefit-Risk-Assessment-Review-Memo-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 40,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8241,
+      "filename": "134_Courtesy-Copy_BLA-125742-0_Toxicology-Review-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 125,
+      "total_markers": 21,
+      "by_marker": {
+        "(b)(4)": 21
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8242,
+      "filename": "135_Courtesy-Copy_BLA-125742-0_November-8-2021_Summary-Basis-for-Regulatory-Action-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 30,
+      "total_markers": 31,
+      "by_marker": {
+        "(b)(4)": 31
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8243,
+      "filename": "137_BLA_125742_Endotoxin-release-tests-lots-FD7220-FE3592-FF2587.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 80,
+      "by_marker": {
+        "(b)(4)": 80
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8244,
+      "filename": "138_BLA_125742_STN125742-release-test-pH-lots-FD7220-FE3592-FF2587.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 82,
+      "by_marker": {
+        "(b)(4)": 82
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8246,
+      "filename": "13_BLA_125742-0_07-02-2021_Committee-Memo_APLB.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8247,
+      "filename": "14_BLA-125742-0_07-02-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8248,
+      "filename": "15_BLA-125742-0_07-02-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 41,
+      "by_marker": {
+        "(b)(4)": 41
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8250,
+      "filename": "16_BLA-125742-0_07-06-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8252,
+      "filename": "17_BLA-125742-0_07-06-2021_Telecon_Advice_PNR-Accepta.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8254,
+      "filename": "18_BLA-125742-0_07-09-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 6,
+      "by_marker": {
+        "(b)(4)": 6
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8256,
+      "filename": "19_2_BLA-125742-0_07-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8258,
+      "filename": "1_BLA-125742-0_05-13-2021_Letter_Acknowledgement-Let.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8260,
+      "filename": "1_PM_S85_BLA-125742-4_09-30-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8261,
+      "filename": "20_1_BLA-125742-0_07-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8264,
+      "filename": "21_BLA-125742-0_07-15-2021_Letter_Filing-Notification.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8266,
+      "filename": "22_BLA-125742-0_07-15-2021_Meeting-Summary_Committee-.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 9,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8268,
+      "filename": "23_1_BLA-125742-0_07-15-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8269,
+      "filename": "24_2_BLA-125742-0_07-15-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8271,
+      "filename": "25_1_BLA-125742-0_07-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8273,
+      "filename": "26_2_BLA-125742-0_07-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 8,
+      "by_marker": {
+        "(b)(4)": 8
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8275,
+      "filename": "27_BLA-125742-0_07-19-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8277,
+      "filename": "28C_BLA-125742-0_07-20-2021_Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8278,
+      "filename": "28D_BLA-125742-0_07-20-2021_Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 10,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8279,
+      "filename": "28L_BLA-125742-0_07-20-2021_Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8280,
+      "filename": "28_BLA-125742-0_07-20-2021_Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8282,
+      "filename": "29_BLA-125742-0_07-20-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8285,
+      "filename": "2_IND_19736_214_03-Mar-2021_KERRY_KERRY__RO_-.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8286,
+      "filename": "2_PM_S89_BLA-12572-5_09-10-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8287,
+      "filename": "30A_BLA-125742-0_07-22-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 17,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8292,
+      "filename": "30_BLA-125742-0_07-22-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8294,
+      "filename": "31_2_BLA-125742-0_07-26-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8296,
+      "filename": "32_1_BLA-125742-0_07-26-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 53,
+      "by_marker": {
+        "(b)(4)": 53
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8298,
+      "filename": "33_1_BLA-125742-0_07-27-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8300,
+      "filename": "34_2_BLA-125742-0_07-27-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8302,
+      "filename": "35_BLA-125742-0_07-28-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8304,
+      "filename": "36A_BLA_125742-0_07-28-2021_Telecon_Labeling-Target-Cl.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 38,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8305,
+      "filename": "36_BLA-125742-0_07-28-2021_Telecon_Labeling-Target-Cl.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8307,
+      "filename": "37_BLA-125742-0_07-29-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8309,
+      "filename": "38_1_BLA-125742-0_08-02-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 38,
+      "by_marker": {
+        "(b)(4)": 38
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8311,
+      "filename": "39_2_BLA-125742-0_08-02-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 21,
+      "by_marker": {
+        "(b)(4)": 21
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8313,
+      "filename": "3_BLA-125742-0_05-20-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 3,
+      "by_marker": {
+        "(b)(4)": 3
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8315,
+      "filename": "3_IND_19736_243_19-Mar-2021_KERRY_KERRY__RO_-.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8316,
+      "filename": "3_PM_S89_BLA-125742-5_09-21-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8319,
+      "filename": "40_2_BLA-125742-0_08-03-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 24,
+      "by_marker": {
+        "(b)(4)": 24
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8321,
+      "filename": "41_1_BLA-125742-0_08-03-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8322,
+      "filename": "42_1_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 20,
+      "by_marker": {
+        "(b)(4)": 20
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8324,
+      "filename": "43A_STN-125742.0-4AUG21-LRP-FU-IR-2.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 12,
+      "by_marker": {
+        "(b)(4)": 12
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8325,
+      "filename": "43_2_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 18,
+      "by_marker": {
+        "(b)(4)": 18
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8327,
+      "filename": "44_3_BLA-125742-0_08-04-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 7,
+      "by_marker": {
+        "(b)(4)": 7
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8329,
+      "filename": "45_BLA-125742-0_08-05-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8331,
+      "filename": "46_2_BLA-125742-0_08-05-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 39,
+      "by_marker": {
+        "(b)(4)": 39
+      },
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8333,
+      "filename": "47_1_BLA-125742-0_08-05-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8335,
+      "filename": "48A_BLA-125742-0_08-05-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 41,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8337,
+      "filename": "48_BLA-125742-0_08-05-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8339,
+      "filename": "49_BLA-125742-0_08-06-2021_Letter_UNII-Code-Notificat.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 1,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8342,
+      "filename": "4_PM_S89_BLA-125742-5_09-22-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8343,
+      "filename": "50_BLA-125742-0_08-06-2021_Memo_Committee-Memo_APLB.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 6,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8346,
+      "filename": "51_Courtesy-Copy_BLA-125742-0_Pharmacovigilance-Plan-Review-Memo-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 33,
+      "total_markers": 5,
+      "by_marker": {
+        "(b)(6)": 4,
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8347,
+      "filename": "52_1_BLA-125742-0_08-06-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 11,
+      "by_marker": {
+        "(b)(4)": 11
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8349,
+      "filename": "53_2_BLA-125742-0_08-06-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 25,
+      "by_marker": {
+        "(b)(4)": 25
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8352,
+      "filename": "54_BLA-125742-0_08-09-2021_Inspection-Related_Inspect.pdf.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 21,
+      "by_marker": {
+        "(b)(4)": 21
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8354,
+      "filename": "55_BLA-125742-0_08-09-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 21,
+      "by_marker": {
+        "(b)(4)": 20,
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8356,
+      "filename": "56_BLA-125742-0_08-09-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8359,
+      "filename": "57_BLA-125742-0_08-09-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8361,
+      "filename": "58_2_BLA-125742-0_08-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8362,
+      "filename": "59_1_BLA-125742-0_08-10-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8364,
+      "filename": "5_BLA-125742-0_06-08-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8366,
+      "filename": "5_PM_S102_1_BLA-125742-8_09-21-2021_Memo_600.81-Lot-Distributi.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8367,
+      "filename": "60_BLA-125742-0_08-11-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8368,
+      "filename": "61_BLA-125742-0_08-11-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 4,
+      "by_marker": {
+        "(b)(6)": 2,
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8370,
+      "filename": "62_BLA-125742-0_08-12-2021_Memo_Committee-Memo_Requir.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 36,
+      "by_marker": {
+        "(b)(4)": 34,
+        "(b)(7)(E)": 1,
+        "(b)(5)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8372,
+      "filename": "63_BLA-125742-0_08-12-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 10,
+      "by_marker": {
+        "(b)(4)": 9,
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8375,
+      "filename": "64_Courtesy-Copy_BLA-125742-0_Bioresearch-Monitoring-Discipline-Review-Memo-August-13-2021-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8376,
+      "filename": "65_BLA-125742-0_08-13-2021_Memo_Request-For-Complianc.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 17,
+      "by_marker": {
+        "(b)(4)": 17
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8378,
+      "filename": "66_4_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 10,
+      "by_marker": {
+        "(b)(4)": 10
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8380,
+      "filename": "67_3_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8382,
+      "filename": "68A_5_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 22,
+      "by_marker": {
+        "(b)(4)": 22
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8383,
+      "filename": "68B_5_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 22,
+      "by_marker": {
+        "(b)(4)": 22
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8384,
+      "filename": "68_5_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8388,
+      "filename": "69_1_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8389,
+      "filename": "6_BLA-125742-0_06-09-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8391,
+      "filename": "6_PM_S102_2_BLA-125742-8_09-21-2021_Memo_600.81-Lot-Distributi.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8392,
+      "filename": "70_2_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8394,
+      "filename": "71_6_BLA-125742-0_08-13-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8395,
+      "filename": "72A_BLA_125742-0_08-13-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 30,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8396,
+      "filename": "72_BLA-125742-0_08-13-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8398,
+      "filename": "73_2_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8400,
+      "filename": "74_3_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8402,
+      "filename": "75_1_BLA-125742-0_08-16-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 12,
+      "by_marker": {
+        "(b)(4)": 6,
+        "(b)(6)": 6
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8404,
+      "filename": "76_BLA-125742-0_08-16-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8407,
+      "filename": "77_BLA_125742-0_08-17-2021_Memo_Lot-Release-Clearance.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8416,
+      "filename": "79_3_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8419,
+      "filename": "7_PM_S102_BLA-125742-8_09-29-2021_Letter_Waiver-Request.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8420,
+      "filename": "80_2_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8422,
+      "filename": "81_1_BLA-125742-0_08-17-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 11,
+      "by_marker": {
+        "(b)(4)": 11
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8423,
+      "filename": "82A_BLA_125742-0_08-17-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 23,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8424,
+      "filename": "82_BLA-125742-0_08-17-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8425,
+      "filename": "83_BLA-125742-0_08-17-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 97,
+      "by_marker": {
+        "(b)(4)": 83,
+        "(b)(6)": 14
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8426,
+      "filename": "84_BLA-125742-0_08-18-2021_Memo_Committee-Memo_Review.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8429,
+      "filename": "85_Courtesy-Copy_BLA-125742-0_Statistical-Review-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 11,
+      "total_markers": 47,
+      "by_marker": {
+        "(b)(4)": 47
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8430,
+      "filename": "86_BLA-125742-0_08-18-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 35,
+      "by_marker": {
+        "(b)(4)": 34,
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8431,
+      "filename": "87_3_BLA-125742-0_08-18-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8433,
+      "filename": "88_2_BLA-125742-0_08-18-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8434,
+      "filename": "89_1_BLA-125742-0_08-18-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 11,
+      "by_marker": {
+        "(b)(4)": 11
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8436,
+      "filename": "8_1_BLA-125742-0_06-25-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 9,
+      "by_marker": {
+        "(b)(4)": 9
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8438,
+      "filename": "8_PM_S102_BLA-125742-8_09-29-2021_Telecon_Other.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8439,
+      "filename": "90_1_BLA-125742-0_08-18-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8441,
+      "filename": "91A_2_BLA_125742-0_08-18-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 24,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8442,
+      "filename": "91_2_BLA-125742-0_08-18-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8443,
+      "filename": "92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 79,
+      "total_markers": 2558,
+      "by_marker": {
+        "(b)(4)": 2259,
+        "(b)(6)": 150,
+        "(b)(7)(C)": 149
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8446,
+      "filename": "93_Courtesy-Copy_2_BLA-125742-0_Statistical-Review-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 26,
+      "total_markers": 5,
+      "by_marker": {
+        "(b)(6)": 4,
+        "(b)(4)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8448,
+      "filename": "94_Courtesy-Copy_1_BLA-125742-0_Statistical-Review-COMIRNATY.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 16,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(6)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8449,
+      "filename": "95_BLA-125742-0_08-19-2021_Memo_Compliance-Check-Acce.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 7,
+      "total_markers": 39,
+      "by_marker": {
+        "(b)(4)": 39
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8451,
+      "filename": "96_2_BLA-125742-0_08-19-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8452,
+      "filename": "97_1_BLA-125742-0_08-19-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 3,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8453,
+      "filename": "98A_BLA_125742-0_08-19-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 22,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8454,
+      "filename": "98_BLA-125742-0_08-19-2021_Telecon_Labeling-via-FAX_e.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8455,
+      "filename": "99_BLA-125742-0_08-20-2021_Memo_Committee-Memo_Labeli.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 31,
+      "total_markers": 6,
+      "by_marker": {
+        "(b)(4)": 6
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8456,
+      "filename": "9_2_BLA-125742-0_06-25-2021_Telecon_Information-Reques.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 5,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8458,
+      "filename": "9_IND_19736_491_29-Sep-2021_DEBORAH_DEBORAH__RO_-The-Summary-Monthly-Safety-Report-has-been-reviewed.-No-furthe.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 2,
+      "by_marker": {
+        "(b)(4)": 2
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8459,
+      "filename": "9_PM_S105_BLA-125742-9_09-20-2021_Telecon_Advice.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 1,
+      "total_markers": 1,
+      "by_marker": {
+        "(b)(6)": 1
+      },
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8860,
+      "filename": "ORDER_2022_01_06.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 4,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8861,
+      "filename": "Order-February-7-2022.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 2,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8862,
+      "filename": "STN-124742_Courtesy-Copy_Pfizer-BioNTech-Comirnaty-STN-125742-COVID-19-Vaccine-Lot-Notifications-2021.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 9,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8863,
+      "filename": "STN-125742-0-0-Section-2.5-Clinical-Overview-reissue.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 334,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
+    },
+    {
+      "id": 8864,
+      "filename": "reissue_5.3.6-postmarketing-experience.pdf",
+      "module": null,
+      "batch_code": null,
+      "company": "Pfizer",
+      "license": null,
+      "total_pages": 38,
+      "total_markers": 0,
+      "by_marker": {},
+      "ocr_candidate_pages_count": 0,
+      "source": "ican_individual"
     }
   ]
 }
