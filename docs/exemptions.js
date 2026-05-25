@@ -207,8 +207,10 @@
     const co = $("f-company").value;
     const lic = $("f-license").value;
     const src = $("f-source").value;
-    const minMarkers = parseInt($("f-min").value, 10);
-    const hasMinFilter = !Number.isNaN(minMarkers);
+    const mMin = parseInt($("f-markers-min").value, 10);
+    const mMax = parseInt($("f-markers-max").value, 10);
+    const hasMMin = !Number.isNaN(mMin);
+    const hasMMax = !Number.isNaN(mMax);
     const pMin = parseInt($("f-pages-min").value, 10);
     const pMax = parseInt($("f-pages-max").value, 10);
     const hasPMin = !Number.isNaN(pMin);
@@ -226,7 +228,8 @@
       if (co && r.company !== co) return false;
       if (lic && r.license !== lic) return false;
       if (src && r.source.kind !== src) return false;
-      if (hasMinFilter && r.total_markers < minMarkers) return false;
+      if (hasMMin && r.total_markers < mMin) return false;
+      if (hasMMax && r.total_markers > mMax) return false;
       if (hasPMin && (r.total_pages == null || r.total_pages < pMin)) return false;
       if (hasPMax && (r.total_pages == null || r.total_pages > pMax)) return false;
       // CRFs (Case Report Forms) carry per-patient identifying info
@@ -468,9 +471,11 @@
 
     renderExemptionChips(sortedEx);
 
-    const filterIds = ["f-name", "f-module", "f-company", "f-license", "f-source", "f-min", "f-pages-min", "f-pages-max"];
+    const filterIds = ["f-name", "f-module", "f-company", "f-license", "f-source",
+                       "f-markers-min", "f-markers-max", "f-pages-min", "f-pages-max"];
+    const inputEventIds = new Set(["f-name", "f-markers-min", "f-markers-max", "f-pages-min", "f-pages-max"]);
     filterIds.forEach((id) => {
-      const ev = (id === "f-name" || id === "f-min" || id === "f-pages-min" || id === "f-pages-max") ? "input" : "change";
+      const ev = inputEventIds.has(id) ? "input" : "change";
       $(id).addEventListener(ev, rerender);
     });
     // Segmented control radios — re-render whenever the selected segment changes

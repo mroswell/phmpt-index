@@ -214,17 +214,22 @@
     /* Segmented control (joined pill buttons) — used for the
        "All files | Exclude CRFs" filter. Native radio buttons under
        the hood so arrow-key navigation + screen-reader grouping work
-       for free. */
+       for free. Spans 2 grid columns so the content fits without
+       overflowing into the next .filters grid cell. */
     .segctrl {
       border: 0;
       margin: 0;
       padding: 0;
-      display: inline-flex;
-      align-self: end;  /* aligns with the bottom of labeled filters */
+      min-inline-size: 0;        /* override Chrome's default fieldset min-width */
+      display: flex;
+      align-self: end;           /* line up with the bottom of labeled filters */
+      grid-column: span 2;
+      width: max-content;        /* size to content, don't fill the 2-column span */
     }
     .segctrl > label {
-      position: relative;       /* contain the absolutely-positioned radio */
-      white-space: nowrap;      /* keep "Exclude CRFs" on one line */
+      position: relative;        /* contain the absolutely-positioned radio */
+      white-space: nowrap;       /* keep "Exclude CRFs" on one line */
+      flex: 0 0 auto;            /* size each segment to its content */
       cursor: pointer;
       user-select: none;
       padding: 6px 14px;
@@ -264,13 +269,31 @@
     }
 
     /* Paired filter container — keeps min/max inputs together when
-       the filter strip wraps. The pair itself is one flex item from
-       the parent's perspective. */
+       the filter strip wraps. Spans 2 grid columns so each input has
+       reasonable width; the inputs themselves split that space. */
     .filter-pair {
       display: flex;
       gap: 12px;
       flex-wrap: nowrap;
+      grid-column: span 2;
     }
+    .filter-pair > .filter { flex: 1 1 0; min-width: 0; }
+
+    /* Reset Filters button — kept compact and right-aligned in its
+       grid cell so it doesn't blow up to the full column width. */
+    #reset {
+      align-self: end;
+      justify-self: end;
+      padding: 6px 14px;
+      font-size: 12px;
+      height: 32px;
+      background: var(--surface);
+      border: 1px solid var(--filter-line);
+      border-radius: 4px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    #reset:hover { background: #f8f9fa; }
 
     /* Screen-reader-only utility (visually hidden, still announced) */
     .sr-only {
@@ -374,10 +397,16 @@
       </select>
     </label>
 
-    <label class="filter">
-      <span>Min markers</span>
-      <input type="number" id="f-min" min="0" step="1" placeholder="e.g. 100">
-    </label>
+    <div class="filter-pair">
+      <label class="filter">
+        <span>Markers ≥</span>
+        <input type="number" id="f-markers-min" min="0" step="1">
+      </label>
+      <label class="filter">
+        <span>Markers ≤</span>
+        <input type="number" id="f-markers-max" min="0" step="1">
+      </label>
+    </div>
 
     <div class="filter-pair">
       <label class="filter">
@@ -402,7 +431,7 @@
       </label>
     </fieldset>
 
-    <button type="button" id="reset" style="margin-left:auto">Reset filters</button>
+    <button type="button" id="reset">Reset filters</button>
   </section>
 
   <div class="result-bar">
