@@ -206,7 +206,12 @@
     const src = $("f-source").value;
     const minMarkers = parseInt($("f-min").value, 10);
     const hasMinFilter = !Number.isNaN(minMarkers);
-    const cat = $("f-category").value;
+    const pMin = parseInt($("f-pages-min").value, 10);
+    const pMax = parseInt($("f-pages-max").value, 10);
+    const hasPMin = !Number.isNaN(pMin);
+    const hasPMax = !Number.isNaN(pMax);
+    // Segmented control (radio group): "" = all files, "exclude-crf" = hide CRFs
+    const crfFilter = document.querySelector('input[name="crf-filter"]:checked')?.value || "";
 
     state.filteredRows = state.rows.filter((r) => {
       if (state.activeExemptions.size > 0) {
@@ -219,10 +224,12 @@
       if (lic && r.license !== lic) return false;
       if (src && r.source.kind !== src) return false;
       if (hasMinFilter && r.total_markers < minMarkers) return false;
-      // Category exclusion. CRFs (Case Report Forms) carry per-patient
-      // identifying info that's heavily (b)(6)-redacted by design;
-      // hiding them lets you see the rest of the corpus clearly.
-      if (cat === "non-crf" && r.isCRF) return false;
+      if (hasPMin && (r.total_pages == null || r.total_pages < pMin)) return false;
+      if (hasPMax && (r.total_pages == null || r.total_pages > pMax)) return false;
+      // CRFs (Case Report Forms) carry per-patient identifying info
+      // that's heavily (b)(6)-redacted by design; hiding them lets you
+      // see the rest of the corpus clearly.
+      if (crfFilter === "exclude-crf" && r.isCRF) return false;
       return true;
     });
 
@@ -458,13 +465,20 @@
 
     renderExemptionChips(sortedEx);
 
-    const filterIds = ["f-name", "f-module", "f-company", "f-license", "f-source", "f-min", "f-category"];
+    const filterIds = ["f-name", "f-module", "f-company", "f-license", "f-source", "f-min", "f-pages-min", "f-pages-max"];
     filterIds.forEach((id) => {
-      const ev = (id === "f-name" || id === "f-min") ? "input" : "change";
+      const ev = (id === "f-name" || id === "f-min" || id === "f-pages-min" || id === "f-pages-max") ? "input" : "change";
       $(id).addEventListener(ev, rerender);
+    });
+    // Segmented control radios — re-render whenever the selected segment changes
+    document.querySelectorAll('input[name="crf-filter"]').forEach((el) => {
+      el.addEventListener("change", rerender);
     });
     $("reset").addEventListener("click", () => {
       filterIds.forEach((id) => { $(id).value = ""; });
+      // Reset segmented control to the first option ("All files")
+      const firstRadio = document.querySelector('input[name="crf-filter"][value=""]');
+      if (firstRadio) firstRadio.checked = true;
       state.activeExemptions.clear();
       rerender();
     });

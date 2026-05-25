@@ -210,6 +210,78 @@
     .files-cell { max-width: 380px; word-break: break-all; }
     .hits-num { font-weight: 600; text-align: right; }
     tr:hover td { background: #f8f9fa !important; }
+
+    /* Segmented control (joined pill buttons) — used for the
+       "All files | Exclude CRFs" filter. Native radio buttons under
+       the hood so arrow-key navigation + screen-reader grouping work
+       for free. */
+    .segctrl {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      display: inline-flex;
+      align-self: end;  /* aligns with the bottom of labeled filters */
+    }
+    .segctrl > label {
+      cursor: pointer;
+      user-select: none;
+      padding: 6px 14px;
+      font-size: 13px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--ink);
+    }
+    .segctrl > label:first-of-type {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    .segctrl > label:last-of-type {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-left: 0;  /* avoid double border between joined segments */
+    }
+    .segctrl > label:hover { background: #f8f9fa; }
+    .segctrl input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .segctrl input[type="radio"]:checked + span {
+      /* nothing — see parent rule below */
+    }
+    /* Highlight the wrapping label when its radio is checked */
+    .segctrl > label:has(input[type="radio"]:checked) {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    /* Focus ring when keyboard-focused */
+    .segctrl > label:has(input[type="radio"]:focus-visible) {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Paired filter container — keeps min/max inputs together when
+       the filter strip wraps. The pair itself is one flex item from
+       the parent's perspective. */
+    .filter-pair {
+      display: flex;
+      gap: 12px;
+      flex-wrap: nowrap;
+    }
+
+    /* Screen-reader-only utility (visually hidden, still announced) */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
   </style>
 </head>
 <body>
@@ -305,13 +377,28 @@
       <input type="number" id="f-min" min="0" step="1" placeholder="e.g. 100">
     </label>
 
-    <label class="filter">
-      <span>Category</span>
-      <select id="f-category">
-        <option value="">Include all</option>
-        <option value="non-crf">Non-CRF only (hide Case Report Forms)</option>
-      </select>
-    </label>
+    <div class="filter-pair">
+      <label class="filter">
+        <span>Pages ≥</span>
+        <input type="number" id="f-pages-min" min="0" step="1">
+      </label>
+      <label class="filter">
+        <span>Pages ≤</span>
+        <input type="number" id="f-pages-max" min="0" step="1">
+      </label>
+    </div>
+
+    <fieldset class="segctrl">
+      <legend class="sr-only">File category filter</legend>
+      <label>
+        <input type="radio" name="crf-filter" value="" checked>
+        <span>All files</span>
+      </label>
+      <label>
+        <input type="radio" name="crf-filter" value="exclude-crf">
+        <span>Exclude CRFs</span>
+      </label>
+    </fieldset>
 
     <button type="button" id="reset" style="margin-left:auto">Reset filters</button>
   </section>
