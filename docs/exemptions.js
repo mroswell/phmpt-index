@@ -135,80 +135,121 @@
     root.appendChild(grid);
   }
 
-  // ---- rare exemption rendering ----
+  // ---- shared helper to render a per-file table for one category ----
+  function renderRareFileTable(rows, withContext) {
+    let html = `<table><thead><tr><th>File</th><th>Module</th><th>Co.</th><th>Lic.</th><th>Hits</th><th>Pages</th><th>Link</th></tr></thead><tbody>`;
+    for (const r of rows) {
+      const pagesStr = r.pages.map((p) => p.page).join(", ");
+      const totalHits = r.total_hits;
+      const filename = r.filename;
+      const fileUrl = r.phmpt_url || r.ican_url;
+      const fileCell = fileUrl
+        ? `<a href="${fileUrl}" target="_blank" rel="noopener"><code>${filename}</code></a>`
+        : `<code>${filename}</code>`;
+      const linkParts = [];
+      if (r.phmpt_url) linkParts.push(`<a href="${r.phmpt_url}" target="_blank" rel="noopener">PHMPT</a>`);
+      if (r.ican_url)  linkParts.push(`<a href="${r.ican_url}"  target="_blank" rel="noopener">ICAN</a>`);
+      const allContexts = r.pages.flatMap((p) => p.contexts || []);
+      const ctxRow = (withContext && allContexts.length)
+        ? `<tr class="ctx-row"><td colspan="7" style="background:#fffdf2;font-size:11px;color:#5a4500;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;padding:6px 12px;line-height:1.4">…${allContexts[0]}…</td></tr>`
+        : "";
+      html += `<tr>
+        <td class="filename-cell">${fileCell}</td>
+        <td>${r.module || ""}</td>
+        <td>${r.company || ""}</td>
+        <td>${r.license || ""}</td>
+        <td>${totalHits}</td>
+        <td class="pages-cell">${pagesStr}</td>
+        <td>${linkParts.join(" · ") || "—"}</td>
+      </tr>${ctxRow}`;
+    }
+    html += "</tbody></table>";
+    return html;
+  }
+
+  // ---- rare exemption REDACTIONS panel (genuinely-rare exemption types) ----
   function renderRare(rareDoc, phmptUrlMap) {
     const root = $("rare-body");
     root.innerHTML = "";
 
-    // Sort markers by total_occurrences desc
+    // Sort markers by redaction count desc
     const order = Object.entries(rareDoc.summary.by_marker)
-      .sort((a, b) => b[1].total - a[1].total);
+      .filter(([, b]) => (b.redaction_hits || 0) > 0)
+      .sort((a, b) => b[1].redaction_hits - a[1].redaction_hits);
+
     if (order.length === 0) {
-      root.textContent = "No rare exemption hits.";
+      root.textContent = "No rare-exemption redactions in the corpus.";
       return;
     }
+
+    const totalRedactions = order.reduce((s, [, b]) => s + b.redaction_hits, 0);
+    const totalFiles = order.reduce((s, [, b]) => s + b.redaction_files, 0);
 
     const intro = document.createElement("p");
     intro.style.fontSize = "13px";
     intro.style.color = "var(--muted)";
     intro.innerHTML =
-      `<strong>${rareDoc.summary.total_occurrences.toLocaleString()} occurrences</strong> across ` +
-      `${rareDoc.summary.file_marker_combos} file × marker combo(s). ` +
-      `Each marker is categorized as either an actual <span style="background:#e3f7e3;padding:1px 5px;border-radius:3px;color:#2a6e2a;font-weight:600">Redaction</span> ` +
-      `or a <span style="background:#fff3a8;padding:1px 5px;border-radius:3px;color:#7a5a00;font-weight:600">Mentions exemption</span> ` +
-      `(body-text reference to the FOIA statute, e.g. <code>5 U.S.C. § 552(b)(5)</code>). ` +
-      `Hits where the <code>(b)(N)</code> pattern matched a different statute (FD&C Act, 21 CFR, etc.) have been excluded — they'll surface on a future "Other statutes" page.`;
+      `<strong>${totalRedactions.toLocaleString()} redaction(s)</strong> across ` +
+      `${totalFiles} file × marker combo(s), excluding the dominant ` +
+      `<code>(b)(4)</code> trade-secret and <code>(b)(6)</code> personal-privacy types. ` +
+      `Hits where the <code>(b)(N)</code> pattern matched a different statute have been excluded. ` +
+      `Body-text mentions of the FOIA statute are surfaced separately in the panel below.`;
     root.appendChild(intro);
-
-    const renderFileTable = (label, badgeClass, rows) => {
-      if (!rows.length) return "";
-      let html = `<h4 style="margin:14px 0 6px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:0.04em">${label} — ${rows.length} file(s)</h4>`;
-      html += `<table><thead><tr><th>File</th><th>Module</th><th>Co.</th><th>Lic.</th><th>Hits</th><th>Pages</th><th>Link</th></tr></thead><tbody>`;
-      for (const r of rows) {
-        const pagesStr = r.pages.map((p) => p.page).join(", ");
-        const totalHits = r.total_hits;
-        const filename = r.filename;
-        const fileUrl = r.phmpt_url || r.ican_url;
-        const fileCell = fileUrl
-          ? `<a href="${fileUrl}" target="_blank" rel="noopener"><code>${filename}</code></a>`
-          : `<code>${filename}</code>`;
-        const linkParts = [];
-        if (r.phmpt_url) linkParts.push(`<a href="${r.phmpt_url}" target="_blank" rel="noopener">PHMPT</a>`);
-        if (r.ican_url)  linkParts.push(`<a href="${r.ican_url}"  target="_blank" rel="noopener">ICAN</a>`);
-        // For "mention" rows, surface the first context snippet so it's
-        // immediately clear what the file is referring to.
-        const allContexts = r.pages.flatMap((p) => p.contexts || []);
-        const ctxRow = allContexts.length
-          ? `<tr class="ctx-row"><td colspan="7" style="background:#fffdf2;font-size:11px;color:#5a4500;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;padding:6px 12px;line-height:1.4">…${allContexts[0]}…</td></tr>`
-          : "";
-        html += `<tr>
-          <td class="filename-cell"><span class="src-tag ${badgeClass}">${label.toLowerCase().includes("mention") ? "mention" : "redaction"}</span> ${fileCell}</td>
-          <td>${r.module || ""}</td>
-          <td>${r.company || ""}</td>
-          <td>${r.license || ""}</td>
-          <td>${totalHits}</td>
-          <td class="pages-cell">${pagesStr}</td>
-          <td>${linkParts.join(" · ") || "—"}</td>
-        </tr>${ctxRow}`;
-      }
-      html += "</tbody></table>";
-      return html;
-    };
 
     for (const [marker, b] of order) {
       const bucket = rareDoc.by_marker[marker] || {redaction: [], mention: []};
       const desc = rareDoc.summary.descriptions[marker] || "";
+      if (!bucket.redaction || bucket.redaction.length === 0) continue;
 
       const wrap = document.createElement("div");
       wrap.className = "rare-marker";
-      const breakdown = [];
-      if (b.redaction_hits) breakdown.push(`${b.redaction_hits} redaction(s) in ${b.redaction_files} file(s)`);
-      if (b.mention_hits)   breakdown.push(`${b.mention_hits} mention(s) in ${b.mention_files} file(s)`);
       wrap.innerHTML = `
         <h3><code>${marker}</code> — ${desc}</h3>
-        <p class="desc">${b.total.toLocaleString()} occurrence(s): ${breakdown.join(", ")}.</p>
-        ${renderFileTable("Redaction", "individual", bucket.redaction || [])}
-        ${renderFileTable("Mentions exemption", "ican", bucket.mention || [])}
+        <p class="desc">${b.redaction_hits} redaction(s) in ${b.redaction_files} file(s).</p>
+        ${renderRareFileTable(bucket.redaction, /*withContext*/ false)}
+      `;
+      root.appendChild(wrap);
+    }
+  }
+
+  // ---- "Mentions exemption" panel (body-text statute references) ----
+  function renderMentions(rareDoc) {
+    const root = $("mentions-body");
+    root.innerHTML = "";
+
+    const order = Object.entries(rareDoc.summary.by_marker)
+      .filter(([, b]) => (b.mention_hits || 0) > 0)
+      .sort((a, b) => b[1].mention_hits - a[1].mention_hits);
+
+    if (order.length === 0) {
+      root.textContent = "No body-text mentions of FOIA exemptions in the corpus.";
+      return;
+    }
+
+    const totalMentions = order.reduce((s, [, b]) => s + b.mention_hits, 0);
+    const totalFiles = order.reduce((s, [, b]) => s + b.mention_files, 0);
+
+    const intro = document.createElement("p");
+    intro.style.fontSize = "13px";
+    intro.style.color = "var(--muted)";
+    intro.innerHTML =
+      `<strong>${totalMentions.toLocaleString()} body-text mention(s)</strong> of FOIA exemption(s) ` +
+      `in ${totalFiles} file × marker combo(s). These are <em>not</em> redactions — they're places ` +
+      `where the document cites the FOIA statute (e.g. <code>5 U.S.C. § 552(b)(5)</code>) in narrative ` +
+      `or court text. Context snippet shown below each row.`;
+    root.appendChild(intro);
+
+    for (const [marker, b] of order) {
+      const bucket = rareDoc.by_marker[marker] || {redaction: [], mention: []};
+      const desc = rareDoc.summary.descriptions[marker] || "";
+      if (!bucket.mention || bucket.mention.length === 0) continue;
+
+      const wrap = document.createElement("div");
+      wrap.className = "rare-marker";
+      wrap.innerHTML = `
+        <h3><code>${marker}</code> — ${desc}</h3>
+        <p class="desc">${b.mention_hits} mention(s) in ${b.mention_files} file(s).</p>
+        ${renderRareFileTable(bucket.mention, /*withContext*/ true)}
       `;
       root.appendChild(wrap);
     }
@@ -482,6 +523,7 @@
 
     // Rare panel
     renderRare(rareDoc, phmptUrlMap);
+    renderMentions(rareDoc);
 
     renderExemptionChips(sortedEx);
 
