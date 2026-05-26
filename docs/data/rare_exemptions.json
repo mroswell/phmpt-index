@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_occurrences": 406,
-    "file_marker_combos": 29,
+    "total_occurrences": 407,
+    "file_marker_combos": 30,
     "by_marker": {
       "(b)(7)(A)": {
         "total": 2,
@@ -23,6 +23,13 @@
         "redaction_hits": 0,
         "mention_files": 1,
         "mention_hits": 1
+      },
+      "(b)(8)": {
+        "total": 1,
+        "redaction_files": 1,
+        "redaction_hits": 1,
+        "mention_files": 0,
+        "mention_hits": 0
       },
       "(b)(7)(C)": {
         "total": 302,
@@ -48,15 +55,21 @@
     },
     "descriptions": {
       "(b)(1)": "Classified information",
-      "(b)(1)(B)": "Classified information (subpart B)",
-      "(b)(1)(C)": "Classified information (subpart C)",
       "(b)(2)": "Internal personnel rules and practices",
       "(b)(3)": "Information exempt under other statutes",
       "(b)(5)": "Deliberative process / attorney privilege",
       "(b)(7)(A)": "Law enforcement records \u2014 ongoing investigations",
+      "(b)(7)(B)": "Law enforcement records \u2014 fair trial rights",
       "(b)(7)(C)": "Law enforcement records \u2014 personal privacy",
+      "(b)(7)(D)": "Law enforcement records \u2014 confidential sources",
       "(b)(7)(E)": "Law enforcement records \u2014 techniques",
-      "(b)(9)": "Geological / geophysical information"
+      "(b)(7)(F)": "Law enforcement records \u2014 physical safety",
+      "(b)(8)": "Financial institution information",
+      "(b)(9)": "Geological / geophysical information",
+      "(b)(1)(B)": "Not a FOIA exemption \u2014 likely other-statute reference",
+      "(b)(1)(C)": "Not a FOIA exemption \u2014 likely other-statute reference",
+      "(b)(4)(D)": "Not a FOIA exemption \u2014 likely OCR misread or other-statute reference",
+      "(b)(13)": "Not a FOIA exemption \u2014 FOIA has only (b)(1)-(b)(9)"
     },
     "note": "Hits where the (b)(N) pattern referred to a different statute (FD&C Act, 21 CFR, etc.) \u2014 not FOIA \u2014 have been excluded. They will surface on a future 'Other statutes mentioned' page. See rare_exemptions_contexts.json for the full classification."
   },
@@ -484,6 +497,28 @@
           "ican_url": "https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf"
         }
       ]
+    },
+    "(b)(8)": {
+      "redaction": [
+        {
+          "filename": "125752_S14_M3_32s44_coa-01689-cx-024414-mrna-lot-4007921027.pdf",
+          "module": "M3",
+          "company": "Moderna",
+          "license": "BLA",
+          "batch_code": "md",
+          "pages": [
+            {
+              "page": 3,
+              "count": 1,
+              "category": "foia_redaction"
+            }
+          ],
+          "total_hits": 1,
+          "phmpt_url": "https://phmpt.org/wp-content/uploads/2025/05/125752_S14_M3_32s44_coa-01689-cx-024414-mrna-lot-4007921027.pdf",
+          "ican_url": null
+        }
+      ],
+      "mention": []
     },
     "(b)(7)(C)": {
       "redaction": [

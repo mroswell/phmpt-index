@@ -87,9 +87,32 @@ def detect_signals(ctx: str, left: str) -> dict:
     }
 
 
-def categorize(signals: dict) -> str:
+def is_structurally_valid_foia(marker: str) -> bool:
+    """Only (b)(1)-(b)(9) are FOIA exemptions, and ONLY (b)(7) has the
+    letter subparts (A)-(F). Anything else (e.g. (b)(13), (b)(4)(D),
+    (b)(1)(C)) cannot be a FOIA exemption regardless of context — it's
+    almost always an OCR misread or a subsection of a different
+    statute (FD&C Act etc.)."""
+    m = re.match(r"\(b\)\((\d+)\)(?:\(([A-F])\))?$", marker)
+    if not m:
+        return False
+    n = int(m.group(1))
+    sub = m.group(2)
+    if n < 1 or n > 9:
+        return False
+    if sub is not None and n != 7:
+        return False
+    return True
+
+
+def categorize(signals: dict, marker: str) -> str:
     """Return one of: 'not_foia', 'foia_legal_reference', 'foia_redaction'."""
-    # Strong signals that this isn't a FOIA marker at all
+    # Structural disqualification: FOIA has only (b)(1)-(b)(9), with
+    # letter subparts ONLY under (b)(7). Anything else cannot be a real
+    # FOIA exemption no matter what the context says.
+    if not is_structurally_valid_foia(marker):
+        return "not_foia"
+    # Strong contextual signals that this isn't a FOIA marker either
     if signals["preceded_by_section_n"]:
         return "not_foia"
     if signals["has_fdc_act"] or signals["has_21_usc"]:
@@ -150,9 +173,16 @@ def main() -> None:
         if r["filename"] not in by_fname:
             by_fname[r["filename"]] = r
 
-    # Group rare hits by filename so each PDF opens once
+    # Group rare hits by filename so each PDF opens once.
+    # docs/data/rare_exemptions.json may be either the basic flat shape
+    # (from scripts/report_eyeball.py) or the enriched shape this
+    # script produces — handle both.
     files: dict[str, list[dict]] = defaultdict(list)
-    for marker, rows in rare.get("by_marker", {}).items():
+    for marker, payload in rare.get("by_marker", {}).items():
+        if isinstance(payload, dict):
+            rows = (payload.get("redaction") or []) + (payload.get("mention") or [])
+        else:
+            rows = payload or []
         for r in rows:
             files[r["filename"]].append({"marker": marker, **r})
 
@@ -217,7 +247,7 @@ def main() -> None:
                     # "preceded_by_*" signals that need un-collapsed text)
                     left = text[max(0, m.start() - 30):m.start()]
                     signals = detect_signals(ctx, left)
-                    category = categorize(signals)
+                    category = categorize(signals, marker)
                     hits_out.append({
                         "filename": filename,
                         "page": page_num,

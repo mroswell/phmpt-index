@@ -34,30 +34,39 @@ ICAN = DATA / "ican_comparison.json"
 SLIM = WEB / "exemptions.json"   # produced by aggregate_exemptions.py
 
 # "Rare" = everything other than the two dominant exemption types
-# (b)(4) trade secrets and (b)(6) personal privacy. Includes the new
-# types surfaced by the individual-via-ICAN scan (court documents
-# carry a much wider exemption vocabulary than scientific PDFs).
-RARE = {
-    "(b)(1)", "(b)(1)(B)", "(b)(1)(C)",
-    "(b)(2)",
-    "(b)(3)",
-    "(b)(5)",
-    "(b)(7)(A)", "(b)(7)(C)", "(b)(7)(E)",
-    "(b)(9)",
-}
+# (b)(4) trade secrets and (b)(6) personal privacy. We treat anything
+# else as rare so we don't accidentally exclude OCR-surfaced markers
+# like (b)(13) (which the user identified as a structurally-invalid
+# FOIA marker) — those will be classified as not_foia downstream by
+# inspect_rare_contexts.py.
+DOMINANT = {"(b)(4)", "(b)(6)"}
+
+def is_rare(marker: str) -> bool:
+    return marker not in DOMINANT
 
 # Human-friendly description of each exemption type, used in section headers.
 EXEMPTION_DESC = {
+    # The 9 valid FOIA exemptions (only (b)(7) has letter subparts A-F)
     "(b)(1)": "Classified information",
-    "(b)(1)(B)": "Classified information (subpart B)",
-    "(b)(1)(C)": "Classified information (subpart C)",
     "(b)(2)": "Internal personnel rules and practices",
     "(b)(3)": "Information exempt under other statutes",
     "(b)(5)": "Deliberative process / attorney privilege",
     "(b)(7)(A)": "Law enforcement records — ongoing investigations",
+    "(b)(7)(B)": "Law enforcement records — fair trial rights",
     "(b)(7)(C)": "Law enforcement records — personal privacy",
+    "(b)(7)(D)": "Law enforcement records — confidential sources",
     "(b)(7)(E)": "Law enforcement records — techniques",
+    "(b)(7)(F)": "Law enforcement records — physical safety",
+    "(b)(8)": "Financial institution information",
     "(b)(9)": "Geological / geophysical information",
+    # Structurally invalid markers we sometimes match — these are
+    # *never* real FOIA exemptions (FOIA has no (b)(13), no (b)(1)
+    # subparts, etc.); inspect_rare_contexts.py classifies them as
+    # not_foia and they're dropped from the Exemptions page.
+    "(b)(1)(B)": "Not a FOIA exemption — likely other-statute reference",
+    "(b)(1)(C)": "Not a FOIA exemption — likely other-statute reference",
+    "(b)(4)(D)": "Not a FOIA exemption — likely OCR misread or other-statute reference",
+    "(b)(13)":   "Not a FOIA exemption — FOIA has only (b)(1)-(b)(9)",
 }
 
 OUT_RARE = WEB / "rare_exemptions_report.md"
@@ -152,7 +161,7 @@ def build_rare_report(phmpt_url_map: dict, ican_url_map: dict) -> None:
             per_marker: dict[str, list[int]] = defaultdict(list)
             for entry in ex_pages:
                 m = entry.get("marker")
-                if m in RARE:
+                if is_rare(m):
                     # Each entry already represents a unique page; preserve the
                     # count so a page with multiple hits shows e.g. "5 (x3)".
                     per_marker[m].append((entry.get("page"), entry.get("count", 1)))

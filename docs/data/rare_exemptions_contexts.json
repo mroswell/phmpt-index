@@ -1,11 +1,11 @@
 {
   "summary": {
-    "files_inspected": 54,
+    "files_inspected": 61,
     "files_missing_pdf": [],
-    "total_hits": 525,
-    "hits_classified_not_foia": 119,
+    "total_hits": 537,
+    "hits_classified_not_foia": 130,
     "hits_classified_legal_reference": 8,
-    "hits_classified_redaction": 398,
+    "hits_classified_redaction": 399,
     "by_marker": {
       "(b)(7)(A)": {
         "total": 2,
@@ -43,10 +43,28 @@
         "legal_ref": 0,
         "redaction": 0
       },
+      "(b)(13)": {
+        "total": 1,
+        "not_foia": 1,
+        "legal_ref": 0,
+        "redaction": 0
+      },
       "(b)(9)": {
         "total": 1,
         "not_foia": 0,
         "legal_ref": 1,
+        "redaction": 0
+      },
+      "(b)(8)": {
+        "total": 1,
+        "not_foia": 0,
+        "legal_ref": 0,
+        "redaction": 1
+      },
+      "(b)(4)(D)": {
+        "total": 10,
+        "not_foia": 10,
+        "legal_ref": 0,
         "redaction": 0
       },
       "(b)(7)(C)": {
@@ -2789,6 +2807,25 @@
     },
     {
       "filename": "12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf",
+      "page": 12,
+      "marker": "(b)(13)",
+      "context": "uct has orphan exclusivity, is the product considered to be the same product according to the orphan drug definition of sameness [see 21 CFR 316.3(b)(13)]? If yes, consult CBER Jurisdiction Officer. See Jurisdiction intranet site for current CBER contact: http://inside.fda.gov:9003/cber/officeof t",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": true,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": null,
+      "company": "Pfizer",
+      "license": null
+    },
+    {
+      "filename": "12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf",
       "page": 17,
       "marker": "(b)(2)",
       "context": "yes, reference IND number where minutes can be found in the filing meeting agenda and summary. 9 Append C 905.01.01 here, if submission contains 505(b)(2). See: http://inside.fda.gov:9003/CDER/OfficeofNewDrugs/ImmediateOffice/UCM027499 for more information on 505(b)(2) and append C 905.01.01: RPM FILING",
@@ -4267,6 +4304,215 @@
       "category": "not_foia",
       "module": "M1",
       "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125752_S14_M3_32s44_coa-01689-cx-024414-mrna-lot-4007921027.pdf",
+      "page": 3,
+      "marker": "(b)(8)",
+      "context": "ve Date: 17 Sep 2021 CX-024414 mRNA Certificate of Analysis Lot 4007921027 (Lonza Lot 996648) Document Approvals Approved Date: 17 Sep 2021 (b) (6) (b) (8)@ modernatx.com) Quality Control Approval 17-Sep-2021 05:54:13 GMT+0000 provall (6) \u00a9) Verdict: Approved (b) (6) @modernatx.com) Quality Assurance Ap",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "foia_redaction",
+      "module": "M3",
+      "company": "Moderna",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+      "page": 11,
+      "marker": "(b)(4)(D)",
+      "context": "for the precision experiments. e Precision measurements of the\u201d samples, described above, were performed following VR-TM-10293 (see Section 9) over (b) (4) (D) (4) \u2014 (b) (4) . Results were analyzed as described in Section 5.2.2 and (1D) (4) 5. STATISTICAL METHODS (1D) (4) PFIZER CONFIDENTIAL Page 11 4.2",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+      "page": 17,
+      "marker": "(b)(4)(D)",
+      "context": "of IgG Antibodies to SARS-CoV-2 S1 Protein in Human Sera VR-MQR-10211, Ver. 2.0 Table 4. Well Concentration Range Based on (b) (4) Linearity Data \u2014 (b) (4) (D) (4) Figure 2. Precision Plot for S1 IgG dLIA (1D) (4) PFIZER CONFIDENTIAL Page 17 FDA-CBER-2021-5683-1072691",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+      "page": 19,
+      "marker": "(b)(4)(D)",
+      "context": "he intermediate precision of the assay was evaluated using the ) @) as described in Section 5.2.5 and the results are summarized in Table 8. (b) (4) (b) (4) (D) (4) PFIZER CONFIDENTIAL Page 19 FDA-CBER-2021-5683-1072693",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S31_M5_vr-mqr-10212.pdf",
+      "page": 15,
+      "marker": "(b)(4)(D)",
+      "context": ") for Quantitation of IgG Antibodies to SARS-CoV-2 RBD Protein in Human Sera \u2014 Draft Report VR-MQR-10212, Ver. 1.0 5.2.7. Assay Run Performance \u2014\u2014\u2014 (b) (4) (D) (4) 5.2.7.2. Standard Curve Parameters (D) (4 5.2.7.3. Quality Control Samples (1D) (4) 6. RESULTS AND DISCUSSION Qualification data used for th",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S31_M5_vr-mqr-10212.pdf",
+      "page": 28,
+      "marker": "(b)(4)(D)",
+      "context": "le-plex Direct Luminex Assay (dLIA) for Quantitation of IgG Antibodies to SARS-CoV-2 RBD Protein in Human Sera \u2014 Draft Report VR-MQR-10212, Ver. 1.0 (b) (4) (D) (4) PFIZER CONFIDENTIAL Page 28 FDA-CBER-2021-5683-1072601",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": true
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S31_M5_vr-tm-10293.pdf",
+      "page": 9,
+      "marker": "(b)(4)(D)",
+      "context": "as: NA Serum 9.1. Preparation of Single-plex $1 Microspheres The preparation of S1 antigen coated microspheres is described in VR-SOP-LC-11295. il (b) (4) (D) (4) 9.2. Preparation of Sample Dilution Plates In the single-plex SARS-CoV-2 S1 IgG dLIA, each assay plate is derived from a corresponding dilution",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S31_M5_vr-tm-10293.pdf",
+      "page": 16,
+      "marker": "(b)(4)(D)",
+      "context": "r to submitting documentation for secondary review. NOTE: If technical problems occurred with the assay plate (plates are spilled or dropped, etc.), (b) (4) (D) (4) 10. INTERPRETATION OF RESULTS A qualified data reviewer analyzes the data according to pre-specified acceptance criteria, as described in VR-SO",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "019736_S31_M5_vr-mqr-10214.pdf",
+      "page": 11,
+      "marker": "(b)(4)(D)",
+      "context": "essment of (b) (4) Performance (b) (4) specification limits were calculated according to the following method and the results are shown in Table 5. (b) (4) (D) (4) PFIZER CONFIDENTIAL Page 11 FDA-CBER-2021-5683-1072612",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125742_S1_M5_5314_vr-mqr-10214.pdf",
+      "page": 20,
+      "marker": "(b)(4)(D)",
+      "context": "ation of the SARS-CoV-2 mNeonGreen Virus Microneutralization Assay VR-MQR-10214, Ver. 2.0 9.1. Descriptive Statistics of Precision Samples (b) (4) (b) (4) (D) (4) PFIZER CONFIDENTIAL Page 20 FDA-CBER-2021-5683-0779372",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA"
+    },
+    {
+      "filename": "125752_S3_M5_5314_vsdvac-65-adden-5-v2.pdf",
+      "page": 17,
+      "marker": "(b)(4)(D)",
+      "context": "rough a series, yielding equivalent dilution corrected antibody concentrations across that series. To evaluate the dilutional linearity of the assay, (b) (4) (D) (4) The assay met the pre-specified acceptance criterion that the dilution bias per\u201d fold dilution (b) (4) must be less than\u201d fold; therefore, the a",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "category": "not_foia",
+      "module": "M5",
+      "company": "Moderna",
       "license": "BLA"
     },
     {

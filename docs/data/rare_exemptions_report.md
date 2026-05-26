@@ -1,6 +1,6 @@
 # Rare FOIA Exemptions — Eyeball Report
 
-Every occurrence of the 5 rarely-used exemption types across all five modules. **525 occurrences across 71 file–marker combinations** (a single file may appear in multiple sections if it uses more than one rare type).
+Every occurrence of the 5 rarely-used exemption types across all five modules. **537 occurrences across 79 file–marker combinations** (a single file may appear in multiple sections if it uses more than one rare type).
 
 The dominant `(b)(4)` (trade secrets) and `(b)(6)` (personal privacy) markers are excluded — see `data/exemptions_report.md` for those.
 
@@ -104,7 +104,20 @@ Each row links to the file on PHMPT (the original source; clicking opens the PDF
 | `125742_S75_M1_356h.pdf` | M1 | Pfizer | BLA | 1, 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/125742_S75_M1_356h.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/125742_S75_M1_356h.pdf) |
 | `125742_S66_M1_pp-cvv-usa-0357.pdf` | M1 | Pfizer | BLA | 149 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/08/125742_S66_M1_pp-cvv-usa-0357.pdf) |
 
-## `(b)(1)(C)` — Classified information (subpart C)
+## `(b)(4)(D)` — Not a FOIA exemption — likely OCR misread or other-statute reference
+
+**10 occurrence(s) across 6 file(s).**
+
+| File | Module | Company | License | Pages | Links |
+| --- | --- | --- | --- | --- | --- |
+| `019736_S70_M5_vr-mqr-10211.pdf` | M5 | Pfizer | BLA | 11, 17, 19 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S70_M5_vr-mqr-10211.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S70_M5_vr-mqr-10211.pdf) |
+| `019736_S31_M5_vr-mqr-10212.pdf` | M5 | Pfizer | BLA | 15, 28 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S31_M5_vr-mqr-10212.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S31_M5_vr-mqr-10212.pdf) |
+| `019736_S31_M5_vr-tm-10293.pdf` | M5 | Pfizer | BLA | 9, 16 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S31_M5_vr-tm-10293.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S31_M5_vr-tm-10293.pdf) |
+| `019736_S31_M5_vr-mqr-10214.pdf` | M5 | Pfizer | BLA | 11 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/10/019736_S31_M5_vr-mqr-10214.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/10/019736_S31_M5_vr-mqr-10214.pdf) |
+| `125742_S1_M5_5314_vr-mqr-10214.pdf` | M5 | Pfizer | BLA | 20 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/04/125742_S1_M5_5314_vr-mqr-10214.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/04/125742_S1_M5_5314_vr-mqr-10214.pdf) |
+| `125752_S3_M5_5314_vsdvac-65-adden-5-v2.pdf` | M5 | Moderna | BLA | 17 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/11/125752_S3_M5_5314_vsdvac-65-adden-5-v2.pdf) |
+
+## `(b)(1)(C)` — Not a FOIA exemption — likely other-statute reference
 
 **6 occurrence(s) across 5 file(s).**
 
@@ -125,7 +138,15 @@ Each row links to the file on PHMPT (the original source; clicking opens the PDF
 | `125752_S55_M1_pbrer-2-01jul2021-31dec2021.pdf` | M1 | Moderna | BLA | 5339 | [PHMPT zip](https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-production-063025.zip) |
 | `125752_S3_M5_CRF_mrna-1273-p301-us3032110.pdf` | M5 | Moderna | BLA | 608 | [PHMPT](https://phmpt.org/wp-content/uploads/2024/02/125752_S3_M5_CRF_mrna-1273-p301-us3032110.pdf) |
 
-## `(b)(1)(B)` — Classified information (subpart B)
+## `(b)(8)` — Financial institution information
+
+**1 occurrence(s) across 1 file(s).**
+
+| File | Module | Company | License | Pages | Links |
+| --- | --- | --- | --- | --- | --- |
+| `125752_S14_M3_32s44_coa-01689-cx-024414-mrna-lot-4007921027.pdf` | M3 | Moderna | BLA | 3 | [PHMPT](https://phmpt.org/wp-content/uploads/2025/05/125752_S14_M3_32s44_coa-01689-cx-024414-mrna-lot-4007921027.pdf) |
+
+## `(b)(1)(B)` — Not a FOIA exemption — likely other-statute reference
 
 **1 occurrence(s) across 1 file(s).**
 
@@ -148,3 +169,11 @@ Each row links to the file on PHMPT (the original source; clicking opens the PDF
 | File | Module | Company | License | Pages | Links |
 | --- | --- | --- | --- | --- | --- |
 | `111521-Second-Joint-Status-Report.pdf` | Individual | Pfizer | — | 2 | [PHMPT](https://phmpt.org/wp-content/uploads/2021/11/111521-Second-Joint-Status-Report.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2022/03/111521-Second-Joint-Status-Report.pdf) |
+
+## `(b)(13)` — Not a FOIA exemption — FOIA has only (b)(1)-(b)(9)
+
+**1 occurrence(s) across 1 file(s).**
+
+| File | Module | Company | License | Pages | Links |
+| --- | --- | --- | --- | --- | --- |
+| `12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf` | Individual | Pfizer | — | 12 | [PHMPT](https://phmpt.org/wp-content/uploads/2023/09/12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf) · [ICAN](https://icandecide.org/wp-content/uploads/2023/09/12_BLA-125742-0_07-01-2021_Memo_Filing-Checklist_RPM.pdf) |
