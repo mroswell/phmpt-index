@@ -1,0 +1,3979 @@
+{
+  "summary": {
+    "scoring_rubric": {
+      "high_value_category": 30,
+      "rare_marker": 25,
+      "likely_table": 20,
+      "b4_in_manufacturing": 15,
+      "b5_deliberation": 15,
+      "module_M3_or_M4": 10,
+      "bates_present": 10,
+      "section_heading_present": 10,
+      "court_doc_penalty": -20
+    },
+    "strata_quotas": {
+      "Rare markers (anything not (b)(4))": 15,
+      "Manufacturing / CMC": 25,
+      "Pharmacology / toxicology": 15,
+      "Clinical safety / adverse events": 15,
+      "Trial design / efficacy": 10,
+      "Inspection / enforcement": 10,
+      "Trade-secret claim": 5,
+      "Internal FDA deliberation": 5
+    },
+    "total_scored": 64374,
+    "top_n": 100,
+    "max_per_file": 5,
+    "bucket_distribution": {
+      "Manufacturing / CMC": 25,
+      "Rare markers (anything not (b)(4))": 15,
+      "Pharmacology / toxicology": 15,
+      "Clinical safety / adverse events": 15,
+      "Trial design / efficacy": 10,
+      "Inspection / enforcement": 10,
+      "Trade-secret claim": 5,
+      "Internal FDA deliberation": 5
+    },
+    "score_distribution_top_n": {
+      "95": 37,
+      "85": 3,
+      "80": 17,
+      "70": 18,
+      "65": 3,
+      "55": 1,
+      "50": 12,
+      "40": 9
+    },
+    "category_distribution_top_n": {
+      "Manufacturing / CMC": 40,
+      "Pharmacology / toxicology": 15,
+      "Clinical safety / adverse events": 15,
+      "Trial design / efficacy": 10,
+      "Inspection / enforcement": 10,
+      "Trade-secret claim": 5,
+      "Internal FDA deliberation": 5
+    },
+    "marker_distribution_top_n": {
+      "(b)(4)": 76,
+      "(b)(7)(C)": 10,
+      "(b)(7)(E)": 9,
+      "(b)(5)": 5
+    },
+    "module_distribution_top_n": {
+      "M3": 37,
+      "?": 28,
+      "M5": 20,
+      "M4": 15
+    }
+  },
+  "targets": [
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (22 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150534)",
+        "section heading anchor present"
+      ],
+      "_idx": 3043,
+      "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+      "page": 7,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "6 of 86 (DS (Written by KRJ) On 7/21/2021 I observed DS in Prior to Inspector KRJ exiting explained the rest of the process operations. Drug substance See Discussion Item KRJ-1. area (This section written by EA) On 7/19/21, I performed a walkthrough of area which is one of the areas (another is that support the manufacturing operations in The area is (b) (4) (b) (4) (b) (4), (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150534",
+      "section_heading": "OBSERVATION OF OPERATIONS",
+      "bates": "FDA-CBER-2021-5683-1150534",
+      "likely_table": true,
+      "nearby_marker_count": 22,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 2
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (22 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150534)",
+        "section heading anchor present"
+      ],
+      "_idx": 3056,
+      "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+      "page": 7,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "Prior to Inspector KRJ exiting explained the rest of the process operations. Drug substance See Discussion Item KRJ-1. area (This section written by EA) On 7/19/21, I performed a walkthrough of area which is one of the areas (another is that support the manufacturing operations in The area is (b) (4) (b) (4) (b) (4), (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150534",
+      "section_heading": "OBSERVATION OF OPERATIONS",
+      "bates": "FDA-CBER-2021-5683-1150534",
+      "likely_table": true,
+      "nearby_marker_count": 22,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 2
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (27 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150539)",
+        "section heading anchor present"
+      ],
+      "_idx": 3120,
+      "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+      "page": 12,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "iated on due to the multiple control limit excursions during the of DS batch . The Not compiling the control limits for could have an impact on quality for the affected DS lot. Therefore, the firm decided to enroll this affected DS batch on stability because of the potential impact on product quality. CAPA was opened to facilitate the enrollment of this batch into (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150539",
+      "section_heading": "QUALITY SYSTEMS",
+      "bates": "FDA-CBER-2021-5683-1150539",
+      "likely_table": true,
+      "nearby_marker_count": 27,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 2,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (27 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150539)",
+        "section heading anchor present"
+      ],
+      "_idx": 3121,
+      "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+      "page": 12,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "e multiple control limit excursions during the of DS batch . The Not compiling the control limits for could have an impact on quality for the affected DS lot. Therefore, the firm decided to enroll this affected DS batch on stability because of the potential impact on product quality. CAPA was opened to facilitate the enrollment of this batch into (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150539",
+      "section_heading": "QUALITY SYSTEMS",
+      "bates": "FDA-CBER-2021-5683-1150539",
+      "likely_table": true,
+      "nearby_marker_count": 27,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 2,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (28 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150570)",
+        "section heading anchor present"
+      ],
+      "_idx": 3786,
+      "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+      "page": 43,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "verhead shipping door, see FDA Observation 12d below for additional information. Raw Materials (This section written by DME) On 7/22/2021, I observed operator , performing operations for solutions that will be used in the manufacture of the BNT162b2 drug substance. was observed opening a new container of . He the material into a . The is connected to the system that contains the (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) FDA-CBER-2021-5683-1150570",
+      "section_heading": "MATERIALS SYSTEM",
+      "bates": "FDA-CBER-2021-5683-1150570",
+      "likely_table": true,
+      "nearby_marker_count": 28,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Inspection / enforcement",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (23 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150422)",
+        "section heading anchor present"
+      ],
+      "_idx": 61847,
+      "filename": "92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "ns have been implemented, which include the in 2011. In 2015, a was implemented. \u2022 In 1998 a was built for the manufacturing and packaging of was used for manufacturing at that time \u2022 In 2013 the was finished was performed in 2014/2015 and started in 2015. \u2022 In 1999 technology was introduced and In this area Xalatan manufactured. Xalatan is a product on the US market. \u2022 In 2004, a was constructed about 1 mile from the manufacturing plant. This building contains (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150422",
+      "section_heading": "BACKGROUND AND HISTORY",
+      "bates": "FDA-CBER-2021-5683-1150422",
+      "likely_table": true,
+      "nearby_marker_count": 23,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (26 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150422)",
+        "section heading anchor present"
+      ],
+      "_idx": 61848,
+      "filename": "92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "nted, which include the in 2011. In 2015, a was implemented. \u2022 In 1998 a was built for the manufacturing and packaging of was used for manufacturing at that time \u2022 In 2013 the was finished was performed in 2014/2015 and started in 2015. \u2022 In 1999 technology was introduced and In this area Xalatan manufactured. Xalatan is a product on the US market. \u2022 In 2004, a was constructed about 1 mile from the manufacturing plant. This building contains (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150422",
+      "section_heading": "BACKGROUND AND HISTORY",
+      "bates": "FDA-CBER-2021-5683-1150422",
+      "likely_table": true,
+      "nearby_marker_count": 26,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (26 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150422)",
+        "section heading anchor present"
+      ],
+      "_idx": 61849,
+      "filename": "92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "the in 2011. In 2015, a was implemented. \u2022 In 1998 a was built for the manufacturing and packaging of was used for manufacturing at that time \u2022 In 2013 the was finished was performed in 2014/2015 and started in 2015. \u2022 In 1999 technology was introduced and In this area Xalatan manufactured. Xalatan is a product on the US market. \u2022 In 2004, a was constructed about 1 mile from the manufacturing plant. This building contains (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150422",
+      "section_heading": "BACKGROUND AND HISTORY",
+      "bates": "FDA-CBER-2021-5683-1150422",
+      "likely_table": true,
+      "nearby_marker_count": 26,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (26 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150422)",
+        "section heading anchor present"
+      ],
+      "_idx": 61850,
+      "filename": "92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": "5, a was implemented. \u2022 In 1998 a was built for the manufacturing and packaging of was used for manufacturing at that time \u2022 In 2013 the was finished was performed in 2014/2015 and started in 2015. \u2022 In 1999 technology was introduced and In this area Xalatan manufactured. Xalatan is a product on the US market. \u2022 In 2004, a was constructed about 1 mile from the manufacturing plant. This building contains (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150422",
+      "section_heading": "BACKGROUND AND HISTORY",
+      "bates": "FDA-CBER-2021-5683-1150422",
+      "likely_table": true,
+      "nearby_marker_count": 26,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (26 markers nearby)",
+        "rare marker ((b)(7)(C))",
+        "Bates citable (FDA-CBER-2021-5683-1150422)",
+        "section heading anchor present"
+      ],
+      "_idx": 61851,
+      "filename": "92_BLA-125742-0_08-19-2021_Inspection-Related_Inspect.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(C)",
+      "marker_raw": "(b) (7)(C)",
+      "context": ". \u2022 In 1998 a was built for the manufacturing and packaging of was used for manufacturing at that time \u2022 In 2013 the was finished was performed in 2014/2015 and started in 2015. \u2022 In 1999 technology was introduced and In this area Xalatan manufactured. Xalatan is a product on the US market. \u2022 In 2004, a was constructed about 1 mile from the manufacturing plant. This building contains (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150422",
+      "section_heading": "BACKGROUND AND HISTORY",
+      "bates": "FDA-CBER-2021-5683-1150422",
+      "likely_table": true,
+      "nearby_marker_count": 26,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2022-1614-3818225)",
+        "section heading anchor present"
+      ],
+      "_idx": 64258,
+      "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "page": 2,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "ng review. Recognizing that the majority of deviations are identified during batch documentation review, delays in initiating the review process led to identification and initiation of investigations weeks after occurrence. This is reflected in the deviation management system ( where the \u201cDate of Occurrence\u201d and \u201cDate Opened\u201d are documented. Lonza proposed the following corrective actions: 1. Reassess the resource needs for all functional groups supporting mRNA Operations. (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-1614-3818225",
+      "section_heading": "RECOMMENDATION",
+      "bates": "FDA-CBER-2022-1614-3818225",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Inspection / enforcement",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Moderna",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2022-1614-3818225)",
+        "section heading anchor present"
+      ],
+      "_idx": 64260,
+      "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "page": 2,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "ng that the majority of deviations are identified during batch documentation review, delays in initiating the review process led to identification and initiation of investigations weeks after occurrence. This is reflected in the deviation management system ( where the \u201cDate of Occurrence\u201d and \u201cDate Opened\u201d are documented. Lonza proposed the following corrective actions: 1. Reassess the resource needs for all functional groups supporting mRNA Operations. (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-1614-3818225",
+      "section_heading": "RECOMMENDATION",
+      "bates": "FDA-CBER-2022-1614-3818225",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Inspection / enforcement",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Moderna",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 85,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2021-5683-1150326)"
+      ],
+      "_idx": 1270,
+      "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "tage, sudden increase in demand), Operational Considerations (e.g. temporary unavailability of resources), Lot-specific Compliance Considerations (e.g. questions raised during lot release protocol review). \u2022 Public Health Considerations (e.g., temporary product shortage, sudden increase in demand) \u2022 Operational Considerations (e.g., temporary unavailability of resources \u2022 Lot-specific Compliance Considerations (e.g., questions raised during lot release protocol review) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) (b) (4), (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150326",
+      "section_heading": null,
+      "bates": "FDA-CBER-2021-5683-1150326",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 85,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2021-5683-1150326)"
+      ],
+      "_idx": 1272,
+      "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "e in demand), Operational Considerations (e.g. temporary unavailability of resources), Lot-specific Compliance Considerations (e.g. questions raised during lot release protocol review). \u2022 Public Health Considerations (e.g., temporary product shortage, sudden increase in demand) \u2022 Operational Considerations (e.g., temporary unavailability of resources \u2022 Lot-specific Compliance Considerations (e.g., questions raised during lot release protocol review) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) (b) (4), (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150326",
+      "section_heading": null,
+      "bates": "FDA-CBER-2021-5683-1150326",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 85,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2021-5683-1150326)"
+      ],
+      "_idx": 1275,
+      "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "siderations (e.g. temporary unavailability of resources), Lot-specific Compliance Considerations (e.g. questions raised during lot release protocol review). \u2022 Public Health Considerations (e.g., temporary product shortage, sudden increase in demand) \u2022 Operational Considerations (e.g., temporary unavailability of resources \u2022 Lot-specific Compliance Considerations (e.g., questions raised during lot release protocol review) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) (b) (4), (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150326",
+      "section_heading": null,
+      "bates": "FDA-CBER-2021-5683-1150326",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Rare markers (anything not (b)(4))"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (8 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149327)",
+        "section heading anchor present"
+      ],
+      "_idx": 21417,
+      "filename": "125742_S11_M3_32r_677159p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "5-NOV-2021 677159P-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 01-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0159: Storage at C Single use aliquot! (reference for vialing protocol & vialing) 677159P-1G-A-010 Material is hygroscopic Report Created: 07-Jul-2021 1150015 / Last Modified: 01-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e1\\Approved\\Approved On: 09-Jul-2021 03:12 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149327",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149327",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (8 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149327)",
+        "section heading anchor present"
+      ],
+      "_idx": 21418,
+      "filename": "125742_S11_M3_32r_677159p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "21 677159P-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 01-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0159: Storage at C Single use aliquot! (reference for vialing protocol & vialing) 677159P-1G-A-010 Material is hygroscopic Report Created: 07-Jul-2021 1150015 / Last Modified: 01-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e1\\Approved\\Approved On: 09-Jul-2021 03:12 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149327",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149327",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (8 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149327)",
+        "section heading anchor present"
+      ],
+      "_idx": 21419,
+      "filename": "125742_S11_M3_32r_677159p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "9P-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 01-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0159: Storage at C Single use aliquot! (reference for vialing protocol & vialing) 677159P-1G-A-010 Material is hygroscopic Report Created: 07-Jul-2021 1150015 / Last Modified: 01-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e1\\Approved\\Approved On: 09-Jul-2021 03:12 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149327",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149327",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (8 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149327)",
+        "section heading anchor present"
+      ],
+      "_idx": 21420,
+      "filename": "125742_S11_M3_32r_677159p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 01-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0159: Storage at C Single use aliquot! (reference for vialing protocol & vialing) 677159P-1G-A-010 Material is hygroscopic Report Created: 07-Jul-2021 1150015 / Last Modified: 01-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e1\\Approved\\Approved On: 09-Jul-2021 03:12 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149327",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149327",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (8 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149327)",
+        "section heading anchor present"
+      ],
+      "_idx": 21421,
+      "filename": "125742_S11_M3_32r_677159p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 01-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0159: Storage at C Single use aliquot! (reference for vialing protocol & vialing) 677159P-1G-A-010 Material is hygroscopic Report Created: 07-Jul-2021 1150015 / Last Modified: 01-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e1\\Approved\\Approved On: 09-Jul-2021 03:12 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149327",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149327",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trial design / efficacy",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (7 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149328)",
+        "section heading anchor present"
+      ],
+      "_idx": 21424,
+      "filename": "125742_S11_M3_32r_677315o-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "OEB 4 04-NOV-2021 677315O-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 13-May-2021 TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0315: Storage at C Per vendor, material can only undergo and should be discarded after lot 677315O-1G-A-010 Material is hygroscopic. Report Created: 13-May-2021 1115852 / Last Modified: 13-May-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e0\\Approved\\Approved On: 09-Jul-2021 03:14 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) FDA-CBER-2021-5683-1149328",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149328",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (7 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149328)",
+        "section heading anchor present"
+      ],
+      "_idx": 21425,
+      "filename": "125742_S11_M3_32r_677315o-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "4-NOV-2021 677315O-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 13-May-2021 TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0315: Storage at C Per vendor, material can only undergo and should be discarded after lot 677315O-1G-A-010 Material is hygroscopic. Report Created: 13-May-2021 1115852 / Last Modified: 13-May-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e0\\Approved\\Approved On: 09-Jul-2021 03:14 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) FDA-CBER-2021-5683-1149328",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149328",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (7 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149328)",
+        "section heading anchor present"
+      ],
+      "_idx": 21426,
+      "filename": "125742_S11_M3_32r_677315o-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "21 677315O-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 13-May-2021 TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0315: Storage at C Per vendor, material can only undergo and should be discarded after lot 677315O-1G-A-010 Material is hygroscopic. Report Created: 13-May-2021 1115852 / Last Modified: 13-May-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e0\\Approved\\Approved On: 09-Jul-2021 03:14 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) FDA-CBER-2021-5683-1149328",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149328",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (7 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149328)",
+        "section heading anchor present"
+      ],
+      "_idx": 21427,
+      "filename": "125742_S11_M3_32r_677315o-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "5O-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 13-May-2021 TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0315: Storage at C Per vendor, material can only undergo and should be discarded after lot 677315O-1G-A-010 Material is hygroscopic. Report Created: 13-May-2021 1115852 / Last Modified: 13-May-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e0\\Approved\\Approved On: 09-Jul-2021 03:14 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) FDA-CBER-2021-5683-1149328",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149328",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (7 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149328)",
+        "section heading anchor present"
+      ],
+      "_idx": 21428,
+      "filename": "125742_S11_M3_32r_677315o-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 13-May-2021 TESTS AND RESULTS Purity Purity FOOTNOTES ALC-0315: Storage at C Per vendor, material can only undergo and should be discarded after lot 677315O-1G-A-010 Material is hygroscopic. Report Created: 13-May-2021 1115852 / Last Modified: 13-May-2021 Pfizer Confidential Page 1 of 1 090177e19783b6e0\\Approved\\Approved On: 09-Jul-2021 03:14 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) FDA-CBER-2021-5683-1149328",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149328",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149330)",
+        "section heading anchor present"
+      ],
+      "_idx": 21438,
+      "filename": "125742_S11_M3_32r_fc3181-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "smol/kg LNP Size Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848ed8\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149330",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149330",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149330)",
+        "section heading anchor present"
+      ],
+      "_idx": 21439,
+      "filename": "125742_S11_M3_32r_fc3181-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "LNP Size Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848ed8\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149330",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149330",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149330)",
+        "section heading anchor present"
+      ],
+      "_idx": 21440,
+      "filename": "125742_S11_M3_32r_fc3181-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848ed8\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149330",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149330",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149330)",
+        "section heading anchor present"
+      ],
+      "_idx": 21441,
+      "filename": "125742_S11_M3_32r_fc3181-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848ed8\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149330",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149330",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149330)",
+        "section heading anchor present"
+      ],
+      "_idx": 21442,
+      "filename": "125742_S11_M3_32r_fc3181-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848ed8\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149330",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149330",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149332)",
+        "section heading anchor present"
+      ],
+      "_idx": 21454,
+      "filename": "125742_S11_M3_32r_fc3184-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "smol/kg LNP Size Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bc1\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149332",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149332",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149332)",
+        "section heading anchor present"
+      ],
+      "_idx": 21455,
+      "filename": "125742_S11_M3_32r_fc3184-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "LNP Size Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bc1\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149332",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149332",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149332)",
+        "section heading anchor present"
+      ],
+      "_idx": 21456,
+      "filename": "125742_S11_M3_32r_fc3184-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bc1\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149332",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149332",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149332)",
+        "section heading anchor present"
+      ],
+      "_idx": 21457,
+      "filename": "125742_S11_M3_32r_fc3184-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bc1\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149332",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149332",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149332)",
+        "section heading anchor present"
+      ],
+      "_idx": 21458,
+      "filename": "125742_S11_M3_32r_fc3184-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bc1\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149332",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149332",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149334)",
+        "section heading anchor present"
+      ],
+      "_idx": 21470,
+      "filename": "125742_S11_M3_32r_fd0809-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "smol/kg LNP Size Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bd4\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149334",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149334",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149334)",
+        "section heading anchor present"
+      ],
+      "_idx": 21471,
+      "filename": "125742_S11_M3_32r_fd0809-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "LNP Size Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bd4\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149334",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149334",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149334)",
+        "section heading anchor present"
+      ],
+      "_idx": 21472,
+      "filename": "125742_S11_M3_32r_fd0809-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Dynamic Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bd4\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149334",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149334",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149334)",
+        "section heading anchor present"
+      ],
+      "_idx": 21473,
+      "filename": "125742_S11_M3_32r_fd0809-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Light Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bd4\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149334",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149334",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 95,
+      "_score_reasons": [
+        "high-value category: Manufacturing / CMC",
+        "likely table cluster (11 markers nearby)",
+        "(b)(4) trade-secret claim in manufacturing context",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149334)",
+        "section heading anchor present"
+      ],
+      "_idx": 21474,
+      "filename": "125742_S11_M3_32r_fd0809-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Scattering (DLS) nm LNP Polydispersity Dynamic Light Scattering (DLS) None RNA Content Fluorescence assay mg/mL RNA Encapsulation Fluorescence assay % ALC-0315 Content HPLC-CAD mg/mL ALC-0159 Content HPLC-CAD mg/mL DSPC Content HPLC-CAD mg/mL Cholesterol Content HPLC-CAD mg/mL Lipid Identities HPLC-CAD Retention times consistent with references (ALC-0315, ALC-0159, Cholesterol, DSPC) None Positive 090177e197848bd4\\Approved\\Approved On: 09-Jul-2021 03:27 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149334",
+      "section_heading": "SPECIFICATION",
+      "bates": "FDA-CBER-2021-5683-1149334",
+      "likely_table": true,
+      "nearby_marker_count": 11,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Manufacturing / CMC",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 3
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Manufacturing / CMC"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 22310,
+      "filename": "125742_S1_M4_4.2.3.2 38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Study conducted by: BioNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 22311,
+      "filename": "125742_S1_M4_4.2.3.2 38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "onducted by: BioNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 22312,
+      "filename": "125742_S1_M4_4.2.3.2 38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "by: BioNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 22313,
+      "filename": "125742_S1_M4_4.2.3.2 38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "oNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 22314,
+      "filename": "125742_S1_M4_4.2.3.2 38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "NA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 25487,
+      "filename": "125742_S1_M4_4.2.3.2+38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Study conducted by: BioNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 25488,
+      "filename": "125742_S1_M4_4.2.3.2+38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "onducted by: BioNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 25489,
+      "filename": "125742_S1_M4_4.2.3.2+38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "by: BioNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 25490,
+      "filename": "125742_S1_M4_4.2.3.2+38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "oNTech RNA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (9 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0765715)",
+        "section heading anchor present"
+      ],
+      "_idx": 25491,
+      "filename": "125742_S1_M4_4.2.3.2+38166.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "NA Pharmaceuticals An der Goldgrube 12 55131 Mainz Germany Contact person: Contact person: 17 September 2020 This Amendment No. 1 to Final Report consists of 2233 pages and 4 pages. This is page I. REPEAT-DOSE TOXICITY STUDY OF THREE LNP-FORMULATED RNA PLATFORMS ENCODING FOR VIRAL PROTEINS BY REPEATED INTRAMUSCULAR ADMINISTRATION TO WISTAR HAN RATS (Final Report dated 01 July 2020) 090177e194f4cf37\\Approved\\Approved On: 18-Sep-2020 13:38 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6), (b) (4) FDA-CBER-2021-5683-0765715",
+      "section_heading": "TO WISTAR HAN RATS",
+      "bates": "FDA-CBER-2021-5683-0765715",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 2
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (14 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149235)",
+        "section heading anchor present"
+      ],
+      "_idx": 32613,
+      "filename": "125742_S2_M3_32p8_stability-data-thermal-stress-cycling.pdf",
+      "page": 20,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "-0159 Content DSPC Content Cholesterol Content In Vitro Expression RNA Integrity Timepoint / Acceptance Criteriaa Placed @ -90 to -60\u00b0C (for 2 weeks) 0b Samples pulled for 2W testing. Inventory moved to -20 \u00b1 5\u00b0C (for 4 weeks) 2W 4W Samples pulled for 6W testing. Inventory moved to 2 to 8 \u00b0C for remainder of study 6W 8W 10W 12W 14W 090177e19703fd1a\\Approved\\Approved On: 12-May-2021 12:40 (GMT) (b) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149235",
+      "section_heading": "PFIZER CONFIDENTIAL",
+      "bates": "FDA-CBER-2021-5683-1149235",
+      "likely_table": true,
+      "nearby_marker_count": 14,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (14 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149235)",
+        "section heading anchor present"
+      ],
+      "_idx": 32614,
+      "filename": "125742_S2_M3_32p8_stability-data-thermal-stress-cycling.pdf",
+      "page": 20,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "ntent DSPC Content Cholesterol Content In Vitro Expression RNA Integrity Timepoint / Acceptance Criteriaa Placed @ -90 to -60\u00b0C (for 2 weeks) 0b Samples pulled for 2W testing. Inventory moved to -20 \u00b1 5\u00b0C (for 4 weeks) 2W 4W Samples pulled for 6W testing. Inventory moved to 2 to 8 \u00b0C for remainder of study 6W 8W 10W 12W 14W 090177e19703fd1a\\Approved\\Approved On: 12-May-2021 12:40 (GMT) (b) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149235",
+      "section_heading": "PFIZER CONFIDENTIAL",
+      "bates": "FDA-CBER-2021-5683-1149235",
+      "likely_table": true,
+      "nearby_marker_count": 14,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (14 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149235)",
+        "section heading anchor present"
+      ],
+      "_idx": 32615,
+      "filename": "125742_S2_M3_32p8_stability-data-thermal-stress-cycling.pdf",
+      "page": 20,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "PC Content Cholesterol Content In Vitro Expression RNA Integrity Timepoint / Acceptance Criteriaa Placed @ -90 to -60\u00b0C (for 2 weeks) 0b Samples pulled for 2W testing. Inventory moved to -20 \u00b1 5\u00b0C (for 4 weeks) 2W 4W Samples pulled for 6W testing. Inventory moved to 2 to 8 \u00b0C for remainder of study 6W 8W 10W 12W 14W 090177e19703fd1a\\Approved\\Approved On: 12-May-2021 12:40 (GMT) (b) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149235",
+      "section_heading": "PFIZER CONFIDENTIAL",
+      "bates": "FDA-CBER-2021-5683-1149235",
+      "likely_table": true,
+      "nearby_marker_count": 14,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (16 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149243)",
+        "section heading anchor present"
+      ],
+      "_idx": 32659,
+      "filename": "125742_S2_M3_32p8_stability-data-thermal-stress-cycling.pdf",
+      "page": 28,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "59 Content DSPC Content Cholesterol Content In Vitro Expression RNA Integrity Timepoint / Acceptance Criteriaa Placed @ -90 to -60 \u00b0C (for 1 week) 0 At 1W, inventory moved to -20 \u00b1 5 \u00b0C (for 2 weeks) 3W Samples pulled for 3W testing. Inventory moved to 2 to 8 \u00b0C (for 4 weeks) 4W 5W 6W 7W Samples pulled for 7W testing. Inventory moved to 25 \u00b1 2 \u00b0C/60 \u00b1 5% RH (for 1 week) 8W 090177e19703fd1a\\Approved\\Approved On: 12-May-2021 12:40 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149243",
+      "section_heading": "PFIZER CONFIDENTIAL",
+      "bates": "FDA-CBER-2021-5683-1149243",
+      "likely_table": true,
+      "nearby_marker_count": 16,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "high-value category: Pharmacology / toxicology",
+        "likely table cluster (16 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149243)",
+        "section heading anchor present"
+      ],
+      "_idx": 32660,
+      "filename": "125742_S2_M3_32p8_stability-data-thermal-stress-cycling.pdf",
+      "page": 28,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "nt DSPC Content Cholesterol Content In Vitro Expression RNA Integrity Timepoint / Acceptance Criteriaa Placed @ -90 to -60 \u00b0C (for 1 week) 0 At 1W, inventory moved to -20 \u00b1 5 \u00b0C (for 2 weeks) 3W Samples pulled for 3W testing. Inventory moved to 2 to 8 \u00b0C (for 4 weeks) 4W 5W 6W 7W Samples pulled for 7W testing. Inventory moved to 25 \u00b1 2 \u00b0C/60 \u00b1 5% RH (for 1 week) 8W 090177e19703fd1a\\Approved\\Approved On: 12-May-2021 12:40 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1149243",
+      "section_heading": "PFIZER CONFIDENTIAL",
+      "bates": "FDA-CBER-2021-5683-1149243",
+      "likely_table": true,
+      "nearby_marker_count": 16,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Pharmacology / toxicology",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Pharmacology / toxicology": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Pharmacology / toxicology"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (9 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0492956)",
+        "section heading anchor present"
+      ],
+      "_idx": 6717,
+      "filename": "125742-45_S211_M5_c4591001-1005-10051449.pdf",
+      "page": 171,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "iyi Diya Query 1: Opened MM: Please consider including information on histology report if available Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: RECOVERED/RESOLVED Initial Entry 14. Did the adverse event cause the subject to be discontinued from the study? Date Location User Value Reason Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 090177e19891a036\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0492956",
+      "section_heading": "RECOVERED/RESOLVED",
+      "bates": "FDA-CBER-2022-5812-0492956",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (9 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0492956)",
+        "section heading anchor present"
+      ],
+      "_idx": 6718,
+      "filename": "125742-45_S211_M5_c4591001-1005-10051449.pdf",
+      "page": 171,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Query 1: Opened MM: Please consider including information on histology report if available Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: RECOVERED/RESOLVED Initial Entry 14. Did the adverse event cause the subject to be discontinued from the study? Date Location User Value Reason Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 090177e19891a036\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0492956",
+      "section_heading": "RECOVERED/RESOLVED",
+      "bates": "FDA-CBER-2022-5812-0492956",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (9 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0492956)",
+        "section heading anchor present"
+      ],
+      "_idx": 6719,
+      "filename": "125742-45_S211_M5_c4591001-1005-10051449.pdf",
+      "page": 171,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": ": Opened MM: Please consider including information on histology report if available Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: RECOVERED/RESOLVED Initial Entry 14. Did the adverse event cause the subject to be discontinued from the study? Date Location User Value Reason Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 090177e19891a036\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0492956",
+      "section_heading": "RECOVERED/RESOLVED",
+      "bates": "FDA-CBER-2022-5812-0492956",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (9 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0492956)",
+        "section heading anchor present"
+      ],
+      "_idx": 6720,
+      "filename": "125742-45_S211_M5_c4591001-1005-10051449.pdf",
+      "page": 171,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "se consider including information on histology report if available Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: RECOVERED/RESOLVED Initial Entry 14. Did the adverse event cause the subject to be discontinued from the study? Date Location User Value Reason Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 090177e19891a036\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0492956",
+      "section_heading": "RECOVERED/RESOLVED",
+      "bates": "FDA-CBER-2022-5812-0492956",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (9 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0492956)",
+        "section heading anchor present"
+      ],
+      "_idx": 6721,
+      "filename": "125742-45_S211_M5_c4591001-1005-10051449.pdf",
+      "page": 171,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "ing information on histology report if available Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: RECOVERED/RESOLVED Initial Entry 14. Did the adverse event cause the subject to be discontinued from the study? Date Location User Value Reason Aug-26-2021 13:38:46 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 090177e19891a036\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0492956",
+      "section_heading": "RECOVERED/RESOLVED",
+      "bates": "FDA-CBER-2022-5812-0492956",
+      "likely_table": true,
+      "nearby_marker_count": 9,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (5 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493147)",
+        "section heading anchor present"
+      ],
+      "_idx": 7117,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071499.pdf",
+      "page": 185,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "ify if wrist pain is Left, Right or Bilateral. Thank you! May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: wrist pain Initial Entry 4. Start Date Time: Date Location User Value Reason May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: May/1/2021 UNK:UNK Initial Entry 5. Is the adverse event still ongoing? Date Location User Value Reason 090177e19891a039\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-5812-0493147",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493147",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (5 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493147)",
+        "section heading anchor present"
+      ],
+      "_idx": 7118,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071499.pdf",
+      "page": 185,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "is Left, Right or Bilateral. Thank you! May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: wrist pain Initial Entry 4. Start Date Time: Date Location User Value Reason May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: May/1/2021 UNK:UNK Initial Entry 5. Is the adverse event still ongoing? Date Location User Value Reason 090177e19891a039\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-5812-0493147",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493147",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (5 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493147)",
+        "section heading anchor present"
+      ],
+      "_idx": 7119,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071499.pdf",
+      "page": 185,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": ", Right or Bilateral. Thank you! May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: wrist pain Initial Entry 4. Start Date Time: Date Location User Value Reason May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: May/1/2021 UNK:UNK Initial Entry 5. Is the adverse event still ongoing? Date Location User Value Reason 090177e19891a039\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-5812-0493147",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493147",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (5 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493147)",
+        "section heading anchor present"
+      ],
+      "_idx": 7120,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071499.pdf",
+      "page": 185,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "or Bilateral. Thank you! May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: wrist pain Initial Entry 4. Start Date Time: Date Location User Value Reason May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: May/1/2021 UNK:UNK Initial Entry 5. Is the adverse event still ongoing? Date Location User Value Reason 090177e19891a039\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-5812-0493147",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493147",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (5 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493147)",
+        "section heading anchor present"
+      ],
+      "_idx": 7121,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071499.pdf",
+      "page": 185,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "eral. Thank you! May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: wrist pain Initial Entry 4. Start Date Time: Date Location User Value Reason May-24-2021 13:39:27 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Data Entry: May/1/2021 UNK:UNK Initial Entry 5. Is the adverse event still ongoing? Date Location User Value Reason 090177e19891a039\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-5812-0493147",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493147",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (7 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493364)",
+        "section heading anchor present"
+      ],
+      "_idx": 7561,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071581.pdf",
+      "page": 199,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "NFP60 00 Query 2: Closed Response satisfies query Apr-01-2021 13:22:31 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Query 2: Answered SAE report updated Mar-27-2021 12:10:55 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Query 2: Opened Clinical - Subject has past Med hx of migraines and ADHD; however, SAE report does not list any Con Meds for these conditions. Please confirm NO con meds; if subject has 090177e19891a038\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4) (b) (4) FDA-CBER-2022-5812-0493364",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493364",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (7 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493364)",
+        "section heading anchor present"
+      ],
+      "_idx": 7562,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071581.pdf",
+      "page": 199,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Closed Response satisfies query Apr-01-2021 13:22:31 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Query 2: Answered SAE report updated Mar-27-2021 12:10:55 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Query 2: Opened Clinical - Subject has past Med hx of migraines and ADHD; however, SAE report does not list any Con Meds for these conditions. Please confirm NO con meds; if subject has 090177e19891a038\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4) (b) (4) FDA-CBER-2022-5812-0493364",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493364",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (7 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493364)",
+        "section heading anchor present"
+      ],
+      "_idx": 7563,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071581.pdf",
+      "page": 199,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "atisfies query Apr-01-2021 13:22:31 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Query 2: Answered SAE report updated Mar-27-2021 12:10:55 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Query 2: Opened Clinical - Subject has past Med hx of migraines and ADHD; however, SAE report does not list any Con Meds for these conditions. Please confirm NO con meds; if subject has 090177e19891a038\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4) (b) (4) FDA-CBER-2022-5812-0493364",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493364",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (7 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493364)",
+        "section heading anchor present"
+      ],
+      "_idx": 7564,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071581.pdf",
+      "page": 199,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "-01-2021 13:22:31 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Query 2: Answered SAE report updated Mar-27-2021 12:10:55 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Query 2: Opened Clinical - Subject has past Med hx of migraines and ADHD; however, SAE report does not list any Con Meds for these conditions. Please confirm NO con meds; if subject has 090177e19891a038\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4) (b) (4) FDA-CBER-2022-5812-0493364",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493364",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "high-value category: Clinical safety / adverse events",
+        "likely table cluster (7 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493364)",
+        "section heading anchor present"
+      ],
+      "_idx": 7565,
+      "filename": "125742-45_S211_M5_c4591001-1007-10071581.pdf",
+      "page": 199,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "13:22:31 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Laura Pace Query 2: Answered SAE report updated Mar-27-2021 12:10:55 (UTC-05:00) Eastern Time (US & Canada) ACV0PF EINFP60 00 Query 2: Opened Clinical - Subject has past Med hx of migraines and ADHD; however, SAE report does not list any Con Meds for these conditions. Please confirm NO con meds; if subject has 090177e19891a038\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4) (b) (4) FDA-CBER-2022-5812-0493364",
+      "section_heading": "ADVERSE EVENT",
+      "bates": "FDA-CBER-2022-5812-0493364",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Clinical safety / adverse events",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Clinical safety / adverse events": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Clinical safety / adverse events"
+    },
+    {
+      "_score": 65,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2022-1614-3818226)",
+        "section heading anchor present"
+      ],
+      "_idx": 64273,
+      "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "o. 2 Human errors that occur during validation are documented as comments and not handled as deviations and investigated. Specifically, during the cleaning validation for the , the first run (i.e., run #1) was invalidated due to human error: the operator forgot to document run #1 results. An additional runs were performed. Per SOP USPO-4175, \u201cValidation Protocol Comments, Discrepancies and Deviations,\u201d human errors require only a comment to be noted. (b) (4) (b) (4) (b) (4) (b) (5), (b) (7)(E) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2022-1614-3818226",
+      "section_heading": "RECOMMENDATION",
+      "bates": "FDA-CBER-2022-1614-3818226",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Inspection / enforcement",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Moderna",
+      "license": null,
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 65,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2022-1614-3818227)",
+        "section heading anchor present"
+      ],
+      "_idx": 64284,
+      "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "page": 4,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "deviation in Lonza proposed the following timeline for proposed corrective actions: Revise USPO-4175, \u201cValidation Protocol Comments, Discrepancies, and Deviations\u201d, and associated Form USPO-4176 to include documentation of human error on the Discrepancy Report form- Implementation/completion date: February 28, 2022. Reviewer Comment: Lonza\u2019s response appears acceptable based on clarification and proposed corrective actions. (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) FDA-CBER-2022-1614-3818227",
+      "section_heading": "USPO-1698.",
+      "bates": "FDA-CBER-2022-1614-3818227",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Inspection / enforcement",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Moderna",
+      "license": null,
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 65,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2022-1614-3818227)",
+        "section heading anchor present"
+      ],
+      "_idx": 64286,
+      "filename": "93_BLA-125752-0_01-26-2022_Inspection-Related_Inspect.pdf",
+      "page": 4,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "za proposed the following timeline for proposed corrective actions: Revise USPO-4175, \u201cValidation Protocol Comments, Discrepancies, and Deviations\u201d, and associated Form USPO-4176 to include documentation of human error on the Discrepancy Report form- Implementation/completion date: February 28, 2022. Reviewer Comment: Lonza\u2019s response appears acceptable based on clarification and proposed corrective actions. (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) FDA-CBER-2022-1614-3818227",
+      "section_heading": "USPO-1698.",
+      "bates": "FDA-CBER-2022-1614-3818227",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Inspection / enforcement",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Moderna",
+      "license": null,
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149326)",
+        "section heading anchor present"
+      ],
+      "_idx": 21410,
+      "filename": "125742_S11_M3_32r_677100p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "FEB-2025 677100P-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 07-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES Cholesterol: Storage at C Single use aliquot! 677100P-1G-A-010 Material is hygroscopic (reference for vialing protocol & vialing) Report Created: 07-Jul-2021 1150013 / Last Modified: 07-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6de\\Approved\\Approved On: 09-Jul-2021 03:13 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149326",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149326",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149326)",
+        "section heading anchor present"
+      ],
+      "_idx": 21411,
+      "filename": "125742_S11_M3_32r_677100p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "677100P-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 07-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES Cholesterol: Storage at C Single use aliquot! 677100P-1G-A-010 Material is hygroscopic (reference for vialing protocol & vialing) Report Created: 07-Jul-2021 1150013 / Last Modified: 07-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6de\\Approved\\Approved On: 09-Jul-2021 03:13 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149326",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149326",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149326)",
+        "section heading anchor present"
+      ],
+      "_idx": 21412,
+      "filename": "125742_S11_M3_32r_677100p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 07-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES Cholesterol: Storage at C Single use aliquot! 677100P-1G-A-010 Material is hygroscopic (reference for vialing protocol & vialing) Report Created: 07-Jul-2021 1150013 / Last Modified: 07-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6de\\Approved\\Approved On: 09-Jul-2021 03:13 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149326",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149326",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149326)",
+        "section heading anchor present"
+      ],
+      "_idx": 21413,
+      "filename": "125742_S11_M3_32r_677100p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "0 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 07-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES Cholesterol: Storage at C Single use aliquot! 677100P-1G-A-010 Material is hygroscopic (reference for vialing protocol & vialing) Report Created: 07-Jul-2021 1150013 / Last Modified: 07-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6de\\Approved\\Approved On: 09-Jul-2021 03:13 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149326",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149326",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149326)",
+        "section heading anchor present"
+      ],
+      "_idx": 21414,
+      "filename": "125742_S11_M3_32r_677100p-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "D_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 07-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES Cholesterol: Storage at C Single use aliquot! 677100P-1G-A-010 Material is hygroscopic (reference for vialing protocol & vialing) Report Created: 07-Jul-2021 1150013 / Last Modified: 07-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6de\\Approved\\Approved On: 09-Jul-2021 03:13 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149326",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149326",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149329)",
+        "section heading anchor present"
+      ],
+      "_idx": 21431,
+      "filename": "125742_S11_M3_32r_677365-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "OEB 4 04-MAY-2023 677365P-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 07-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES DSPC: Storage at C Single use aliquot! 677365P-1G-A-010 Material is hygroscopic (reference for vialing protocol and ). Report Created: 07-Jul-2021 1150014 / Last Modified: 07-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6df\\Approved\\Approved On: 09-Jul-2021 03:13 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149329",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149329",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (8 markers nearby)",
+        "high-substance module (M3)",
+        "Bates citable (FDA-CBER-2021-5683-1149329)",
+        "section heading anchor present"
+      ],
+      "_idx": 21432,
+      "filename": "125742_S11_M3_32r_677365-1g-a-010-coa.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "-MAY-2023 677365P-1G-A-010 REF_STD_GENERIC Long Term Storage Condition \u00b0C Short Term Storage Condition N/A Authorized By Authorized On 07-Jul-2021 Primary Contact TESTS AND RESULTS Purity Purity FOOTNOTES DSPC: Storage at C Single use aliquot! 677365P-1G-A-010 Material is hygroscopic (reference for vialing protocol and ). Report Created: 07-Jul-2021 1150014 / Last Modified: 07-Jul-2021 Pfizer Confidential Page 1 of 1 090177e19783b6df\\Approved\\Approved On: 09-Jul-2021 03:13 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) FDA-CBER-2021-5683-1149329",
+      "section_heading": "TESTS AND RESULTS",
+      "bates": "FDA-CBER-2021-5683-1149329",
+      "likely_table": true,
+      "nearby_marker_count": 8,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trial design / efficacy",
+      "substance_secondary": "Trade-secret claim",
+      "taxonomy_scores": {
+        "Trial design / efficacy": 1,
+        "Trade-secret claim": 1
+      },
+      "module": "M3",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trial design / efficacy"
+    },
+    {
+      "_score": 55,
+      "_score_reasons": [
+        "likely table cluster (23 markers nearby)",
+        "rare marker ((b)(7)(E))",
+        "Bates citable (FDA-CBER-2021-5683-1150508)"
+      ],
+      "_idx": 1647,
+      "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+      "page": 10,
+      "marker_canonical": "(b)(7)(E)",
+      "marker_raw": "(b) (7)(E)",
+      "context": "f the corrective and preventive actions. Reviewer\u2019s Comments (CDL and KRJ): Although the results from the effectiveness check appear to confirm that the corrective actions implemented in response to the trend have been effective in maintaining control of , Observation No. 5 (written by EA and KRJ) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4), (b) (5), (b) (7)(E) (b) (4) FDA-CBER-2021-5683-1150508",
+      "section_heading": null,
+      "bates": "FDA-CBER-2021-5683-1150508",
+      "likely_table": true,
+      "nearby_marker_count": 23,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (7 markers nearby)",
+        "Bates citable (FDA-CBER-2021-5683-1072990)",
+        "section heading anchor present"
+      ],
+      "_idx": 42,
+      "filename": "019736_S157_M5_vr-mvp-10074.pdf",
+      "page": 15,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "ocol may further limit the titer reporting range for clinical serum samples tested in the SARS-CoV-2 mNG NT without pre-dilution. 8. DEVIATIONS MANAGEMENT \uf0b7 All deviations encountered during assay validation will be documented in the assay validation summary report. \uf0b7 Any deviation that requires testing to be stopped temporarily will include an impact statement in the summary report. 090177e195a9b590\\Approved\\Approved On: 02-Dec-2020 14:18 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1072990",
+      "section_heading": "PFIZER CONFIDENTIAL",
+      "bates": "FDA-CBER-2021-5683-1072990",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (7 markers nearby)",
+        "Bates citable (FDA-CBER-2021-5683-1072990)",
+        "section heading anchor present"
+      ],
+      "_idx": 43,
+      "filename": "019736_S157_M5_vr-mvp-10074.pdf",
+      "page": 15,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "further limit the titer reporting range for clinical serum samples tested in the SARS-CoV-2 mNG NT without pre-dilution. 8. DEVIATIONS MANAGEMENT \uf0b7 All deviations encountered during assay validation will be documented in the assay validation summary report. \uf0b7 Any deviation that requires testing to be stopped temporarily will include an impact statement in the summary report. 090177e195a9b590\\Approved\\Approved On: 02-Dec-2020 14:18 (GMT) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1072990",
+      "section_heading": "PFIZER CONFIDENTIAL",
+      "bates": "FDA-CBER-2021-5683-1072990",
+      "likely_table": true,
+      "nearby_marker_count": 7,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (25 markers nearby)",
+        "Bates citable (FDA-CBER-2021-5683-1150524)",
+        "section heading anchor present"
+      ],
+      "_idx": 2194,
+      "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+      "page": 26,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "m is September 10, 2021. Reviewer\u2019s Comments (CDL): As the facility was repaired and the firm committed to revise relevant SOPs to include updated instructions for identifying and escalating facility maintenance issues, the response to this observation is considered acceptable. b. In Building i. was observed on multiple walls inside room ii. was observed in room Pfizer\u2019s Response The firm\u2019s response indicated that , provides the standard expectations (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150524",
+      "section_heading": "part of work order Nos. 1593616 and 1593622.",
+      "bates": "FDA-CBER-2021-5683-1150524",
+      "likely_table": true,
+      "nearby_marker_count": 25,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (25 markers nearby)",
+        "Bates citable (FDA-CBER-2021-5683-1150524)",
+        "section heading anchor present"
+      ],
+      "_idx": 2195,
+      "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+      "page": 26,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "tember 10, 2021. Reviewer\u2019s Comments (CDL): As the facility was repaired and the firm committed to revise relevant SOPs to include updated instructions for identifying and escalating facility maintenance issues, the response to this observation is considered acceptable. b. In Building i. was observed on multiple walls inside room ii. was observed in room Pfizer\u2019s Response The firm\u2019s response indicated that , provides the standard expectations (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150524",
+      "section_heading": "part of work order Nos. 1593616 and 1593622.",
+      "bates": "FDA-CBER-2021-5683-1150524",
+      "likely_table": true,
+      "nearby_marker_count": 25,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (25 markers nearby)",
+        "Bates citable (FDA-CBER-2021-5683-1150524)",
+        "section heading anchor present"
+      ],
+      "_idx": 2196,
+      "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+      "page": 26,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "0, 2021. Reviewer\u2019s Comments (CDL): As the facility was repaired and the firm committed to revise relevant SOPs to include updated instructions for identifying and escalating facility maintenance issues, the response to this observation is considered acceptable. b. In Building i. was observed on multiple walls inside room ii. was observed in room Pfizer\u2019s Response The firm\u2019s response indicated that , provides the standard expectations (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150524",
+      "section_heading": "part of work order Nos. 1593616 and 1593622.",
+      "bates": "FDA-CBER-2021-5683-1150524",
+      "likely_table": true,
+      "nearby_marker_count": 25,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (25 markers nearby)",
+        "Bates citable (FDA-CBER-2021-5683-1150524)",
+        "section heading anchor present"
+      ],
+      "_idx": 2197,
+      "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+      "page": 26,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "Reviewer\u2019s Comments (CDL): As the facility was repaired and the firm committed to revise relevant SOPs to include updated instructions for identifying and escalating facility maintenance issues, the response to this observation is considered acceptable. b. In Building i. was observed on multiple walls inside room ii. was observed in room Pfizer\u2019s Response The firm\u2019s response indicated that , provides the standard expectations (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) FDA-CBER-2021-5683-1150524",
+      "section_heading": "part of work order Nos. 1593616 and 1593622.",
+      "bates": "FDA-CBER-2021-5683-1150524",
+      "likely_table": true,
+      "nearby_marker_count": 25,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493648)",
+        "section heading anchor present"
+      ],
+      "_idx": 8226,
+      "filename": "125742-45_S211_M5_c4591001-1009-10091221.pdf",
+      "page": 231,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) \n(4)",
+      "context": "tal; Life-threatening; Inpatient hospitalization or prolongation of existing hospitalization; Persistent or significant disability/incapacity; Congenital anomaly/birth defect; Important medical event (i.e. may jeopardize subject and may require medical/surgical intervention to prevent above outcomes). Date Location User Value Reason Nov-11-2020 11:52:36 (UTC-07:00) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 090177e19891a03e\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0493648",
+      "section_heading": "PFE SDQ PROD",
+      "bates": "FDA-CBER-2022-5812-0493648",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0493648)",
+        "section heading anchor present"
+      ],
+      "_idx": 8227,
+      "filename": "125742-45_S211_M5_c4591001-1009-10091221.pdf",
+      "page": 231,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) \n(4)",
+      "context": "ng; Inpatient hospitalization or prolongation of existing hospitalization; Persistent or significant disability/incapacity; Congenital anomaly/birth defect; Important medical event (i.e. may jeopardize subject and may require medical/surgical intervention to prevent above outcomes). Date Location User Value Reason Nov-11-2020 11:52:36 (UTC-07:00) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 090177e19891a03e\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0493648",
+      "section_heading": "PFE SDQ PROD",
+      "bates": "FDA-CBER-2022-5812-0493648",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 40,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "Bates citable (FDA-CBER-2022-5812-0494483)",
+        "section heading anchor present"
+      ],
+      "_idx": 10059,
+      "filename": "125742-45_S211_M5_c4591001-1009-10091382.pdf",
+      "page": 371,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "edication error on the Medication Error Log. Date Location User Value Reason Feb-01-2021 15:12:13 (UTC-07:00) Mountain Time (US & Canada) ACV0PF EINFP60 00 Data Entry: NO Initial Entry 9. Is this event related to study treatment: Date Location User Value Reason Feb-01-2021 15:12:13 (UTC-07:00) Mountain Time (US & Canada) ACV0PF EINFP60 00 Data Entry: NOT RELATED If Not Related to study treat ment(s), this event is due to : Initial Entry 090177e19891a03f\\Final\\Final On: 11-Nov-2021 01:20 (GMT) (b) (4) (b) (4), (b) (6) (b) (4), (b) (6) (b) (4), (b) (6) FDA-CBER-2022-5812-0494483",
+      "section_heading": "NOT RELATED",
+      "bates": "FDA-CBER-2022-5812-0494483",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Inspection / enforcement",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Inspection / enforcement": 1
+      },
+      "module": "M5",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Inspection / enforcement"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (5 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0013954)",
+        "section heading anchor present"
+      ],
+      "_idx": 28805,
+      "filename": "125742_S1_M4_4223_R-20-0072.pdf",
+      "page": 30,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "R&D Report R-20-0072 Version 03 Page 30 of 36 Strictly Confidential 090177e195a2e6f3\\Approved\\Approved On: 27-Nov-2020 16:30 (GMT) (b) (4) (b) (4) (b) (6) (b) (6) (b) (4) (b) (4) FDA-CBER-2021-5683-0013954",
+      "section_heading": "Appendix 2: Certificates of Analysis",
+      "bates": "FDA-CBER-2021-5683-0013954",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trade-secret claim",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Trade-secret claim": 1
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trade-secret claim"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (5 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0013954)",
+        "section heading anchor present"
+      ],
+      "_idx": 28806,
+      "filename": "125742_S1_M4_4223_R-20-0072.pdf",
+      "page": 30,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "R&D Report R-20-0072 Version 03 Page 30 of 36 Strictly Confidential 090177e195a2e6f3\\Approved\\Approved On: 27-Nov-2020 16:30 (GMT) (b) (4) (b) (4) (b) (6) (b) (6) (b) (4) (b) (4) FDA-CBER-2021-5683-0013954",
+      "section_heading": "Appendix 2: Certificates of Analysis",
+      "bates": "FDA-CBER-2021-5683-0013954",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trade-secret claim",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Trade-secret claim": 1
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trade-secret claim"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (5 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0013954)",
+        "section heading anchor present"
+      ],
+      "_idx": 28807,
+      "filename": "125742_S1_M4_4223_R-20-0072.pdf",
+      "page": 30,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "R&D Report R-20-0072 Version 03 Page 30 of 36 Strictly Confidential 090177e195a2e6f3\\Approved\\Approved On: 27-Nov-2020 16:30 (GMT) (b) (4) (b) (4) (b) (6) (b) (6) (b) (4) (b) (4) FDA-CBER-2021-5683-0013954",
+      "section_heading": "Appendix 2: Certificates of Analysis",
+      "bates": "FDA-CBER-2021-5683-0013954",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trade-secret claim",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Trade-secret claim": 1
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trade-secret claim"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (5 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-0013954)",
+        "section heading anchor present"
+      ],
+      "_idx": 28808,
+      "filename": "125742_S1_M4_4223_R-20-0072.pdf",
+      "page": 30,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "R&D Report R-20-0072 Version 03 Page 30 of 36 Strictly Confidential 090177e195a2e6f3\\Approved\\Approved On: 27-Nov-2020 16:30 (GMT) (b) (4) (b) (4) (b) (6) (b) (6) (b) (4) (b) (4) FDA-CBER-2021-5683-0013954",
+      "section_heading": "Appendix 2: Certificates of Analysis",
+      "bates": "FDA-CBER-2021-5683-0013954",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trade-secret claim",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Trade-secret claim": 1
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "BLA",
+      "_bucket": "Trade-secret claim"
+    },
+    {
+      "_score": 50,
+      "_score_reasons": [
+        "likely table cluster (5 markers nearby)",
+        "high-substance module (M4)",
+        "Bates citable (FDA-CBER-2021-5683-1774261)",
+        "section heading anchor present"
+      ],
+      "_idx": 56578,
+      "filename": "19736_S1_M4_r-20-0072.pdf",
+      "page": 31,
+      "marker_canonical": "(b)(4)",
+      "marker_raw": "(b) (4)",
+      "context": "R&D Report R-20-0072 Version 01 Page 31 of 37 Strictly Confidential 090177e19346f093\\Approved\\Approved On: 20-Apr-2020 13:17 (GMT) (b) (4) (b) (4) (b) (4) (b) (6) (b) (6) (b) (4) FDA-CBER-2021-5683-1774261",
+      "section_heading": "Appendix 2: Certificates of Analysis",
+      "bates": "FDA-CBER-2021-5683-1774261",
+      "likely_table": true,
+      "nearby_marker_count": 5,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Trade-secret claim",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Trade-secret claim": 1
+      },
+      "module": "M4",
+      "company": "Pfizer",
+      "license": "EUA",
+      "_bucket": "Trade-secret claim"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(5))",
+        "(b)(5) internal deliberation",
+        "Bates citable (FDA-CBER-2021-5683-1150346)",
+        "section heading anchor present"
+      ],
+      "_idx": 5013,
+      "filename": "118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(5)",
+      "marker_raw": "(b) (5)",
+      "context": "WKH FRPSUHVVHG DLU V\\VWHP WKH HQYLURQPHQWDO SURJUDP LV GHILFLHQW \u0014\u0013 URRP VWDWXV QRW DGHTXDWHO\\ YHULILHG RU GRFXPHQWHG \u0014\u0014 VWDQGDUG RSHUDWLQJ SURFHGXUHV DUH QRW IROORZHG \u0014\u0015 IDFLOLW\\ PDLQWHQDQFH GHILFLHQFLHV DQG \u0014\u0016 LQDGHTXDWH GRFXPHQWDWLRQ RI UDZ PDWHULDO VWRUDJH\u0011 $&7,21 5HFRPPHQG DSSURYDO RI RULJLQDO %/$ 671 \u0014\u0015\u0018\u001a\u0017\u0015\u0012\u0013 EDVHG RQ 3IL]HUV FRPPLWPHQW WR SHUIRUP DGGLWLRQDO DVVHVVPHQWV DQG PDNH WLPHO\\ FRUUHFWLRQV\u0011 7KH UHVSRQVHV WR WKH )'$ )RUP \u0017\u001b\u0016 ZHUH DGHTXDWH\u0011 (b) (4) (b) (4) (b) (4) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150346",
+      "section_heading": "H16SHFW 2SHUDWLRQ ,'",
+      "bates": "FDA-CBER-2021-5683-1150346",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Internal FDA deliberation",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Internal FDA deliberation": 5
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Internal FDA deliberation"
+    },
+    {
+      "_score": 80,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(5))",
+        "(b)(5) internal deliberation",
+        "Bates citable (FDA-CBER-2021-5683-1150346)",
+        "section heading anchor present"
+      ],
+      "_idx": 5015,
+      "filename": "118_1_BLA-125742-0_08-22-2021_Inspection-Related_Inspect.pdf",
+      "page": 1,
+      "marker_canonical": "(b)(5)",
+      "marker_raw": "(b) (5)",
+      "context": "V\\VWHP WKH HQYLURQPHQWDO SURJUDP LV GHILFLHQW \u0014\u0013 URRP VWDWXV QRW DGHTXDWHO\\ YHULILHG RU GRFXPHQWHG \u0014\u0014 VWDQGDUG RSHUDWLQJ SURFHGXUHV DUH QRW IROORZHG \u0014\u0015 IDFLOLW\\ PDLQWHQDQFH GHILFLHQFLHV DQG \u0014\u0016 LQDGHTXDWH GRFXPHQWDWLRQ RI UDZ PDWHULDO VWRUDJH\u0011 $&7,21 5HFRPPHQG DSSURYDO RI RULJLQDO %/$ 671 \u0014\u0015\u0018\u001a\u0017\u0015\u0012\u0013 EDVHG RQ 3IL]HUV FRPPLWPHQW WR SHUIRUP DGGLWLRQDO DVVHVVPHQWV DQG PDNH WLPHO\\ FRUUHFWLRQV\u0011 7KH UHVSRQVHV WR WKH )'$ )RUP \u0017\u001b\u0016 ZHUH DGHTXDWH\u0011 (b) (4) (b) (4) (b) (4) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150346",
+      "section_heading": "H16SHFW 2SHUDWLRQ ,'",
+      "bates": "FDA-CBER-2021-5683-1150346",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Internal FDA deliberation",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Internal FDA deliberation": 5
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Internal FDA deliberation"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(5))",
+        "(b)(5) internal deliberation",
+        "Bates citable (FDA-CBER-2021-5683-1150326)"
+      ],
+      "_idx": 1269,
+      "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(5)",
+      "marker_raw": "(b) (5)",
+      "context": "duct shortage, sudden increase in demand), Operational Considerations (e.g. temporary unavailability of resources), Lot-specific Compliance Considerations (e.g. questions raised during lot release protocol review). \u2022 Public Health Considerations (e.g., temporary product shortage, sudden increase in demand) \u2022 Operational Considerations (e.g., temporary unavailability of resources \u2022 Lot-specific Compliance Considerations (e.g., questions raised during lot release protocol review) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) (b) (4), (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150326",
+      "section_heading": null,
+      "bates": "FDA-CBER-2021-5683-1150326",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Internal FDA deliberation",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Internal FDA deliberation": 5
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Internal FDA deliberation"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(5))",
+        "(b)(5) internal deliberation",
+        "Bates citable (FDA-CBER-2021-5683-1150326)"
+      ],
+      "_idx": 1271,
+      "filename": "100A_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(5)",
+      "marker_raw": "(b) (5)",
+      "context": "n increase in demand), Operational Considerations (e.g. temporary unavailability of resources), Lot-specific Compliance Considerations (e.g. questions raised during lot release protocol review). \u2022 Public Health Considerations (e.g., temporary product shortage, sudden increase in demand) \u2022 Operational Considerations (e.g., temporary unavailability of resources \u2022 Lot-specific Compliance Considerations (e.g., questions raised during lot release protocol review) (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) (b) (4), (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150326",
+      "section_heading": null,
+      "bates": "FDA-CBER-2021-5683-1150326",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Internal FDA deliberation",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Internal FDA deliberation": 5
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Internal FDA deliberation"
+    },
+    {
+      "_score": 70,
+      "_score_reasons": [
+        "likely table cluster (6 markers nearby)",
+        "rare marker ((b)(5))",
+        "(b)(5) internal deliberation",
+        "Bates citable (FDA-CBER-2021-5683-1150321)"
+      ],
+      "_idx": 1281,
+      "filename": "100_BLA-125742-0_08-20-2021_Memo_Other.pdf",
+      "page": 3,
+      "marker_canonical": "(b)(5)",
+      "marker_raw": "(b) (5)",
+      "context": "duct shortage, sudden increase in demand), Operational Considerations (e.g. temporary unavailability of resources), Lot-specific Compliance Considerations (e.g. questions raised during lot release protocol review). \u2022 Public Health Considerations (e.g., temporary product shortage, sudden increase in demand) \u2022 Operational Considerations (e.g., temporary unavailability of resources \u2022 Lot-specific Compliance Considerations (e.g., questions raised during lot release protocol review) (b) (5), (b) (7)(E) (b) (4), (b) (5), (b) (7)(E) (b) (5), (b) (7)(E) FDA-CBER-2021-5683-1150321",
+      "section_heading": null,
+      "bates": "FDA-CBER-2021-5683-1150321",
+      "likely_table": true,
+      "nearby_marker_count": 6,
+      "foia_classification": "foia_redaction",
+      "signals": {
+        "has_section_sign": false,
+        "has_usc_552": false,
+        "has_foia": false,
+        "has_fdc_act": false,
+        "has_21_usc": false,
+        "preceded_by_section_n": false,
+        "preceded_by_digits_no_gap": false
+      },
+      "substance_category": "Internal FDA deliberation",
+      "substance_secondary": null,
+      "taxonomy_scores": {
+        "Manufacturing / CMC": 1,
+        "Trial design / efficacy": 1,
+        "Internal FDA deliberation": 5
+      },
+      "module": null,
+      "company": "Pfizer",
+      "license": null,
+      "_bucket": "Internal FDA deliberation"
+    }
+  ]
+}

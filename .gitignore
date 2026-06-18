@@ -33,3 +33,8 @@ data/cache/statutes/
 
 # macOS junk
 .DS_Store
+data/cache/hidden_substance/
+data/hidden_substance_full.json
+data/hidden_substance_full_dropped.json
+data/cache/pfizer_phrase/
+data/cache/protocol_amendment/

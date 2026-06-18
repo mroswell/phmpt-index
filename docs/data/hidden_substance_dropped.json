@@ -1,0 +1,904 @@
+{
+  "summary": {
+    "total_dropped": 15462,
+    "by_reason": {
+      "(b)(6)_excluded": 11527,
+      "not_foia": 3897,
+      "foia_legal_reference": 28,
+      "structurally_invalid": 10
+    },
+    "note": "30 sample records per reason are included below for spot-checking the filter logic. The full set is in data/hidden_substance_full_dropped.json (gitignored)."
+  },
+  "samples_per_reason": {
+    "not_foia": [
+      {
+        "filename": "017-Answer-2023-01-06.pdf",
+        "page": 21,
+        "marker_raw": "(b)(2)",
+        "marker_canonical": "(b)(2)",
+        "context": "Answer\u2013 Page 21 CERTIFICATE OF SERVICE I hereby certify that on January 6, 2023, I electronically filed the foregoing document with the Clerk of the Court for the U.S. District Court, Northern District of Texas, using the Electronic Case Filing System of the Court. I hereby certify that I have served all counsel and parties of record electronically or by another manner authorized by Federal Rule o",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "019-ORDER-re-Conduct-an-in-person-Scheduling-Conference-and-submit-a-Joint-Status-Report-by-Jan-27-2023-2023-0.pdf",
+        "page": 4,
+        "marker_raw": "(b)(2)",
+        "marker_canonical": "(b)(2)",
+        "context": "4 unrepresented parties for the purpose of arranging the Scheduling Conference and preparing the Joint Report. Lead counsel for all parties and unrepresented parties are equally responsible for ensuring that this Order is complied with in a timely manner. At least one counsel for each party and all unrepresented parties shall sign the Joint Report before filing. IV. Pursuant to Federal Rule of Civ",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "019-ORDER-re-Conduct-an-in-person-Scheduling-Conference-and-submit-a-Joint-Status-Report-by-Jan-27-2023-2023-0.pdf",
+        "page": 4,
+        "marker_raw": "(b)(2)",
+        "marker_canonical": "(b)(2)",
+        "context": "is complied with in a timely manner. At least one counsel for each party and all unrepresented parties shall sign the Joint Report before filing. IV. Pursuant to Federal Rule of Civil Procedure 16(b)(2), the Court is to enter a Scheduling Order \u201cas soon as practicable, but unless the judge finds good cause for delay, the judge must issue it within the earlier of 90 days after any defendant has bee",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "019736_S157_M5_vr-mvp-10074.pdf",
+        "page": 10,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "090177e195a9b590\\Approved\\Approved On: 02-Dec-2020 14:18 (GMT) PF-07302048 Validation Protocol for the SARS-CoV-2 mNeonGreen Virus Microneutralization Assay VR-MVP-10074, Ver. 2.0 (b) (4) ofa sample on a plate and the geometric mean titer (GMT) of the \u00a9) is reported as the final sample titer. A clinical SARS-CoV-2 mNG NT assay consists of between (\u00ae) (4) assay plates per run (batch). Sample plates",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S157_M5_vr-mvp-10074.pdf",
+        "page": 12,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "2.4. Negative Samples A panel of negative sera will be tested in a total of assays generating a maximum of reportable titers per sample. The negative serum samples are distributed across the Dilutional Linearity and Precision runs according the Validation Run Plate Maps in Supportive Table 11.1 and 11.2, respectively. The samples will be used to descriptively evaluate the assay performance near th",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10211.pdf",
+        "page": 8,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "ssay Range Range of non- (b) (4) antibody concentrations that can be measured in the assay plate well that have (BD) (4) linearity, precision, and standard curve bias within the limits described below. The assay range is generated from the most conservative lower and upper well concentration limits based on (1) (4) linearity, precision, and standard curve bias. Luminex Microspheres Below Limit of ",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10211.pdf",
+        "page": 9,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "umber Work Described in SOP Robotic Method Name VR-TM-10293! Test method N/A VR-SOP-LC-112957 | Bead coating method N/A N/A VR-SOP-LC-10627? | Preparation of buffers Sample preparation using (1D) (4) robot (b) (4) 4.1.2. Critical Reagents The critical reagents, including antigen-coated microspheres (beads), reference standard, QCS and (B) (4) secondary antibodies used in this assay qualification a",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10211.pdf",
+        "page": 19,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "sed on (b) (4) Linearity, Precision, and Standard Curve Bias (D) (4) Table 7. Final IgG Assay Range \u2014 Well Concentration (Units/mL) Antigen (b) (4) Precision Standard Curve Final Assay Range Linearity Range Range Range a. Subunit 1 of the Spike protein of severe acute respiratory disease coronavirus 2 6.5. Assay Precision (Intermediate Precision) The intermediate precision of the assay was evaluat",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10211.pdf",
+        "page": 20,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "090177e19452ddce\\Approved\\Approved On: 09-Jul-2020 18:31 (GMT) PF-07302048: Qualification Report for a Single-plex Direct Luminex Assay (dLIA) for Quantitation of IgG Antibodies to SARS-CoV-2 $1 Protein in Human Sera \u2014 Draft Report VR-MQR-10211, Ver. 1.0 (b) (4) 6.6. Sample Quantitation Range 6.6.1. Lower Limit of Quantitation The LLOQ is the lowest sample IgG concentration in the assay that is pr",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10212.pdf",
+        "page": 8,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "3. GLOSSARY Table 1. Terms and Definitions Range of (b) (4) antibody concentrations that can be measured in the assay plate well that have (D) (4) linearity, precision, and standard curve bias within the limits described below. The assay range is generated from the most conservative lower and upper well concentration limits based on (1D) (4) linearity, precision, and standard curve bias. Below Lim",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10212.pdf",
+        "page": 9,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "escribed in SOP Robotic Method Name VR-TM-10294! Test method N/A VR-SOP-LC-112957 Bead coating method N/A VR-SOP-LC-10627\u00b0 Preparation of buffers N/A VR-SOP-LC-11186? Sample preparation using (D) (4) robot (b) (4) 4.1.2. Critical Reagents The critical reagents, including antigen-coated microspheres (beads), reference standard, QCS and PE-labeled secondary antibodies used in this assay qualificatio",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10212.pdf",
+        "page": 10,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "090177e19452ef8c\\Approved\\Approved On: 09-Jul-2020 18:30 (GMT) PF-07302048: Qualification Report for a Single-plex Direct Luminex Assay (dLIA) for Quantitation of IgG Antibodies to SARS-CoV-2 RBD Protein in Human Sera \u2014 Draft Report VR-MQR-10212, Ver. 1.0 Table 3. List of Critical Reagents (b) (4) RBD coated microspheres Secondary antibody ( b ) ( (b) (4) (b) (4) confirmed Covid-19 (b) (4) (b) (4)",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10214.pdf",
+        "page": 9,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "090177e19452fb98\\Approved\\Approved On: 09-Jul-2020 18:52 (GMT) PF-07302048: Qualification of the SARS-CoV-2 mNeonGreen Virus Microneutralization Assay \u2014 Draft Report VR-MQR-10214, Ver. 1.0 (b) (4) 4.2. Methods 4.2.1. Assay Methods SARS-CoV-2 mNG NT assays were performed as described in SHI-SOP-10011.? Samples were prepared for testing manually. A sample titer is calculated as the reciprocal serum ",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S325_M5_c4591020-sap-track.pdf",
+        "page": 6,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "es will be imputed according to Pfizer safety rules. No other missing information will be imputed in the safety analysis. Table 2. List of Primary and Secondary Objectives, Endpoints, and Estimands Primary Immunogenicity Estimands Primary Immunogenicity Objectives Endpoints e To demonstrate that the immune In participants complying with the key e = Full-length S-binding response induced by lyophil",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S325_M5_c4591020-sap-track.pdf",
+        "page": 7,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "n-liquid in participants without evidence of BNT162b2 in MDVs 1 month after SARS-CoV-2 infection during the Dose 2 study. \u00a9 GMRof RTU formulation relative to lyophilized formulation in SDVs 1 month after Dose 2 e __Todescribe the immune responses In evaluable participants from each vaccine induced by frozen-liquid BNT162b2 | group: with LNP size at the upper end of specification and RTU BNT162b2. ",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S325_M5_c4591020-sap-track.pdf",
+        "page": 7,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "dence of BNT162b2 in MDVs 1 month after SARS-CoV-2 infection during the Dose 2 study. \u00a9 GMRof RTU formulation relative to lyophilized formulation in SDVs 1 month after Dose 2 e __Todescribe the immune responses In evaluable participants from each vaccine induced by frozen-liquid BNT162b2 | group: with LNP size at the upper end of specification and RTU BNT162b2. Dose 1) and 1 month after Dose 2 e _",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S325_M5_c4591020-sap.pdf",
+        "page": 7,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "ibe the immune responses __|In evaluable participants from each vaccine induced by frozen-liquid BNT162b2 | group: with LNP size at the upper end of e GMCs and/or GMTs at baseline (before specification and RTU BNT162b2. Dose 1) and 1 month after Dose 2. e GMEFR from baseline (before Dose 1) to 1 month after Dose 2. Full-length S-binding IgG levels and/or SARS-CoV-2 neutralizing titers. Full-length",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S70_M1_response-ir-29jul2020-clin-assay-qual.pdf",
+        "page": 7,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "090177e194b449b7\\Approved\\Approved On: 20-Aug-2020 13:42 (GMT) SARS-CoV-2 mRNA Vaccine (BNT162, PF-07302048) BB-IND 19736 M 1.11.3 Response to FDA Information Request 2.4. CBER Request 4 We note that the \u00a9) @) quality control samples (QC) listed as the reagents used in the SOP and qualification report (b) (4) were identified as individual PCR- confirmed COVID-19 (b) (4) serum samples. However, the",
+        "module": "M1",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+        "page": 9,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "pe of this Protocol VR-TM-10293 Test method N/A see Section 9 N/A VR-SOP-LC-11295! Bead coating method VR-SOP-LC-106277 Preparation of buffers N/A VR-SOP-LC-11186\u00b0 Sample preparation using (BD) (4) robot | (b) (4) 4.1.2. Critical Reagents The critical reagents, including antigen-coated microspheres (beads), reference standard, QCS and (b) (4) secondary antibodies used in this assay qualification a",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+        "page": 11,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "for a sample tested multiple times. Precision is a measure of assay variability that contains both repeatability and intermediate precision. Repeatability measures the assay variability, usually within one assay run, whereas intermediate precision measures the variability within the same laboratory while taking into account relevant sources of variation due to operating conditions (eg, different a",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S70_M5_vr-mqr-10214.pdf",
+        "page": 10,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "lyses were performed using SAS\uf0d2version 9.4. Analyses described herein were performed on data collected during the precision assessment experiments. Presumed negative serum samples normal human sera and pre-2019 samples) and samples with a geometric mean titer <20 (LOD) were excluded from analyses as described in the following sections. 4.3.1. Precision 4.3.2. Intermediate Precision 090177e194a57b0",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 70,
+        "marker_raw": "(b) (1)",
+        "marker_canonical": "(b)(1)",
+        "context": "NTech COVID-19 Vaccine has not been approved or licensed by the U.S. Food and Drug Administration (FDA), but has been authorized for emergency use by FDA under an Emergency Use Authorization (EUA) to prevent Coronavirus Disease 2019 (COVID-19) for use in individuals 16 years of age and older. The emergency use of this product is only authorized for the duration of the declaration that circumstance",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "047-PLAINTIFFS-RESPONSE-TO-PFIZER-INC.S-MOTION-FOR-LEAVE-TO-INTERVENE-FOR-A-LIMITED-PURPOSE.pdf",
+        "page": 15,
+        "marker_raw": "(b)(2)",
+        "marker_canonical": "(b)(2)",
+        "context": "12 CERTIFICATE OF SERVICE On January 25, 2022, I electronically submitted the foregoing document with the clerk of court for the U.S. District Court, Northern District of Texas, using the electronic case filing system of the court. I hereby certify that I have served all counsel and/or pro se parties of record electronically or by another manner authorized by Federal Rule of Civil Procedure 5(b)(2",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "101_Courtesy-Copy_BLA-125742-0_Pharmacovigilance-Plan-Review-Addendum-Memo-COMIRNATY.pdf",
+        "page": 7,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "cal myocarditis following administration of the second dose of COMIRNATY in a subset of participants 5 through 15 years of age enrolled in Study C4591007 8 The pregnancy registry will be in collaboration with the Organization of Teratology Information Specialists (OTIS)/MotherToBaby Pregnancy Registry. The final protocol was submitted on July 1, 2021, is currently under review. 9 https://www.cdc.g",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "page": 13,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "reported that demonstrated effectiveness with a contact time of , while noted that was not effective with a contact time of . During the August 17, 2021, teleconference, FDA confirmed that the contradictory information regarding was also due to study methodology Based on the clarified information regarding studies , the firm\u2019s response is (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b)",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "page": 18,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "ally, it was communicated (in error) that control room is a Controlled Not Classified (CNC) area. The firm\u2019s response clarified that control room is actually classified as an ISO area. The firm also noted that as control room and adjacent room have the same ISO classification and a neutral pressure differential, the room air cascade and air quality should not be impacted. The firm also acknowledge",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "page": 18,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "rror) that control room is a Controlled Not Classified (CNC) area. The firm\u2019s response clarified that control room is actually classified as an ISO area. The firm also noted that as control room and adjacent room have the same ISO classification and a neutral pressure differential, the room air cascade and air quality should not be impacted. The firm also acknowledged that the doors to ancillary r",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "page": 21,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "evised to include specific actions, such as facility sanitization and/or EM, that will be required in response to future alarm events. An interim control to assess product impact following an HVAC shutdown greater than in duration was also approved on July 30, 2021 and will be documented per planned temporary change . Additionally, MBRs will be revised by September 15, 2021, to capture confirmatio",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "page": 21,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "response to future alarm events. An interim control to assess product impact following an HVAC shutdown greater than in duration was also approved on July 30, 2021 and will be documented per planned temporary change . Additionally, MBRs will be revised by September 15, 2021, to capture confirmation of cleaning status in this suite. (b) (4) (b) (4) (b) (4) (b) (4) (b) (4 (b) (4) (b) (4) (b) (4) (b)",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "108_BLA-125742-0_08-21-2021_Inspection-Related_Inspect.pdf",
+        "page": 24,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "nd d written by DME; b written by EA) 12. The following deficiencies were observed within buildings used to produce BNT162b2 drug substance as noted below: Pfizer\u2019s Response The firm indicated that the Andover site is committed to ensuring facilities, equipment, and utilities are well maintained. Site \u2013 Maintenance Procedure, describes the procedures used to perform preventive and corrective (b) (",
+        "module": null,
+        "company": "Pfizer"
+      }
+    ],
+    "structurally_invalid": [
+      {
+        "filename": "019736_S31_M5_vr-mqr-10212.pdf",
+        "page": 15,
+        "marker_raw": "(b) (4)\n\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "090177e19452ef8c\\Approved\\Approved On: 09-Jul-2020 18:30 (GMT) PF-07302048: Qualification Report for a Single-plex Direct Luminex Assay (dLIA) for Quantitation of IgG Antibodies to SARS-CoV-2 RBD Protein in Human Sera \u2014 Draft Report VR-MQR-10212, Ver. 1.0 5.2.7. Assay Run Performance \u2014\u2014\u2014 (b) (4) (D) (4) 5.2.7.2. Standard Curve Parameters (D) (4 5.2.7.3. Quality Control Samples (1D) (4) 6. RESULTS ",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-mqr-10214.pdf",
+        "page": 11,
+        "marker_raw": "(b) (4)\n\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "4, Ver. 1.0 calculated and expressed as a ratio and as a percentage (false positive rate). Similarly, the number of times a presumed positive low titer sample (samples with an expected titer (\u00ae) (4) but greater than (b) (4) yielded a negative result was also calculated and expressed as a ratio and as a percentage (false negative rate). 4.3.4. Assessment of (b) (4) Performance (b) (4) specification",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S31_M5_vr-tm-10293.pdf",
+        "page": 9,
+        "marker_raw": "(b) (4)\n\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "Only Valid on 10-Jul-2020 (GMT)\\090177e1944f4345\\Approved\\Approved On:09-Jul-2020 11:49 (GMT) VACCINE RESEARCH TEST METHOD PEARL RIVER, NY TITLE: Single-plex Luminex Assay for Quantitation of Doc Number: VR-TM-10293 Version: 1.0 IgG Antibodies to SARS-CoV-2 S1 Protein in Human Doc. Alias: NA Serum 9.1. Preparation of Single-plex $1 Microspheres The preparation of S1 antigen coated microspheres is ",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+        "page": 11,
+        "marker_raw": "(b) (4)\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "ies for a total of\u201d samples. Refer to Supportive Table 12.2 for the precision samples used. e All samples were tested in the assay at (b) (4) -fold dilutions performed by a single (Bb) (4) workstation, using the methods developed for clinical testing as described in VR-SOP-LC-11186\u00b0. Refer to Supportive Figure 11.2 for the assay plate layout used for the precision experiments. e Precision measurem",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+        "page": 17,
+        "marker_raw": "(b) (4)\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "090177e194a89aaf\\Approved\\Approved On: 18-Aug-2020 23:11 (GMT) PF-07302048: Qualification Report for a Single-plex Direct Luminex Assay (dLIA) for Quantitation of IgG Antibodies to SARS-CoV-2 S1 Protein in Human Sera VR-MQR-10211, Ver. 2.0 Table 4. Well Concentration Range Based on (b) (4) Linearity Data \u2014 (b) (4) (D) (4) Figure 2. Precision Plot for S1 IgG dLIA (1D) (4) PFIZER CONFIDENTIAL Page 1",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "019736_S70_M5_vr-mqr-10211.pdf",
+        "page": 19,
+        "marker_raw": "(b) (4)\n\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "andard Curve Bias (1D) (4) Table 7. Final IgG Assay Range \u2014 Well Concentration (Units/mL) (b) (4) Linearity Standard Curve Range Precision Final Assay Range Range cose (b) (4) a. Subunit 1 of the Spike protein of severe acute respiratory disease coronavirus 2. Lower 0.002533 Upper 0.128000 6.5. Assay Precision (Intermediate Precision) The intermediate precision of the assay was evaluated using the",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "page": 15,
+        "marker_raw": "(b)(1)(B)",
+        "marker_canonical": "(b)(1)(B)",
+        "context": "this action as a matter of right. II. IN THE ALTERNATIVE, THIS COURT SHOULD PERMIT PFIZER TO INTERVENE UNDER RULE 24(B) Alternatively, if the Court finds that Pfizer does not have the right to intervene under Rule 24(a), Pfizer respectfully requests that this Court grant it permission to intervene under Rule 24(b). Courts have discretion to permit intervention where the movant \u201chas a claim or defe",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "125742_S1_M5_5314_vr-mqr-10214.pdf",
+        "page": 20,
+        "marker_raw": "(b) (4)\n\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "090177e194a57b00\\Approved\\Approved On: 18-Aug-2020 17:57 (GMT) PF-07302048: Qualification of the SARS-CoV-2 mNeonGreen Virus Microneutralization Assay VR-MQR-10214, Ver. 2.0 9.1. Descriptive Statistics of Precision Samples (b) (4) (b) (4) (D) (4) PFIZER CONFIDENTIAL Page 20 FDA-CBER-2021-5683-0779372",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+        "page": 144,
+        "marker_raw": "(b)(1)(C)",
+        "marker_canonical": "(b)(1)(C)",
+        "context": "Page 8 \u2013 Pfizer Inc. under the circumstances set forth in the Secretary of HHS\u2019s determination under Section 564(b)(1)(C) described above and the Secretary of HHS\u2019s corresponding declaration under Section 564(b)(1), Pfizer-%LR17HFK &29,'\u1029\u0014 9DFFLQH is authorized to prevent COVID-19 in individuals 12 years of age and older as described in the Scope of Authorization (Section II) under this EUA, despi",
+        "module": "M1",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "125752_S3_M5_5314_vsdvac-65-adden-5-v2.pdf",
+        "page": 17,
+        "marker_raw": "(b) (4)\n\n(D)",
+        "marker_canonical": "(b)(4)(D)",
+        "context": "\u00ae PP lf | Confidential Table 5 Assay Precision (Measured in o(b) (4) ) (D) (4) Dilutability is an attribute of a biological assay which demonstrates that a test sample can be diluted through a series, yielding equivalent dilution corrected antibody concentrations across that series. To evaluate the dilutional linearity of the assay, (b) (4) (D) (4) The assay met the pre-specified acceptance criter",
+        "module": "M5",
+        "company": "Moderna"
+      }
+    ],
+    "(b)(6)_excluded": [
+      {
+        "filename": "019736_S70_M5_vr-sop-lc-11120.pdf",
+        "page": 3,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "finitions Term Definition CSV comma-separated values file Assay Plate 96-well microtiter plate used to perform the Luminex assay Batch Bio-Plex Bio-Rad proprietary Luminex Suspension Array System and Software BLQ Below Limit of Quantitation DAP Data Analysis Portal dLIA Direct Luminex ImmunoAssay Lab Authorize The action to approve the data results in LabWare v6 LIMS LDR Laboratory Deviation Repor",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "022-FDA-Brief-in-Advance-of-Scheduling-Conference.pdf",
+        "page": 6,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "orcars, LLC v. Navarro, 138 S. Ct. 1134, 1142 (2018))). As particularly relevant to this case, FOIA Exemption 4 permits withholding of \u201ctrade secrets and commercial or financial information obtained from a person and [that are] privileged or confidential.\u2019\u201d 5 U.S.C. \u00a7 552(b)(4). And Exemption 6 permits agencies to withhold or redact \u201cpersonnel and medical files and similar files the disclosure of ",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "022-FDA-Brief-in-Advance-of-Scheduling-Conference.pdf",
+        "page": 14,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "sponsor (Pfizer-BioNTech) to FDA. Id. \u00b6 24 (App011). From FDA\u2019s experience with other similar FOIA requests, such records can be expected to contain both confidential business and trade secret information of Pfizer or BioNTech and personal privacy information of patients who participated in clinical trials. Id. \u00b6 36 (App019\u201320). FDA is required to protect certain information under the law and this",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "027-1-Declaration-of-Beth-Brockner-Ryan-2023-03-31.pdf",
+        "page": 4,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "y. 9. Consistent with these requirements to protect confidential information, FOIA exempts several categories of information from its disclosure requirements. 5 U.S.C. \u00a7 552(b). For example, FOIA exempts from its disclosure requirements: trade secrets and confidential commercial or financial information obtained from a person, 5 U.S.C. \u00a7 552(b)(4); and personnel, medical, and similar files if disc",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+        "page": 5,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "................................................. 6, 13, 18 5 U.S.C. \u00a7 552(a)(6)(E)(v)(I)-(II) ..............................................................................................5, 14 5 U.S.C. \u00a7 552(b) .........................................................................................................................2, 3 5 U.S.C. \u00a7 552(b)(4) ........................................",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+        "page": 9,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "s of information.\u2019\u201d) (quotations and citations omitted). As particularly relevant to this case, FOIA Exemption 4 permits withholding of \u201ctrade secrets and commercial or financial information obtained from a person and [that are] privileged or confidential.\u2019\u201d 5 U.S.C. \u00a7 552(b)(4). And Exemption 6 permits agencies to withhold or redact \u201cpersonnel and medical files and similar files the disclosure of",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "028-Plaintiffs-Reply-in-Support-of-Production-Schedule-2023-04-12.pdf",
+        "page": 8,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "t was known by the agency. Instead, Plaintiffs were made to wait almost a full year during which FDA claimed it could not estimate the volume of remaining documents. II. REDACTIONS A large part of the agency\u2019s claimed burden in PHMPT 1 and here is the \u201ccareful[] review\u201d needed \u201cto determine whether one or more FOIA exemptions apply.\u201d (Dkt. 27 at 8.) In PHMPT 1, where FDA represents it has produced",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "029-FDAs-Reply-re-Brief-in-Support-of-Motion.pdf",
+        "page": 20,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "y Pfizer, which are the subject of the FOIA Request, would have already been anonymized, and therefore, the risk of disclosing such information is minimal.\u201d Pl. Br. at 25. But, despite any efforts the sponsor may have made pursuant to 21 C.F.R. \u00a7 20.63(b) to anonymize the data it submitted, FDA has an independent responsibility to ensure that any information that would identify patients or researc",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "page": 8,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "ting System.\u201d See FOIA Request 2. While Pfizer supports the public review of much of this information which will help build trust and confidence in the vaccine, the records Plaintiff has requested also contain information exempt from production under FOIA, including the personal privacy information of individuals who participated in clinical trials and confidential business and trade secret inform",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "111521-Second-Joint-Status-Report.pdf",
+        "page": 5,
+        "marker_raw": "(b)(6)",
+        "marker_canonical": "(b)(6)",
+        "context": "Page 5 of 14 confidential business and trade secret information of Pfizer or BioNTech and personal privacy information of patients who participated in clinical trials. FDA is required to protect certain information under the law and this type of information is exempt from production under the FOIA. See 5 U.S.C. \u00a7 552(b)(4), (b)(6); F.B.I. v. Abramson, 456 U.S. 615, 621 (1982) (\u201cCongress realized t",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 7,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "3/2021 6 of 86 (DS (Written by KRJ) On 7/21/2021 I observed DS in Prior to Inspector KRJ exiting explained the rest of the process operations. Drug substance See Discussion Item KRJ-1. area (This section written by EA) On 7/19/21, I performed a walkthrough of area which is one of the areas (another is that support the manufacturing operations in The area is (b) (4) (b) (4) (b) (4), (b) (6), (b) (7",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 7,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "Prior to Inspector KRJ exiting explained the rest of the process operations. Drug substance See Discussion Item KRJ-1. area (This section written by EA) On 7/19/21, I performed a walkthrough of area which is one of the areas (another is that support the manufacturing operations in The area is (b) (4) (b) (4) (b) (4), (b) (6), (b) (7)(C) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 8,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "Any such parts are cleaned in are cleaned inside which was confirmed during walkthrough. No objectionable observations were noted during walkthrough of area. (DS (This section written by EA) On 7/22/2021, I (EA) gowned in to observe the following operations in DS (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) ) (b",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 11,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "vent Report (ER) is created. ERs have the primary document completed, and further analysis may not be required. CAPAs may not be required as well. If the root cause or scope are unknown, or if there is any product impact, the incident needs to be classified as a Quality Action Report (QAR). QARs require process mapping and thorough evaluation, historical review, in-depth root cause analysis, and C",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 11,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "created. ERs have the primary document completed, and further analysis may not be required. CAPAs may not be required as well. If the root cause or scope are unknown, or if there is any product impact, the incident needs to be classified as a Quality Action Report (QAR). QARs require process mapping and thorough evaluation, historical review, in-depth root cause analysis, and CAPAs. CAPA effective",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 11,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "he primary document completed, and further analysis may not be required. CAPAs may not be required as well. If the root cause or scope are unknown, or if there is any product impact, the incident needs to be classified as a Quality Action Report (QAR). QARs require process mapping and thorough evaluation, historical review, in-depth root cause analysis, and CAPAs. CAPA effectiveness is governed by",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 11,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "completed, and further analysis may not be required. CAPAs may not be required as well. If the root cause or scope are unknown, or if there is any product impact, the incident needs to be classified as a Quality Action Report (QAR). QARs require process mapping and thorough evaluation, historical review, in-depth root cause analysis, and CAPAs. CAPA effectiveness is governed by , , effective 02/26",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 11,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "her analysis may not be required. CAPAs may not be required as well. If the root cause or scope are unknown, or if there is any product impact, the incident needs to be classified as a Quality Action Report (QAR). QARs require process mapping and thorough evaluation, historical review, in-depth root cause analysis, and CAPAs. CAPA effectiveness is governed by , , effective 02/26/2021 (PGS) and (b)",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 11,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "scope are unknown, or if there is any product impact, the incident needs to be classified as a Quality Action Report (QAR). QARs require process mapping and thorough evaluation, historical review, in-depth root cause analysis, and CAPAs. CAPA effectiveness is governed by , , effective 02/26/2021 (PGS) and (b) (4) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (6), (b) (7)(C) (b) (",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 12,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "was initiated on due to the multiple control limit excursions during the of DS batch . The Not compiling the control limits for could have an impact on quality for the affected DS lot. Therefore, the firm decided to enroll this affected DS batch on stability because of the potential impact on product quality. CAPA was opened to facilitate the enrollment of this batch into (b) (4) (b) (4) (b) (4) (",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 12,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "due to the multiple control limit excursions during the of DS batch . The Not compiling the control limits for could have an impact on quality for the affected DS lot. Therefore, the firm decided to enroll this affected DS batch on stability because of the potential impact on product quality. CAPA was opened to facilitate the enrollment of this batch into (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 13,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "pproval Phase: Includes evaluation of the change by the functional area impact assessors and quality. Change implementation cannot occur until QA has pre-approved the change control. \u2022 Change Implementation Phase: Includes executing and documenting implementation activities including releasing for GMP use with a phased release approach. (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 14,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "62b2 in with on 7/19/2021 and 7/20/2021, as well as and on 7/19/2021. The temporary change control ( ) contained 43-line items that include but not limited to updating standard operating procedures, implementation of cleaning validation, adding quality agreements. The line items associated with mitigated the risks identified in , , effective 03/02/2021 in order to bring BNT162b2 into No objectiona",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 14,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "7/19/2021 and 7/20/2021, as well as and on 7/19/2021. The temporary change control ( ) contained 43-line items that include but not limited to updating standard operating procedures, implementation of cleaning validation, adding quality agreements. The line items associated with mitigated the risks identified in , , effective 03/02/2021 in order to bring BNT162b2 into No objectionable observations",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 14,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "/2021, as well as and on 7/19/2021. The temporary change control ( ) contained 43-line items that include but not limited to updating standard operating procedures, implementation of cleaning validation, adding quality agreements. The line items associated with mitigated the risks identified in , , effective 03/02/2021 in order to bring BNT162b2 into No objectionable observations were identified. ",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 14,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "and on 7/19/2021. The temporary change control ( ) contained 43-line items that include but not limited to updating standard operating procedures, implementation of cleaning validation, adding quality agreements. The line items associated with mitigated the risks identified in , , effective 03/02/2021 in order to bring BNT162b2 into No objectionable observations were identified. Document Control M",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 15,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": ". Batch number can be generated batch numbers are created similarly as in assignment of batch records/batch number is performed Pfizer wide, so sequential batches may not have sequential batch numbers. No objectionable observations were identified. QA Batch Release (This section written by KRJ) On 7/21/2021, I discussed batch release with We discussed (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 15,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "be generated batch numbers are created similarly as in assignment of batch records/batch number is performed Pfizer wide, so sequential batches may not have sequential batch numbers. No objectionable observations were identified. QA Batch Release (This section written by KRJ) On 7/21/2021, I discussed batch release with We discussed (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 15,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "ch numbers are created similarly as in assignment of batch records/batch number is performed Pfizer wide, so sequential batches may not have sequential batch numbers. No objectionable observations were identified. QA Batch Release (This section written by KRJ) On 7/21/2021, I discussed batch release with We discussed (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "116_BLA-125742-0_08-21-2021_Inspection-Related_Establi.pdf",
+        "page": 15,
+        "marker_raw": "(b) (6)",
+        "marker_canonical": "(b)(6)",
+        "context": "ed similarly as in assignment of batch records/batch number is performed Pfizer wide, so sequential batches may not have sequential batch numbers. No objectionable observations were identified. QA Batch Release (This section written by KRJ) On 7/21/2021, I discussed batch release with We discussed (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (4) (b) (",
+        "module": null,
+        "company": "Pfizer"
+      }
+    ],
+    "foia_legal_reference": [
+      {
+        "filename": "022-FDA-Brief-in-Advance-of-Scheduling-Conference.pdf",
+        "page": 6,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "tions,\u2019 and \u2018[t]hose exemptions are as much a part of [FOIA\u2019s] purpose[s and policies] as the [statute\u2019s disclosure] requirement.\u2019\u201d (brackets in original) (quoting FBI v. Abramson, 456 U.S. 615, 630\u2013631 (1982); Encino Motorcars, LLC v. Navarro, 138 S. Ct. 1134, 1142 (2018))). As particularly relevant to this case, FOIA Exemption 4 permits withholding of \u201ctrade secrets and commercial or financial i",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "022-FDA-Brief-in-Advance-of-Scheduling-Conference.pdf",
+        "page": 14,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "vaccine sponsor (Pfizer-BioNTech) to FDA. Id. \u00b6 24 (App011). From FDA\u2019s experience with other similar FOIA requests, such records can be expected to contain both confidential business and trade secret information of Pfizer or BioNTech and personal privacy information of patients who participated in clinical trials. Id. \u00b6 36 (App019\u201320). FDA is required to protect certain information under the law ",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "027-1-Declaration-of-Beth-Brockner-Ryan-2023-03-31.pdf",
+        "page": 4,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "if disclosed, would be an unwarranted invasion of personal privacy, is unavailable for public disclosure. 21 C.F.R. \u00a7\u00a7 20.61, 20.63, respectively. 9. Consistent with these requirements to protect confidential information, FOIA exempts several categories of information from its disclosure requirements. 5 U.S.C. \u00a7 552(b). For example, FOIA exempts from its disclosure requirements: trade secrets and ",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "027-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-26-Brief-Memorandum-in-Support-of-Motion.pdf",
+        "page": 605,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "gs of Fact and Conclusions of Law 2. \u0004\u0004\u0002 \b :\u0002 #\" \"&\"\u0002 K\u0002 ::\u0014G\bHG5HG\u0001HG\u001bH (providing a twenty-day deadline, excluding weekends and holidays for agencies to respond to FOIA requests). 20 \"Plaintiff's Reply to Defendant's Response to Plaintiff's C\"\u0002*\u0007\u001b\b On October 5, 2020 the court held a bench trial to resolve two issues: 1) whether ICE conducted a search reasonably calculated to uncover responsive ",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+        "page": 5,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "..................................................4 5 U.S.C. \u00a7 552(a)(6)(E)(iii) ............................................................................................................... 6, 13, 18 5 U.S.C. \u00a7 552(a)(6)(E)(v)(I)-(II) ..............................................................................................5, 14 5 U.S.C. \u00a7 552(b) ............................................",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+        "page": 9,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "tsafety Servs. Corp. v. DOL, 326 F.3d 607, 611 (5th Cir. 2003) (Congress created nine exemptions in FOIA \u201cbecause \u2018it realized that legitimate governmental and private interests could be harmed by release of certain types of information.\u2019\u201d) (quotations and citations omitted). As particularly relevant to this case, FOIA Exemption 4 permits withholding of \u201ctrade secrets and commercial or financial i",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "027-Defendant-Brief-Regarding-Production-Schedule-2023-03-31.pdf",
+        "page": 36,
+        "marker_raw": "(b)(2)",
+        "marker_canonical": "(b)(2)",
+        "context": "Defendant FDA\u2019s Brief Regarding FOIA Production \u2013 Page 30 CERTIFICATE OF SERVICE On March 31, 2023, I electronically filed the above brief regarding FOIA production schedule with the clerk of court for the U.S. District Court, Northern District of Texas. I certify that I have served all parties electronically or by another manner authorized by Federal Rule of Civil Procedure 5(b)(2). /s/ Clay R. M",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "028-Plaintiffs-Reply-in-Support-of-Production-Schedule-2023-04-12.pdf",
+        "page": 8,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "have been shared with Plaintiffs as soon as it was known by the agency. Instead, Plaintiffs were made to wait almost a full year during which FDA claimed it could not estimate the volume of remaining documents. II. REDACTIONS A large part of the agency\u2019s claimed burden in PHMPT 1 and here is the \u201ccareful[] review\u201d needed \u201cto determine whether one or more FOIA exemptions apply.\u201d (Dkt. 27 at 8.) In ",
+        "module": null,
+        "company": null
+      },
+      {
+        "filename": "029-FDAs-Reply-re-Brief-in-Support-of-Motion.pdf",
+        "page": 20,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "20 documentation of the health and safety experience of their products will be instrumental in gaining marketing approval . . . , it seems clear that the manufacturers . . . have a commercial interest in\u201d information submitted to FDA regarding clinical studies of investigational devices) or the personal or medical information of clinical trial participants, which is protected by Exemption 6. 5 U.S",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 109,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "overnment activity.\u201d 5 U.S.C. \u00a7 552(a)(6)(E)(v)(II). Specifically, ICAN\u2019s mission is to raise public awareness about public health and safety and to Siri I Glimstad Ingredients (UNII: 451W47IQ8Xl 200 Park Avenue, Seventeenth Floor, New York, NY 10166 sirillp.com I P: (212) 532-1091 I F: (646) 417-5967 Quantity after Dilution Function (per vial) Dibasic sodium phosphate dihydrate 0.49 mg Excipient ",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 117,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "able 2 titled \u201cComposition of COMIRNATY Multiple Dose Vial\u201d. We interpret your request, \u201cthe ingredients listed at the top of that page,\u201d to be a request for the content in Table 2 of the Summary Basis for Regulatory Action (SBRA). In order to provide you with all of Table 2, we are providing you with the 2 enclosed pages. Please note that while there are some redactions on the 2 provided pages, t",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 117,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "ition of COMIRNATY Multiple Dose Vial\u201d. We interpret your request, \u201cthe ingredients listed at the top of that page,\u201d to be a request for the content in Table 2 of the Summary Basis for Regulatory Action (SBRA). In order to provide you with all of Table 2, we are providing you with the 2 enclosed pages. Please note that while there are some redactions on the 2 provided pages, there are no redaction",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 129,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "ov. 16, 2020. 19 Findings of Fact and Conclusions of Law 2. See also 5 U.S.C. \u00a7 552(a)(6)(A)(i) (providing a twenty-day deadline, excluding weekends and holidays for agencies to respond to FOIA requests). 20 \"Plaintiff's Reply to Defendant's Response to Plaintiff's B. Trial On October 5, 2020 the court held a bench trial to resolve two issues: 1) whether ICE conducted a search reasonably calculate",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 129,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "indings of Fact and Conclusions of Law 2. See also 5 U.S.C. \u00a7 552(a)(6)(A)(i) (providing a twenty-day deadline, excluding weekends and holidays for agencies to respond to FOIA requests). 20 \"Plaintiff's Reply to Defendant's Response to Plaintiff's B. Trial On October 5, 2020 the court held a bench trial to resolve two issues: 1) whether ICE conducted a search reasonably calculated to uncover respo",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 137,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "dex.89 In Vaughn, the D.C. Circuit held that a system of itemizing and indexing exemptions' legal and factual bases would easily remedy the problem of conclusory and generalized allegations of exemptions. [*21] 90 This procedure makes clear the factual nature of the information sought and the specific reason it falls within the statutory exemption asserted.91 Since Vaughn, it has become standard p",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 137,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "would easily remedy the problem of conclusory and generalized allegations of exemptions. [*21] 90 This procedure makes clear the factual nature of the information sought and the specific reason it falls within the statutory exemption asserted.91 Since Vaughn, it has become standard practice for agencies to supply the court with a Vaughn index.92 Under FOIA exemption (b)(5), an agency can withhold ",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 137,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "upport exempting any information redacted pursuant to exemption (b)(5) from disclosure. ICE presented no evidence at either the summary judgment phase or at trial supplying the factual or legal basis for any application of exemption (b)(5). Although settled law establishes the preparation of a Vaughn index, ICE did not generate one. ICE simply provided a brief letter to accompany the thirty-three ",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 137,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "ing the factual or legal basis for any application of exemption (b)(5). Although settled law establishes the preparation of a Vaughn index, ICE did not generate one. ICE simply provided a brief letter to accompany the thirty-three pages of responsive documents at issue. The letter stated that redactions under exemption (b)(5) qualified for protection under one or more of the three named privileges",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "032-Appendix-in-Support-filed-by-Public-Health-and-Medical-Professionals-for-Transparency-re-31-Reply.pdf",
+        "page": 137,
+        "marker_raw": "(b)(5)",
+        "marker_canonical": "(b)(5)",
+        "context": "he preparation of a Vaughn index, ICE did not generate one. ICE simply provided a brief letter to accompany the thirty-three pages of responsive documents at issue. The letter stated that redactions under exemption (b)(5) qualified for protection under one or more of the three named privileges, without specifying which, and without any factual basis for the application of exemption (b)(5) to any i",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "page": 8,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "ts Reporting System.\u201d See FOIA Request 2. While Pfizer supports the public review of much of this information which will help build trust and confidence in the vaccine, the records Plaintiff has requested also contain information exempt from production under FOIA, including the personal privacy information of individuals who participated in clinical trials and confidential business and trade secre",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "041-Memorandum-in-Support-filed-by-Pfizer-Inc.-re-40-MOTION-to-Intervene-for-a-Limited-Purpose.pdf",
+        "page": 15,
+        "marker_raw": "(b)(3)",
+        "marker_canonical": "(b)(3)",
+        "context": "this Court grant it permission to intervene under Rule 24(b). Courts have discretion to permit intervention where the movant \u201chas a claim or defense that shares with the main action a common question of law or fact.\u201d Fed. R. Civ. P. 24(b)(1)(B). In considering a motion for permissive intervention, the Court considers whether the motion is timely and whether the proposed intervention will \u201cunduly d",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "111521-Second-Joint-Status-Report.pdf",
+        "page": 2,
+        "marker_raw": "(b)(1)",
+        "marker_canonical": "(b)(1)",
+        "context": "he plaintiff\u2019s FOIA request. If the parties are unable to agree upon a schedule, courts typically enter a processing schedule after considering arguments for each party\u2019s proposed schedule that were presented in a status report or at a scheduling conference. A processing schedule is necessary because many different types of information are exempt from the FOIA, such that the government must redact",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "111521-Second-Joint-Status-Report.pdf",
+        "page": 2,
+        "marker_raw": "(b)(9)",
+        "marker_canonical": "(b)(9)",
+        "context": "ntiff\u2019s FOIA request. If the parties are unable to agree upon a schedule, courts typically enter a processing schedule after considering arguments for each party\u2019s proposed schedule that were presented in a status report or at a scheduling conference. A processing schedule is necessary because many different types of information are exempt from the FOIA, such that the government must redact that i",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "111521-Second-Joint-Status-Report.pdf",
+        "page": 5,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "Page 5 of 14 confidential business and trade secret information of Pfizer or BioNTech and personal privacy information of patients who participated in clinical trials. FDA is required to protect certain information under the law and this type of information is exempt from production under the FOIA. See 5 U.S.C. \u00a7 552(b)(4), (b)(6); F.B.I. v. Abramson, 456 U.S. 615, 621 (1982) (\u201cCongress realized t",
+        "module": null,
+        "company": "Pfizer"
+      },
+      {
+        "filename": "125742-45_S211_M5_preston-le-2021.pdf",
+        "page": 2,
+        "marker_raw": "(b)(4)",
+        "marker_canonical": "(b)(4)",
+        "context": "data were also used to estimate associations between demographic and clinical characteristics and severe COVID-19 among pediatric patients hospitalized with COVID-19. This study was reviewed by the Centers for Disease Control and Prevention and was deemed exempt from institutional review board oversight per 45 CFR \u00a746.101(b)(4) and exempt from patient informed consent based on 45 CFR \u00a7164.506(d)(2",
+        "module": "M5",
+        "company": "Pfizer"
+      },
+      {
+        "filename": "125752_S17_M1_coa-2908-ds-lot-4007921039.pdf",
+        "page": 2,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "Number: COA-2908 Version: 1.0 Effective Date: 15 Sep 2021 CX-024414 Drug Substance Certificate of Analysis Lot 4007921039 moderna sp iouina ay\u00bb none wn ove Way ood, MA 02062 OE Phone 617.714.6500 + Fax 617.583.1998 CERTIFICATE OF ANALYSIS Product Description: CX-024414 Moderna Part #: 40079 Manufacturer Name: Moderna Container/Closure: Mobius (b) (4) Manufacturer Lot: 4007921039 Moderna Lot Number",
+        "module": "M1",
+        "company": "Moderna"
+      },
+      {
+        "filename": "125752_S17_M1_coa-2908-ds-lot-4007921039.pdf",
+        "page": 2,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "ubstance Certificate of Analysis Lot 4007921039 moderna sp iouina ay\u00bb none wn ove Way ood, MA 02062 OE Phone 617.714.6500 + Fax 617.583.1998 CERTIFICATE OF ANALYSIS Product Description: CX-024414 Moderna Part #: 40079 Manufacturer Name: Moderna Container/Closure: Mobius (b) (4) Manufacturer Lot: 4007921039 Moderna Lot Number: 4007921039 Specification: SPC-1149 Date of Manufacture: 16Jul2021 Expiry",
+        "module": "M1",
+        "company": "Moderna"
+      },
+      {
+        "filename": "13_BLA-125752-0_09-27-2021_Telecon_Other.pdf",
+        "page": 5,
+        "marker_raw": "(b) (4)",
+        "marker_canonical": "(b)(4)",
+        "context": "mation for the Catalent Automated Visual Inspection Machine (AIM) should be submitted to the BLA. If Catalent wants to submit the information additionally to their DMF that\u2019s fine but we should have the information in the Moderna BLA submission. Po escription OO \u2014\u2014 | fox MaesPRQ CO PVWALPRODDOG a \u2014=_2Ssti(a\u2018(\u2018<\u2018\u00e9\u2018\u00e9a(a\u2018\u00e9\u2018\u00e9la\u00e9\u2018\u00e9iClS/= I | PEVAL-PRO-0015 snd PVVALEROOOI\u00a7 Matod ie Product Office (not ",
+        "module": null,
+        "company": "Moderna"
+      }
+    ]
+  }
+}

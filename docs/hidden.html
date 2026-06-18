@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redaction Topics — PHMPT FOIA Index</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    header { display: flex; flex-direction: column; }
+    .title-nav-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      width: 100%;
+    }
+    .title-nav-row h1 { margin: 0; justify-self: start; }
+    .title-nav-row .nav-menu { justify-self: center; }
+    .nav-menu { display: flex; gap: 16px; font-size: 14px; margin: 0; flex-wrap: wrap; }
+    .nav-menu a {
+      color: var(--accent);
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+    .nav-menu a:hover { background: #f8f9fa; }
+    .nav-menu a[aria-current="page"] {
+      background: var(--accent-soft, #eef);
+      font-weight: 600;
+    }
+
+    .h-summary {
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 16px 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .h-summary .stat { display: inline-block; margin-right: 24px; }
+    .h-summary .num {
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--accent);
+    }
+
+    .cat-strip, .marker-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0;
+    }
+    .cat-chip, .marker-chip {
+      cursor: pointer;
+      padding: 6px 12px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      font-size: 13px;
+      user-select: none;
+    }
+    .cat-chip:hover, .marker-chip:hover { background: #f8f9fa; }
+    .cat-chip.active, .marker-chip.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    .cat-chip .count, .marker-chip .count {
+      opacity: 0.75;
+      margin-left: 6px;
+      font-size: 12px;
+    }
+    .strip-label {
+      font-size: 12px;
+      color: var(--muted);
+      align-self: center;
+      margin-right: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .src-tag {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .src-tag.individual { background: #e3f7e3; color: #2a6e2a; }
+    .src-tag.ican       { background: #e3eef7; color: #1e5d8c; }
+    .src-tag.zip        { background: #f3f3f3; color: #555; }
+    .target-tag {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: 11px;
+      font-weight: 600;
+      background: #fff3a8;
+      color: #5a4500;
+      margin-left: 6px;
+    }
+
+    .cat-cell, .marker-cell {
+      font-size: 12px;
+      line-height: 1.5;
+      max-width: 240px;
+    }
+    .cat-cell .line, .marker-cell .line { display: block; }
+    .table-flag {
+      font-size: 11px;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .table-flag.yes { color: #8a5a00; font-weight: 600; }
+
+    .files-cell { max-width: 380px; word-break: break-all; }
+    .hits-num { font-weight: 600; text-align: right; }
+    tr:hover td { background: #f8f9fa !important; }
+
+    /* Expand-row detail */
+    .expand-cell {
+      background: #fafafa;
+      padding: 12px 18px;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .expand-cell .ex-hit {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .expand-cell .ex-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      font-size: 11px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .expand-cell .ex-meta strong { color: var(--ink); }
+    .expand-cell .ex-context {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      word-break: break-word;
+      background: #fafafa;
+      border: 1px dashed var(--line);
+      padding: 8px;
+      border-radius: 3px;
+    }
+    .expand-cell .ex-context mark {
+      background: #fff3a8;
+      padding: 0 2px;
+      border-radius: 2px;
+    }
+    .expand-cell .ex-section {
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 4px;
+    }
+    .expand-toggle {
+      cursor: pointer;
+      color: var(--accent);
+      font-size: 11px;
+    }
+    .expand-toggle:hover { text-decoration: underline; }
+
+    #reset {
+      align-self: end;
+      justify-self: end;
+      padding: 6px 14px;
+      font-size: 12px;
+      height: 32px;
+      background: var(--surface);
+      border: 1px solid var(--filter-line);
+      border-radius: 4px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    #reset:hover { background: #f8f9fa; }
+
+    .segctrl {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      min-inline-size: 0;
+      display: flex;
+      align-self: end;
+      grid-column: span 2;
+      width: max-content;
+    }
+    .segctrl > label {
+      position: relative;
+      white-space: nowrap;
+      flex: 0 0 auto;
+      cursor: pointer;
+      user-select: none;
+      padding: 6px 14px;
+      font-size: 13px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--ink);
+    }
+    .segctrl > label:first-of-type {
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    .segctrl > label:last-of-type {
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-left: 0;
+    }
+    .segctrl > label:hover { background: #f8f9fa; }
+    .segctrl input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .segctrl > label:has(input[type="radio"]:checked) {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .pdf-cta {
+      background: #fff3a8;
+      border: 1px solid #d4b900;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    .pdf-cta a {
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="title-nav-row">
+    <h1>Redaction Topics</h1>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="duplicates.html">Content Overlap</a>
+      <a href="pharmacovigilance.html">Pharmacovigilance</a>
+      <a href="exemptions.html">Exemptions</a>
+      <a href="statutes.html">Statutes</a>
+      <a href="hidden.html" aria-current="page">Redaction Topics</a>
+    </nav>
+  </div>
+  <p class="subtitle">
+    What's behind the redactions — characterized for follow-up. This page
+    only shows the ~64,000 actual FOIA-redaction markers that survive
+    after removing Case Report Forms (which hold 99% of all markers) and
+    the (b)(6) personal-privacy markers. Each redaction is tagged with
+    the topic of its surrounding context.
+    <a href="data/foia_followup_targets.json" target="_blank" rel="noopener">Top-100 targets JSON</a> ·
+    <a href="data/hidden_substance.json" target="_blank" rel="noopener">Per-file summary JSON</a> ·
+    <a href="data/hidden_substance_dropped.json" target="_blank" rel="noopener">Audit (dropped markers)</a>
+  </p>
+</header>
+
+<div style="padding: 0 24px;">
+
+  <div class="pdf-cta" id="pdf-cta" hidden>
+    📄 <a id="pdf-link" href="data/foia_followup_targets.pdf" target="_blank" rel="noopener">Download the printable "FOIA Follow-Up Targets" PDF</a> — 100 redactions worth a senator's or lawyer's attention, with paste-ready context paragraphs.
+  </div>
+
+  <div class="h-summary" id="summary">Loading…</div>
+
+  <div style="margin: 18px 0 4px;"><span class="strip-label">Topic</span></div>
+  <div class="cat-strip" id="cat-strip"></div>
+
+  <div style="margin: 14px 0 4px;"><span class="strip-label">Marker type</span></div>
+  <div class="marker-strip" id="marker-strip"></div>
+
+  <section class="filters">
+    <label class="filter wide">
+      <span>Filename contains</span>
+      <input type="search" id="f-name" placeholder="any substring, case-insensitive">
+    </label>
+
+    <label class="filter">
+      <span>Module</span>
+      <select id="f-module">
+        <option value="">All</option>
+        <option value="M1">M1</option>
+        <option value="M2">M2</option>
+        <option value="M3">M3</option>
+        <option value="M4">M4</option>
+        <option value="M5">M5</option>
+        <option value="Memo/Other">Memo/Other</option>
+      </select>
+    </label>
+
+    <label class="filter">
+      <span>Company</span>
+      <select id="f-company">
+        <option value="">All</option>
+        <option value="Moderna">Moderna</option>
+        <option value="Pfizer">Pfizer</option>
+      </select>
+    </label>
+
+    <label class="filter">
+      <span>License</span>
+      <select id="f-license">
+        <option value="">All</option>
+        <option value="BLA">BLA</option>
+        <option value="EUA">EUA</option>
+      </select>
+    </label>
+
+    <label class="filter">
+      <span>Bates contains</span>
+      <input type="search" id="f-bates" placeholder="e.g. FDA-CBER-2021-5683">
+    </label>
+
+    <fieldset class="segctrl">
+      <legend class="sr-only">Likely-table filter</legend>
+      <label>
+        <input type="radio" name="table-filter" value="" checked>
+        <span>All redactions</span>
+      </label>
+      <label>
+        <input type="radio" name="table-filter" value="table">
+        <span>Likely in table</span>
+      </label>
+    </fieldset>
+
+    <fieldset class="segctrl">
+      <legend class="sr-only">Top targets filter</legend>
+      <label>
+        <input type="radio" name="top-filter" value="" checked>
+        <span>All files</span>
+      </label>
+      <label>
+        <input type="radio" name="top-filter" value="top100">
+        <span>Top-100 targets only</span>
+      </label>
+    </fieldset>
+
+    <fieldset class="segctrl" title="Collapse rows that share an eCTD section AND have the same redaction signature (same page count, same per-marker counts). Different submissions of a document whose redactions are identical fold into one row.">
+      <legend class="sr-only">Submission grouping</legend>
+      <label>
+        <input type="radio" name="group-filter" value="" checked>
+        <span>Show each submission</span>
+      </label>
+      <label>
+        <input type="radio" name="group-filter" value="group">
+        <span>Group identical-redaction submissions</span>
+      </label>
+    </fieldset>
+
+    <button type="button" id="reset">Reset filters</button>
+  </section>
+
+  <div class="result-bar">
+    <span id="count">…</span>
+  </div>
+
+  <table id="results">
+    <thead>
+      <tr>
+        <th></th>
+        <th data-sort="filename">File</th>
+        <th data-sort="module">Module</th>
+        <th data-sort="company">Co.</th>
+        <th data-sort="license">Lic.</th>
+        <th data-sort="total_kept" class="num">Redactions</th>
+        <th data-sort="table_count" class="num">In tables</th>
+        <th>Topics</th>
+        <th>Marker breakdown</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+</div>
+
+<script src="hidden.js"></script>
+</body>
+</html>
