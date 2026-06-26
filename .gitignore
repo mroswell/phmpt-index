@@ -38,3 +38,7 @@ data/hidden_substance_full.json
 data/hidden_substance_full_dropped.json
 data/cache/pfizer_phrase/
 data/cache/protocol_amendment/
+
+# Published amendment-history reports — managed as its own standalone
+# GitHub repo, not tracked here.
+amendment-histories/
