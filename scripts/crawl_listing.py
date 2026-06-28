@@ -64,7 +64,7 @@ def main() -> None:
     with sync_playwright() as p:
         ctx = p.chromium.launch_persistent_context(
             user_data_dir=str(PROFILE),
-            headless=False,
+            headless=True,
             viewport={"width": 1400, "height": 1000},
         )
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
