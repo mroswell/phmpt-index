@@ -42,3 +42,9 @@ data/cache/protocol_amendment/
 # Published amendment-history reports — managed as its own standalone
 # GitHub repo, not tracked here.
 amendment-histories/
+
+# FDA-FOIA-2026-6007: downloaded FOIA payloads (regenerable from MuckRock CDN /
+# self-hosted copies), not source. Metadata + build code are committed.
+FDA-FOIA-2026-6007/new-files/
+# site/ is published as its own standalone repo (build_site.py output target).
+FDA-FOIA-2026-6007/site/
