@@ -1,0 +1,2194 @@
+{
+ "summary": {
+  "files": 238,
+  "files_with_markers": 118,
+  "files_errored": [],
+  "total_marker_occurrences": 115237,
+  "by_marker": {
+   "(b)(4)": 83025,
+   "(b)(6)": 32210,
+   "(b)(3)": 2
+  }
+ },
+ "files": [
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-mod-3937.pdf",
+   "total_pages": 32,
+   "total_markers": 91,
+   "by_marker": {
+    "(b)(4)": 74,
+    "(b)(6)": 17
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-mod-4112-1273.pdf",
+   "total_pages": 31,
+   "total_markers": 61,
+   "by_marker": {
+    "(b)(6)": 17,
+    "(b)(4)": 44
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-utmb01.pdf",
+   "total_pages": 35,
+   "total_markers": 67,
+   "by_marker": {
+    "(b)(6)": 15,
+    "(b)(4)": 52
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-vrc01.pdf",
+   "total_pages": 76,
+   "total_markers": 196,
+   "by_marker": {
+    "(b)(4)": 130,
+    "(b)(6)": 66
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 3
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-vrc02.pdf",
+   "total_pages": 42,
+   "total_markers": 72,
+   "by_marker": {
+    "(b)(4)": 48,
+    "(b)(6)": 24
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-vrc04.pdf",
+   "total_pages": 42,
+   "total_markers": 98,
+   "by_marker": {
+    "(b)(4)": 84,
+    "(b)(6)": 14
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-vrc05.pdf",
+   "total_pages": 47,
+   "total_markers": 86,
+   "by_marker": {
+    "(b)(4)": 65,
+    "(b)(6)": 21
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1 report-body-vrc07.pdf",
+   "total_pages": 38,
+   "total_markers": 91,
+   "by_marker": {
+    "(b)(4)": 73,
+    "(b)(6)": 18
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.1.1_report-body-mod-3938-mod-3940.pdf",
+   "total_pages": 33,
+   "total_markers": 89,
+   "by_marker": {
+    "(b)(6)": 24,
+    "(b)(4)": 65
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.3.3.1 report-body-9601035.pdf",
+   "total_pages": 84,
+   "total_markers": 174,
+   "by_marker": {
+    "(b)(4)": 121,
+    "(b)(6)": 53
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.3.3.1 report-body-9601036.pdf",
+   "total_pages": 91,
+   "total_markers": 170,
+   "by_marker": {
+    "(b)(6)": 57,
+    "(b)(4)": 113
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.3.3.1 report-body-9601567.pdf",
+   "total_pages": 75,
+   "total_markers": 67,
+   "by_marker": {
+    "(b)(6)": 49,
+    "(b)(4)": 18
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.3.3.1 report-body-9601568.pdf",
+   "total_pages": 87,
+   "total_markers": 63,
+   "by_marker": {
+    "(b)(6)": 50,
+    "(b)(4)": 13
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.3.3.2 report-body-9800399.pdf",
+   "total_pages": 402,
+   "total_markers": 400,
+   "by_marker": {
+    "(b)(6)": 286,
+    "(b)(4)": 114
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 1
+  },
+  {
+   "filename": "125752_S1_M4.2.3.3.af87fu-125012nglpich-btl.pdf",
+   "total_pages": 83,
+   "total_markers": 46,
+   "by_marker": {
+    "(b)(6)": 43,
+    "(b)(4)": 3
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S1_M4.2.3.7.2 report-body-2308-123.pdf",
+   "total_pages": 234,
+   "total_markers": 104,
+   "by_marker": {
+    "(b)(6)": 98,
+    "(b)(4)": 6
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3102052.pdf",
+   "total_pages": 2754,
+   "total_markers": 8736,
+   "by_marker": {
+    "(b)(4)": 6464,
+    "(b)(6)": 2272
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3102311.pdf",
+   "total_pages": 2164,
+   "total_markers": 5789,
+   "by_marker": {
+    "(b)(4)": 3996,
+    "(b)(6)": 1793
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132004.pdf",
+   "total_pages": 1845,
+   "total_markers": 4285,
+   "by_marker": {
+    "(b)(4)": 3245,
+    "(b)(6)": 1040
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132019.pdf",
+   "total_pages": 2099,
+   "total_markers": 6091,
+   "by_marker": {
+    "(b)(4)": 4715,
+    "(b)(6)": 1376
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132046.pdf",
+   "total_pages": 1687,
+   "total_markers": 8099,
+   "by_marker": {
+    "(b)(4)": 5565,
+    "(b)(6)": 2534
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132084.pdf",
+   "total_pages": 2967,
+   "total_markers": 12208,
+   "by_marker": {
+    "(b)(4)": 9398,
+    "(b)(6)": 2810
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132111.pdf",
+   "total_pages": 2735,
+   "total_markers": 8778,
+   "by_marker": {
+    "(b)(4)": 6592,
+    "(b)(6)": 2186
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132138.pdf",
+   "total_pages": 2720,
+   "total_markers": 11114,
+   "by_marker": {
+    "(b)(4)": 8129,
+    "(b)(6)": 2985
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132149.pdf",
+   "total_pages": 5702,
+   "total_markers": 11420,
+   "by_marker": {
+    "(b)(4)": 9027,
+    "(b)(6)": 2393
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3152037.pdf",
+   "total_pages": 3482,
+   "total_markers": 11747,
+   "by_marker": {
+    "(b)(4)": 8551,
+    "(b)(6)": 3196
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3152118.pdf",
+   "total_pages": 4044,
+   "total_markers": 14121,
+   "by_marker": {
+    "(b)(4)": 9736,
+    "(b)(6)": 4385
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3152136.pdf",
+   "total_pages": 2774,
+   "total_markers": 9430,
+   "by_marker": {
+    "(b)(4)": 6499,
+    "(b)(6)": 2931
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "FDA-CBER-2022-1614-3818818_125752_S3_M5_mrna-1273-p201-add1_A_P_t140202010102.txt",
+   "is_data_file": true,
+   "total_markers": 0,
+   "by_marker": {}
+  },
+  {
+   "filename": "1---0_14-Dec-2020_---__RO_  (1).pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "1---132_09-Apr-2021_---__RE_ EUA Amendment to expand the emergency use of Pfizer-Bi.pdf",
+   "total_pages": 2,
+   "total_markers": 24,
+   "by_marker": {
+    "(b)(6)": 24
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "10---4_18-Apr-2021_---__RE_ See Division approval memo..pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "10__2_25-Nov-2020_---__RE_ Clarification to text in Section 11 Program schema regar.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "11---5_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "11_BLA 125752-0_09-27-2021_Memo_Committee Memo_---.pdf",
+   "total_pages": 5,
+   "total_markers": 20,
+   "by_marker": {
+    "(b)(6)": 19,
+    "(b)(4)": 1
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "12---160_03-May-2021_---__RE_ In this amendment_ Pfizer submitted the revised Fact S.pdf",
+   "total_pages": 1,
+   "total_markers": 15,
+   "by_marker": {
+    "(b)(6)": 15
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 1
+  },
+  {
+   "filename": "12---6_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "12__3_26-Nov-2020_---__RE_ VRBPAC briefing document_ 508-compliant safety and effic.pdf",
+   "total_pages": 2,
+   "total_markers": 12,
+   "by_marker": {
+    "(b)(6)": 12
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "13---161_03-May-2021_---__RE_ Response to April 30_ 2021 clinical---- IR regarding p.pdf",
+   "total_pages": 1,
+   "total_markers": 18,
+   "by_marker": {
+    "(b)(6)": 18
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 1
+  },
+  {
+   "filename": "13---7_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "13__05-Dec-2020 --- _UC_ CBER comments on the Full EUA Prescribing Information included in.pdf",
+   "total_pages": 43,
+   "total_markers": 5,
+   "by_marker": {
+    "(b)(6)": 5
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "14---10_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "14__06-Dec-2020 ---_UC_ Request for submission of udated cross-reference document and EUA.pdf",
+   "total_pages": 2,
+   "total_markers": 6,
+   "by_marker": {
+    "(b)(6)": 6
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "15---12_18-Apr-2021_---__RE_ See Division approval memo..pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "15__07-Dec-2020 --- _UO_ UI_ UI_ UO_ REQUEST FOR MILESTONE DATES FOR 3 ACTIVE SURVIELANCE STU.pdf",
+   "total_pages": 2,
+   "total_markers": 6,
+   "by_marker": {
+    "(b)(6)": 6
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "16---13_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "16__08-Dec-2020 --- _UI_ UO_ UO_ UI_ IR RE FOUR SUBJECTS WITH BELL`S PALSY - LATERALITY OF TH.pdf",
+   "total_pages": 1,
+   "total_markers": 5,
+   "by_marker": {
+    "(b)(6)": 5
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "17---132_06-May-2021_---_RS_ Statistical memo.pdf",
+   "total_pages": 2,
+   "total_markers": 11,
+   "by_marker": {
+    "(b)(6)": 11
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "17---14_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "17__09-Dec-2020 --- _UI_ UO_ UI_ UO_ PVP IR RE ANAPHYLACTIC REACTIONS - see EDR for full comm.pdf",
+   "total_pages": 1,
+   "total_markers": 6,
+   "by_marker": {
+    "(b)(6)": 6
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "18---16_18-Apr-2021_---__RE_ Comments for fact sheets sent..pdf",
+   "total_pages": 1,
+   "total_markers": 8,
+   "by_marker": {
+    "(b)(6)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "18__11_09-Dec-2020_---__RO_ --- preliminary inspection summary memo.pdf",
+   "total_pages": 1,
+   "total_markers": 11,
+   "by_marker": {
+    "(b)(6)": 11
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "18A__--- Review Memo-EUA 27034_12_9_2020.pdf",
+   "total_pages": 3,
+   "total_markers": 24,
+   "by_marker": {
+    "(b)(6)": 24
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "19---19_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "19__22-Nov-2020 --- _UI_ UO_ UI_ UO_ IR regarding differences in three 25-pack carton labels.pdf",
+   "total_pages": 1,
+   "total_markers": 7,
+   "by_marker": {
+    "(b)(6)": 7
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "1__0_09-Dec-2020_---_ OVRR Office Director`s memo that addresses obligations r.pdf",
+   "total_pages": 2,
+   "total_markers": 8,
+   "by_marker": {
+    "(b)(6)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "2---5_15-Dec-2020_---__RE_ In this amendment the sponsor is providing Response to FDA 23 Novemb.pdf",
+   "total_pages": 1,
+   "total_markers": 11,
+   "by_marker": {
+    "(b)(6)": 11
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "2.5__0_11-Dec-2020_---__RS_.pdf",
+   "total_pages": 2,
+   "total_markers": 15,
+   "by_marker": {
+    "(b)(6)": 15
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "20---132_07-May-2021_---__RO_.pdf",
+   "total_pages": 1,
+   "total_markers": 12,
+   "by_marker": {
+    "(b)(6)": 12
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "20---21_18-Apr-2021_---__RE_ Comments for fact sheets sent..pdf",
+   "total_pages": 1,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "20__23-Nov-2020 ---_UC_ UO_ UO_ UC_ 508-COMPLIANT SAFETY AND EFFICACY TABLES WITH   43K SUBJ.pdf",
+   "total_pages": 1,
+   "total_markers": 5,
+   "by_marker": {
+    "(b)(6)": 5
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "21---23_18-Apr-2021_---__RE_ Comments for fact sheet sent..pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "21__23-Nov-2020 --- _UE_ UO_ UE_ UO_ F-U T-CON TO DISCUSS THE SAFETY POP TO BE INCLUDED IN TH.pdf",
+   "total_pages": 4,
+   "total_markers": 4,
+   "by_marker": {
+    "(b)(6)": 4
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "22---26_18-Apr-2021_---__RE_.pdf",
+   "total_pages": 1,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "22__23-Nov-2020 --- _UI_ UO_ UO_ UI_ Asymptomatic shell table and questions - see EDR for ful.pdf",
+   "total_pages": 3,
+   "total_markers": 8,
+   "by_marker": {
+    "(b)(6)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "23---27_18-Apr-2021_---__RE_ Comments for fact sheet sent..pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "23__24-Nov-2020 --- _UI_ UO_ UO_ UI_ DISCUSSION POINTS FOR 11-25 T-CON ON DATASETS - see EDR.pdf",
+   "total_pages": 4,
+   "total_markers": 7,
+   "by_marker": {
+    "(b)(6)": 7
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "24---3_12-Mar-2024_---__RE_ This amendment contained the following documents_   1. A briefing docu.pdf",
+   "total_pages": 2,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "24__25-Nov-2020 --- _UK_ UK_.pdf",
+   "total_pages": 4,
+   "total_markers": 14,
+   "by_marker": {
+    "(b)(6)": 14
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "25---5_12-Mar-2024_---__RE_ This amendment contained the updated Briefing Document in support of t.pdf",
+   "total_pages": 2,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "25_25-Nov-2020 --- _UI_ CBER comments on Pharmacovigilance Plan were sent in an email mes.pdf",
+   "total_pages": 2,
+   "total_markers": 7,
+   "by_marker": {
+    "(b)(6)": 7
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "26---0_17-Apr-2021_---__RE_ Please see Division memo..pdf",
+   "total_pages": 2,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "26__27-Nov-2020 --- _UO_ UI_ UO_ UI_ 5 CLINICAL QUESTIONS - see EDR for full communication..pdf",
+   "total_pages": 2,
+   "total_markers": 8,
+   "by_marker": {
+    "(b)(6)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "27---132_20-Jul-2021_---__RE_ Pfizer submitted this amendment to the EUA to extend the authori.pdf",
+   "total_pages": 2,
+   "total_markers": 11,
+   "by_marker": {
+    "(b)(6)": 11
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "27__27-Nov-2020 ---_UC_ Clarification to comment 2 on PVP sent on 11-25-2020 was sent in.pdf",
+   "total_pages": 2,
+   "total_markers": 15,
+   "by_marker": {
+    "(b)(6)": 15
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "2__0_11-Dec-2020_---__RP_---Discipline Review for EUA of BNT162b2.pdf",
+   "total_pages": 2,
+   "total_markers": 11,
+   "by_marker": {
+    "(b)(6)": 11
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "2_BLA 125742-0_05-18-2021_Telecon_Information Reques.pdf",
+   "total_pages": 1,
+   "total_markers": 8,
+   "by_marker": {
+    "(b)(6)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "3---145_22-Apr-2021_---__RE_ Response to April 20_ 2021 IR regarding data analysis.pdf",
+   "total_pages": 1,
+   "total_markers": 15,
+   "by_marker": {
+    "(b)(6)": 15
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 1
+  },
+  {
+   "filename": "3---25_16-Dec-2020_---__RE_ Response to December 10_ 2020 IR.    On December 10_ 20.pdf",
+   "total_pages": 1,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "3__01-Dec-2020---_UI_ UI_ UO_ UO_ STATISITCAL IR REGARDING DATASETS - see EDR full com.pdf",
+   "total_pages": 2,
+   "total_markers": 7,
+   "by_marker": {
+    "(b)(6)": 7
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "4__01-Dec-2020---_UO_ UO_ UI_ UI_ IR   response RE QC REVIEWED FINAL DRAFT REPORT FOR DART.pdf",
+   "total_pages": 2,
+   "total_markers": 12,
+   "by_marker": {
+    "(b)(6)": 12
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "5---0_17-Dec-2020_---__RP_---CMC Review Memo.pdf",
+   "total_pages": 2,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "50_BLA 125742-0_08-06-2021_Memo_Committee Memo_---.pdf",
+   "total_pages": 6,
+   "total_markers": 19,
+   "by_marker": {
+    "(b)(6)": 19
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "5__1_23-Nov-2020_---__RE_ Narratives and CRFs for all SAEs and Study discontinuati.pdf",
+   "total_pages": 1,
+   "total_markers": 11,
+   "by_marker": {
+    "(b)(6)": 11
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "6---0_18-Dec-2020_---__RO_ ---EUA LR PI_FACTS_CARTON.pdf",
+   "total_pages": 2,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "7---148_27-Apr-2021_---__RE_ Response to April 25_ 2021 clinical IR regarding safet.pdf",
+   "total_pages": 1,
+   "total_markers": 17,
+   "by_marker": {
+    "(b)(6)": 17
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 1
+  },
+  {
+   "filename": "72_BLA 125752-0_01-03-2022_Memo_Committee Memo_---.pdf",
+   "total_pages": 4,
+   "total_markers": 22,
+   "by_marker": {
+    "(b)(6)": 22
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "77_BLA 125752-0_01-10-2022_Memo_Committee Memo_---.pdf",
+   "total_pages": 4,
+   "total_markers": 18,
+   "by_marker": {
+    "(b)(6)": 18
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "7__1_EUA_20-Nov-2020 --- _UI_ UO_ UO_ UI_ REQUEST FOR A STATUS UPDATE WHEN SARS-COV-2 NAAT DATA FR.pdf",
+   "total_pages": 1,
+   "total_markers": 8,
+   "by_marker": {
+    "(b)(6)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "8---1_18-Apr-2021_---__RE_ See Division EUA review memo for summary..pdf",
+   "total_pages": 1,
+   "total_markers": 9,
+   "by_marker": {
+    "(b)(6)": 9
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "8__02-Dec-2020 ---_UI_ UO_ UI_ UO_ IR regarding Bell`s palsy and the Active surveillance st.pdf",
+   "total_pages": 3,
+   "total_markers": 7,
+   "by_marker": {
+    "(b)(6)": 7
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "9---154_29-Apr-2021_---__RE_ Revised Fact Sheet for Vaccination Providers and Full.pdf",
+   "total_pages": 1,
+   "total_markers": 23,
+   "by_marker": {
+    "(b)(6)": 23
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 1
+  },
+  {
+   "filename": "9---3_18-Apr-2021_---__RE_ Comments sent for Fact sheet. (15).pdf",
+   "total_pages": 1,
+   "total_markers": 10,
+   "by_marker": {
+    "(b)(6)": 10
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "99_BLA 125742-0_08-20-2021_Memo_Committee Memo_Label.pdf",
+   "total_pages": 31,
+   "total_markers": 12,
+   "by_marker": {
+    "(b)(4)": 6,
+    "(b)(6)": 6
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "9__02-Dec-2020 --- _UI_ UO_ UO_ UI_ --- Information Request _missing information_ - see EDR.pdf",
+   "total_pages": 2,
+   "total_markers": 8,
+   "by_marker": {
+    "(b)(6)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "IND 019736_S434_IND 19736_---RE_ Request for Comments and Advice _ Proposal for adolesc.pdf",
+   "total_pages": 1,
+   "total_markers": 12,
+   "by_marker": {
+    "(b)(6)": 12
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742-45_05-11-2022_Memo_Committee Memo_---.pdf",
+   "total_pages": 3,
+   "total_markers": 24,
+   "by_marker": {
+    "(b)(6)": 24
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742-45_06-10-2022_Memo_Committee Memo_---.pdf",
+   "total_pages": 3,
+   "total_markers": 18,
+   "by_marker": {
+    "(b)(6)": 18
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742.0.0 eCTD Sections 1 & 2 & 4 & 5.3.1.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 8
+  },
+  {
+   "filename": "125742.0.0 LARD.pdf",
+   "total_pages": 9,
+   "total_markers": 251,
+   "by_marker": {
+    "(b)(6)": 223,
+    "(b)(4)": 28
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742.0.0 Snippets from Comirnaty BLA Original Submission Section 5.pdf",
+   "total_pages": 87,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 84
+  },
+  {
+   "filename": "125742_S1_M1_2.5 Clinical Overview_reissue.pdf",
+   "total_pages": 334,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M1_2.7.3 Summary of Clinical Efficacy.pdf",
+   "total_pages": 182,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 1
+  },
+  {
+   "filename": "125742_S1_M1_2.7.4 summary-clin-safety.pdf",
+   "total_pages": 344,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 14
+  },
+  {
+   "filename": "125742_S1_M1_4.3 Literature References.pdf",
+   "total_pages": 718,
+   "total_markers": 6,
+   "by_marker": {
+    "(b)(6)": 4,
+    "(b)(3)": 2
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M1_5.3.6 postmarketing experience_reissue.pdf",
+   "total_pages": 38,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_5351_bnt162-01-interim3-referenced-pub.pdf",
+   "total_pages": 26,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_agresti-a-2002.pdf",
+   "total_pages": 37,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_anderson-r-2020.pdf",
+   "total_pages": 3,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_biggerstaff-m-2015.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_kamphuis-e-2006.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_kirchdoerfer-rn-2018.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_kranz-lm-2016.pdf",
+   "total_pages": 16,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_lambert-ph-2020.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_miettinen-o-1985.pdf",
+   "total_pages": 14,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_moyo-n-2019.pdf",
+   "total_pages": 15,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_mulligan-mj-2020.pdf",
+   "total_pages": 16,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_onder-g-2020.pdf",
+   "total_pages": 2,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_pallesen-j-2017.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_pardi-n-2017.pdf",
+   "total_pages": 12,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_vogel-ab-2018.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_vogel-ab-2020.pdf",
+   "total_pages": 38,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_walsh-ee-2020.pdf",
+   "total_pages": 13,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_wiersinga-wj-2020.pdf",
+   "total_pages": 12,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_wrapp-d-2020.pdf",
+   "total_pages": 4,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_wu-z-2020.pdf",
+   "total_pages": 4,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_54_zhu-n-2020.pdf",
+   "total_pages": 7,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_CRF_c4591001-CFRs for site 1055.pdf",
+   "total_pages": 2030,
+   "total_markers": 22,
+   "by_marker": {
+    "(b)(6)": 22
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 8
+  },
+  {
+   "filename": "125742_S1_M5_CRF_c4591001-CRFs for site 1081_reissue.pdf",
+   "total_pages": 3380,
+   "total_markers": 33,
+   "by_marker": {
+    "(b)(6)": 33
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_CRF_c4591001-CRFs for site 1096.pdf",
+   "total_pages": 2937,
+   "total_markers": 19,
+   "by_marker": {
+    "(b)(6)": 19
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S1_M5_CRF_c4591001-CRFs for site 1128_reissue.pdf",
+   "total_pages": 3452,
+   "total_markers": 26,
+   "by_marker": {
+    "(b)(6)": 26
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_akinc-a-2010.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_andries-o-2015.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_ashworth-iw-2020.pdf",
+   "total_pages": 18,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_baba-m-2017.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_badmington-f-1995.pdf",
+   "total_pages": 7,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 7
+  },
+  {
+   "filename": "125742_S2_M3_33_badran-m-2014.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_baer-e-1950.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_baliey-al-2000.pdf",
+   "total_pages": 14,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_ball-d-2007.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_ball-rl-2017.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_beverly-m-2018.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_bulbake-u-2017.pdf",
+   "total_pages": 33,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_chen-m-2011.pdf",
+   "total_pages": 12,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_clopper-cj-1934.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_danaei-m-2018.pdf",
+   "total_pages": 17,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_diamond-ms-2014.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_dieffenbach-cw-1993.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_gay-sc-2010.pdf",
+   "total_pages": 18,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_guhaniyogi-j-2001.pdf",
+   "total_pages": 13,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_habjan-m-2013.pdf",
+   "total_pages": 14,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_hassett-kj-2019.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_hoffmann-m-2020.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_james-jm-1998.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_jayaraman-m-2012.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_jeffs-lb-2005.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_kariko-k-2008.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_kasper-jc-2013.pdf",
+   "total_pages": 18,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_kesten-2017.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_kozak-m-1987.pdf",
+   "total_pages": 24,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_kuzmine-i-2003.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_li-h-2009.pdf",
+   "total_pages": 2,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_muralidhara-k-1991.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_muruato-ae-2020.pdf",
+   "total_pages": 6,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_nicholson-al-2019.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_orlandini-ag-2019.pdf",
+   "total_pages": 13,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_ota-y-2006.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_putri-dc-2017.pdf",
+   "total_pages": 7,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_ramanathan-a-2016.pdf",
+   "total_pages": 16,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_reichmuth-am-2016.pdf",
+   "total_pages": 16,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_rejman-j-2004.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_richner-jm-2017.pdf",
+   "total_pages": 23,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_semple-sc-2010.pdf",
+   "total_pages": 7,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_shang-j-2020.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_siepi-e-2011.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_silvius-jr-1993.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_til-hp-1997.pdf",
+   "total_pages": 12,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_tuncay-k-2012.pdf",
+   "total_pages": 13,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_urban-p-2018.pdf",
+   "total_pages": 21,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_walser-m-1961.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_xie-x-2020.pdf",
+   "total_pages": 12,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_yoon-hj-2008.pdf",
+   "total_pages": 7,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M3_33_zhao-p-2020.pdf",
+   "total_pages": 6,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_argenziano-mg-2020.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_azar-kmj-2020.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_booth-a-2021.pdf",
+   "total_pages": 30,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_bouffanais-r-2020.pdf",
+   "total_pages": 4,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_burke-rm-2020.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_carfi-a-2020.pdf",
+   "total_pages": 3,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_cummings-mj-2020.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_dai-cl-2021.pdf",
+   "total_pages": 32,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_feldstein-lr-2021.pdf",
+   "total_pages": 14,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_gandhi-rt-2020.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_gold-jaw-rossen-2020.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_gold-jaw-wong-2020.pdf",
+   "total_pages": 6,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_graham-bs-2020.pdf",
+   "total_pages": 2,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_greenhalgh-t-2020.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_hawkins-d-2020.pdf",
+   "total_pages": 4,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_haynes-bf-2020.pdf",
+   "total_pages": 12,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_holmes-l-2020.pdf",
+   "total_pages": 18,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_horwitz-li-2020.pdf",
+   "total_pages": 3,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_hur-k-2020.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_iaccarino-g-2020.pdf",
+   "total_pages": 7,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_iavarone-c-2017.pdf",
+   "total_pages": 11,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_izcovich-a-2020.pdf",
+   "total_pages": 30,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_jones-s-2021.pdf",
+   "total_pages": 4,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_kelly-ms-2021.pdf",
+   "total_pages": 6,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_leidman-e-2021.pdf",
+   "total_pages": 7,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_malas-mb-2020.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_nguyen-lh-2020.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_nowak-b-2020.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_openshaw-pj-2001.pdf",
+   "total_pages": 5,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_pardi-n-2018.pdf",
+   "total_pages": 19,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_petrilli-cm-2020.pdf",
+   "total_pages": 15,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_pollock-am-2020.pdf",
+   "total_pages": 2,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_price-haywood-eg-2020 .pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_rao-gg-2020.pdf",
+   "total_pages": 9,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_richardson-s-2020.pdf",
+   "total_pages": 8,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_rossen-lm-2020.pdf",
+   "total_pages": 6,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_sahin-u-2020.pdf",
+   "total_pages": 27,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_toba-n-2021.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_willi-s-2021.pdf",
+   "total_pages": 10,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "125742_S2_M5_54_williamson-e-2020.pdf",
+   "total_pages": 17,
+   "total_markers": 0,
+   "by_marker": {},
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "13_BLA_125742-0_07-02-2021_Committee Memo_---.pdf",
+   "total_pages": 5,
+   "total_markers": 20,
+   "by_marker": {
+    "(b)(6)": 20
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "27034_S12_M1_response-25-nov-2020---.pdf",
+   "total_pages": 5,
+   "total_markers": 5,
+   "by_marker": {
+    "(b)(6)": 5
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "6A---LR_IND_19736.134_EUA_27034_FullPI_---.pdf",
+   "total_pages": 51,
+   "total_markers": 14,
+   "by_marker": {
+    "(b)(6)": 13,
+    "(b)(4)": 1
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "019736_S243-smsr-01feb2021-28feb2021.pdf",
+   "total_pages": 3409,
+   "total_markers": 80,
+   "by_marker": {
+    "(b)(4)": 13,
+    "(b)(6)": 67
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "019736_S335-M1_smsr-01apr2021-29apr2021.pdf",
+   "total_pages": 5983,
+   "total_markers": 173,
+   "by_marker": {
+    "(b)(4)": 20,
+    "(b)(6)": 153
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "019736_S369-dsur-22apr2020-21apr2021.pdf",
+   "total_pages": 578,
+   "total_markers": 98,
+   "by_marker": {
+    "(b)(6)": 90,
+    "(b)(4)": 8
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 0
+  },
+  {
+   "filename": "1_IND_19736_185_23-Feb-2021_---_RO_.pdf",
+   "total_pages": 2,
+   "total_markers": 2,
+   "by_marker": {
+    "(b)(6)": 2
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "2_IND_19736_214_03-Mar-2021_---__RO_.pdf",
+   "total_pages": 2,
+   "total_markers": 3,
+   "by_marker": {
+    "(b)(6)": 2,
+    "(b)(4)": 1
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "3_IND_19736_243_19-Mar-2021_---__RO_.pdf",
+   "total_pages": 2,
+   "total_markers": 4,
+   "by_marker": {
+    "(b)(6)": 3,
+    "(b)(4)": 1
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "4_IND_19736_289_27-Apr-2021_---__RC_.pdf",
+   "total_pages": 2,
+   "total_markers": 6,
+   "by_marker": {
+    "(b)(6)": 2,
+    "(b)(4)": 4
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "5_IND_19736_335_19-May-2021_---__RC_.pdf",
+   "total_pages": 2,
+   "total_markers": 2,
+   "by_marker": {
+    "(b)(6)": 2
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "6_IND_19736_366_24-Jun-2021_---__RO_.pdf",
+   "total_pages": 2,
+   "total_markers": 2,
+   "by_marker": {
+    "(b)(6)": 2
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "7_IND_19736_409_26-Jul-2021_---__RO_.pdf",
+   "total_pages": 2,
+   "total_markers": 3,
+   "by_marker": {
+    "(b)(6)": 2,
+    "(b)(4)": 1
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "8_IND_19736_453_26-Aug-2021_---__RO_.pdf",
+   "total_pages": 2,
+   "total_markers": 3,
+   "by_marker": {
+    "(b)(6)": 2,
+    "(b)(4)": 1
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  },
+  {
+   "filename": "9_IND_19736_491_29-Sep-2021_---__RO_.pdf",
+   "total_pages": 2,
+   "total_markers": 2,
+   "by_marker": {
+    "(b)(6)": 2
+   },
+   "ocr_candidate_pages": [],
+   "pages_ocred": 2
+  }
+ ]
+}

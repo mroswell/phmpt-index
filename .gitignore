@@ -31,6 +31,10 @@ data/individual_phmpt_exemptions.json
 data/cache/ocr_text/
 data/cache/statutes/
 
+# Per-file cache for the trove NEW-file exemption OCR scan (regenerable;
+# aggregate committed as data/trove_new_exemptions.json)
+data/cache/trove_new_exemptions/
+
 # macOS junk
 .DS_Store
 data/cache/hidden_substance/
