@@ -135,6 +135,32 @@ def resolve(doc, ex, ba, no, new) -> dict:
             "total_pages": None, "ocr_pages": 0, "error": "no phmpt match"}
 
 
+# Only (b)(1)-(b)(9) are real FOIA exemptions; only (b)(7) takes A-F subparts.
+# The marker regex also catches statutory citations like "564(b)(1)(C)" and
+# malformed over-captures like "(b)(4)(D)". Normalize to the valid set:
+#   - drop numbers outside 1-9   (e.g. (b)(13) -> a 21 CFR citation)
+#   - keep (b)(7)(A-F)
+#   - fold any other invalid subpart into its base ((b)(4)(D) -> (b)(4))
+_MARK = re.compile(r"^\(b\)\((\d+)\)(?:\((.)\))?$")
+
+
+def canon_markers(by_marker: dict) -> dict:
+    out = Counter()
+    for m, c in by_marker.items():
+        g = _MARK.match(m)
+        if not g:
+            continue
+        n = int(g.group(1))
+        sub = (g.group(2) or "").upper()
+        if n < 1 or n > 9:
+            continue
+        if n == 7 and sub in "ABCDEF":
+            out[f"(b)(7)({sub})"] += c
+        else:
+            out[f"(b)({n})"] += c
+    return dict(out)
+
+
 def crosstab(rows, dim, unknown="Unknown"):
     """exemption x dim value -> counts, plus files and markers-total rows."""
     col_markers = defaultdict(lambda: Counter())   # dimval -> Counter(marker->n)
@@ -168,6 +194,7 @@ def main() -> None:
     rows = []
     for d in docs:
         info = resolve(d, ex, ba, no, new)
+        by_marker = canon_markers(info["by_marker"])
         rows.append({
             "filename": d["filename"],
             "status": d.get("status"),
@@ -177,8 +204,8 @@ def main() -> None:
             "ext": d.get("ext"),
             "doc_link": d.get("primary") or d.get("doc_link"),
             "source": info["source"],
-            "total_markers": info["total_markers"],
-            "by_marker": info["by_marker"],
+            "total_markers": sum(by_marker.values()),
+            "by_marker": by_marker,
             "total_pages": info["total_pages"],
             "error": info["error"],
         })
