@@ -2,8 +2,8 @@
 
 Source: `FDA-FOIA-2026-6007/site/documents.json` (7,417 documents). Marker counts for PHMPT-overlapping documents are reused from the coviddocuments.com exemption scan; the 238 NEW documents were OCR-scanned fresh for this report.
 
-- Total marker occurrences: **11,229,973**
-- Files with markers: **3,674**
+- Total marker occurrences: **11,229,872**
+- Files with markers: **3,657**
 - By source: {'phmpt': 5976, 'new': 238, 'data': 1106, 'none': 97}
 - NEW docs with markers: 118/238
 
@@ -14,11 +14,8 @@ Source: `FDA-FOIA-2026-6007/site/documents.json` (7,417 documents). Marker count
 | `(b)(4)` | 7,784,022 | 83,025 | **7,867,047** |
 | `(b)(6)` | 3,330,240 | 32,210 | **3,362,450** |
 | `(b)(7)(C)` | 302 | 0 | **302** |
-| `(b)(1)` | 78 | 0 | **78** |
 | `(b)(5)` | 39 | 0 | **39** |
 | `(b)(7)(E)` | 31 | 0 | **31** |
-| `(b)(2)` | 21 | 0 | **21** |
-| `(b)(3)` | 0 | 2 | **2** |
 | `(b)(7)(A)` | 2 | 0 | **2** |
 | `(b)(8)` | 1 | 0 | **1** |
 | *Files* | *7,179* | *238* | *7,417* |
@@ -30,11 +27,8 @@ Source: `FDA-FOIA-2026-6007/site/documents.json` (7,417 documents). Marker count
 | `(b)(4)` | 7,723,058 | 129,155 | 5,911 | 3,808 | 3,689 | 1,391 | 35 | 0 | **7,867,047** |
 | `(b)(6)` | 3,259,644 | 51,027 | 50,139 | 1,203 | 416 | 5 | 16 | 0 | **3,362,450** |
 | `(b)(7)(C)` | 0 | 302 | 0 | 0 | 0 | 0 | 0 | 0 | **302** |
-| `(b)(1)` | 8 | 0 | 70 | 0 | 0 | 0 | 0 | 0 | **78** |
 | `(b)(5)` | 13 | 23 | 3 | 0 | 0 | 0 | 0 | 0 | **39** |
 | `(b)(7)(E)` | 10 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | **31** |
-| `(b)(2)` | 1 | 6 | 14 | 0 | 0 | 0 | 0 | 0 | **21** |
-| `(b)(3)` | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | **2** |
 | `(b)(7)(A)` | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | **2** |
 | `(b)(8)` | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | **1** |
 | *Files* | *4,641* | *1,123* | *1,148* | *128* | *299* | *50* | *20* | *8* | *7,417* |
@@ -46,11 +40,8 @@ Source: `FDA-FOIA-2026-6007/site/documents.json` (7,417 documents). Marker count
 | `(b)(4)` | 7,095,335 | 595,026 | 168,254 | 6,425 | 2,007 | **7,867,047** |
 | `(b)(6)` | 2,901,025 | 343,082 | 95,018 | 20,551 | 2,774 | **3,362,450** |
 | `(b)(7)(C)` | 0 | 0 | 0 | 302 | 0 | **302** |
-| `(b)(1)` | 6 | 68 | 2 | 2 | 0 | **78** |
 | `(b)(5)` | 5 | 3 | 0 | 31 | 0 | **39** |
 | `(b)(7)(E)` | 0 | 0 | 0 | 31 | 0 | **31** |
-| `(b)(2)` | 0 | 16 | 0 | 5 | 0 | **21** |
-| `(b)(3)` | 0 | 2 | 0 | 0 | 0 | **2** |
 | `(b)(7)(A)` | 2 | 0 | 0 | 0 | 0 | **2** |
 | `(b)(8)` | 1 | 0 | 0 | 0 | 0 | **1** |
 | *Files* | *3,178* | *2,553* | *974* | *486* | *226* | *7,417* |
@@ -62,11 +53,8 @@ Source: `FDA-FOIA-2026-6007/site/documents.json` (7,417 documents). Marker count
 | `(b)(4)` | 7,860,561 | 6,486 | **7,867,047** |
 | `(b)(6)` | 3,361,757 | 693 | **3,362,450** |
 | `(b)(7)(C)` | 0 | 302 | **302** |
-| `(b)(1)` | 78 | 0 | **78** |
 | `(b)(5)` | 15 | 24 | **39** |
 | `(b)(7)(E)` | 7 | 24 | **31** |
-| `(b)(2)` | 21 | 0 | **21** |
-| `(b)(3)` | 2 | 0 | **2** |
 | `(b)(7)(A)` | 2 | 0 | **2** |
 | `(b)(8)` | 1 | 0 | **1** |
 | *Files* | *7,374* | *43* | *7,417* |
@@ -74,10 +62,7 @@ Source: `FDA-FOIA-2026-6007/site/documents.json` (7,417 documents). Marker count
 ## Rare exemptions
 
 - `(b)(7)(C)` — 302 occurrences across 2 files
-- `(b)(1)` — 78 occurrences across 18 files
 - `(b)(5)` — 39 occurrences across 11 files
 - `(b)(7)(E)` — 31 occurrences across 6 files
-- `(b)(2)` — 21 occurrences across 8 files
 - `(b)(7)(A)` — 2 occurrences across 2 files
-- `(b)(3)` — 2 occurrences across 1 files
 - `(b)(8)` — 1 occurrences across 1 files

@@ -31,6 +31,15 @@ INDIVIDUAL_EXEMPTIONS = [
     ROOT / "data" / "individual_phmpt_exemptions.json",
     ROOT / "data" / "individual_exemptions.json",
 ]
+# Per-hit redaction-vs-citation classification for the rare markers, produced by
+# scripts/inspect_rare_contexts.py (category == "foia_redaction" means an actual
+# redaction overlay; "not_foia"/"foia_legal_reference" are statutory citations).
+RARE_CONTEXTS = ROOT / "docs" / "data" / "rare_exemptions_contexts.json"
+
+# (b)(4) and (b)(6) are ~99.98% of all markers and are overwhelmingly redaction
+# stamps; they are counted as-is. Every other (rare) marker is filtered to
+# actual redaction stamps using the context classification above.
+DOMINANT = {"(b)(4)", "(b)(6)"}
 NEW_EXEMPTIONS = ROOT / "data" / "trove_new_exemptions.json"
 NEW_CACHE = ROOT / "data" / "cache" / "trove_new_exemptions"
 OUT_JSON = SITE / "exemptions.json"
@@ -106,6 +115,31 @@ def load_new_lookup() -> dict:
         for p in NEW_CACHE.glob("*.json"):
             r = json.loads(p.read_text())
             out[r["filename"]] = r
+    return out
+
+
+def load_rare_redactions() -> dict:
+    """k_norm(filename) -> {marker: redaction_hit_count} for rare markers,
+    counting only category == 'foia_redaction' (actual redaction stamps)."""
+    out: dict[str, Counter] = defaultdict(Counter)
+    if not RARE_CONTEXTS.exists():
+        return out
+    for h in json.loads(RARE_CONTEXTS.read_text())["hits"]:
+        if h.get("category") == "foia_redaction":
+            out[k_norm(h["filename"])][h["marker"]] += 1
+    return out
+
+
+def redaction_only(by_marker: dict, filename: str, rare_red: dict) -> dict:
+    """Keep (b)(4)/(b)(6) as-is; for rare markers keep only actual redaction
+    stamps (from the context classifier), dropping statutory citations."""
+    red = rare_red.get(k_norm(filename), {})
+    out = {}
+    for m, c in by_marker.items():
+        if m in DOMINANT:
+            out[m] = c
+        elif red.get(m):
+            out[m] = red[m]
     return out
 
 
@@ -190,11 +224,13 @@ def main() -> None:
     docs = json.loads(DOCS_JSON.read_text())
     ex, ba, no = load_phmpt_lookup()
     new = load_new_lookup()
+    rare_red = load_rare_redactions()
 
     rows = []
     for d in docs:
         info = resolve(d, ex, ba, no, new)
-        by_marker = canon_markers(info["by_marker"])
+        by_marker = redaction_only(canon_markers(info["by_marker"]),
+                                   d["filename"], rare_red)
         rows.append({
             "filename": d["filename"],
             "status": d.get("status"),
