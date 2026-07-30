@@ -56,3 +56,25 @@ def scan_pdf_bytes(pdf_bytes: bytes) -> dict:
         doc.close()
     return {"total_pages": total_pages, "total_markers": sum(by_marker.values()),
             "by_marker": dict(by_marker), "pages_ocred": pages_ocred}
+
+
+def scan_pdf_bytes_perpage(pdf_bytes: bytes) -> dict:
+    """Like scan_pdf_bytes but records markers per page:
+    {total_pages, pages: {page_no: {marker: count}}}."""
+    try:
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+    except Exception as e:
+        return {"error": f"{type(e).__name__}: {e}", "pages": {}, "total_pages": None}
+    pages: dict[int, dict] = {}
+    try:
+        for i in range(doc.page_count):
+            text, _ = _page_text(doc.load_page(i))
+            per = Counter()
+            for m in MARKER_RE.finditer(text):
+                per[normalize_marker(m.group(1), m.group(2))] += 1
+            if per:
+                pages[i + 1] = dict(per)
+        total_pages = doc.page_count
+    finally:
+        doc.close()
+    return {"total_pages": total_pages, "pages": pages}
