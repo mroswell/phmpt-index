@@ -105,6 +105,22 @@ def load_phmpt_lookup() -> tuple[dict, dict, dict]:
     return ex, ba, no
 
 
+TROVE_VERIFY = ROOT / "data" / "cache" / "verify_redactions" / "trove"
+
+
+def trove_actual_markers(filename: str):
+    """Fresh trove-side scan (verify_redactions.py) for an overlapping doc, or
+    None. These reflect THIS release's ACTUAL redactions, not the PHMPT copy."""
+    import hashlib
+    cp = TROVE_VERIFY / f"{hashlib.md5(filename.encode()).hexdigest()}.json"
+    if not cp.exists():
+        return None
+    r = json.loads(cp.read_text())
+    if r.get("error"):
+        return None
+    return canon_markers(r.get("by_marker", {}))
+
+
 def load_new_lookup() -> dict:
     """filename -> new-scan record. Prefer the aggregate; fall back to cache."""
     if NEW_EXEMPTIONS.exists():
@@ -155,6 +171,12 @@ def resolve(doc, ex, ba, no, new) -> dict:
                     "error": r.get("error")}
         return {"source": "none", "total_markers": 0, "by_marker": {},
                 "total_pages": None, "ocr_pages": 0, "error": "new scan missing"}
+    # Prefer a fresh trove-side scan (actual redactions in THIS release) over the
+    # reused PHMPT counts, now that we have verified they can differ.
+    actual = trove_actual_markers(fn)
+    if actual is not None:
+        return {"source": "trove-scan", "total_markers": sum(actual.values()),
+                "by_marker": actual, "total_pages": None, "ocr_pages": 0, "error": None}
     for keyfn, d in ((k_exact, ex), (k_bates, ba), (k_norm, no)):
         r = d.get(keyfn(fn))
         if r is not None:

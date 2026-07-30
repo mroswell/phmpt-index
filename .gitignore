@@ -52,3 +52,6 @@ amendment-histories/
 FDA-FOIA-2026-6007/new-files/
 # site/ is published as its own standalone repo (build_site.py output target).
 FDA-FOIA-2026-6007/site/
+
+# Redaction-verification scan cache (regenerable via verify_redactions.py)
+data/cache/verify_redactions/

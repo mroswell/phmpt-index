@@ -1,0 +1,9343 @@
+{
+ "summary": {
+  "overlap_pdfs": 5955,
+  "scanned": 5858,
+  "not_downloaded": 0,
+  "documents_that_differ": 573,
+  "confirmed_real": 557,
+  "ocr_rechecked": 55,
+  "trove_redacts_more": 555,
+  "phmpt_redacts_more": 18,
+  "net_marker_delta_trove_minus_phmpt": {
+   "(b)(4)": 31257,
+   "(b)(6)": 15968,
+   "(b)(1)": 2,
+   "(b)(7)()": 1,
+   "(b)(7)(C)": -1
+  }
+ },
+ "diffs": [
+  {
+   "filename": "125752_S10_M1_cover-0010.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S10_M5_CRF_mrna-1273-p301-us3452232.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 10423,
+    "(b)(6)": 4981
+   },
+   "phmpt": {
+    "(b)(4)": 10425,
+    "(b)(6)": 4983
+   },
+   "delta": {
+    "(b)(4)": -2,
+    "(b)(6)": -2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2363
+  },
+  {
+   "filename": "125752_S10_M5_CRF_mrna-1273-p301-us3522299.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 6331,
+    "(b)(6)": 2927
+   },
+   "phmpt": {
+    "(b)(4)": 6328,
+    "(b)(6)": 2924
+   },
+   "delta": {
+    "(b)(4)": 3,
+    "(b)(6)": 3
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2416
+  },
+  {
+   "filename": "125752_S11_M1_cover-0011.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S12_M1_cover-0012.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S13_M1_cover-0013.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S14_M1_cover-0014.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 6,
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(4)": 6,
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S15_M1_cover-0015.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S15_M1_loa-bla-0700-acc.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S16_M1_cover-0016.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S17_M1_cover-0017.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S18_M1_cover-0018.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S19_M1_cover-0019.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S1_M1_cover-0001.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S20_M1_cover-0020_.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S20_M1_thera-area-user-guide-for-vaccines.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 108
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 108
+   },
+   "status": "confirmed",
+   "trove_pages": 22
+  },
+  {
+   "filename": "125752_S21_M1_cover-0021.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S22_M1_cover-0022.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S23_M1_cover-0023.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S24_M1_cover-0024.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S25_M1_cover-0025.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S25_M1_rsp-to-discu-pnts-moderna-fda-inspectn-25-29oct2021-norwood.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 59,
+    "(b)(4)": 122
+   },
+   "phmpt": {
+    "(b)(6)": 45,
+    "(b)(4)": 122
+   },
+   "delta": {
+    "(b)(6)": 14
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 52
+  },
+  {
+   "filename": "125752_S26_M1_cover-0026.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S27_M1_cover-0027.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S28_M1_cover-0028.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S29_M1_cover-0029.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S2_M1_cover-0002.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S30_M1_cover-0030.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S31_M1_cover-0031.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S32_M1_cover-0032.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S33_M1_cover-0033.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S34_M1_cover-0034.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S35_M1_cover-0035.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S36_M1_cover-0036.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S37_M1_cover-0037.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S38_M1_cover-0038.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S39_M1_cover-0039.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S3_M1_agreed-ipsp-fda-agreement.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S3_M1_cover-0003.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 14
+  },
+  {
+   "filename": "125752_S3_M5_5351_1273p201-16-1-1.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 382
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3032112.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 4312,
+    "(b)(6)": 1284
+   },
+   "phmpt": {
+    "(b)(4)": 4395,
+    "(b)(6)": 1287
+   },
+   "delta": {
+    "(b)(4)": -83,
+    "(b)(6)": -3
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2128
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3032242.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 5200,
+    "(b)(6)": 1470
+   },
+   "phmpt": {
+    "(b)(4)": 5341,
+    "(b)(6)": 1489
+   },
+   "delta": {
+    "(b)(4)": -141,
+    "(b)(6)": -19
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2322
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3032277.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 4103,
+    "(b)(6)": 1336
+   },
+   "phmpt": {
+    "(b)(4)": 4334,
+    "(b)(6)": 1369
+   },
+   "delta": {
+    "(b)(4)": -231,
+    "(b)(6)": -33
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 1129
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3042047.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 11052,
+    "(b)(6)": 6466
+   },
+   "phmpt": {
+    "(b)(4)": 12144,
+    "(b)(6)": 6476
+   },
+   "delta": {
+    "(b)(4)": -1092,
+    "(b)(6)": -10
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2912
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3042241.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 13336,
+    "(b)(6)": 6099
+   },
+   "phmpt": {
+    "(b)(4)": 13335,
+    "(b)(6)": 6097
+   },
+   "delta": {
+    "(b)(4)": 1,
+    "(b)(6)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3276
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3042309.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8939,
+    "(b)(6)": 3678
+   },
+   "phmpt": {
+    "(b)(4)": 8939,
+    "(b)(6)": 3676
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2781
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3102061.pdf",
+   "category": "Moderna BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 4543,
+    "(b)(6)": 2006
+   },
+   "phmpt": {
+    "(b)(4)": 1751,
+    "(b)(6)": 1230
+   },
+   "delta": {
+    "(b)(4)": 2792,
+    "(b)(6)": 776
+   },
+   "status": "confirmed",
+   "trove_pages": 2397
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3102082.pdf",
+   "category": "Moderna BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 4188,
+    "(b)(6)": 1731
+   },
+   "phmpt": {
+    "(b)(4)": 913,
+    "(b)(6)": 535
+   },
+   "delta": {
+    "(b)(4)": 3275,
+    "(b)(6)": 1196
+   },
+   "status": "confirmed",
+   "trove_pages": 2174
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3102283.pdf",
+   "category": "Moderna BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 15466,
+    "(b)(6)": 5031
+   },
+   "phmpt": {
+    "(b)(4)": 3105,
+    "(b)(6)": 1504
+   },
+   "delta": {
+    "(b)(4)": 12361,
+    "(b)(6)": 3527
+   },
+   "status": "confirmed",
+   "trove_pages": 4440
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3112266.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 5960,
+    "(b)(6)": 2685
+   },
+   "phmpt": {
+    "(b)(4)": 5959,
+    "(b)(6)": 2684
+   },
+   "delta": {
+    "(b)(4)": 1,
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2211
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3132037.pdf",
+   "category": "Moderna BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 15766,
+    "(b)(6)": 5251
+   },
+   "phmpt": {
+    "(b)(4)": 2724,
+    "(b)(6)": 683
+   },
+   "delta": {
+    "(b)(4)": 13042,
+    "(b)(6)": 4568
+   },
+   "status": "confirmed",
+   "trove_pages": 3985
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3152025.pdf",
+   "category": "Moderna BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8727,
+    "(b)(6)": 3646
+   },
+   "phmpt": {
+    "(b)(4)": 3722,
+    "(b)(6)": 1283
+   },
+   "delta": {
+    "(b)(4)": 5005,
+    "(b)(6)": 2363
+   },
+   "status": "confirmed",
+   "trove_pages": 2794
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3162078.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8509,
+    "(b)(6)": 3302
+   },
+   "phmpt": {
+    "(b)(4)": 9943,
+    "(b)(6)": 3279
+   },
+   "delta": {
+    "(b)(4)": -1434,
+    "(b)(6)": 23
+   },
+   "status": "confirmed",
+   "trove_pages": 2923
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3202049.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8696,
+    "(b)(6)": 3273
+   },
+   "phmpt": {
+    "(b)(4)": 9337,
+    "(b)(6)": 3432
+   },
+   "delta": {
+    "(b)(4)": -641,
+    "(b)(6)": -159
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3307
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3202395.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 5339,
+    "(b)(6)": 2000
+   },
+   "phmpt": {
+    "(b)(4)": 5339,
+    "(b)(6)": 1997
+   },
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2695
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3212004.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8018,
+    "(b)(6)": 3007
+   },
+   "phmpt": {
+    "(b)(4)": 8016,
+    "(b)(6)": 3005
+   },
+   "delta": {
+    "(b)(4)": 2,
+    "(b)(6)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3189
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3212066.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 10601,
+    "(b)(6)": 2911
+   },
+   "phmpt": {
+    "(b)(4)": 10633,
+    "(b)(6)": 2911
+   },
+   "delta": {
+    "(b)(4)": -32
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3151
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3212100.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 5658,
+    "(b)(6)": 1423
+   },
+   "phmpt": {
+    "(b)(4)": 5666,
+    "(b)(6)": 1421
+   },
+   "delta": {
+    "(b)(4)": -8,
+    "(b)(6)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2540
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3212112.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 15373,
+    "(b)(6)": 10013
+   },
+   "phmpt": {
+    "(b)(4)": 16756,
+    "(b)(6)": 11392
+   },
+   "delta": {
+    "(b)(4)": -1383,
+    "(b)(6)": -1379
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 4997
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3212181.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 3040,
+    "(b)(6)": 1163
+   },
+   "phmpt": {
+    "(b)(4)": 3042,
+    "(b)(6)": 1162
+   },
+   "delta": {
+    "(b)(4)": -2,
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2064
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3212250.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 5888,
+    "(b)(6)": 2102
+   },
+   "phmpt": {
+    "(b)(4)": 5889,
+    "(b)(6)": 2102
+   },
+   "delta": {
+    "(b)(4)": -1
+   },
+   "status": "confirmed",
+   "trove_pages": 2846
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3242102.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 6120,
+    "(b)(6)": 3448
+   },
+   "phmpt": {
+    "(b)(4)": 6123,
+    "(b)(6)": 3450
+   },
+   "delta": {
+    "(b)(4)": -3,
+    "(b)(6)": -2
+   },
+   "status": "confirmed",
+   "trove_pages": 2313
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3252020.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 5907,
+    "(b)(6)": 2581
+   },
+   "phmpt": {
+    "(b)(4)": 5941,
+    "(b)(6)": 2590
+   },
+   "delta": {
+    "(b)(4)": -34,
+    "(b)(6)": -9
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2281
+  },
+  {
+   "filename": "125752_S3_M5_CRF_mrna-1273-p301-us3252075.pdf",
+   "category": "Moderna BLA",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 7660,
+    "(b)(6)": 3583
+   },
+   "phmpt": {
+    "(b)(4)": 7753,
+    "(b)(6)": 3720
+   },
+   "delta": {
+    "(b)(4)": -93,
+    "(b)(6)": -137
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2460
+  },
+  {
+   "filename": "125752_S40_M1_cover-0040.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S43_M1_rsp-fda-cmts-ir41-23dec2021.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4,
+    "(b)(4)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125752_S44_M1_cover-0044.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S45_M1_cover-0045.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S46_M1_cover-0046.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S47_M1_cover-0047.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S48_M1_cover-0048.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S49_M1_cover-0049.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S4_M1_cover-0004.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S5007_M1_11511_req-adv-comm-launch-consumer-promot-labelling.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S5007_M1_115214_annotated-ref-1-spikevax-pi.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 18
+  },
+  {
+   "filename": "125752_S5008_M1_11511_req-adv-comm-launch-profess-promot-labelling.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S5008_M1_115214_annotated-ref-2-spikevax-pi.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 18
+  },
+  {
+   "filename": "125752_S50_M1_cover-0050.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S50_M1_mtng-mins-fda-tc-lots-20jan2022.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8,
+    "(b)(4)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 2,
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S51_M1_cover-0051.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S52_M1_cover-0052.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S53_M1_12_cover-0053.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(6)": 5
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S55_M1_12_cover-0055.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(6)": 5
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S57_M1_12_cover-0057.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 6
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125752_S5_M1_cover-0005.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S6_M1_cover-0006.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S7_M1_cover-0007.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S8_M1_cover-0008.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125752_S9_M1_cover-0009.pdf",
+   "category": "Moderna BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "100_BLA 125742-0_08-20-2021_Memo_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 11,
+    "(b)(5)": 3,
+    "(b)(7)(E)": 3,
+    "(b)(4)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 6,
+    "(b)(5)": 3,
+    "(b)(7)(E)": 3
+   },
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "100A_BLA 125742-0_08-20-2021_Memo_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 10,
+    "(b)(5)": 3,
+    "(b)(7)(E)": 3,
+    "(b)(4)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 6,
+    "(b)(5)": 3,
+    "(b)(7)(E)": 3
+   },
+   "delta": {
+    "(b)(6)": 10
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "102_1_BLA 125742-0_08-20-2021_Memo_Test Results.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 20,
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 20
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "102_BLA 125752-0_01-28-2022_Memo_Compliance Check Acce.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 16
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 16
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "102A_BLA 125752-0_01-28-2022_Memo_Compliance Check Acce.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 19
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "102D_BLA 125752-0_01-28-2022_Memo_Compliance Check Acce.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 9,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 9
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "103_2_BLA 125742-0_08-20-2021_Memo_Test Results.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 15,
+    "(b)(6)": 13
+   },
+   "phmpt": {
+    "(b)(4)": 15
+   },
+   "delta": {
+    "(b)(6)": 13
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "103_BLA 125752-0_01-28-2022_Memo_Request For Complianc.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "103A_BLA 125752-0_01-28-2022_Memo_Request For Complianc.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 19
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "103D_BLA 125752-0_01-28-2022_Memo_Request For Complianc.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 9,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 9
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "104_BLA 125742-0_08-20-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "104A_BLA 125742-0_08-20-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "104B_BLA 125742-0_08-20-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "105_BLA 125742-0_08-20-2021_Telecon_Advice_Information.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 17,
+    "(b)(4)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 17
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "105_BLA 125752-0_01-28-2022_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "106_2_BLA 125742-0_08-20-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "107_1_BLA 125742-0_08-20-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 28
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 28
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "107_BLA 125752-0_01-31-2022_Inspection Related_Inspect.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 8,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 8
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "107A_1_BLA 125742-0_08-20-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "108_BLA 125742-0_08-21-2021_Inspection Related_Inspect.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 894,
+    "(b)(6)": 72,
+    "(b)(5)": 12,
+    "(b)(7)(E)": 12
+   },
+   "phmpt": {
+    "(b)(4)": 896,
+    "(b)(5)": 12,
+    "(b)(7)(E)": 12
+   },
+   "delta": {
+    "(b)(6)": 72,
+    "(b)(4)": -2
+   },
+   "status": "confirmed",
+   "trove_pages": 29
+  },
+  {
+   "filename": "10_BLA 125742-11_12-22-2021_Memo_Committee Memo_CMC.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 27,
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 27
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "10_BLA 125752-0_09-24-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "111_BLA 125742-0_08-21-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 11
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "112_1_BLA 125742-0_08-21-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "112_BLA 125752-0_01-31-2022_Memo_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "112A_1_BLA 125742-0_08-21-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "113_2_BLA 125742-0_08-21-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 13
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 13
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "114_2_BLA 125742-0_08-21-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "115_1_BLA 125742-0_08-21-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "116_BLA 125742-0_08-21-2021_Inspection Related_Establi.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 440,
+    "(b)(4)": 1934,
+    "(b)(7)(C)": 152,
+    "(b)(7)()": 1
+   },
+   "phmpt": {
+    "(b)(4)": 1939,
+    "(b)(7)(C)": 153,
+    "(b)(6)": 152
+   },
+   "delta": {
+    "(b)(7)()": 1,
+    "(b)(6)": 288,
+    "(b)(4)": -5,
+    "(b)(7)(C)": -1
+   },
+   "status": "confirmed",
+   "trove_pages": 86
+  },
+  {
+   "filename": "117_2_BLA 125742-0_08-22-2021_Inspection Related_Inspect.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "118_1_BLA 125742-0_08-22-2021_Inspection Related_Inspect.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 3,
+    "(b)(5)": 2,
+    "(b)(7)(E)": 2,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 3,
+    "(b)(5)": 2,
+    "(b)(7)(E)": 2
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "11_BLA 125742-0_06-29-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "11_PM_S136_BLA 125742-31_10-30-2021_Memo_Final Review Memo.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(4)": -1,
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "122_BLA 125742-0_08-22-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "124_BLA 125742-0_08-23-2021_Memo_Committee Memo_SBRA.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 150,
+    "(b)(4)": 31
+   },
+   "phmpt": {
+    "(b)(4)": 31
+   },
+   "delta": {
+    "(b)(6)": 150
+   },
+   "status": "confirmed",
+   "trove_pages": 31
+  },
+  {
+   "filename": "125_BLA 125742-0_08-23-2021_Memo_Committee Memo_Toxico.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5,
+    "(b)(4)": 21
+   },
+   "phmpt": {
+    "(b)(4)": 21
+   },
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 124
+  },
+  {
+   "filename": "126_BLA 125742-0_08-23-2021_Memo_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "129_BLA 125742-0_08-30-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 42
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 42
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "12_BLA 125742-0_07-01-2021_Memo_Filing Checklist_RPM.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(2)": 4,
+    "(b)(6)": 32
+   },
+   "phmpt": {
+    "(b)(2)": 4
+   },
+   "delta": {
+    "(b)(6)": 32
+   },
+   "status": "confirmed",
+   "trove_pages": 18
+  },
+  {
+   "filename": "12_BLA 125752-0_09-27-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 32,
+    "(b)(6)": 113
+   },
+   "phmpt": {
+    "(b)(4)": 32,
+    "(b)(6)": 20
+   },
+   "delta": {
+    "(b)(6)": 93
+   },
+   "status": "confirmed",
+   "trove_pages": 11
+  },
+  {
+   "filename": "13_BLA 125752-0_09-27-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 584,
+    "(b)(4)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 8,
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(4)": -6,
+    "(b)(6)": 582
+   },
+   "status": "confirmed",
+   "trove_pages": 9
+  },
+  {
+   "filename": "14_BLA 125742-0_07-02-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 19
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "15_BLA 125742-0_07-02-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 41,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 41
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "15_BLA 125752-0_09-28-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6,
+    "(b)(4)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 6
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "16_BLA 125742-0_07-06-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "16_BLA 125752-0_09-30-2021_Memo_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "17_BLA 125742-0_07-06-2021_Telecon_Advice_PNR Accepta (2).pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "17_BLA 125752-0_10-05-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 13,
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 13
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "18_BLA 125742-0_07-09-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 6,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 6
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "18_BLA 125752-0_10-06-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 19,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 19
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "19_2_BLA 125742-0_07-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "19_BLA 125752-0_10-14-2021_Letter_Filing Notification.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 16
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 16
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "1_BLA 125742-0_05-13-2021_Letter_Acknowledgement Let.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "1_BLA 125752-0_06-09-2021_Letter_Acknowledgement Let.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "1_PM_S85_BLA 125742-4_09-30-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "20_1_BLA 125742-0_07-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "20_BLA 125752-0_10-14-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 5,
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 5
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "21_BLA 125742-0_07-15-2021_Letter_Filing Notification.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 22
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 22
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "21_BLA 125752-0_10-14-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "21A_BLA 125752-0_10-14-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 34
+   },
+   "phmpt": {
+    "(b)(6)": 3
+   },
+   "delta": {
+    "(b)(6)": 31
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "22_BLA 125742-0_07-15-2021_Meeting Summary_Committee .pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 65,
+    "(b)(4)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 65
+   },
+   "status": "confirmed",
+   "trove_pages": 9
+  },
+  {
+   "filename": "22_BLA 125752-0_10-15-2021_Letter_PNR Acceptance.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 27
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 27
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "23_1_BLA 125742-0_07-15-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 17
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 17
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "24_2_BLA 125742-0_07-15-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "24_BLA 125752-0_10-20-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 7,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 7
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "25_1_BLA 125742-0_07-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "25_BLA 125752-0_10-21-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 3,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 3
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "26_2_BLA 125742-0_07-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8,
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(4)": 8
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "26_BLA 125752-0_10-22-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 19
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 3
+  },
+  {
+   "filename": "27_BLA 125742-0_07-19-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "27_BLA 125752-0_10-22-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 32,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 32
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "28_BLA 125752-0_10-26-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 22
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 22
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "29_BLA 125742-0_07-20-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "2_BLA 125752-0_08-20-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "2_PM_S89_BLA 12572-5_09-10-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "30_BLA 125742-0_07-22-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "30_BLA 125752-0_10-29-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 27
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 26
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 637
+  },
+  {
+   "filename": "30A_BLA 125742-0_07-22-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 17
+  },
+  {
+   "filename": "30C_BLA 125752-0_10-29-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 14
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 13
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "30D_BLA 125752-0_10-29-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 14
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 13
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "31_2_BLA 125742-0_07-26-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "31_BLA 125752-0_11-01-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 8
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "32_1_BLA 125742-0_07-26-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 53,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 53
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "32_BLA 125752-0_11-01-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "33_1_BLA 125742-0_07-27-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "33_BLA 125752-0_11-03-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "34_2_BLA 125742-0_07-27-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 19
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "34_BLA 125752-0_11-03-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "35_BLA 125742-0_07-28-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "35_BLA 125752-0_11-05-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "36_BLA 125742-0_07-28-2021_Telecon_Labeling Target Cl.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "36_BLA 125752-0_11-05-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "37_BLA 125742-0_07-29-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "37_BLA 125752-0_11-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 14,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 14
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "38_1_BLA 125742-0_08-02-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 38,
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(4)": 38
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "38_BLA 125752-0_11-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "39_2_BLA 125742-0_08-02-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 21,
+    "(b)(6)": 14
+   },
+   "phmpt": {
+    "(b)(4)": 21
+   },
+   "delta": {
+    "(b)(6)": 14
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "39_BLA 125752-0_11-12-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 2
+  },
+  {
+   "filename": "3_BLA 125742-0_05-20-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 3,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 3
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "3_BLA 125752-0_09-09-2021_Meeting Summary_Committee .pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 73
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 73
+   },
+   "status": "confirmed",
+   "trove_pages": 11
+  },
+  {
+   "filename": "3_PM_S89_BLA 125742-5_09-21-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "40_2_BLA 125742-0_08-03-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 24,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 24
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "40_BLA 125752-0_11-15-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 20
+  },
+  {
+   "filename": "41_1_BLA 125742-0_08-03-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "42_1_BLA 125742-0_08-04-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9,
+    "(b)(4)": 20
+   },
+   "phmpt": {
+    "(b)(4)": 20
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "42_BLA 125752-0_11-19-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "43_2_BLA 125742-0_08-04-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 18,
+    "(b)(4)": 18
+   },
+   "phmpt": {
+    "(b)(4)": 18
+   },
+   "delta": {
+    "(b)(6)": 18
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "43_BLA 125752-0_11-19-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "43A_STN 125742.0 4AUG21 LRP FU IR 2 (1).pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1,
+    "(b)(4)": 12
+   },
+   "phmpt": {
+    "(b)(4)": 12
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "44_3_BLA 125742-0_08-04-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 7,
+    "(b)(6)": 10
+   },
+   "phmpt": {
+    "(b)(4)": 7
+   },
+   "delta": {
+    "(b)(6)": 10
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "44_BLA 125752-0_11-24-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 11
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "45_BLA 125742-0_08-05-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "45_BLA 125752-0_11-29-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "46_2_BLA 125742-0_08-05-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 39,
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(4)": 39
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 5
+  },
+  {
+   "filename": "46_BLA 125752-0_11-29-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 29,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 29
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "47_1_BLA 125742-0_08-05-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "47_BLA 125752-0_12-01-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 8,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 8
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "48_BLA 125742-0_08-05-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "48_BLA 125752-0_12-06-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "48A_BLA 125752-0_12-06-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "49_BLA 125742-0_08-06-2021_Letter_UNII Code Notificat.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "49_BLA 125752-0_12-06-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "4_BLA 125752-0_09-14-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "4_PM_S89_BLA 125742-5_09-22-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 10
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "50_BLA 125752-0_12-07-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7,
+    "(b)(4)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 7
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "52_1_BLA 125742-0_08-06-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 11,
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(4)": 11
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "52_BLA 125752-0_12-09-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 16,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 16
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "53_2_BLA 125742-0_08-06-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 25,
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(4)": 25
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "53_BLA 125752-0_12-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "54_BLA 125742-0_08-09-2021_Inspection Related_Inspect.pdf.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 21,
+    "(b)(6)": 20
+   },
+   "phmpt": {
+    "(b)(4)": 21
+   },
+   "delta": {
+    "(b)(6)": 20
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "54_BLA 125752-0_12-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 2
+  },
+  {
+   "filename": "55_BLA 125742-0_08-09-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 28,
+    "(b)(4)": 20
+   },
+   "phmpt": {
+    "(b)(4)": 20,
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 27
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "55_BLA 125752-0_12-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "56_BLA 125742-0_08-09-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "56_BLA 125752-0_12-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "57_BLA 125742-0_08-09-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "57_BLA 125752-0_12-14-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "58_2_BLA 125742-0_08-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 1,
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "59_1_BLA 125742-0_08-10-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "59_BLA 125752-0_12-15-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4,
+    "(b)(4)": 3
+   },
+   "phmpt": {
+    "(b)(6)": 3,
+    "(b)(4)": 3
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "5_BLA 125742-0_06-08-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "5_BLA 125752-0_09-17-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "5_PM_S102_1_BLA 125742-8_09-21-2021_Memo_600.81 Lot Distributi.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "60_BLA 125742-0_08-11-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "61_BLA 125742-0_08-11-2021_Telecon_Other (1).pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5,
+    "(b)(4)": 2
+   },
+   "phmpt": {
+    "(b)(6)": 2,
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "61_BLA 125752-0_12-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "62_BLA 125742-0_08-12-2021_Memo_Committee Memo_Requir.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 34,
+    "(b)(6)": 6,
+    "(b)(7)(E)": 1,
+    "(b)(5)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 34,
+    "(b)(7)(E)": 1,
+    "(b)(5)": 1
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "62_BLA 125752-0_12-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 39,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 39
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "63_BLA 125742-0_08-12-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 9,
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 9,
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "63_BLA 125752-0_12-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 17,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 17
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "64_BLA 125752-0_12-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "65_BLA 125742-0_08-13-2021_Memo_Request For Complianc.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 11,
+    "(b)(4)": 17
+   },
+   "phmpt": {
+    "(b)(4)": 17
+   },
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "65_BLA 125752-0_12-17-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "66_4_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 10,
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(4)": 10
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "66_BLA 125752-0_12-21-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "67_3_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 23
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 23
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "67_BLA 125752-0_12-23-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "68_5_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "68_BLA 125752-0_12-23-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 10
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 10
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "68A_5_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 22,
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 22
+   },
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "68B_5_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 22,
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 22
+   },
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "69_1_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "6_BLA 125742-0_06-09-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "6_BLA 125752-0_09-21-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 11
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "6_PM_S102_2_BLA 125742-8_09-21-2021_Memo_600.81 Lot Distributi.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "70_2_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "70_BLA 125752-0_12-28-2021_Inspection Related_Inspect.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 30
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 30
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "71_6_BLA 125742-0_08-13-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "72_BLA 125742-0_08-13-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "73_2_BLA 125742-0_08-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "73_BLA 125752-0_01-04-2022_Memo_Test Results.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9,
+    "(b)(4)": 22
+   },
+   "phmpt": {
+    "(b)(4)": 22
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "74_3_BLA 125742-0_08-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "74_BLA 125752-0_01-05-2022_Memo_Committee Memo_Labeli.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 15
+  },
+  {
+   "filename": "75_1_BLA 125742-0_08-16-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 6,
+    "(b)(6)": 11
+   },
+   "phmpt": {
+    "(b)(4)": 6,
+    "(b)(6)": 6
+   },
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "75_BLA 125752-0_01-05-2022_Memo_Lot Release Clearance.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 16
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 16
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 3
+  },
+  {
+   "filename": "76_BLA 125742-0_08-16-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "76_BLA 125752-0_01-07-2022_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "78_BLA 125752-0_01-11-2022_Memo_Committee Memo_Review.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 13
+  },
+  {
+   "filename": "79_3_BLA 125742-0_08-17-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "79_BLA 125752-0_01-11-2022_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "7_BLA 125752-0_09-22-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "7_PM_S102_BLA 125742-8_09-29-2021_Letter_Waiver Request.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "80_2_BLA 125742-0_08-17-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "80_BLA 125752-0_01-12-2022_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "81_1_BLA 125742-0_08-17-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 11,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 11
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "82_BLA 125742-0_08-17-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "83_BLA 125742-0_08-17-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 16,
+    "(b)(4)": 83
+   },
+   "phmpt": {
+    "(b)(4)": 83,
+    "(b)(6)": 14
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "84_BLA 125742-0_08-18-2021_Memo_Committee Memo_Review.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 15,
+    "(b)(4)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 15
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "84_BLA 125752-0_01-13-2022_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "85_BLA 125752-0_01-14-2022_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 4,
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(4)": 4
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "86_BLA 125742-0_08-18-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 34,
+    "(b)(6)": 20
+   },
+   "phmpt": {
+    "(b)(4)": 34,
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "87_3_BLA 125742-0_08-18-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 1,
+    "(b)(6)": 19
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "87_BLA 125752-0_01-18-2022_Memo_Test Results.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 47,
+    "(b)(6)": 14
+   },
+   "phmpt": {
+    "(b)(4)": 47
+   },
+   "delta": {
+    "(b)(6)": 14
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "88_2_BLA 125742-0_08-18-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "89_1_BLA 125742-0_08-18-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 11,
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(4)": 11
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "89_BLA 125752-0_01-20-2022_Memo_Committee Memo_Review.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 16
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 16
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "8_1_BLA 125742-0_06-25-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 9,
+    "(b)(6)": 12
+   },
+   "phmpt": {
+    "(b)(4)": 9
+   },
+   "delta": {
+    "(b)(6)": 12
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "8_BLA 125752-0_09-23-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "8_PM_S102_BLA 125742-8_09-29-2021_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "90_1_BLA 125742-0_08-18-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "90_BLA 125752-0_01-20-2022_Telecon_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "91_2_BLA 125742-0_08-18-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "92_BLA 125742-0_08-19-2021_Inspection Related_Inspect.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 341,
+    "(b)(4)": 2256,
+    "(b)(7)(C)": 149
+   },
+   "phmpt": {
+    "(b)(4)": 2259,
+    "(b)(6)": 150,
+    "(b)(7)(C)": 149
+   },
+   "delta": {
+    "(b)(6)": 191,
+    "(b)(4)": -3
+   },
+   "status": "confirmed",
+   "trove_pages": 79
+  },
+  {
+   "filename": "92_BLA 125752-0_01-24-2022_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "93_BLA 125752-0_01-26-2022_Inspection Related_Inspect.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": true,
+   "trove": {
+    "(b)(5)": 10,
+    "(b)(7)(E)": 10,
+    "(b)(6)": 21,
+    "(b)(4)": 58
+   },
+   "phmpt": {
+    "(b)(4)": 58,
+    "(b)(5)": 10,
+    "(b)(7)(E)": 10
+   },
+   "delta": {
+    "(b)(6)": 21
+   },
+   "status": "confirmed",
+   "trove_pages": 7
+  },
+  {
+   "filename": "94_BLA 125752-0_01-26-2022_Memo_Other.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(1)": 2,
+    "(b)(6)": 9,
+    "(b)(2)": 1
+   },
+   "phmpt": {
+    "(b)(1)": 2,
+    "(b)(2)": 1
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "95_BLA 125742-0_08-19-2021_Memo_Compliance Check Acce.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(4)": 39,
+    "(b)(6)": 26
+   },
+   "phmpt": {
+    "(b)(4)": 39
+   },
+   "delta": {
+    "(b)(6)": 26
+   },
+   "status": "confirmed",
+   "trove_pages": 7
+  },
+  {
+   "filename": "95_BLA 125752-0_01-26-2022_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "96_2_BLA 125742-0_08-19-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "97_1_BLA 125742-0_08-19-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 19
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "98_BLA 125742-0_08-19-2021_Telecon_Labeling via FAX_e.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "9_2_BLA 125742-0_06-25-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "9_BLA 125752-0_09-23-2021_Telecon_Information Reques.pdf",
+   "category": "Other",
+   "module": "M5",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "9_PM_S105_BLA 125742-9_09-20-2021_Telecon_Advice.pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 10
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "IND 019736_S434_IND 19736_09-24-2021_Telecon .pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "IND 019736_S434_IND 19736_11-12-2021_Telecon .pdf",
+   "category": "Other",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 30
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 28
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125742-45_01-05-2022_Letter_Acknowledgement Le.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_01-06-2022_Meeting Summary_First Com.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 117
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 117
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742-45_01-19-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 24
+   },
+   "phmpt": {
+    "(b)(6)": 4
+   },
+   "delta": {
+    "(b)(6)": 20
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125742-45_01-25-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 14,
+    "(b)(4)": 1
+   },
+   "phmpt": {
+    "(b)(6)": 2,
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 12
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_01-31-2022_Meeting Summary_Filing Me.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 38
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 38
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742-45_02-07-2022_Memo_Filing Checklist_RPM.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(2)": 2,
+    "(b)(6)": 28
+   },
+   "phmpt": {
+    "(b)(2)": 2,
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 26
+   },
+   "status": "confirmed",
+   "trove_pages": 17
+  },
+  {
+   "filename": "125742-45_02-07-2022_Memo_Filing Checklist_RPM_A.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 18
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 18
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742-45_02-09-2022_Letter_Filing Notificatio.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 28
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 28
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125742-45_02-23-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 12
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 10
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_03-02-2022_Meeting Summary_Committee.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 74
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 74
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742-45_03-07-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 14
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 12
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_03-14-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 13
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_04-07-2022_Meeting Summary_Mid-Cycle.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 57
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 57
+   },
+   "status": "confirmed",
+   "trove_pages": 9
+  },
+  {
+   "filename": "125742-45_04-08-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 13,
+    "(b)(4)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 3,
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742-45_04-20-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 12
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 10
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_04-20-2022_Telecon_Labeling Target C.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 14
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 12
+   },
+   "status": "confirmed",
+   "trove_pages": 27
+  },
+  {
+   "filename": "125742-45_04-22-2022_Memo_Committee Memo_Consu.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742-45_04-22-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 12
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 10
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_04-26-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 26
+   },
+   "phmpt": {
+    "(b)(6)": 6
+   },
+   "delta": {
+    "(b)(6)": 20
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_05-02-2022_Memo_Committee Memo_CMC.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 22,
+    "(b)(4)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 3
+   },
+   "delta": {
+    "(b)(6)": 22
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742-45_05-04-2022_Telecon_Information Reque.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 13
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_05-06-2022_Meeting Summary_Committee.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 27,
+    "(b)(5)": 2
+   },
+   "phmpt": {
+    "(b)(5)": 2
+   },
+   "delta": {
+    "(b)(6)": 27
+   },
+   "status": "confirmed",
+   "trove_pages": 7
+  },
+  {
+   "filename": "125742-45_05-10-2022_Telecon_Labeling via FAX.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 13
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 29
+  },
+  {
+   "filename": "125742-45_05-11-2022_Memo_Lot Release Clearanc.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 11
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742-45_05-13-2022_Memo_Lot Release Clearanc.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 13
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 13
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_05-19-2022_Memo_Committee Memo_Postm.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742-45_06-13-2022_Telecon_Covid 19 Delay.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 11
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 10
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_06-27-2022_Memo_Request For Complian.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 9
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_06-29-2022_Telecon_Labeling via FAX.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 15
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 13
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_07-01-2022_Memo_Compliance Check Acc.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": true,
+   "trove": {
+    "(b)(6)": 19
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 19
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125742-45_08-02-2022_Memo_Committee Memo_Label.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_08-02-2022_Memo_Committee Memo_Revie.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 29
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 29
+   },
+   "status": "unconfirmed-ocr",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125742-45_S211_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "125742-45_S244_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S252_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S252_M1_response-19jan2022.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "125742-45_S267_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S267_M1_response-23feb2022.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742-45_S271_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S271_M1_response-07mar2022.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "125742-45_S273_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S273_M1_req-comments-advice-sbla.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "125742-45_S276_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S279_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S312_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 10
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 8
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S314_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 9
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S316_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S321_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S321_M1_response-04may2022.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "125742-45_S328_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 8
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742-45_S364_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S102_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S105_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S105_M1_req-comments-advice-bpdr.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S10_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S111_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {
+    "(b)(6)": 2
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S112_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 3,
+    "(b)(6)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 3
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S113_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S11_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 7,
+    "(b)(4)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 7
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S11_M1_response-25jun2021-cmc.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 36,
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 45
+   },
+   "delta": {
+    "(b)(4)": -9,
+    "(b)(6)": 3
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 16
+  },
+  {
+   "filename": "125742_S12_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S13_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S14_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S15_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S15_M3_32r_comirnaty-lot-release-16jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M3",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1,
+    "(b)(4)": 12
+   },
+   "phmpt": {
+    "(b)(4)": 12
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742_S16_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S16_M1_response-15jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "125742_S17_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S18_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S18_M1_response-22jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 10
+  },
+  {
+   "filename": "125742_S19_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S1_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742_S1_M1_fast-track-designation.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S1_M1_ipsp-agreed-letter.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S1_M1_meeting-correspondence.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 184,
+    "(b)(4)": 599,
+    "(b)(2)": 5
+   },
+   "phmpt": {
+    "(b)(4)": 599,
+    "(b)(6)": 15,
+    "(b)(2)": 5
+   },
+   "delta": {
+    "(b)(6)": 169
+   },
+   "status": "confirmed",
+   "trove_pages": 636
+  },
+  {
+   "filename": "125742_S1_M4_20256434.pdf",
+   "category": "Pfizer BLA",
+   "module": "M4",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 23,
+    "(b)(6)": 74
+   },
+   "phmpt": {
+    "(b)(6)": 72,
+    "(b)(4)": 23
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 1145
+  },
+  {
+   "filename": "125742_S20_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S20_M1_response-22jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 7
+  },
+  {
+   "filename": "125742_S21_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S22_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 4
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S23_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S23_M1_response-26jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742_S24_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S24_M1_response-27jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 11
+  },
+  {
+   "filename": "125742_S25_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S26_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S26_M1_fda-bnt-cl.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {
+    "(b)(6)": 5
+   },
+   "delta": {
+    "(b)(6)": -3
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S27_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S27_M1_response-29jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 7
+  },
+  {
+   "filename": "125742_S28_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S28_M1_response-22jul2021-followup.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742_S29_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S2_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-011321-vials.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-011793-vials.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-011820-vials.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-012683-vials.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-031786-vials.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-10953-stopper.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-15209-vials.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S2_M1_loa-dmf-9543-vials.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S2_M3_32r_reg-info-lot-release-documentation-package.pdf",
+   "category": "Pfizer BLA",
+   "module": "M3",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 19,
+    "(b)(6)": 4
+   },
+   "phmpt": {
+    "(b)(4)": 19,
+    "(b)(6)": 3
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742_S30_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S30_M1_response-26jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "125742_S31_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S31_M1_response-28jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 17
+  },
+  {
+   "filename": "125742_S32_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(4)": -1,
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S32_M1_response-02aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 40,
+    "(b)(6)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 58
+   },
+   "delta": {
+    "(b)(4)": -18,
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 10
+  },
+  {
+   "filename": "125742_S33_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S33_M1_response-22jul-03aug.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742_S34_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S35_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S36_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S36_M1_response-02aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 39,
+    "(b)(6)": 6
+   },
+   "phmpt": {
+    "(b)(4)": 39
+   },
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 8
+  },
+  {
+   "filename": "125742_S37_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S38_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S38_M1_response-22jul2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "125742_S39_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S3_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S40_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S41_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S42_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S42_M3_32r_comirnaty-lot-release-template.pdf",
+   "category": "Pfizer BLA",
+   "module": "M3",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1,
+    "(b)(4)": 21
+   },
+   "phmpt": {
+    "(b)(4)": 21
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 12
+  },
+  {
+   "filename": "125742_S43_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 1,
+    "(b)(6)": 5
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S44_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S45_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S45_M1_response-09aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 7
+  },
+  {
+   "filename": "125742_S46_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S47_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S48_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 1,
+    "(b)(6)": 4
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S49_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S49_M1_response-13aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 17
+  },
+  {
+   "filename": "125742_S4_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S4_M1_response-18-may-2021-datasets.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125742_S50_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S50_M1_response-13aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 29,
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 29
+   },
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 8
+  },
+  {
+   "filename": "125742_S51_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S52_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S53_M1_356h.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 44,
+    "(b)(4)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 42,
+    "(b)(4)": 7
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 7
+  },
+  {
+   "filename": "125742_S53_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 6
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 6
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S54_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S54_M1_response-16aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "125742_S55_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S56_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 2,
+    "(b)(6)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 2
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S57_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S58_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S59_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S5_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4,
+    "(b)(4)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S60_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 9,
+    "(b)(6)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 9
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S61_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S62_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S63_M1_356h.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 44,
+    "(b)(4)": 7
+   },
+   "phmpt": {
+    "(b)(6)": 42,
+    "(b)(4)": 7
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 7
+  },
+  {
+   "filename": "125742_S63_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S63_M1_response-18aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(4)": 16,
+    "(b)(6)": 2
+   },
+   "phmpt": {
+    "(b)(4)": 16
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S64_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S66_M1_pp-cvv-usa-0357.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(1)": 31,
+    "(b)(6)": 8,
+    "(b)(2)": 1
+   },
+   "phmpt": {
+    "(b)(1)": 29,
+    "(b)(2)": 1
+   },
+   "delta": {
+    "(b)(6)": 8,
+    "(b)(1)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 149
+  },
+  {
+   "filename": "125742_S67_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S67_M1_response-18aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "125742_S68_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S69_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S6_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S70_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S71_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S72_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S73_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S74_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S75_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S75_M1_response-20aug2021.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "125742_S76_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S77_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S78_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S79_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S7_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S80_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S82_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S85_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S88_M1_pp-cvv-usa-0378.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(1)": 2,
+    "(b)(6)": 2
+   },
+   "phmpt": {
+    "(b)(1)": 2
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 8
+  },
+  {
+   "filename": "125742_S89_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S8_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "125742_S9_M1_cover.pdf",
+   "category": "Pfizer BLA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "130_BLA _125742-0_09-01-2021_Committee Memo_Labeling.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 14
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 14
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "77_BLA_125742-0_08-17-2021_Memo_Lot Release Clearance.pdf",
+   "category": "Pfizer BLA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 22
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 22
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "27034_S10_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S11_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S12_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S135_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S135_M1_response-31-mar-2021-508tables.pdf",
+   "category": "Pfizer EUA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 17
+  },
+  {
+   "filename": "27034_S13_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S13_M1_response-2-dec-2020-preg.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "27034_S146_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S146_M1_response-08-apr-2021-cvst.pdf",
+   "category": "Pfizer EUA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 5
+  },
+  {
+   "filename": "27034_S149_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S149_M1_response-25-apr-2021.pdf",
+   "category": "Pfizer EUA",
+   "module": "",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 7
+  },
+  {
+   "filename": "27034_S14_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S155_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S15_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S160_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S161_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S162_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S166_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S168_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S16_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S170_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S17_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S18_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S18_M1_response-4-dec-2020-biostat.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3,
+    "(b)(4)": 1
+   },
+   "phmpt": {
+    "(b)(6)": 1,
+    "(b)(4)": 1
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 11
+  },
+  {
+   "filename": "27034_S19_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S1_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S1_M1_meeting-correspondence-pre-eua-responses.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 68
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 68
+   },
+   "status": "confirmed",
+   "trove_pages": 8
+  },
+  {
+   "filename": "27034_S20_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S21_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S22_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S23_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S23_M1_response-y-dec-2020-act-surv.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "27034_S24_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S24_M1_fact-sheet-recipients-lab-1451-0-7-annotated.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 6
+  },
+  {
+   "filename": "27034_S24_M1_hcp-fact-1450-0-7-pi-lab-1457-0-7-annotated.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 30
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 30
+   },
+   "status": "confirmed",
+   "trove_pages": 30
+  },
+  {
+   "filename": "27034_S25_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S26_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S26_M1_response-10-dec-2020.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "27034_S27_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S28_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 5
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 5
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S2_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S3_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S4_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S5_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S5_M1_response-24-nov-2020.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 12,
+    "(b)(4)": 3
+   },
+   "phmpt": {
+    "(b)(4)": 3,
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 11
+   },
+   "status": "confirmed",
+   "trove_pages": 28
+  },
+  {
+   "filename": "27034_S6_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S7_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S8_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S8_M1_response-27-nov-2020.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 10
+  },
+  {
+   "filename": "27034_S9_M1_cover.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "27034_S9_M1_response-01-dec-2020-stat.pdf",
+   "category": "Pfizer EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2,
+    "(b)(4)": 1
+   },
+   "phmpt": {
+    "(b)(4)": 1,
+    "(b)(6)": 1
+   },
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 4
+  },
+  {
+   "filename": "019736_S157_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S185_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S185_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S196_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S214_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S214_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S222_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S243_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S243_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S268_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S289_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S289_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S31_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S325_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 3
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 3
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S335_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S335_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S366_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S366_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S369_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S369_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 1
+  },
+  {
+   "filename": "019736_S387_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S398_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S408_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S408_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S414_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S434_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S444_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S453_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S453_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S470_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S488_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 4
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 4
+   },
+   "status": "confirmed",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S491_M1_1571.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed-ocr-rescan",
+   "trove_pages": 3
+  },
+  {
+   "filename": "019736_S491_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 1
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 1
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  },
+  {
+   "filename": "019736_S70_M1_cover.pdf",
+   "category": "Pfizer IND/EUA",
+   "module": "M1",
+   "bimo": false,
+   "trove": {
+    "(b)(6)": 2
+   },
+   "phmpt": {},
+   "delta": {
+    "(b)(6)": 2
+   },
+   "status": "confirmed",
+   "trove_pages": 2
+  }
+ ]
+}
