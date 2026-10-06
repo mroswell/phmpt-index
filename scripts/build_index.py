@@ -91,6 +91,23 @@ def save_registry(reg: dict[str, int]) -> None:
     ID_REGISTRY.write_text(json.dumps(reg, separators=(",", ":")))
 
 
+_STUDY_PATTERNS = [
+    re.compile(r"c4591\d{3}", re.I),
+    re.compile(r"bnt162-?\d+", re.I),
+    re.compile(r"mrna-1273-p\d{3}(?:-add\d+)?", re.I),
+    re.compile(r"\bp\d{3}\b", re.I),
+    re.compile(r"bimo", re.I),
+]
+
+
+def study_slug(name: str) -> str:
+    for pat in _STUDY_PATTERNS:
+        m = pat.search(name or "")
+        if m:
+            return m.group(0).lower().replace(" ", "")
+    return "misc"
+
+
 def main() -> None:
     if not TOC.exists():
         raise SystemExit(f"missing {TOC} — run extract_toc.py first")
@@ -110,6 +127,16 @@ def main() -> None:
             url = d.get("ican_url")
             if fname and url and fname not in ican_url_by_fname:
                 ican_url_by_fname[fname] = url
+
+    # Self-hosted R2 links: data/r2_uploads.json (individual gap files keyed by
+    # zip_source||member_name; xpt dataset bundles keyed by company||study).
+    hosted_by_key: dict[str, str] = {}
+    dataset_by_group: dict[str, str] = {}
+    r2_path = DATA / "r2_uploads.json"
+    if r2_path.exists():
+        r2 = json.loads(r2_path.read_text())
+        hosted_by_key = {k: v["public_url"] for k, v in r2.get("individual", {}).items()}
+        dataset_by_group = {k: v["public_url"] for k, v in r2.get("datasets", {}).items()}
 
     registry = load_registry()
     next_id = (max(registry.values()) + 1) if registry else 1
@@ -139,6 +166,12 @@ def main() -> None:
             new_ids += 1
         row_id = registry[reg_key]
 
+        hosted_url = hosted_by_key.get(reg_key)
+        dataset_zip_url = None
+        if extension_of(fname) == "xpt":
+            cslug = "moderna" if (code or "").startswith("md") else "pfizer"
+            dataset_zip_url = dataset_by_group.get(f"{cslug}||{study_slug(row['member_name'])}")
+
         out_rows.append(
             {
                 "id":             row_id,
@@ -159,6 +192,8 @@ def main() -> None:
                 "individual_url": individual.get(fname),
                 # ICAN fallback only when PHMPT has no individual link
                 "ican_url":       None if individual.get(fname) else ican_url_by_fname.get(fname),
+                "hosted_url":     hosted_url,
+                "dataset_zip_url": dataset_zip_url,
             }
         )
 
@@ -229,6 +264,8 @@ def main() -> None:
                     # Orphan rows always have individual_url, so ican_url
                     # is None by definition under our "fallback only" rule.
                     "ican_url":       None,
+                    "hosted_url":     None,
+                    "dataset_zip_url": None,
                 }
             )
             orphan_count += 1

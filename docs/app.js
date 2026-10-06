@@ -88,8 +88,8 @@ function applyFilters() {
     if (company && r.company !== company) return false;
     if (license && r.license !== license) return false;
     if (age && r.age_group !== age) return false;
-    if (individual === "both"  && !(r.zip_source && r.individual_url)) return false;
-    if (individual === "zip"   && !(r.zip_source && !r.individual_url)) return false;
+    if (individual === "both"  && !(r.zip_source && (r.individual_url || r.hosted_url))) return false;
+    if (individual === "zip"   && !(r.zip_source && !(r.individual_url || r.hosted_url))) return false;
     if (individual === "indiv" && !(!r.zip_source && r.individual_url)) return false;
     if (dateFrom && (!r.modified || r.modified.slice(0, 10) < dateFrom)) return false;
     if (dateTo && (!r.modified || r.modified.slice(0, 10) > dateTo)) return false;
@@ -170,12 +170,14 @@ function rowEl(r) {
 
   const tdName = document.createElement("td");
   tdName.className = "filename";
-  // Prefer PHMPT individual URL; fall back to ICAN re-host for the small
-  // set of files PHMPT only ships zipped (no Cloudflare gate on ICAN).
-  const fileUrl = r.individual_url || r.ican_url || null;
-  tdName.title = r.ican_url && !r.individual_url
-    ? `${r.filename}\n(opening via ICAN — PHMPT has no individual link)`
-    : r.filename;
+  // Link precedence: PHMPT individual (canonical) -> self-hosted R2 (fills the
+  // gap for files PHMPT only ships zipped) -> ICAN -> grouped dataset .zip (xpt).
+  const fileUrl = r.individual_url || r.hosted_url || r.ican_url || r.dataset_zip_url || null;
+  let note = "";
+  if (!r.individual_url && r.hosted_url) note = "\n(self-hosted copy)";
+  else if (!r.individual_url && !r.hosted_url && r.ican_url) note = "\n(opening via ICAN — PHMPT has no individual link)";
+  else if (fileUrl && r.dataset_zip_url && fileUrl === r.dataset_zip_url) note = "\n(grouped dataset bundle — .xpt files aren't viewable individually)";
+  tdName.title = r.filename + note;
   if (fileUrl) {
     const a = document.createElement("a");
     a.href = fileUrl;
@@ -184,6 +186,7 @@ function rowEl(r) {
     a.textContent = r.filename;
     a.appendChild(externalIcon());
     tdName.appendChild(a);
+    if (fileUrl === r.dataset_zip_url) tdName.appendChild(tag("dataset", "dataset .zip"));
   } else {
     tdName.textContent = r.filename;
   }
