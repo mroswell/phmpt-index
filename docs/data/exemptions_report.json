@@ -1,13 +1,13 @@
 {
   "source": "data/exemptions.json",
-  "file_records": 6545,
+  "file_records": 6753,
   "exemption_by_module": {
     "file_counts": {
       "M1": 1173,
       "M2": 67,
       "M3": 369,
       "M4": 168,
-      "M5": 4408,
+      "M5": 4616,
       "Unknown": 360
     },
     "markers": {
@@ -35,8 +35,8 @@
         "(b)(4)": 9992
       },
       "M5": {
-        "(b)(4)": 8150284,
-        "(b)(6)": 3411330,
+        "(b)(4)": 8509684,
+        "(b)(6)": 3545526,
         "(b)(7)(A)": 1,
         "(b)(5)": 3,
         "(b)(1)": 14,
@@ -60,13 +60,13 @@
   "exemption_by_company": {
     "file_counts": {
       "Pfizer": 3084,
-      "Moderna": 3447,
+      "Moderna": 3655,
       "Unknown": 14
     },
     "markers": {
       "Moderna": {
-        "(b)(6)": 3028804,
-        "(b)(4)": 7406831,
+        "(b)(6)": 3163000,
+        "(b)(4)": 7766231,
         "(b)(5)": 15,
         "(b)(7)(A)": 2,
         "(b)(1)(C)": 4,
@@ -102,7 +102,7 @@
     "file_counts": {
       "Unknown": 440,
       "BLA": 4870,
-      "EUA": 1235
+      "EUA": 1443
     },
     "markers": {
       "BLA": {
@@ -117,8 +117,8 @@
         "(b)(4)(D)": 10
       },
       "EUA": {
-        "(b)(4)": 559817,
-        "(b)(6)": 231457,
+        "(b)(4)": 919217,
+        "(b)(6)": 365653,
         "(b)(1)(C)": 4,
         "(b)(1)": 10
       },
@@ -140,14 +140,14 @@
   "exemption_by_age_group": {
     "file_counts": {
       "Unknown": 440,
-      "adult": 3312,
+      "adult": 3520,
       "12-15": 363,
       "16+": 2430
     },
     "markers": {
       "adult": {
-        "(b)(6)": 3020597,
-        "(b)(4)": 7391281,
+        "(b)(6)": 3154793,
+        "(b)(4)": 7750681,
         "(b)(5)": 5,
         "(b)(7)(A)": 2,
         "(b)(1)(C)": 4,
@@ -230,8 +230,8 @@
         "total_markers": 1188390
       },
       "Moderna": {
-        "file_count": 2461,
-        "total_markers": 10373252
+        "file_count": 2669,
+        "total_markers": 10866848
       }
     },
     "Unknown": {
@@ -312,8 +312,8 @@
         "total_markers": 10756203
       },
       "EUA": {
-        "file_count": 801,
-        "total_markers": 785304
+        "file_count": 1009,
+        "total_markers": 1278900
       }
     },
     "Unknown": {
@@ -390,8 +390,8 @@
         "total_markers": 20135
       },
       "adult": {
-        "file_count": 2451,
-        "total_markers": 10353841
+        "file_count": 2659,
+        "total_markers": 10847437
       },
       "12-15": {
         "file_count": 263,
