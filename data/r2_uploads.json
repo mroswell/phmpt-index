@@ -15698,5 +15698,55 @@
       "bytes": 673490
     }
   },
-  "datasets": {}
+  "datasets": {
+    "moderna||bimo": {
+      "key": "datasets/moderna/bimo.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/moderna/bimo.zip",
+      "member_count": 1,
+      "members_fingerprint": "ba5c671c6cdb3c6e56add5bad2ecd251139527a4197ec56dfe97dd7848236844",
+      "bytes": 28622
+    },
+    "moderna||mrna-1273-p201": {
+      "key": "datasets/moderna/mrna-1273-p201.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/moderna/mrna-1273-p201.zip",
+      "member_count": 70,
+      "members_fingerprint": "9d31c0a8a1541b7afdee2d626f803dd55ca2ab1180b850ad495407d37a906e04",
+      "bytes": 26037999
+    },
+    "moderna||mrna-1273-p201-add1": {
+      "key": "datasets/moderna/mrna-1273-p201-add1.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/moderna/mrna-1273-p201-add1.zip",
+      "member_count": 69,
+      "members_fingerprint": "b1eb7d2d93f42bbaa98b5dd7b83fe993006fe6d92a9a11b3b159a4a7c0a5db08",
+      "bytes": 28252667
+    },
+    "moderna||mrna-1273-p301": {
+      "key": "datasets/moderna/mrna-1273-p301.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/moderna/mrna-1273-p301.zip",
+      "member_count": 182,
+      "members_fingerprint": "dbe2a3a91d8cc9b3c032e91094790e0a7cf2dbb67042cb4341f5ecbdd2ae7100",
+      "bytes": 2614679223
+    },
+    "pfizer||bnt162-01": {
+      "key": "datasets/pfizer/bnt162-01.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/pfizer/bnt162-01.zip",
+      "member_count": 97,
+      "members_fingerprint": "0d8c025262b39ae97b66b63f9c99d3d91457e2d29ed3b7996b9dcabca443b404",
+      "bytes": 25466263
+    },
+    "pfizer||c4591001": {
+      "key": "datasets/pfizer/c4591001.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/pfizer/c4591001.zip",
+      "member_count": 355,
+      "members_fingerprint": "fcfec7d8c34cb4fc1ec7d8174589efb8f6aada47f1239880cb4eb5faeb380dac",
+      "bytes": 2218706868
+    },
+    "pfizer||misc": {
+      "key": "datasets/pfizer/misc.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/pfizer/misc.zip",
+      "member_count": 59,
+      "members_fingerprint": "1c93bf9fa229b769fa3469571508066ae82b6fd0ff943415324d044887af1e8f",
+      "bytes": 4726141
+    }
+  }
 }
