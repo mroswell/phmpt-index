@@ -15690,6 +15690,12 @@
       "public_url": "https://files.coviddocuments.com/files/md-eua/f46f27dbb382-27073_S6_M5_CRF_mrna-1273-p301-us3812293.pdf",
       "basename": "27073_S6_M5_CRF_mrna-1273-p301-us3812293.pdf",
       "bytes": 3762895
+    },
+    "md-production-060225.zip||103B_BLA 125752-0_01-28-2022_Memo_Request For Complianc.pdf": {
+      "key": "files/md/8eea27cc8dcc-103B_BLA_125752-0_01-28-2022_Memo_Request_For_Complianc.pdf",
+      "public_url": "https://files.coviddocuments.com/files/md/8eea27cc8dcc-103B_BLA_125752-0_01-28-2022_Memo_Request_For_Complianc.pdf",
+      "basename": "103B_BLA 125752-0_01-28-2022_Memo_Request For Complianc.pdf",
+      "bytes": 673490
     }
   },
   "datasets": {}
