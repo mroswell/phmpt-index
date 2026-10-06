@@ -1,0 +1,103 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 1,
+      "refresh_interval": "30s"
+    },
+    "analysis": {
+      "char_filter": {
+        "redaction_markers": {
+          "type": "mapping",
+          "mappings": [
+            "(b)(1) => exemptionb1",
+            "(b)(2) => exemptionb2",
+            "(b)(3) => exemptionb3",
+            "(b)(4) => exemptionb4",
+            "(b)(5) => exemptionb5",
+            "(b)(6) => exemptionb6",
+            "(b)(7) => exemptionb7",
+            "(b)(7)(A) => exemptionb7a",
+            "(b)(7)(B) => exemptionb7b",
+            "(b)(7)(C) => exemptionb7c",
+            "(b)(7)(D) => exemptionb7d",
+            "(b)(7)(E) => exemptionb7e",
+            "(b)(7)(F) => exemptionb7f"
+          ]
+        }
+      },
+      "filter": {
+        "english_possessive": { "type": "stemmer", "language": "possessive_english" },
+        "english_stop": { "type": "stop", "stopwords": "_english_" },
+        "kstem_light": { "type": "kstem" },
+        "bates_delimiter": {
+          "type": "word_delimiter_graph",
+          "preserve_original": true,
+          "split_on_numerics": true,
+          "split_on_case_change": false,
+          "generate_word_parts": true,
+          "generate_number_parts": true,
+          "catenate_all": false
+        }
+      },
+      "analyzer": {
+        "foia_english": {
+          "type": "custom",
+          "char_filter": ["redaction_markers"],
+          "tokenizer": "standard",
+          "filter": ["english_possessive", "lowercase", "english_stop", "kstem_light"]
+        },
+        "foia_exact": {
+          "type": "custom",
+          "char_filter": ["redaction_markers"],
+          "tokenizer": "standard",
+          "filter": ["lowercase"]
+        },
+        "bates_analyzer": {
+          "type": "custom",
+          "tokenizer": "whitespace",
+          "filter": ["lowercase", "bates_delimiter"]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "_source": { "enabled": true },
+    "dynamic": "strict",
+    "properties": {
+      "doc_id":       { "type": "integer" },
+      "page":         { "type": "integer" },
+      "total_pages":  { "type": "integer" },
+
+      "text": {
+        "type": "text",
+        "analyzer": "foia_english",
+        "fields": {
+          "exact": { "type": "text", "analyzer": "foia_exact" }
+        }
+      },
+
+      "filename": {
+        "type": "text",
+        "analyzer": "bates_analyzer",
+        "fields": { "raw": { "type": "keyword", "ignore_above": 512 } }
+      },
+
+      "markers":     { "type": "keyword" },
+
+      "bates_text":  { "type": "text", "analyzer": "bates_analyzer" },
+      "bates_start": { "type": "keyword" },
+      "bates_end":   { "type": "keyword" },
+
+      "company":    { "type": "keyword" },
+      "license":    { "type": "keyword" },
+      "age_group":  { "type": "keyword" },
+      "module":     { "type": "keyword" },
+      "study":      { "type": "keyword" },
+      "batch_code": { "type": "keyword" },
+      "zip_source": { "type": "keyword" },
+
+      "url": { "type": "keyword", "index": false }
+    }
+  }
+}

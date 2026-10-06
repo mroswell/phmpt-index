@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Setup Checklist — Document Links (R2) + Full-Text Search</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222c; --ink:#e8ecf1; --muted:#9aa4b2;
+    --line:#2a2f3a; --accent:#f6821f; --accent2:#4f9cf9; --ok:#39d98a; --warn:#ffcf5c; --exp:#c792ea;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f4f6f9; --panel:#fff; --panel2:#f0f3f7; --ink:#1a1f28; --muted:#5b6673; --line:#e2e7ee; --exp:#7c3aed; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:880px;margin:0 auto;padding:28px 20px 90px}
+  header{position:sticky;top:0;background:var(--bg);padding:14px 0 12px;z-index:5;border-bottom:1px solid var(--line)}
+  h1{font-size:22px;margin:0 0 2px}
+  .sub{color:var(--muted);font-size:13px}
+  .barwrap{display:flex;align-items:center;gap:12px;margin-top:12px}
+  .bar{flex:1;height:10px;background:var(--panel2);border-radius:999px;overflow:hidden;border:1px solid var(--line)}
+  .bar>i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .25s}
+  .count{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px;white-space:nowrap}
+  .tools{margin-left:auto;display:flex;gap:8px}
+  button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:6px 11px}
+  button:hover{border-color:var(--accent2)}
+  .part{margin:26px 0 6px;padding:10px 14px;background:var(--panel2);border:1px solid var(--line);border-radius:10px}
+  .part h3{margin:0;font-size:15px}
+  .part p{margin:4px 0 0;color:var(--muted);font-size:13px}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:12px;margin:12px 0;overflow:hidden}
+  .step.done{border-color:var(--ok)}
+  .head{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;cursor:pointer}
+  .head:hover{background:var(--panel2)}
+  .cb{appearance:none;min-width:22px;height:22px;margin-top:1px;border:2px solid var(--line);border-radius:6px;background:var(--panel2);cursor:pointer;position:relative}
+  .cb:checked{background:var(--ok);border-color:var(--ok)}
+  .cb:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#05240f;font-weight:800;font-size:14px}
+  .htxt{flex:1}
+  .htxt h2{font-size:16px;margin:0}
+  .htxt .meta{color:var(--muted);font-size:12.5px;margin-top:2px}
+  .chev{color:var(--muted);transition:transform .2s;margin-top:2px}
+  .step.open .chev{transform:rotate(90deg)}
+  .body{display:none;padding:2px 18px 18px 50px;border-top:1px solid var(--line)}
+  .step.open .body{display:block}
+  ol,ul{margin:10px 0;padding-left:20px}
+  li{margin:6px 0}
+  code{font-family:var(--mono);background:var(--panel2);border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:13px}
+  pre{position:relative;font-family:var(--mono);background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:14px;overflow:auto;font-size:13px}
+  pre button{position:absolute;top:8px;right:8px;padding:3px 8px;font-size:12px}
+  .note{background:var(--panel2);border-left:3px solid var(--warn);border-radius:0 8px 8px 0;padding:9px 12px;margin:10px 0;font-size:13.5px}
+  .note.tip{border-left-color:var(--accent2)}
+  .note.exp{border-left-color:var(--exp)}
+  label.fld{display:block;margin:10px 0}
+  label.fld span{display:block;font-size:12.5px;color:var(--muted);margin-bottom:4px}
+  input[type=text],input[type=password]{width:100%;font:inherit;font-family:var(--mono);font-size:13px;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:9px 10px}
+  input:focus{outline:none;border-color:var(--accent2)}
+  a{color:var(--accent2)}
+  .badge{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;border:1px solid var(--exp);color:var(--exp);margin-left:8px;vertical-align:middle}
+  .pill{display:inline-block;font-size:11px;padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+  .danger{color:var(--warn)}
+  .envbox h2{font-size:16px;margin:0 0 6px}
+  footer{color:var(--muted);font-size:12.5px;margin-top:26px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Setup Checklist</h1>
+    <div class="sub">Part A: self-host document links on Cloudflare R2 · Part B: full-text search (Bonsai + OpenSearch). Progress &amp; typed values are saved in this browser automatically.</div>
+    <div class="barwrap">
+      <div class="bar"><i id="barfill"></i></div>
+      <div class="count" id="count">0 / 0</div>
+      <div class="tools">
+        <button id="expandAll">Expand all</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="note tip">Values you type (IDs, keys, URLs) are stored <strong>only in this browser</strong> (localStorage) and are assembled into the <code>.r2.env</code> and <code>.search.env</code> files at the bottom — nothing is sent anywhere. A <span class="badge">expert</span> badge marks steps where a few hours of an OpenSearch/Elasticsearch specialist is worthwhile.</div>
+
+  <div id="steps"></div>
+
+  <div class="step envbox" id="envstep">
+    <div class="head" data-toggle><div class="htxt"><h2>Generated <code>.r2.env</code></h2><div class="meta">Auto-filled from Part A. Save as <code>.r2.env</code> at the repo root.</div></div><div class="chev">▸</div></div>
+    <div class="body" style="padding-left:18px">
+      <pre id="envout"><button data-copy="#envout">Copy</button><span id="envtext"></span></pre>
+      <div class="note"><span class="danger">⚠ Never commit this file.</span> It holds secrets. Confirm it's git-ignored before any <code>git add</code>.</div>
+    </div>
+  </div>
+
+  <div class="step envbox" id="searchenvstep">
+    <div class="head" data-toggle><div class="htxt"><h2>Generated <code>.search.env</code></h2><div class="meta">Auto-filled from Part B. Save as <code>.search.env</code> at the repo root.</div></div><div class="chev">▸</div></div>
+    <div class="body" style="padding-left:18px">
+      <pre id="senvout"><button data-copy="#senvout">Copy</button><span id="senvtext"></span></pre>
+      <div class="note"><span class="danger">⚠ The Bonsai URL contains your username &amp; password.</span> Treat <code>.search.env</code> exactly like a password file — never commit it.</div>
+    </div>
+  </div>
+
+  <footer>Local tool · <code>r2-setup-checklist.html</code> · progress persists per browser via localStorage</footer>
+</div>
+
+<script>
+const STORE_KEY = "r2setup.v1";
+const state = JSON.parse(localStorage.getItem(STORE_KEY) || "{}");
+function save(){ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
+
+const STEPS = [
+  // ---------- PART A: Cloudflare R2 ----------
+  { part:"A", id:"acct", title:"Create / sign in to Cloudflare and enable R2",
+    meta:"~5 min · needs a card on file even for the free tier",
+    body:`
+      <ol>
+        <li>Go to <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener">dash.cloudflare.com</a> and sign in or sign up.</li>
+        <li>Left sidebar → <strong>R2 Object Storage</strong>.</li>
+        <li>If prompted, click <strong>Enable / Purchase R2</strong>. The free tier (10&nbsp;GB, no egress fees) covers early use; expect ~<strong>$2/mo</strong> once everything is uploaded.</li>
+      </ol>
+      <div class="note tip">R2 charges nothing for egress, so serving documents to the public won't rack up bandwidth bills.</div>
+      <label class="fld"><span>Cloudflare Account ID (R2 → Overview → right sidebar)</span>
+        <input type="text" id="v_acct" placeholder="e.g. 8f3a...e21"></label>`
+  },
+  { part:"A", id:"bucket", title:"Create the R2 bucket",
+    meta:"~2 min",
+    body:`
+      <ol>
+        <li>R2 → Overview → <strong>Create bucket</strong>.</li>
+        <li>Name it stably — suggested <code>coviddocuments-files</code>.</li>
+        <li>Leave Location <em>Automatic</em>; click <strong>Create bucket</strong>.</li>
+      </ol>
+      <label class="fld"><span>Bucket name you chose</span>
+        <input type="text" id="v_bucket" placeholder="coviddocuments-files"></label>`
+  },
+  { part:"A", id:"domain", title:"Make the bucket public via a custom domain",
+    meta:"~10 min · domain DNS must be on Cloudflare",
+    body:`
+      <p>Public files need a public URL, and it gets baked into every document link we publish — so use a permanent <strong>custom domain</strong>, not the throwaway <code>r2.dev</code>.</p>
+      <div class="note tip"><strong>Already handled for you:</strong> <code>coviddocuments.com</code>'s DNS is already on Cloudflare (nameservers <code>tina/amit.ns.cloudflare.com</code>). Hover is only the <em>registrar</em> — irrelevant here. <strong>No nameserver change, no Hover login, no transfer.</strong></div>
+      <ol>
+        <li><strong>The one thing to get right:</strong> enable R2 in the <em>same</em> Cloudflare account that already lists <code>coviddocuments.com</code> under Websites. (A second/different account won't see your domain at Connect-Domain time.)</li>
+        <li>Bucket → <strong>Settings</strong> → <strong>Public access</strong> → <strong>Custom Domains</strong> → <strong>Connect Domain</strong>.</li>
+        <li>Enter <code>files.coviddocuments.com</code>. Cloudflare adds one CNAME to your existing zone. Wait for <strong>Active</strong> (a minute or two).</li>
+      </ol>
+      <div class="note">This adds <em>only</em> the <code>files.</code> record — your apex/www/<strong>foia</strong> site (GitHub Pages) and Hover <strong>email</strong> (MX) are untouched. Leave the <code>r2.dev</code> URL off for production (rate-limited); fine to flip on briefly only for an early test.</div>
+      <label class="fld"><span>Public base URL (no trailing slash)</span>
+        <input type="text" id="v_base" placeholder="https://files.coviddocuments.com"></label>`
+  },
+  { part:"A", id:"token", title:"Create an R2 API token (Object Read & Write)",
+    meta:"~3 min · the secret is shown once — copy it immediately",
+    body:`
+      <ol>
+        <li>R2 → Overview → <strong>Manage R2 API Tokens</strong> → <strong>Create API token</strong>.</li>
+        <li>Token type: choose <strong>Account API Tokens</strong> (Cloudflare's "recommended"). It stays valid regardless of user-membership changes — right for an unattended, long-lived pipeline. (User tokens die if the user leaves the org — avoid for this.)</li>
+        <li>Permissions: <strong>Object Read &amp; Write</strong> — <em>not</em> Admin (least privilege).</li>
+        <li>Scope: <strong>Apply to specific buckets only</strong> → your <code>coviddocuments-files</code> bucket.</li>
+        <li>Create. Copy the <strong>Access Key ID</strong> and <strong>Secret Access Key</strong> now (<span class="danger">secret shown once</span>).</li>
+      </ol>
+      <div class="note tip">The S3 endpoint <code>https://&lt;ACCOUNT_ID&gt;.r2.cloudflarestorage.com</code> is built from your Account ID automatically.</div>
+      <label class="fld"><span>Access Key ID</span><input type="text" id="v_akid" placeholder="e.g. 1a2b3c..."></label>
+      <label class="fld"><span>Secret Access Key <span class="pill">stored locally only</span></span><input type="password" id="v_secret" placeholder="shown once — paste now"></label>`
+  },
+  { part:"A", id:"env", title:"Create the .r2.env file at the repo root",
+    meta:"~2 min",
+    body:`
+      <p>Create <code>/Users/marjorieroswell/Projects/vaccines/foia-toc/.r2.env</code> with the contents generated in the <strong>.r2.env box</strong> near the bottom of this page.</p>
+      <pre><button data-copy="#mk">Copy</button><span id="mk">cd /Users/marjorieroswell/Projects/vaccines/foia-toc
+cat > .r2.env   # paste contents, then press Ctrl-D</span></pre>
+      <div class="note"><span class="danger">⚠</span> After creating it, run <code>git status</code> — <code>.r2.env</code> should NOT appear.</div>`
+  },
+  { part:"A", id:"disk", title:"Confirm local disk headroom for the .xpt bundling",
+    meta:"~1 min",
+    body:`
+      <p>The ~124&nbsp;GB of <code>.xpt</code> files are zipped by study and uploaded one group at a time, deleting each temp zip right after — so you only need room for the <strong>largest single study group</strong> (tens of GB).</p>
+      <ol><li><code>df -h /Users/marjorieroswell</code></li><li>Aim for <strong>~60&nbsp;GB free</strong>. (The non-xpt pass streams zip→R2 and needs almost nothing extra.)</li></ol>`
+  },
+
+  // ---------- PART B: Search (Bonsai + OpenSearch) ----------
+  { part:"B", id:"gran", title:"Decide search granularity (start small to control cost)",
+    meta:"~decision only",
+    body:`
+      <p>Two ways to index, very different cost:</p>
+      <ul>
+        <li><strong>Page-level</strong> — ~4.28M records (one per page). Lands you on the exact page (best for FOIA). <strong>Measured size: ~2.7 GB of text → a ~3–6 GB index</strong> (≈6–12 GB with a replica) — a small cluster, not the monster we first feared. <strong>Recommended.</strong></li>
+        <li><strong>Document-level</strong> — 8,791 records. Returns the matching document; jump to the page via OCR. Marginally cheaper, worse UX. Keep as a fallback only if cost ever bites.</li>
+      </ul>
+      <div class="note tip">Go page-level. Check this box once you've confirmed the granularity.</div>`
+  },
+  { part:"B", id:"bonsai", title:"Create a Bonsai account and a cluster",
+    meta:"~10 min · sizing is pre-solved (see below)",
+    body:`
+      <ol>
+        <li>Sign up at <a href="https://bonsai.io" target="_blank" rel="noopener">bonsai.io</a>.</li>
+        <li><strong>Create Cluster</strong>. Choose engine <strong>OpenSearch</strong> (latest 2.x) — open-license, fits the project. (Elasticsearch also works; our code supports either.)</li>
+        <li>Pick a <strong>region</strong> near you / most readers (e.g. US-East).</li>
+        <li>Pick a <strong>plan</strong> for the measured target below. Tell Bonsai support, if unsure:
+          <em>"OpenSearch, ~6–12 GB on-disk, 2–4 GB memory, 1 shard + 1 replica, low query volume"</em> — they'll map it to the right tier.</li>
+      </ol>
+      <div class="note tip"><strong>Sizing (measured from your real PDFs — no expert needed):</strong>
+        ~2.7 GB of text → <strong>~3–6 GB index</strong> (≈6–12 GB with a replica). <strong>1 primary shard</strong>
+        (don't split a small index), 1 replica (or 0 — the index is rebuildable), <strong>~2–4 GB RAM</strong>
+        (text search is disk-based; RAM is for bulk-load speed), <strong>≥15–20 GB storage</strong> for headroom.
+        A small/standard tier, ~tens of $/mo.</div>
+      <label class="fld"><span>Engine you chose</span><input type="text" id="v_engine" placeholder="OpenSearch 2.x"></label>
+      <label class="fld"><span>Cluster name / region (for your own notes)</span><input type="text" id="v_cluster" placeholder="e.g. covid-docs / us-east"></label>`
+  },
+  { part:"B", id:"creds", title:"Copy the cluster connection URL",
+    meta:"~2 min · this URL is a password — keep it secret",
+    body:`
+      <ol>
+        <li>Open your cluster → <strong>Access</strong> (or <strong>Credentials</strong>) tab.</li>
+        <li>Copy the <strong>full connection URL</strong> — it looks like
+          <code>https://KEY:SECRET@your-cluster-abc123.bonsaisearch.net:443</code> (the key &amp; secret are embedded).</li>
+        <li>Paste it below. Our scripts read it from <code>.search.env</code>.</li>
+      </ol>
+      <div class="note"><span class="danger">⚠</span> Anyone with this URL can read/write your index. Never paste it into a commit, screenshot, or chat. (It lives only in your local <code>.search.env</code>.)</div>
+      <label class="fld"><span>Full Bonsai connection URL <span class="pill">stored locally only</span></span>
+        <input type="password" id="v_search_url" placeholder="https://KEY:SECRET@cluster.bonsaisearch.net:443"></label>`
+  },
+  { part:"B", id:"mapping", title:"Design the index mapping & analyzers", expert:true,
+    meta:"Claude drafts it; an expert should review before bulk load",
+    body:`
+      <p>The <strong>mapping</strong> defines how text is tokenized, how Bates numbers and hyphenated IDs are handled, and how highlighting works. It's set <em>before</em> loading data and is painful to change after millions of docs are indexed.</p>
+      <ol>
+        <li>I (Claude) will draft the mapping + analyzer config and the bulk-ingest script from the OCR text in <code>data/cache/ocr_text/</code>.</li>
+        <li><span class="badge">expert</span> Have an OpenSearch/Elasticsearch specialist review the analyzer choices, field types, shard count, and highlight settings — ~2–3 hours of review is the single biggest quality lever.</li>
+        <li>Then run a small test ingest (one batch), check result quality, and only then bulk-load everything.</li>
+      </ol>
+      <div class="note exp"><strong>Hire-an-expert moment:</strong> mapping &amp; analyzer design. Worth it; everything downstream inherits these choices.</div>`
+  },
+  { part:"B", id:"searchenv", title:"Create the .search.env file & hand off to Claude",
+    meta:"~2 min",
+    body:`
+      <p>Create <code>/Users/marjorieroswell/Projects/vaccines/foia-toc/.search.env</code> from the <strong>.search.env box</strong> at the bottom of this page.</p>
+      <pre><button data-copy="#smk">Copy</button><span id="smk">cd /Users/marjorieroswell/Projects/vaccines/foia-toc
+cat > .search.env   # paste contents, then press Ctrl-D</span></pre>
+      <p>Then nothing else is manual — tell me <em>"search cluster is ready"</em> and I'll build the text-extraction pass, the ingest script, and the search box in the site. (An expert reviews the mapping per the previous step.)</p>
+      <div class="note"><span class="danger">⚠</span> Confirm <code>.search.env</code> is git-ignored (<code>git status</code> should not list it).</div>`
+  }
+];
+
+// ---- Render with part dividers ----
+const PARTS = {
+  A:{h:"Part A — Document links (Cloudflare R2)", p:"Gives every non-xpt document a permanent, self-hosted URL; bundles the .xpt datasets by study."},
+  B:{h:"Part B — Full-text search (Bonsai + OpenSearch)", p:"Search inside the document text. Start document-level (cheap), scale to page-level later."}
+};
+const stepsEl = document.getElementById("steps");
+let curPart=null, n=0;
+STEPS.forEach(s=>{
+  if(s.part!==curPart){
+    curPart=s.part;
+    const d=document.createElement("div"); d.className="part";
+    d.innerHTML=`<h3>${PARTS[curPart].h}</h3><p>${PARTS[curPart].p}</p>`;
+    stepsEl.appendChild(d); n=0;
+  }
+  n++;
+  const div=document.createElement("div");
+  div.className="step"; div.dataset.id=s.id;
+  div.innerHTML=`
+    <div class="head" data-toggle>
+      <input class="cb" type="checkbox" data-step="${s.id}">
+      <div class="htxt"><h2>${s.part}${n}. ${s.title}${s.expert?'<span class="badge">expert</span>':''}</h2><div class="meta">${s.meta}</div></div>
+      <div class="chev">▸</div>
+    </div>
+    <div class="body">${s.body}</div>`;
+  stepsEl.appendChild(div);
+});
+
+function syncStepDone(cb){ cb.closest(".step").classList.toggle("done", cb.checked); }
+document.querySelectorAll('.cb[data-step]').forEach(cb=>{
+  cb.checked = !!state["chk_"+cb.dataset.step]; syncStepDone(cb);
+  cb.addEventListener("change",()=>{ state["chk_"+cb.dataset.step]=cb.checked; save(); syncStepDone(cb); updateBar(); });
+});
+document.querySelectorAll('input[type=text],input[type=password]').forEach(inp=>{
+  if(!inp.id) return;
+  if(state[inp.id]!=null) inp.value=state[inp.id];
+  inp.addEventListener("input",()=>{ state[inp.id]=inp.value; save(); renderEnv(); });
+});
+document.querySelectorAll('[data-toggle]').forEach(h=>{
+  h.addEventListener("click",e=>{
+    if(e.target.classList.contains("cb")||e.target.tagName==="INPUT") return;
+    h.closest(".step").classList.toggle("open");
+  });
+});
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-copy]"); if(!b) return;
+  const sel=b.getAttribute("data-copy");
+  const map={"#envout":"envtext","#senvout":"senvtext"};
+  const txt = map[sel] ? document.getElementById(map[sel]).textContent : document.querySelector(sel).textContent;
+  navigator.clipboard.writeText(txt).then(()=>{const o=b.textContent;b.textContent="Copied!";setTimeout(()=>b.textContent=o,1200);});
+});
+function updateBar(){
+  const cbs=[...document.querySelectorAll('.cb[data-step]')];
+  const done=cbs.filter(c=>c.checked).length;
+  document.getElementById("count").textContent=`${done} / ${cbs.length}`;
+  document.getElementById("barfill").style.width=(done/cbs.length*100)+"%";
+}
+function renderEnv(){
+  const g=id=>(state[id]||"").trim();
+  document.getElementById("envtext").textContent=
+`R2_ACCOUNT_ID=${g("v_acct")||"<account id from A1>"}
+R2_ACCESS_KEY_ID=${g("v_akid")||"<access key id from A4>"}
+R2_SECRET_ACCESS_KEY=${g("v_secret")||"<secret access key from A4>"}
+R2_BUCKET=${g("v_bucket")||"<bucket name from A2>"}
+R2_PUBLIC_BASE=${g("v_base")||"https://files.coviddocuments.com"}`;
+  document.getElementById("senvtext").textContent=
+`SEARCH_ENGINE=${g("v_engine")||"opensearch"}
+SEARCH_URL=${g("v_search_url")||"<full Bonsai connection URL from B3>"}`;
+}
+document.getElementById("expandAll").addEventListener("click",function(){
+  const anyClosed=[...document.querySelectorAll('.step')].some(s=>!s.classList.contains("open"));
+  document.querySelectorAll('.step').forEach(s=>s.classList.toggle("open",anyClosed));
+  this.textContent=anyClosed?"Collapse all":"Expand all";
+});
+document.getElementById("resetBtn").addEventListener("click",()=>{
+  if(!confirm("Clear all checkboxes and saved values on this browser?")) return;
+  localStorage.removeItem(STORE_KEY); location.reload();
+});
+updateBar(); renderEnv();
+</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COVID Docs — What's Next</title>
+<style>
+  :root{--bg:#0f1115;--panel:#171a21;--panel2:#1e222c;--ink:#e8ecf1;--muted:#9aa4b2;--line:#2a2f3a;--accent:#f6821f;--accent2:#4f9cf9;--ok:#39d98a;--mono:ui-monospace,Menlo,Consolas,monospace}
+  @media (prefers-color-scheme:light){:root{--bg:#f4f6f9;--panel:#fff;--panel2:#f0f3f7;--ink:#1a1f28;--muted:#5b6673;--line:#e2e7ee}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:780px;margin:0 auto;padding:30px 20px 80px}
+  h1{font-size:23px;margin:0 0 4px}
+  .sub{color:var(--muted);font-size:13.5px;margin-bottom:18px}
+  .phase{background:var(--panel);border:1px solid var(--line);border-radius:14px;margin:14px 0;padding:16px 18px}
+  .phase.done{border-color:var(--ok);opacity:.9}
+  .phase .top{display:flex;align-items:baseline;gap:10px}
+  .tag{font-size:11px;padding:2px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+  .tag.now{border-color:var(--accent2);color:var(--accent2)}
+  .tag.done{border-color:var(--ok);color:var(--ok)}
+  .tag.later{border-color:var(--muted)}
+  h2{font-size:17px;margin:0}
+  .cost{color:var(--muted);font-size:12.5px;margin-left:auto}
+  .desc{color:var(--muted);font-size:13.5px;margin:6px 0 10px}
+  ul{list-style:none;margin:8px 0 0;padding:0}
+  li{display:flex;gap:10px;align-items:flex-start;margin:7px 0}
+  .cb{appearance:none;min-width:20px;height:20px;margin-top:1px;border:2px solid var(--line);border-radius:6px;background:var(--panel2);cursor:pointer;position:relative}
+  .cb:checked{background:var(--ok);border-color:var(--ok)}
+  .cb:checked::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#05240f;font-weight:800;font-size:13px}
+  .cb:disabled{opacity:.8;cursor:default}
+  li.d label{color:var(--muted);text-decoration:line-through}
+  code{font-family:var(--mono);background:var(--panel2);border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:12.5px}
+  a{color:var(--accent2)}
+  .links{margin-top:10px;font-size:13px}
+  .links a{margin-right:14px}
+  .rec{background:var(--panel2);border-left:3px solid var(--accent2);border-radius:0 8px 8px 0;padding:10px 12px;font-size:13.5px;margin:4px 0 20px}
+  footer{color:var(--muted);font-size:12px;margin-top:24px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>COVID Docs — What's Next</h1>
+  <div class="sub">Your home base. Nothing here is urgent. Pick a phase when you feel like it; your checkmarks are saved in this browser.</div>
+
+  <div class="rec">👉 <strong>Recommended right now: nothing.</strong> Today's goal is done and live. Come back to this page whenever you want to tackle the optional upgrades below.</div>
+
+  <div class="phase done">
+    <div class="top"><span class="tag done">✓ DONE</span><h2>Publish the new documents</h2><span class="cost">free · complete</span></div>
+    <div class="desc">The 4 new Moderna EUA batches (Jun–Sep 2026) are processed and live on foia.coviddocuments.com.</div>
+    <ul>
+      <li class="d"><input class="cb" type="checkbox" checked disabled><label>Found &amp; downloaded the 4 new bundles</label></li>
+      <li class="d"><input class="cb" type="checkbox" checked disabled><label>Rebuilt the index (8,560 → <strong>8,791</strong> documents, +231)</label></li>
+      <li class="d"><input class="cb" type="checkbox" checked disabled><label>Committed &amp; pushed — live on the site</label></li>
+    </ul>
+    <div class="links"><a href="https://foia.coviddocuments.com/" target="_blank" rel="noopener">View the live site →</a></div>
+  </div>
+
+  <div class="phase">
+    <div class="top"><span class="tag now">NEXT (optional)</span><h2>Individual document links (Cloudflare R2)</h2><span class="cost">~$2/mo</span></div>
+    <div class="desc">Give a clickable link to the ~2,615 newer documents that currently only open as a big zip. Cheap, high-value, no big commitment. You've already started the setup.</div>
+    <ul>
+      <li><input class="cb" type="checkbox" data-k="r2_bucket"><label>Create the R2 bucket + connect <code>files.coviddocuments.com</code></label></li>
+      <li><input class="cb" type="checkbox" data-k="r2_token"><label>Create the Account API token (Object Read &amp; Write)</label></li>
+      <li><input class="cb" type="checkbox" data-k="r2_env"><label>Save credentials as <code>.r2.env</code> in the project folder</label></li>
+      <li><input class="cb" type="checkbox" data-k="r2_build"><label>Tell Claude: <em>"R2 is set up, do the smoke test"</em> — then Claude builds &amp; runs the upload</label></li>
+    </ul>
+    <div class="links"><a href="http://localhost:8791/r2-setup-checklist.html" target="_blank" rel="noopener">Open the detailed setup checklist (Part A) →</a></div>
+  </div>
+
+  <div class="phase">
+    <div class="top"><span class="tag later">LATER (optional)</span><h2>Full-text search (Bonsai + OpenSearch)</h2><span class="cost">~$90/mo</span></div>
+    <div class="desc">Search inside the document text. Biggest, priciest add — only commit when you actually want it. The config is already drafted for your expert.</div>
+    <ul>
+      <li><input class="cb" type="checkbox" data-k="s_cluster"><label>Create the Bonsai cluster &amp; save <code>.search.env</code> <span style="color:var(--muted)">(only if/when you want search)</span></label></li>
+      <li><input class="cb" type="checkbox" data-k="s_expert"><label>Have an expert review <code>search/MAPPING_NOTES.md</code> (~1–2 hrs)</label></li>
+      <li><input class="cb" type="checkbox" data-k="s_build"><label>Tell Claude: <em>"search cluster is ready"</em> — then Claude extracts text, loads it, and adds the search box</label></li>
+    </ul>
+    <div class="links"><a href="http://localhost:8791/r2-setup-checklist.html" target="_blank" rel="noopener">Open the detailed setup checklist (Part B) →</a></div>
+  </div>
+
+  <div class="phase">
+    <div class="top"><span class="tag later">HOUSEKEEPING</span><h2>Tidy-up (anytime, optional)</h2><span class="cost">free</span></div>
+    <ul>
+      <li><input class="cb" type="checkbox" data-k="hk_backups"><label>Delete leftover backups <code>data/zips.prev.json</code>, <code>data/id_registry.prev.json</code></label></li>
+      <li><input class="cb" type="checkbox" data-k="hk_commit"><label>Commit the planning docs (<code>PLAN-…md</code>, checklists, search drafts) if you want them in git</label></li>
+    </ul>
+  </div>
+
+  <footer>Local file · <code>START-HERE.html</code> · full details in <code>PLAN-r2-individual-links-and-search.md</code></footer>
+</div>
+<script>
+  const KEY="covidstatus.v1";
+  const st=JSON.parse(localStorage.getItem(KEY)||"{}");
+  document.querySelectorAll('.cb[data-k]').forEach(cb=>{
+    cb.checked=!!st[cb.dataset.k];
+    cb.closest('li').classList.toggle('d',cb.checked);
+    cb.addEventListener('change',()=>{st[cb.dataset.k]=cb.checked;localStorage.setItem(KEY,JSON.stringify(st));cb.closest('li').classList.toggle('d',cb.checked);});
+  });
+</script>
+</body>
+</html>

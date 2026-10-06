@@ -58,3 +58,12 @@ data/cache/verify_redactions/
 
 # Per-page diff scan cache (regenerable)
 data/cache/diff_perpage/
+
+# Secrets — never commit (R2 + search credentials)
+.r2.env
+.search.env
+*.env
+
+# Full-text extraction output (regenerable from PDFs) + xpt bundle temp
+data/fulltext/
+tmp/xpt_bundles/
