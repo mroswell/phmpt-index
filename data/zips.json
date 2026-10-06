@@ -1,5 +1,41 @@
 [
   {
+    "filename": "md-eua-090126.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-090126.zip",
+    "date": "2026-09-01",
+    "date_text": "September 1, 2026",
+    "size_text": "28 MB",
+    "size_bytes": 29360128,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-080326.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-080326.zip",
+    "date": "2026-08-03",
+    "date_text": "August 3, 2026",
+    "size_text": "100 MB",
+    "size_bytes": 104857600,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-070126.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-070126.zip",
+    "date": "2026-07-01",
+    "date_text": "July 1, 2026",
+    "size_text": "161 MB",
+    "size_bytes": 168820736,
+    "batch_code": "md-eua"
+  },
+  {
+    "filename": "md-eua-060126.zip",
+    "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-060126.zip",
+    "date": "2026-06-01",
+    "date_text": "June 1, 2026",
+    "size_text": "147 MB",
+    "size_bytes": 154140672,
+    "batch_code": "md-eua"
+  },
+  {
     "filename": "md-eua-050126.zip",
     "url": "https://mdata0612.s3.us-east-2.amazonaws.com/mdocs/multiple/md-eua-050126.zip",
     "date": "2026-05-01",
