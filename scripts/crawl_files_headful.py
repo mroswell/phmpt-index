@@ -115,10 +115,16 @@ def main() -> None:
         ctx.close()
 
     OUT_URLS.write_text(json.dumps(individual, indent=2, sort_keys=True), encoding="utf-8")
+    # Orphans = phmpt files NOT present in any zip bundle (same definition as
+    # crawl_files.py). Filtering to zip-absent basenames is essential — writing
+    # ALL individual URLs here bloats build_index with thousands of bogus rows.
+    toc = json.loads(TOC.read_text()) if TOC.exists() else []
+    zip_basenames = {row["member_name"].rsplit("/", 1)[-1] for row in toc}
     orphans = [{"filename": b, "url": individual[b], "product_page": "/" + page_of[b] + "/"}
-               for b in sorted(individual)]
+               for b in sorted(individual) if b not in zip_basenames]
     OUT_ORPHANS.write_text(json.dumps(orphans, indent=2), encoding="utf-8")
     print(f"\nwrote {OUT_URLS} ({len(individual):,} individual URLs)")
+    print(f"wrote {OUT_ORPHANS} ({len(orphans):,} phmpt-only orphans)")
 
 
 if __name__ == "__main__":

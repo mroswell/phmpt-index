@@ -15744,9 +15744,16 @@
     "pfizer||misc": {
       "key": "datasets/pfizer/misc.zip",
       "public_url": "https://files.coviddocuments.com/datasets/pfizer/misc.zip",
-      "member_count": 59,
-      "members_fingerprint": "1c93bf9fa229b769fa3469571508066ae82b6fd0ff943415324d044887af1e8f",
-      "bytes": 4726141
+      "member_count": 9,
+      "members_fingerprint": "be44f9295ae45f4d83ba5262c3ae93ad6fdf98098167449ff4f36d3ad7b02442",
+      "bytes": 1951206
+    },
+    "pfizer||nonclinical": {
+      "key": "datasets/pfizer/nonclinical.zip",
+      "public_url": "https://files.coviddocuments.com/datasets/pfizer/nonclinical.zip",
+      "member_count": 50,
+      "members_fingerprint": "d5365b9b64d8578beb0a051e18c0c1a2f57c515b4a11a8b957fdb1ed3fc5b9f5",
+      "bytes": 2774957
     }
   }
 }

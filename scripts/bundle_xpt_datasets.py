@@ -54,6 +54,9 @@ def study_of(name: str) -> str:
         m = pat.search(name or "")
         if m:
             return m.group(0).lower().replace(" ", "")
+    # Unmatched Module 4 datasets are nonclinical/animal tox studies — group together.
+    if re.search(r"_M4_", name or "", re.I):
+        return "nonclinical"
     return "misc"
 
 
