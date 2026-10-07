@@ -96,32 +96,45 @@
 
 <section class="fulltext">
   <form id="ft-form" role="search">
-    <input type="search" id="ft-q" autocomplete="off"
-           placeholder="Search inside document text — e.g. myocarditis, (b)(4), 5683…">
+    <div class="ft-field">
+      <svg class="ft-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-4.3-4.3"/>
+      </svg>
+      <input type="search" id="ft-q" autocomplete="off"
+             placeholder="Search inside document text — e.g. menstrual, &quot;risk management plan&quot;, (b)(4)…">
+      <button type="button" id="ft-clear" class="ft-clear" aria-label="Clear search" hidden>
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                d="M6 6l12 12M18 6L6 18"/>
+        </svg>
+      </button>
+    </div>
     <button type="submit" class="primary">Search text</button>
   </form>
   <div id="ft-status" class="ft-status" aria-live="polite"></div>
-  <div id="ft-results" class="ft-results" hidden></div>
 </section>
 
 <section class="savedbar">
-  <label for="saved-pick">Saved search:</label>
-  <select id="saved-pick">
-    <option value="" disabled hidden selected>—</option>
-    <option value="__reset__">— pick —</option>
-  </select>
-  <span id="active-name" class="active-name" aria-live="polite"></span>
-  <button type="button" id="saved-save">Save current as…</button>
-  <button type="button" id="copy-link" class="primary">Copy link</button>
-  <button type="button" id="saved-manage">Manage…</button>
-  <span id="toast" class="toast"></span>
-  <button type="button" id="reset">Reset filters</button>
+  <div class="savedbar-group">
+    <label for="saved-pick">Saved filter sets:</label>
+    <select id="saved-pick">
+      <option value="" disabled hidden selected>—</option>
+      <option value="__reset__">— pick —</option>
+    </select>
+    <span id="active-name" class="active-name" aria-live="polite"></span>
+    <button type="button" id="saved-save">Save this named filter set</button>
+    <button type="button" id="copy-link" class="primary">Copy link</button>
+    <button type="button" id="saved-manage">Manage saved filter sets</button>
+    <span id="toast" class="toast"></span>
+    <button type="button" id="reset">Reset filters</button>
+  </div>
 </section>
 
 <div class="modal-backdrop" id="manage-modal" aria-hidden="true">
   <div class="modal" role="dialog" aria-labelledby="manage-title">
     <header>
-      <h2 id="manage-title">Manage saved searches</h2>
+      <h2 id="manage-title">Manage saved filter sets</h2>
       <button type="button" class="modal-close" aria-label="Close" data-close>×</button>
     </header>
     <div class="body">
@@ -134,7 +147,7 @@
 </div>
 
 <section class="filters">
-  <label class="filter wide">
+  <label class="filter wide filter--file-only">
     <span>Filename contains</span>
     <input type="search" id="f-name" placeholder="any substring, case-insensitive">
   </label>
@@ -167,7 +180,7 @@
     </select>
   </label>
 
-  <label class="filter">
+  <label class="filter filter--file-only">
     <span>PHMPT download status</span>
     <select id="f-individual">
       <option value="">All</option>
@@ -177,25 +190,25 @@
     </select>
   </label>
 
-  <label class="filter">
+  <label class="filter filter--file-only">
     <span>Date from</span>
     <input type="date" id="f-date-from">
   </label>
-  <label class="filter">
+  <label class="filter filter--file-only">
     <span>Date to</span>
     <input type="date" id="f-date-to">
   </label>
 
-  <label class="filter">
+  <label class="filter filter--file-only">
     <span>Pages ≥</span>
     <input type="number" id="f-pages-min" min="0" step="1">
   </label>
-  <label class="filter">
+  <label class="filter filter--file-only">
     <span>Pages ≤</span>
     <input type="number" id="f-pages-max" min="0" step="1">
   </label>
 
-  <fieldset class="filter wide" id="f-ext-wrap">
+  <fieldset class="filter wide filter--file-only" id="f-ext-wrap">
     <legend>File type</legend>
     <div id="f-ext"></div>
   </fieldset>
@@ -205,7 +218,7 @@
     <div id="f-module"></div>
   </fieldset>
 
-  <label class="filter">
+  <label class="filter filter--file-only">
     <span>Contains Bates #</span>
     <input type="number" id="f-bates" min="0" step="1" placeholder="e.g. 5239100">
   </label>
@@ -214,6 +227,11 @@
 <div class="result-bar">
   <span id="count">…</span>
   <span id="page-info"></span>
+  <span id="search-banner" class="search-banner" hidden>
+    <span class="sb-text"></span>
+    <button type="button" id="ft-copy-link">Copy link</button>
+    <button type="button" id="back-to-filters">← Back to filters</button>
+  </span>
 </div>
 
 <table id="results">
@@ -235,6 +253,8 @@
   </thead>
   <tbody id="rows"></tbody>
 </table>
+
+<div id="ft-results" class="ft-results" hidden></div>
 
 <nav class="pager">
   <button type="button" id="prev">← Prev</button>

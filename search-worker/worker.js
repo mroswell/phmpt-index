@@ -29,13 +29,25 @@ export default {
     const q = (u.searchParams.get("q") || "").slice(0, 200).trim();
     if (!q) return json({ total: 0, hits: [] }, 200, cors);
 
+    // A query wrapped in double quotes means exact-phrase: all words must
+    // appear adjacent and in order (match_phrase), not OR'd as separate terms.
+    const isPhrase = q.length >= 2 && q.startsWith('"') && q.endsWith('"');
+    const queryText = isPhrase ? q.slice(1, -1).trim() : q;
+    if (!queryText) return json({ total: 0, hits: [] }, 200, cors);
+
     const from = Math.min(Math.max(parseInt(u.searchParams.get("from") || "0", 10) || 0, 0), 1000);
-    const size = Math.min(Math.max(parseInt(u.searchParams.get("size") || "20", 10) || 20, 1), 50);
+    const size = Math.min(Math.max(parseInt(u.searchParams.get("size") || "20", 10) || 20, 1), 200);
+    // group=doc consolidates page-level hits into one entry per document.
+    const group = u.searchParams.get("group") === "doc";
 
     const filter = [];
     for (const f of ["company", "license", "module", "age_group", "study", "batch_code"]) {
-      const v = u.searchParams.get(f);
-      if (v) filter.push({ term: { [f]: v } });
+      const raw = u.searchParams.get(f);
+      if (!raw) continue;
+      // Comma-split so multi-select filters (e.g. module) OR their values;
+      // a single value behaves exactly like the old `term` filter.
+      const vals = raw.split(",").map((s) => s.trim()).filter(Boolean);
+      if (vals.length) filter.push({ terms: { [f]: vals } });
     }
 
     const body = {
@@ -44,9 +56,9 @@ export default {
         bool: {
           must: [{
             multi_match: {
-              query: q,
+              query: queryText,
               fields: ["text", "text.exact^2", "bates_text", "filename^1.5"],
-              type: "best_fields",
+              type: isPhrase ? "phrase" : "best_fields",
             },
           }],
           filter,
@@ -56,6 +68,22 @@ export default {
       _source: ["doc_id", "filename", "page", "total_pages", "company", "license",
                 "age_group", "module", "study", "url", "bates_start", "bates_end"],
     };
+
+    if (group) {
+      // Collapse to one hit per document; inner_hits carries the matching
+      // pages (sorted), and the cardinality agg gives the document count so
+      // the client can paginate over documents rather than pages.
+      body.collapse = {
+        field: "doc_id",
+        inner_hits: {
+          name: "pages",
+          size: 50,
+          _source: ["page"],
+          sort: [{ page: { order: "asc" } }],
+        },
+      };
+      body.aggs = { doc_count: { cardinality: { field: "doc_id" } } };
+    }
 
     // Workers' fetch ignores userinfo in the URL, so convert embedded
     // credentials into an explicit Authorization header.
@@ -80,6 +108,29 @@ export default {
     }
 
     const data = await resp.json();
+
+    if (group) {
+      const docs = (data.hits?.hits || []).map((h) => {
+        const inner = h.inner_hits?.pages?.hits;
+        const pages = (inner?.hits || [])
+          .map((p) => p._source.page)
+          .sort((a, b) => a - b);
+        return {
+          ...h._source,
+          score: h._score,
+          snippet: (h.highlight?.text || [])[0] || "",
+          pages,
+          pages_total: inner?.total?.value ?? pages.length,
+        };
+      });
+      return json({
+        total: data.aggregations?.doc_count?.value ?? docs.length, // distinct documents
+        pages_matched: data.hits?.total?.value ?? 0,
+        took: data.took,
+        hits: docs,
+      }, 200, cors);
+    }
+
     const hits = (data.hits?.hits || []).map((h) => ({
       ...h._source,
       score: h._score,

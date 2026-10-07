@@ -15,6 +15,15 @@
 
 * { box-sizing: border-box; }
 
+/* The hidden attribute must always win, even over display rules like
+   .ft-results{display:flex} or a table's display:table. */
+[hidden] { display: none !important; }
+
+/* In search mode, hide filters the page-level search index can't support,
+   plus the filter-only saved-sets bar. Company/License/Age/Module remain. */
+body.mode-search .filter--file-only,
+body.mode-search .savedbar { display: none; }
+
 body {
   margin: 0;
   font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -115,6 +124,13 @@ fieldset.filter legend { padding: 0 4px; }
   color: var(--muted);
 }
 #count { color: var(--ink); font-weight: 500; }
+.search-banner { display: inline-flex; align-items: center; gap: 12px; margin-right: auto; color: var(--ink); font-weight: 500; }
+#back-to-filters, #ft-copy-link {
+  font: inherit; font-weight: 500; padding: 4px 10px;
+  border: 1px solid var(--line); border-radius: 4px;
+  background: var(--surface); color: var(--accent); cursor: pointer;
+}
+#back-to-filters:hover, #ft-copy-link:hover { background: var(--accent-soft); border-color: var(--accent); }
 
 table {
   width: 100%;
@@ -231,14 +247,20 @@ tr:hover td { background: var(--accent-soft); }
 
 /* ── saved searches toolbar ─────────────────────────────────────── */
 .savedbar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
   padding: 10px 24px;
   background: var(--surface);
   border-bottom: 1px solid var(--line);
   font-size: 13px;
+}
+.savedbar-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 12px;
+  background: var(--accent-soft, #eef3fb);
+  border: 1px solid var(--line);
+  border-radius: 8px;
 }
 .savedbar label { color: var(--muted); font-size: 12px; }
 .savedbar select,
@@ -370,11 +392,34 @@ tr:hover td { background: var(--accent-soft); }
 
 /* ---- Full-text document search (search.coviddocuments.com Worker) ---- */
 .fulltext { padding: 14px 24px; }
-#ft-form { display: flex; gap: 8px; }
-#ft-q { flex: 1; padding: 10px 12px; font: inherit; border: 1px solid #c7cedb; border-radius: 8px; }
-#ft-q:focus { outline: none; border-color: #2f6fd0; }
+#ft-form { display: flex; gap: 8px; align-items: stretch; }
+.ft-field { position: relative; flex: 1; display: flex; align-items: center; }
+.ft-icon {
+  position: absolute; left: 12px; color: #6b7684; pointer-events: none;
+}
+#ft-q {
+  flex: 1; width: 100%;
+  padding: 10px 40px 10px 38px;         /* room for magnifier (l) and clear (r) */
+  font: inherit; color: var(--ink);
+  border: 1px solid #c7cedb; border-radius: 8px; background: var(--surface);
+}
+#ft-q:focus { outline: none; border-color: #2f6fd0; box-shadow: 0 0 0 3px rgba(47,111,208,.15); }
+/* hide the browser's native search clear so our custom one is the only X */
+#ft-q::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+.ft-clear {
+  position: absolute; right: 6px; display: inline-flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; padding: 0; border: 0; border-radius: 50%;
+  background: transparent; color: #6b7684; cursor: pointer;
+}
+.ft-clear:hover { background: #e9edf4; color: var(--ink); }
+#ft-form .primary { white-space: nowrap; }
+
+@media (max-width: 600px) {
+  #ft-form { flex-direction: column; }
+  #ft-form .primary { width: 100%; height: 40px; }
+}
 .ft-status { color: #5b6673; font-size: 13px; margin: 8px 2px; }
-.ft-results { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; max-height: 62vh; overflow: auto; }
+.ft-results { display: flex; flex-direction: column; gap: 10px; padding: 12px 24px 0; }
 .ft-hit { border: 1px solid #e2e7ee; border-radius: 10px; padding: 10px 12px; background: #fff; }
 .ft-hit-head a { font-weight: 600; }
 .ft-hit-meta { color: #5b6673; font-size: 12.5px; }

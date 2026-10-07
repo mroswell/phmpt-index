@@ -3,23 +3,25 @@
 const PAGE_SIZE = 100;
 const SAVED_KEY = "phmpt-saved-searches-v1";
 
-// URL hash <-> state field names. Compact param names keep links short.
+// URL hash <-> control id. Clear, self-describing param names.
 const FIELD_PARAMS = {
-  "f-name":       "q",
-  "f-company":    "co",
-  "f-license":    "li",
-  "f-age":        "ag",
-  "f-individual": "indiv",
-  "f-date-from":  "df",
-  "f-date-to":    "dt",
-  "f-pages-min":  "pmin",
-  "f-pages-max":  "pmax",
+  "f-name":       "name",
+  "f-company":    "company",
+  "f-license":    "license",
+  "f-age":        "age",
+  "f-individual": "availability",
+  "f-date-from":  "date_from",
+  "f-date-to":    "date_to",
+  "f-pages-min":  "pages_min",
+  "f-pages-max":  "pages_max",
   "f-bates":      "bates",
 };
 
 const state = {
   rows: [],
   filtered: [],
+  mode: "filter",   // "filter" (table) | "search" (full-text results)
+  searchQuery: "",  // active full-text query (search mode), for URL state
   page: 0,
   sortKey: "modified",
   sortDir: -1,
@@ -67,6 +69,9 @@ function compare(a, b, key) {
 }
 
 function applyFilters() {
+  // In search mode the table is hidden; a filter change should re-query the
+  // search backend instead of refiltering the (hidden) table.
+  if (state.mode === "search") { if (window.ftRerun) window.ftRerun(); return; }
   const name = $("f-name").value.trim().toLowerCase();
   const company = $("f-company").value;
   const license = $("f-license").value;
@@ -132,9 +137,11 @@ function render() {
   const tbody = $("rows");
   tbody.innerHTML = "";
   const total = state.filtered.length;
-  $("count").textContent = total === state.rows.length
-    ? `${total.toLocaleString()} files`
-    : `${total.toLocaleString()} of ${state.rows.length.toLocaleString()} files`;
+  if (state.mode === "filter") {
+    $("count").textContent = total === state.rows.length
+      ? `${total.toLocaleString()} files`
+      : `${total.toLocaleString()} of ${state.rows.length.toLocaleString()} files`;
+  }
 
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
   if (state.page >= totalPages) state.page = totalPages - 1;
@@ -146,11 +153,13 @@ function render() {
   for (const r of slice) frag.appendChild(rowEl(r));
   tbody.appendChild(frag);
 
-  $("pager-info").textContent = total === 0
-    ? "no results"
-    : `${(start + 1).toLocaleString()}–${end.toLocaleString()}  (page ${state.page + 1} / ${totalPages})`;
-  $("prev").disabled = state.page === 0;
-  $("next").disabled = state.page >= totalPages - 1;
+  if (state.mode === "filter") {
+    $("pager-info").textContent = total === 0
+      ? "no results"
+      : `${(start + 1).toLocaleString()}–${end.toLocaleString()}  (page ${state.page + 1} / ${totalPages})`;
+    $("prev").disabled = state.page === 0;
+    $("next").disabled = state.page >= totalPages - 1;
+  }
 
   for (const th of document.querySelectorAll("th[data-sort]")) {
     th.classList.remove("sorted-asc", "sorted-desc");
@@ -282,12 +291,23 @@ function externalIcon() {
 
 function currentParams() {
   const params = new URLSearchParams();
+  // Search mode: the full-text query plus only the filters the search index
+  // supports (company/license/age/module). File-only filters don't apply.
+  if (state.mode === "search") {
+    if (state.searchQuery) params.set("search", state.searchQuery);
+    const co = $("f-company").value; if (co) params.set("company", co);
+    const li = $("f-license").value; if (li) params.set("license", li);
+    const ag = $("f-age").value;     if (ag) params.set("age", ag);
+    if (state.modSelected.size) params.set("module", [...state.modSelected].sort().join(","));
+    return params;
+  }
+  // Filter mode: every filter control plus sort.
   for (const [id, key] of Object.entries(FIELD_PARAMS)) {
     const v = $(id).value;
     if (v) params.set(key, v);
   }
-  if (state.extSelected.size) params.set("ext", [...state.extSelected].sort().join(","));
-  if (state.modSelected.size) params.set("mod", [...state.modSelected].sort().join(","));
+  if (state.extSelected.size) params.set("filetype", [...state.extSelected].sort().join(","));
+  if (state.modSelected.size) params.set("module", [...state.modSelected].sort().join(","));
   if (state.sortKey !== "modified" || state.sortDir !== -1) {
     params.set("sort", state.sortKey);
     params.set("dir", state.sortDir > 0 ? "asc" : "desc");
@@ -312,9 +332,9 @@ function applyParamsToControls(params) {
     // captured a closure over these references, so replacing the Sets would
     // orphan the listeners.
     state.extSelected.clear();
-    for (const v of (params.get("ext") || "").split(",").filter(Boolean)) state.extSelected.add(v);
+    for (const v of (params.get("filetype") || "").split(",").filter(Boolean)) state.extSelected.add(v);
     state.modSelected.clear();
-    for (const v of (params.get("mod") || "").split(",").filter(Boolean)) state.modSelected.add(v);
+    for (const v of (params.get("module") || "").split(",").filter(Boolean)) state.modSelected.add(v);
     // Re-sync the existing checkbox UIs.
     for (const cb of document.querySelectorAll("#f-ext input")) cb.checked = state.extSelected.has(cb.value);
     for (const cb of document.querySelectorAll("#f-module input")) cb.checked = state.modSelected.has(cb.value);
@@ -369,7 +389,7 @@ function refreshSavedPicker() {
 }
 
 function handleSaveCurrent() {
-  const name = (prompt("Name this search:") || "").trim();
+  const name = (prompt("Name this filter set:") || "").trim();
   if (!name) return;
   const list = loadSaved();
   if (list.some(s => s.name === name)) {
@@ -414,7 +434,7 @@ function renderSavedList() {
   if (list.length === 0) {
     const li = document.createElement("li");
     li.className = "empty";
-    li.textContent = "No saved searches yet.";
+    li.textContent = "No saved filter sets yet.";
     ul.appendChild(li);
     return;
   }
@@ -470,7 +490,7 @@ function renderSavedList() {
     del.className = "danger";
     del.textContent = "Delete";
     del.addEventListener("click", () => {
-      if (!confirm(`Delete saved search "${s.name}"?`)) return;
+      if (!confirm(`Delete saved filter set "${s.name}"?`)) return;
       persistSaved(loadSaved().filter(e => e.id !== s.id));
       refreshSavedPicker();
       renderSavedList();
@@ -548,8 +568,14 @@ function init() {
 
   $("reset").addEventListener("click", resetAllFilters);
 
-  $("prev").addEventListener("click", () => { state.page = Math.max(0, state.page - 1); render(); });
-  $("next").addEventListener("click", () => { state.page++; render(); });
+  $("prev").addEventListener("click", () => {
+    if (state.mode === "search") { window.ftPage(-1); return; }
+    state.page = Math.max(0, state.page - 1); render();
+  });
+  $("next").addEventListener("click", () => {
+    if (state.mode === "search") { window.ftPage(1); return; }
+    state.page++; render();
+  });
 
   for (const th of document.querySelectorAll("th[data-sort]")) {
     th.addEventListener("click", () => {
@@ -609,63 +635,223 @@ async function load() {
   refreshSavedPicker();
   // If the page was opened with a hash, restore that state before first render.
   if (location.hash) readUrlIntoState();
-  applyFilters();
+  // A `search` param means restore search mode: controls are already applied
+  // above, so run the query (which reads them and re-writes the URL).
+  const searchQ = new URLSearchParams(location.hash.slice(1)).get("search");
+  if (searchQ && window.ftRestore) window.ftRestore(searchQ);
+  else applyFilters();
 }
 
 load().catch((e) => {
   $("rows").innerHTML = `<tr><td colspan="12" style="padding:24px;color:#900">load failed: ${e}</td></tr>`;
 });
 
-/* ---- Full-text document search (OpenSearch via Cloudflare Worker) ---- */
+/* ---- Full-text document search (OpenSearch via Cloudflare Worker) ----
+   Results are consolidated one row per document (group=doc), listing the
+   matching page numbers. They reuse the main table's display zone + pager:
+   searching enters "search mode" (table hidden, hit-list shown, pager pages
+   over documents); clearing the box or "Back to filters" returns to the
+   table. */
 (function () {
   const API = "https://search.coviddocuments.com/";
+  const SIZE = 150;       // documents per page
+  const FROM_CAP = 1000;  // the Worker clamps `from` to this
   const form = document.getElementById("ft-form");
   if (!form) return;
   const q = document.getElementById("ft-q");
-  const status = document.getElementById("ft-status");
+  const clearBtn = document.getElementById("ft-clear");
+  const statusEl = document.getElementById("ft-status");
   const out = document.getElementById("ft-results");
+  const table = document.getElementById("results");
+  const countEl = document.getElementById("count");
+  const banner = document.getElementById("search-banner");
+  const bannerText = banner.querySelector(".sb-text");
+  const backBtn = document.getElementById("back-to-filters");
+  const copyBtn = document.getElementById("ft-copy-link");
+
   let seq = 0;
+  let curQuery = "";
+  let curPage = 0;        // 0-based page over documents
+  let docTotal = 0;
+  let pagesMatched = 0;
+
+  function syncClear() { if (clearBtn) clearBtn.hidden = !q.value; }
+  q.addEventListener("input", syncClear);
+  syncClear();
+
   function safeSnippet(s) {
     const esc = String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     return esc.replace(/&lt;em&gt;/g, "<em>").replace(/&lt;\/em&gt;/g, "</em>");
   }
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const query = q.value.trim();
-    out.hidden = true; out.innerHTML = "";
-    if (!query) { status.textContent = ""; return; }
+
+  // "Pages 63, 423, … (+313 more) of 13,123" — singular "Page" for a single
+  // match. Show at most PAGE_LIST_CAP page numbers; big safety reports can
+  // match a term on hundreds of pages, so the rest roll into "(+N more)".
+  const PAGE_LIST_CAP = 10;
+  function fmtPages(h) {
+    const pages = h.pages || [];
+    if (!pages.length) return "";
+    const total = h.pages_total || pages.length;
+    const shown = pages.slice(0, PAGE_LIST_CAP);
+    let str = (total === 1 ? "Page " : "Pages ") + shown.map((p) => p.toLocaleString()).join(", ");
+    if (total > shown.length) str += " (+" + (total - shown.length).toLocaleString() + " more)";
+    if (h.total_pages) str += " of " + h.total_pages.toLocaleString();
+    return str;
+  }
+
+  function renderHits(hits) {
+    out.innerHTML = "";
+    const frag = document.createDocumentFragment();
+    for (const h of hits) {
+      const card = document.createElement("div"); card.className = "ft-hit";
+      const head = document.createElement("div"); head.className = "ft-hit-head";
+      if (h.url) {
+        const a = document.createElement("a");
+        a.href = h.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = h.filename;
+        head.appendChild(a);
+      } else head.appendChild(document.createTextNode(h.filename));
+      const meta = document.createElement("span"); meta.className = "ft-hit-meta";
+      const pageStr = fmtPages(h);
+      const extra = (h.company ? " · " + h.company : "") + (h.module ? " · " + h.module : "") +
+                    (h.license ? " · " + h.license : "");
+      meta.textContent = (pageStr ? " · " + pageStr : "") + extra;
+      head.appendChild(meta); card.appendChild(head);
+      if (h.snippet) {
+        const s = document.createElement("div"); s.className = "ft-snip";
+        s.innerHTML = safeSnippet(h.snippet); card.appendChild(s);
+      }
+      frag.appendChild(card);
+    }
+    out.appendChild(frag);
+  }
+
+  function updatePager(shownCount) {
+    const totalPages = Math.max(1, Math.ceil(docTotal / SIZE));
+    const start = curPage * SIZE;
+    const end = start + shownCount;
+    const reachableNext = (curPage + 1) * SIZE < FROM_CAP;
+    document.getElementById("pager-info").textContent = docTotal === 0
+      ? "no results"
+      : `${(start + 1).toLocaleString()}–${end.toLocaleString()}  (page ${curPage + 1} / ${totalPages})`;
+    document.getElementById("prev").disabled = curPage === 0;
+    document.getElementById("next").disabled = curPage >= totalPages - 1 || !reachableNext;
+  }
+
+  // Human-readable summary of the active search filters, e.g.
+  // ["Company: Pfizer", "Module: M4, M5"].
+  function activeFilterSummary() {
+    const parts = [];
+    const co = $("f-company").value; if (co) parts.push("Company: " + co);
+    const li = $("f-license").value; if (li) parts.push("License: " + li);
+    const ag = $("f-age").value;     if (ag) parts.push("Age: " + ag);
+    const mods = [...state.modSelected]; if (mods.length) parts.push("Module: " + mods.join(", "));
+    return parts;
+  }
+
+  function updateBanner() {
+    let t = `${docTotal.toLocaleString()} document${docTotal === 1 ? "" : "s"}` +
+            ` (${pagesMatched.toLocaleString()} page${pagesMatched === 1 ? "" : "s"})` +
+            ` match “${curQuery}”`;
+    const filters = activeFilterSummary();
+    if (filters.length) t += ` · filtered by ${filters.join(" · ")}`;
+    if (docTotal > FROM_CAP) t += ` · first ${FROM_CAP.toLocaleString()} shown`;
+    bannerText.textContent = t;
+  }
+
+  // The four filters the page-level search index supports (company, license,
+  // age_group, module). Read live from the controls and map UI ids → index
+  // field names; module is a multi-select, sent comma-joined.
+  function searchFilterParams() {
+    const p = [];
+    const co = $("f-company").value; if (co) p.push("company=" + encodeURIComponent(co));
+    const li = $("f-license").value; if (li) p.push("license=" + encodeURIComponent(li));
+    const ag = $("f-age").value;     if (ag) p.push("age_group=" + encodeURIComponent(ag));
+    const mods = [...state.modSelected]; if (mods.length) p.push("module=" + encodeURIComponent(mods.join(",")));
+    return p.join("&");
+  }
+
+  function enterSearchMode() {
+    state.mode = "search";
+    document.body.classList.add("mode-search");
+    table.hidden = true;
+    out.hidden = false;
+    countEl.hidden = true;
+    banner.hidden = false;
+  }
+
+  function exitSearchMode() {
+    seq++;                 // cancel any in-flight request
+    state.mode = "filter";
+    document.body.classList.remove("mode-search");
+    table.hidden = false;
+    out.hidden = true;
+    out.innerHTML = "";
+    countEl.hidden = false;
+    banner.hidden = true;
+    statusEl.textContent = "";
+    applyFilters();        // restore the table, applying any filters changed during search
+  }
+
+  async function runSearch(page) {
+    if (!curQuery) { exitSearchMode(); return; }
+    curPage = Math.max(0, page);
     const mine = ++seq;
-    status.textContent = "Searching…";
+    enterSearchMode();
+    state.searchQuery = curQuery;
+    writeUrlFromState();   // reflect search + active filters in the #hash
+    statusEl.textContent = "Searching…";
     try {
-      const r = await fetch(API + "?q=" + encodeURIComponent(query) + "&size=25");
+      const from = curPage * SIZE;
+      const filters = searchFilterParams();
+      const url = `${API}?q=${encodeURIComponent(curQuery)}&group=doc&size=${SIZE}&from=${from}` +
+                  (filters ? "&" + filters : "");
+      const r = await fetch(url);
       const d = await r.json();
       if (mine !== seq) return;
-      if (d.error) { status.textContent = "Search error: " + d.error; return; }
-      const n = d.total || 0;
-      status.textContent = n.toLocaleString() + " page" + (n === 1 ? "" : "s") +
-        " match “" + query + "”" + (n > d.hits.length ? " (showing " + d.hits.length + ")" : "");
-      for (const h of d.hits) {
-        const card = document.createElement("div"); card.className = "ft-hit";
-        const head = document.createElement("div"); head.className = "ft-hit-head";
-        if (h.url) {
-          const a = document.createElement("a");
-          a.href = h.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = h.filename;
-          head.appendChild(a);
-        } else head.appendChild(document.createTextNode(h.filename));
-        const meta = document.createElement("span"); meta.className = "ft-hit-meta";
-        meta.textContent = " · p" + h.page + (h.total_pages ? "/" + h.total_pages : "") +
-          (h.company ? " · " + h.company : "") + (h.module ? " · " + h.module : "") +
-          (h.license ? " · " + h.license : "");
-        head.appendChild(meta); card.appendChild(head);
-        if (h.snippet) {
-          const s = document.createElement("div"); s.className = "ft-snip";
-          s.innerHTML = safeSnippet(h.snippet); card.appendChild(s);
-        }
-        out.appendChild(card);
-      }
-      out.hidden = false;
+      if (d.error) { statusEl.textContent = "Search error: " + d.error; return; }
+      docTotal = d.total || 0;
+      pagesMatched = d.pages_matched || 0;
+      const hits = d.hits || [];
+      renderHits(hits);
+      updateBanner();
+      updatePager(hits.length);
+      statusEl.textContent = "";
     } catch (err) {
-      if (mine === seq) status.textContent = "Search unavailable right now.";
+      if (mine === seq) statusEl.textContent = "Search unavailable right now.";
     }
+  }
+
+  // Bridge so the shared Prev/Next pager (wired in setup) can drive search.
+  window.ftPage = (delta) => runSearch(curPage + delta);
+  // Bridge so a filter change in search mode re-queries from the first page.
+  window.ftRerun = () => runSearch(0);
+  // Bridge so load() can restore a search from the URL (controls are already set).
+  window.ftRestore = (query) => { q.value = query; curQuery = query; syncClear(); runSearch(0); };
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const query = q.value.trim();
+    if (!query) { curQuery = ""; exitSearchMode(); return; }
+    curQuery = query;
+    runSearch(0);
+  });
+
+  if (clearBtn) clearBtn.addEventListener("click", () => {
+    q.value = ""; syncClear(); q.focus();
+    curQuery = "";
+    exitSearchMode();
+  });
+
+  backBtn.addEventListener("click", exitSearchMode);
+
+  // Copy the current search URL. The savedbar's #toast is hidden in search
+  // mode, so confirm inline by briefly flipping the button label.
+  copyBtn.addEventListener("click", async () => {
+    const url = fullLink();   // currentParams() returns the search branch in search mode
+    try { await navigator.clipboard.writeText(url); }
+    catch { prompt("Copy this link:", url); return; }
+    const prev = copyBtn.textContent;
+    copyBtn.textContent = "Copied!";
+    setTimeout(() => { copyBtn.textContent = prev; }, 1500);
   });
 })();
