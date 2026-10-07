@@ -369,7 +369,7 @@ tr:hover td { background: var(--accent-soft); }
 .saved-list .empty { padding: 20px; color: var(--muted); text-align: center; }
 
 /* ---- Full-text document search (search.coviddocuments.com Worker) ---- */
-.fulltext { margin: 14px 0; }
+.fulltext { padding: 14px 24px; }
 #ft-form { display: flex; gap: 8px; }
 #ft-q { flex: 1; padding: 10px 12px; font: inherit; border: 1px solid #c7cedb; border-radius: 8px; }
 #ft-q:focus { outline: none; border-color: #2f6fd0; }
