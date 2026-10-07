@@ -608,12 +608,9 @@ function init() {
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") closeManageModal();
   });
-
-  // Back/forward navigation: re-apply state from the URL.
-  window.addEventListener("hashchange", () => {
-    readUrlIntoState();
-    applyFilters();
-  });
+  // Note: the hashchange listener lives in load() (applyHashToState), which
+  // handles both filter and search URLs. Don't add a second one here — two
+  // listeners race and a filter-mode re-run can clobber a search URL.
 }
 
 function debounce(fn, ms) {
@@ -633,13 +630,26 @@ async function load() {
   buildCheckboxFilter("f-module", "module", state.modSelected,
     (a, b) => a[0].localeCompare(b[0]));
   refreshSavedPicker();
-  // If the page was opened with a hash, restore that state before first render.
-  if (location.hash) readUrlIntoState();
-  // A `search` param means restore search mode: controls are already applied
-  // above, so run the query (which reads them and re-writes the URL).
+  // Restore whatever state the opening URL encodes (filters and/or search).
+  applyHashToState();
+  // Re-apply on manual #hash edits / back-forward nav. (history.replaceState,
+  // which we use to write the URL, does NOT fire hashchange, so no loop.)
+  window.addEventListener("hashchange", applyHashToState);
+}
+
+// Apply the current #hash to the UI. A `search` param restores search mode;
+// otherwise we land in (or return to) filter mode.
+function applyHashToState() {
+  if (!state.rows.length) return;   // data not loaded yet; load() calls us again
+  readUrlIntoState();               // sync filter controls from the hash
   const searchQ = new URLSearchParams(location.hash.slice(1)).get("search");
-  if (searchQ && window.ftRestore) window.ftRestore(searchQ);
-  else applyFilters();
+  if (searchQ && window.ftRestore) {
+    window.ftRestore(searchQ);      // enter search mode and run the query
+  } else if (state.mode === "search" && window.ftExit) {
+    window.ftExit();                // leaving a search URL → back to the table
+  } else {
+    applyFilters();
+  }
 }
 
 load().catch((e) => {
@@ -827,6 +837,8 @@ load().catch((e) => {
   window.ftRerun = () => runSearch(0);
   // Bridge so load() can restore a search from the URL (controls are already set).
   window.ftRestore = (query) => { q.value = query; curQuery = query; syncClear(); runSearch(0); };
+  // Bridge so a hashchange to a non-search URL can leave search mode.
+  window.ftExit = () => { q.value = ""; curQuery = ""; syncClear(); exitSearchMode(); };
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
