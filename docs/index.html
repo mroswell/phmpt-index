@@ -94,6 +94,16 @@
   </p>
 </header>
 
+<section class="fulltext">
+  <form id="ft-form" role="search">
+    <input type="search" id="ft-q" autocomplete="off"
+           placeholder="Search inside document text — e.g. myocarditis, (b)(4), 5683…">
+    <button type="submit" class="primary">Search text</button>
+  </form>
+  <div id="ft-status" class="ft-status" aria-live="polite"></div>
+  <div id="ft-results" class="ft-results" hidden></div>
+</section>
+
 <section class="savedbar">
   <label for="saved-pick">Saved search:</label>
   <select id="saved-pick">

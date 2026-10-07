@@ -615,3 +615,57 @@ async function load() {
 load().catch((e) => {
   $("rows").innerHTML = `<tr><td colspan="12" style="padding:24px;color:#900">load failed: ${e}</td></tr>`;
 });
+
+/* ---- Full-text document search (OpenSearch via Cloudflare Worker) ---- */
+(function () {
+  const API = "https://search.coviddocuments.com/";
+  const form = document.getElementById("ft-form");
+  if (!form) return;
+  const q = document.getElementById("ft-q");
+  const status = document.getElementById("ft-status");
+  const out = document.getElementById("ft-results");
+  let seq = 0;
+  function safeSnippet(s) {
+    const esc = String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return esc.replace(/&lt;em&gt;/g, "<em>").replace(/&lt;\/em&gt;/g, "</em>");
+  }
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const query = q.value.trim();
+    out.hidden = true; out.innerHTML = "";
+    if (!query) { status.textContent = ""; return; }
+    const mine = ++seq;
+    status.textContent = "Searching…";
+    try {
+      const r = await fetch(API + "?q=" + encodeURIComponent(query) + "&size=25");
+      const d = await r.json();
+      if (mine !== seq) return;
+      if (d.error) { status.textContent = "Search error: " + d.error; return; }
+      const n = d.total || 0;
+      status.textContent = n.toLocaleString() + " page" + (n === 1 ? "" : "s") +
+        " match “" + query + "”" + (n > d.hits.length ? " (showing " + d.hits.length + ")" : "");
+      for (const h of d.hits) {
+        const card = document.createElement("div"); card.className = "ft-hit";
+        const head = document.createElement("div"); head.className = "ft-hit-head";
+        if (h.url) {
+          const a = document.createElement("a");
+          a.href = h.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = h.filename;
+          head.appendChild(a);
+        } else head.appendChild(document.createTextNode(h.filename));
+        const meta = document.createElement("span"); meta.className = "ft-hit-meta";
+        meta.textContent = " · p" + h.page + (h.total_pages ? "/" + h.total_pages : "") +
+          (h.company ? " · " + h.company : "") + (h.module ? " · " + h.module : "") +
+          (h.license ? " · " + h.license : "");
+        head.appendChild(meta); card.appendChild(head);
+        if (h.snippet) {
+          const s = document.createElement("div"); s.className = "ft-snip";
+          s.innerHTML = safeSnippet(h.snippet); card.appendChild(s);
+        }
+        out.appendChild(card);
+      }
+      out.hidden = false;
+    } catch (err) {
+      if (mine === seq) status.textContent = "Search unavailable right now.";
+    }
+  });
+})();

@@ -1,0 +1,9 @@
+name = "coviddocs-search"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+
+# Binds the Worker to the branded subdomain and auto-provisions DNS + cert
+# in the coviddocuments.com zone (same Cloudflare account as R2).
+[[routes]]
+pattern = "search.coviddocuments.com"
+custom_domain = true

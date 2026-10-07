@@ -367,3 +367,16 @@ tr:hover td { background: var(--accent-soft); }
 }
 .saved-list button.danger { color: #b00; border-color: #d4a; }
 .saved-list .empty { padding: 20px; color: var(--muted); text-align: center; }
+
+/* ---- Full-text document search (search.coviddocuments.com Worker) ---- */
+.fulltext { margin: 14px 0; }
+#ft-form { display: flex; gap: 8px; }
+#ft-q { flex: 1; padding: 10px 12px; font: inherit; border: 1px solid #c7cedb; border-radius: 8px; }
+#ft-q:focus { outline: none; border-color: #2f6fd0; }
+.ft-status { color: #5b6673; font-size: 13px; margin: 8px 2px; }
+.ft-results { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; max-height: 62vh; overflow: auto; }
+.ft-hit { border: 1px solid #e2e7ee; border-radius: 10px; padding: 10px 12px; background: #fff; }
+.ft-hit-head a { font-weight: 600; }
+.ft-hit-meta { color: #5b6673; font-size: 12.5px; }
+.ft-snip { margin-top: 5px; font-size: 13.5px; line-height: 1.5; color: #333; }
+.ft-snip em { background: #fde68a; font-style: normal; padding: 0 1px; border-radius: 2px; }
