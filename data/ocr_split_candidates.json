@@ -1,0 +1,2402 @@
+{
+ "sample": 5,
+ "total_merge_occurrences": 46411,
+ "distinct_joined_words": 1761,
+ "candidates": [
+  {
+   "word": "donee",
+   "count": 3724,
+   "example": "Done+e"
+  },
+  {
+   "word": "visite",
+   "count": 3178,
+   "example": "Visit+e"
+  },
+  {
+   "word": "applicable",
+   "count": 1971,
+   "example": "Applic+able"
+  },
+  {
+   "word": "criterion",
+   "count": 1680,
+   "example": "Criteri+on"
+  },
+  {
+   "word": "instance",
+   "count": 1483,
+   "example": "Instanc+e"
+  },
+  {
+   "word": "treatment",
+   "count": 1449,
+   "example": "TREATME+NT"
+  },
+  {
+   "word": "significant",
+   "count": 1252,
+   "example": "signifi+cant"
+  },
+  {
+   "word": "number",
+   "count": 1210,
+   "example": "Nu+mber"
+  },
+  {
+   "word": "closed",
+   "count": 807,
+   "example": "Clo+sed"
+  },
+  {
+   "word": "cause",
+   "count": 787,
+   "example": "Caus+e"
+  },
+  {
+   "word": "identifier",
+   "count": 779,
+   "example": "Identifi+er"
+  },
+  {
+   "word": "toxicity",
+   "count": 776,
+   "example": "Toxicit+y"
+  },
+  {
+   "word": "phase",
+   "count": 774,
+   "example": "Phas+e"
+  },
+  {
+   "word": "defined",
+   "count": 771,
+   "example": "Defin+ed"
+  },
+  {
+   "word": "event",
+   "count": 701,
+   "example": "EV+ENT"
+  },
+  {
+   "word": "efface",
+   "count": 609,
+   "example": "ef+face"
+  },
+  {
+   "word": "septime",
+   "count": 595,
+   "example": "SEP+Time"
+  },
+  {
+   "word": "present",
+   "count": 555,
+   "example": "Prese+nt"
+  },
+  {
+   "word": "yeara",
+   "count": 530,
+   "example": "Year+a"
+  },
+  {
+   "word": "influenzal",
+   "count": 482,
+   "example": "Influenza+l"
+  },
+  {
+   "word": "category",
+   "count": 480,
+   "example": "Categor+y"
+  },
+  {
+   "word": "exclusion",
+   "count": 390,
+   "example": "Exclusi+on"
+  },
+  {
+   "word": "temperature",
+   "count": 387,
+   "example": "Temperatu+re"
+  },
+  {
+   "word": "history",
+   "count": 385,
+   "example": "Histor+y"
+  },
+  {
+   "word": "collection",
+   "count": 367,
+   "example": "Collectio+n"
+  },
+  {
+   "word": "cavity",
+   "count": 362,
+   "example": "CAVIT+Y"
+  },
+  {
+   "word": "covin",
+   "count": 360,
+   "example": "CoV+in"
+  },
+  {
+   "word": "study",
+   "count": 342,
+   "example": "st+udy"
+  },
+  {
+   "word": "practitioner",
+   "count": 341,
+   "example": "Practiti+oner"
+  },
+  {
+   "word": "symptom",
+   "count": 327,
+   "example": "Sympto+m"
+  },
+  {
+   "word": "subject",
+   "count": 321,
+   "example": "Sub+ject"
+  },
+  {
+   "word": "range",
+   "count": 319,
+   "example": "Rang+e"
+  },
+  {
+   "word": "systemic",
+   "count": 294,
+   "example": "syste+mic"
+  },
+  {
+   "word": "result",
+   "count": 292,
+   "example": "Res+ult"
+  },
+  {
+   "word": "other",
+   "count": 292,
+   "example": "OTH+ER"
+  },
+  {
+   "word": "unite",
+   "count": 281,
+   "example": "Unit+e"
+  },
+  {
+   "word": "location",
+   "count": 279,
+   "example": "Loca+tion"
+  },
+  {
+   "word": "muscle",
+   "count": 264,
+   "example": "MUSC+LE"
+  },
+  {
+   "word": "spoon",
+   "count": 238,
+   "example": "SpO+on"
+  },
+  {
+   "word": "resolved",
+   "count": 234,
+   "example": "RESO+LVED"
+  },
+  {
+   "word": "entry",
+   "count": 232,
+   "example": "Entr+y"
+  },
+  {
+   "word": "medication",
+   "count": 210,
+   "example": "Medicatio+n"
+  },
+  {
+   "word": "wasco",
+   "count": 193,
+   "example": "was+co"
+  },
+  {
+   "word": "diary",
+   "count": 190,
+   "example": "Dia+ry"
+  },
+  {
+   "word": "candidate",
+   "count": 177,
+   "example": "Candidat+e"
+  },
+  {
+   "word": "adverse",
+   "count": 166,
+   "example": "ADVERS+E"
+  },
+  {
+   "word": "inclusion",
+   "count": 165,
+   "example": "Inclusi+on"
+  },
+  {
+   "word": "unknew",
+   "count": 159,
+   "example": "UNK+New"
+  },
+  {
+   "word": "unknown",
+   "count": 155,
+   "example": "Unkno+wn"
+  },
+  {
+   "word": "error",
+   "count": 153,
+   "example": "Er+ror"
+  },
+  {
+   "word": "ongoing",
+   "count": 152,
+   "example": "Ongoin+g"
+  },
+  {
+   "word": "vaccination",
+   "count": 149,
+   "example": "Vaccinati+on"
+  },
+  {
+   "word": "visita",
+   "count": 143,
+   "example": "Visit+a"
+  },
+  {
+   "word": "hypersensitivity",
+   "count": 141,
+   "example": "hypersensitivit+y"
+  },
+  {
+   "word": "plicable",
+   "count": 141,
+   "example": "plicabl+e"
+  },
+  {
+   "word": "syndrome",
+   "count": 136,
+   "example": "SYND+ROME"
+  },
+  {
+   "word": "julus",
+   "count": 132,
+   "example": "Jul+US"
+  },
+  {
+   "word": "scription",
+   "count": 129,
+   "example": "scripti+on"
+  },
+  {
+   "word": "observation",
+   "count": 128,
+   "example": "OBSERVATIO+N"
+  },
+  {
+   "word": "tables",
+   "count": 127,
+   "example": "Table+S"
+  },
+  {
+   "word": "formed",
+   "count": 127,
+   "example": "for+Med"
+  },
+  {
+   "word": "hasan",
+   "count": 126,
+   "example": "has+an"
+  },
+  {
+   "word": "physician",
+   "count": 125,
+   "example": "PHYSICIA+N"
+  },
+  {
+   "word": "umber",
+   "count": 120,
+   "example": "umb+er"
+  },
+  {
+   "word": "associated",
+   "count": 118,
+   "example": "associate+d"
+  },
+  {
+   "word": "thana",
+   "count": 115,
+   "example": "than+a"
+  },
+  {
+   "word": "emergency",
+   "count": 115,
+   "example": "EMERGEN+CY"
+  },
+  {
+   "word": "doesnt",
+   "count": 111,
+   "example": "doesn+t"
+  },
+  {
+   "word": "reaction",
+   "count": 110,
+   "example": "Reactio+n"
+  },
+  {
+   "word": "death",
+   "count": 108,
+   "example": "Dea+th"
+  },
+  {
+   "word": "taste",
+   "count": 105,
+   "example": "TA+STE"
+  },
+  {
+   "word": "didnt",
+   "count": 99,
+   "example": "didn+t"
+  },
+  {
+   "word": "specimen",
+   "count": 99,
+   "example": "Specime+n"
+  },
+  {
+   "word": "description",
+   "count": 99,
+   "example": "Descripti+on"
+  },
+  {
+   "word": "corresponding",
+   "count": 98,
+   "example": "correspon+ding"
+  },
+  {
+   "word": "graded",
+   "count": 92,
+   "example": "Grade+d"
+  },
+  {
+   "word": "consent",
+   "count": 92,
+   "example": "Conse+nt"
+  },
+  {
+   "word": "paste",
+   "count": 92,
+   "example": "Past+e"
+  },
+  {
+   "word": "serious",
+   "count": 90,
+   "example": "seri+ous"
+  },
+  {
+   "word": "consultation",
+   "count": 90,
+   "example": "CONSULTATI+ON"
+  },
+  {
+   "word": "related",
+   "count": 88,
+   "example": "Relate+d"
+  },
+  {
+   "word": "united",
+   "count": 84,
+   "example": "UNITE+D"
+  },
+  {
+   "word": "diarrhea",
+   "count": 82,
+   "example": "DIARRHE+A"
+  },
+  {
+   "word": "joint",
+   "count": 81,
+   "example": "JOI+NT"
+  },
+  {
+   "word": "vomit",
+   "count": 79,
+   "example": "VO+MIT"
+  },
+  {
+   "word": "forehead",
+   "count": 79,
+   "example": "FOREHE+AD"
+  },
+  {
+   "word": "threatening",
+   "count": 79,
+   "example": "threateni+ng"
+  },
+  {
+   "word": "specialist",
+   "count": 77,
+   "example": "SPECIA+LIST"
+  },
+  {
+   "word": "sessions",
+   "count": 76,
+   "example": "Session+S"
+  },
+  {
+   "word": "occurrence",
+   "count": 75,
+   "example": "Occurren+ce"
+  },
+  {
+   "word": "classification",
+   "count": 71,
+   "example": "Classifica+tion"
+  },
+  {
+   "word": "injection",
+   "count": 71,
+   "example": "injectio+n"
+  },
+  {
+   "word": "augend",
+   "count": 70,
+   "example": "AUG+End"
+  },
+  {
+   "word": "smell",
+   "count": 70,
+   "example": "SME+LL"
+  },
+  {
+   "word": "forme",
+   "count": 69,
+   "example": "form+e"
+  },
+  {
+   "word": "nasopharynx",
+   "count": 69,
+   "example": "NASOPHARYN+X"
+  },
+  {
+   "word": "illness",
+   "count": 68,
+   "example": "ILLNES+S"
+  },
+  {
+   "word": "specify",
+   "count": 66,
+   "example": "spe+cify"
+  },
+  {
+   "word": "intervention",
+   "count": 66,
+   "example": "interven+tion"
+  },
+  {
+   "word": "grade",
+   "count": 65,
+   "example": "Grad+e"
+  },
+  {
+   "word": "vomiting",
+   "count": 63,
+   "example": "VOMITIN+G"
+  },
+  {
+   "word": "birth",
+   "count": 63,
+   "example": "birt+h"
+  },
+  {
+   "word": "hypertension",
+   "count": 62,
+   "example": "Hypertensio+n"
+  },
+  {
+   "word": "throat",
+   "count": 61,
+   "example": "TH+ROAT"
+  },
+  {
+   "word": "decus",
+   "count": 60,
+   "example": "Dec+US"
+  },
+  {
+   "word": "infection",
+   "count": 59,
+   "example": "infec+tion"
+  },
+  {
+   "word": "swell",
+   "count": 59,
+   "example": "SW+ELL"
+  },
+  {
+   "word": "vaccinee",
+   "count": 58,
+   "example": "vaccine+e"
+  },
+  {
+   "word": "persae",
+   "count": 58,
+   "example": "Per+SAE"
+  },
+  {
+   "word": "assessment",
+   "count": 58,
+   "example": "Assessm+ent"
+  },
+  {
+   "word": "negative",
+   "count": 57,
+   "example": "NEGATIV+E"
+  },
+  {
+   "word": "vaccine",
+   "count": 57,
+   "example": "vac+cine"
+  },
+  {
+   "word": "condition",
+   "count": 57,
+   "example": "conditio+n"
+  },
+  {
+   "word": "namer",
+   "count": 56,
+   "example": "Name+R"
+  },
+  {
+   "word": "moderate",
+   "count": 56,
+   "example": "Moderat+e"
+  },
+  {
+   "word": "streets",
+   "count": 54,
+   "example": "Street+S"
+  },
+  {
+   "word": "superb",
+   "count": 54,
+   "example": "SUPER+B"
+  },
+  {
+   "word": "eligibility",
+   "count": 54,
+   "example": "ELIGIBILI+TY"
+  },
+  {
+   "word": "cough",
+   "count": 53,
+   "example": "COUG+H"
+  },
+  {
+   "word": "clinical",
+   "count": 52,
+   "example": "Clinica+l"
+  },
+  {
+   "word": "require",
+   "count": 52,
+   "example": "requi+re"
+  },
+  {
+   "word": "willing",
+   "count": 52,
+   "example": "willi+ng"
+  },
+  {
+   "word": "disability",
+   "count": 51,
+   "example": "disabil+ity"
+  },
+  {
+   "word": "anomaly",
+   "count": 50,
+   "example": "anomal+y"
+  },
+  {
+   "word": "inclusive",
+   "count": 50,
+   "example": "inclusiv+e"
+  },
+  {
+   "word": "hospitalization",
+   "count": 49,
+   "example": "hospitalizatio+n"
+  },
+  {
+   "word": "shortness",
+   "count": 47,
+   "example": "SHORTN+ESS"
+  },
+  {
+   "word": "participation",
+   "count": 46,
+   "example": "participatio+n"
+  },
+  {
+   "word": "their",
+   "count": 45,
+   "example": "The+IR"
+  },
+  {
+   "word": "withe",
+   "count": 44,
+   "example": "with+e"
+  },
+  {
+   "word": "hepatitis",
+   "count": 43,
+   "example": "hepat+itis"
+  },
+  {
+   "word": "wasnt",
+   "count": 41,
+   "example": "wasn+t"
+  },
+  {
+   "word": "during",
+   "count": 41,
+   "example": "durin+g"
+  },
+  {
+   "word": "received",
+   "count": 41,
+   "example": "receive+d"
+  },
+  {
+   "word": "cholesterol",
+   "count": 40,
+   "example": "Choleste+rol"
+  },
+  {
+   "word": "protein",
+   "count": 40,
+   "example": "Prot+ein"
+  },
+  {
+   "word": "laboratory",
+   "count": 40,
+   "example": "laborat+ory"
+  },
+  {
+   "word": "patient",
+   "count": 40,
+   "example": "Patien+t"
+  },
+  {
+   "word": "definition",
+   "count": 40,
+   "example": "definitio+n"
+  },
+  {
+   "word": "blood",
+   "count": 40,
+   "example": "BLOO+D"
+  },
+  {
+   "word": "investigator",
+   "count": 40,
+   "example": "investigat+or"
+  },
+  {
+   "word": "nitrogen",
+   "count": 40,
+   "example": "Nitr+ogen"
+  },
+  {
+   "word": "paint",
+   "count": 39,
+   "example": "PAIN+T"
+  },
+  {
+   "word": "minute",
+   "count": 39,
+   "example": "mi+nute"
+  },
+  {
+   "word": "prolong",
+   "count": 38,
+   "example": "prolon+g"
+  },
+  {
+   "word": "urgent",
+   "count": 38,
+   "example": "URGEN+T"
+  },
+  {
+   "word": "teste",
+   "count": 37,
+   "example": "test+e"
+  },
+  {
+   "word": "additional",
+   "count": 37,
+   "example": "ADDITIONA+L"
+  },
+  {
+   "word": "articular",
+   "count": 37,
+   "example": "ARTICULA+R"
+  },
+  {
+   "word": "placebo",
+   "count": 37,
+   "example": "pla+cebo"
+  },
+  {
+   "word": "judgment",
+   "count": 37,
+   "example": "judg+ment"
+  },
+  {
+   "word": "defect",
+   "count": 37,
+   "example": "def+ect"
+  },
+  {
+   "word": "breath",
+   "count": 37,
+   "example": "BRE+ATH"
+  },
+  {
+   "word": "yearn",
+   "count": 37,
+   "example": "year+N"
+  },
+  {
+   "word": "severe",
+   "count": 36,
+   "example": "sev+ere"
+  },
+  {
+   "word": "known",
+   "count": 36,
+   "example": "know+n"
+  },
+  {
+   "word": "determined",
+   "count": 35,
+   "example": "determin+ed"
+  },
+  {
+   "word": "covid",
+   "count": 34,
+   "example": "CO+VID"
+  },
+  {
+   "word": "telephone",
+   "count": 34,
+   "example": "TELEPHON+E"
+  },
+  {
+   "word": "beheld",
+   "count": 33,
+   "example": "be+held"
+  },
+  {
+   "word": "outcome",
+   "count": 33,
+   "example": "Outcom+e"
+  },
+  {
+   "word": "medical",
+   "count": 33,
+   "example": "Medica+l"
+  },
+  {
+   "word": "tablet",
+   "count": 32,
+   "example": "table+T"
+  },
+  {
+   "word": "administration",
+   "count": 32,
+   "example": "administra+tion"
+  },
+  {
+   "word": "hypercholesterolemia",
+   "count": 32,
+   "example": "HYPERCHOLESTEROLEMI+A"
+  },
+  {
+   "word": "right",
+   "count": 32,
+   "example": "rig+ht"
+  },
+  {
+   "word": "plasma",
+   "count": 32,
+   "example": "plas+ma"
+  },
+  {
+   "word": "allergy",
+   "count": 32,
+   "example": "all+ergy"
+  },
+  {
+   "word": "still",
+   "count": 32,
+   "example": "Sti+ll"
+  },
+  {
+   "word": "hypothyroidism",
+   "count": 31,
+   "example": "Hypothyroidis+m"
+  },
+  {
+   "word": "caffeine",
+   "count": 31,
+   "example": "CAFFEI+NE"
+  },
+  {
+   "word": "diagnosis",
+   "count": 31,
+   "example": "Diagnosi+s"
+  },
+  {
+   "word": "fever",
+   "count": 31,
+   "example": "FEV+ER"
+  },
+  {
+   "word": "action",
+   "count": 31,
+   "example": "Ac+tion"
+  },
+  {
+   "word": "cytotoxic",
+   "count": 31,
+   "example": "cytotoxi+c"
+  },
+  {
+   "word": "virus",
+   "count": 30,
+   "example": "vir+us"
+  },
+  {
+   "word": "important",
+   "count": 30,
+   "example": "importa+nt"
+  },
+  {
+   "word": "origin",
+   "count": 30,
+   "example": "ORI+GIN"
+  },
+  {
+   "word": "incapacity",
+   "count": 30,
+   "example": "incapa+city"
+  },
+  {
+   "word": "confirmed",
+   "count": 30,
+   "example": "confir+med"
+  },
+  {
+   "word": "formate",
+   "count": 29,
+   "example": "format+e"
+  },
+  {
+   "word": "negativer",
+   "count": 29,
+   "example": "Negative+R"
+  },
+  {
+   "word": "persona",
+   "count": 29,
+   "example": "person+a"
+  },
+  {
+   "word": "staff",
+   "count": 29,
+   "example": "st+aff"
+  },
+  {
+   "word": "elated",
+   "count": 28,
+   "example": "ELATE+D"
+  },
+  {
+   "word": "persistent",
+   "count": 28,
+   "example": "persist+ent"
+  },
+  {
+   "word": "primary",
+   "count": 27,
+   "example": "PRIMAR+Y"
+  },
+  {
+   "word": "female",
+   "count": 27,
+   "example": "Femal+e"
+  },
+  {
+   "word": "derived",
+   "count": 27,
+   "example": "DER+IVED"
+  },
+  {
+   "word": "hematology",
+   "count": 27,
+   "example": "HEMATO+LOGY"
+  },
+  {
+   "word": "chemistry",
+   "count": 27,
+   "example": "CHEMISTR+Y"
+  },
+  {
+   "word": "hemoglobin",
+   "count": 27,
+   "example": "Hemoglobi+n"
+  },
+  {
+   "word": "bilateral",
+   "count": 26,
+   "example": "bilater+al"
+  },
+  {
+   "word": "gender",
+   "count": 26,
+   "example": "Gende+r"
+  },
+  {
+   "word": "therapy",
+   "count": 26,
+   "example": "ther+apy"
+  },
+  {
+   "word": "causality",
+   "count": 26,
+   "example": "Causal+ity"
+  },
+  {
+   "word": "examination",
+   "count": 26,
+   "example": "examinati+on"
+  },
+  {
+   "word": "material",
+   "count": 26,
+   "example": "MATER+IAL"
+  },
+  {
+   "word": "apron",
+   "count": 25,
+   "example": "Apr+On"
+  },
+  {
+   "word": "respiratory",
+   "count": 25,
+   "example": "respira+tory"
+  },
+  {
+   "word": "multiple",
+   "count": 25,
+   "example": "MULTIPL+E"
+  },
+  {
+   "word": "normal",
+   "count": 25,
+   "example": "Norma+l"
+  },
+  {
+   "word": "disease",
+   "count": 25,
+   "example": "diseas+e"
+  },
+  {
+   "word": "surgery",
+   "count": 24,
+   "example": "sur+gery"
+  },
+  {
+   "word": "theres",
+   "count": 24,
+   "example": "there+s"
+  },
+  {
+   "word": "dependent",
+   "count": 24,
+   "example": "depende+nt"
+  },
+  {
+   "word": "spontaneous",
+   "count": 24,
+   "example": "Spontaneou+s"
+  },
+  {
+   "word": "headache",
+   "count": 24,
+   "example": "HEADA+CHE"
+  },
+  {
+   "word": "psychiatric",
+   "count": 24,
+   "example": "psychiatr+ic"
+  },
+  {
+   "word": "directly",
+   "count": 24,
+   "example": "dire+ctly"
+  },
+  {
+   "word": "prevent",
+   "count": 23,
+   "example": "preve+nt"
+  },
+  {
+   "word": "comply",
+   "count": 23,
+   "example": "co+mply"
+  },
+  {
+   "word": "playa",
+   "count": 22,
+   "example": "play+a"
+  },
+  {
+   "word": "receipt",
+   "count": 22,
+   "example": "receip+t"
+  },
+  {
+   "word": "collected",
+   "count": 22,
+   "example": "COLLECTE+D"
+  },
+  {
+   "word": "american",
+   "count": 21,
+   "example": "AMERICA+N"
+  },
+  {
+   "word": "spanish",
+   "count": 21,
+   "example": "SPANI+SH"
+  },
+  {
+   "word": "respective",
+   "count": 21,
+   "example": "respec+tive"
+  },
+  {
+   "word": "throughout",
+   "count": 21,
+   "example": "througho+ut"
+  },
+  {
+   "word": "ideation",
+   "count": 21,
+   "example": "ideatio+n"
+  },
+  {
+   "word": "themis",
+   "count": 20,
+   "example": "the+MIS"
+  },
+  {
+   "word": "active",
+   "count": 20,
+   "example": "acti+ve"
+  },
+  {
+   "word": "positive",
+   "count": 20,
+   "example": "POSITIV+E"
+  },
+  {
+   "word": "testa",
+   "count": 19,
+   "example": "test+A"
+  },
+  {
+   "word": "incus",
+   "count": 19,
+   "example": "INC+US"
+  },
+  {
+   "word": "addition",
+   "count": 19,
+   "example": "ADDI+TION"
+  },
+  {
+   "word": "pandemic",
+   "count": 19,
+   "example": "Pandem+ic"
+  },
+  {
+   "word": "linen",
+   "count": 19,
+   "example": "line+n"
+  },
+  {
+   "word": "eligible",
+   "count": 19,
+   "example": "eligi+ble"
+  },
+  {
+   "word": "physical",
+   "count": 19,
+   "example": "physi+cal"
+  },
+  {
+   "word": "return",
+   "count": 19,
+   "example": "retur+n"
+  },
+  {
+   "word": "journal",
+   "count": 18,
+   "example": "jour+nal"
+  },
+  {
+   "word": "immune",
+   "count": 18,
+   "example": "im+mune"
+  },
+  {
+   "word": "component",
+   "count": 18,
+   "example": "compon+ent"
+  },
+  {
+   "word": "sarna",
+   "count": 18,
+   "example": "sa+RNA"
+  },
+  {
+   "word": "would",
+   "count": 18,
+   "example": "wo+uld"
+  },
+  {
+   "word": "contraindicate",
+   "count": 18,
+   "example": "contraindica+te"
+  },
+  {
+   "word": "hematocrit",
+   "count": 18,
+   "example": "Hematocri+t"
+  },
+  {
+   "word": "protocol",
+   "count": 18,
+   "example": "protoc+ol"
+  },
+  {
+   "word": "nation",
+   "count": 18,
+   "example": "NATI+ON"
+  },
+  {
+   "word": "otherwise",
+   "count": 18,
+   "example": "otherwis+e"
+  },
+  {
+   "word": "unscheduled",
+   "count": 17,
+   "example": "Unschedul+ed"
+  },
+  {
+   "word": "diagnostic",
+   "count": 17,
+   "example": "DIAGNOSTI+C"
+  },
+  {
+   "word": "system",
+   "count": 17,
+   "example": "Syste+m"
+  },
+  {
+   "word": "saturation",
+   "count": 17,
+   "example": "Saturati+on"
+  },
+  {
+   "word": "tooth",
+   "count": 17,
+   "example": "to+OTH"
+  },
+  {
+   "word": "anaphylaxis",
+   "count": 17,
+   "example": "anaphylaxi+s"
+  },
+  {
+   "word": "behavior",
+   "count": 17,
+   "example": "beha+vior"
+  },
+  {
+   "word": "conduct",
+   "count": 17,
+   "example": "condu+ct"
+  },
+  {
+   "word": "compliance",
+   "count": 17,
+   "example": "compli+ance"
+  },
+  {
+   "word": "assess",
+   "count": 17,
+   "example": "ASSE+SS"
+  },
+  {
+   "word": "chill",
+   "count": 16,
+   "example": "CH+ILL"
+  },
+  {
+   "word": "family",
+   "count": 16,
+   "example": "fami+ly"
+  },
+  {
+   "word": "period",
+   "count": 16,
+   "example": "PERIO+D"
+  },
+  {
+   "word": "allergic",
+   "count": 16,
+   "example": "allerg+ic"
+  },
+  {
+   "word": "increase",
+   "count": 16,
+   "example": "increas+e"
+  },
+  {
+   "word": "analysis",
+   "count": 15,
+   "example": "anal+ysis"
+  },
+  {
+   "word": "congestion",
+   "count": 15,
+   "example": "congesti+on"
+  },
+  {
+   "word": "urticarial",
+   "count": 15,
+   "example": "urticaria+L"
+  },
+  {
+   "word": "thenal",
+   "count": 15,
+   "example": "the+nal"
+  },
+  {
+   "word": "intended",
+   "count": 15,
+   "example": "intende+d"
+  },
+  {
+   "word": "between",
+   "count": 15,
+   "example": "betwe+en"
+  },
+  {
+   "word": "suicidal",
+   "count": 15,
+   "example": "suicid+al"
+  },
+  {
+   "word": "bleeding",
+   "count": 15,
+   "example": "bleedi+ng"
+  },
+  {
+   "word": "within",
+   "count": 15,
+   "example": "withi+n"
+  },
+  {
+   "word": "before",
+   "count": 15,
+   "example": "befor+e"
+  },
+  {
+   "word": "pregnancy",
+   "count": 15,
+   "example": "PREGNAN+CY"
+  },
+  {
+   "word": "breastfeeding",
+   "count": 14,
+   "example": "breastfee+ding"
+  },
+  {
+   "word": "cancer",
+   "count": 14,
+   "example": "Cance+r"
+  },
+  {
+   "word": "thats",
+   "count": 14,
+   "example": "that+s"
+  },
+  {
+   "word": "fatigue",
+   "count": 14,
+   "example": "FATIGU+E"
+  },
+  {
+   "word": "intramuscular",
+   "count": 14,
+   "example": "intramusc+ular"
+  },
+  {
+   "word": "amerind",
+   "count": 14,
+   "example": "Amer+Ind"
+  },
+  {
+   "word": "osteoarthritis",
+   "count": 14,
+   "example": "osteoarthrit+is"
+  },
+  {
+   "word": "oxygen",
+   "count": 14,
+   "example": "Oxyge+n"
+  },
+  {
+   "word": "personal",
+   "count": 14,
+   "example": "pers+onal"
+  },
+  {
+   "word": "tabled",
+   "count": 13,
+   "example": "TABLE+D"
+  },
+  {
+   "word": "biter",
+   "count": 13,
+   "example": "BITE+R"
+  },
+  {
+   "word": "lymphadenopathy",
+   "count": 13,
+   "example": "Lymphadenop+athy"
+  },
+  {
+   "word": "thane",
+   "count": 13,
+   "example": "than+e"
+  },
+  {
+   "word": "theirs",
+   "count": 12,
+   "example": "The+IRs"
+  },
+  {
+   "word": "phases",
+   "count": 12,
+   "example": "phase+s"
+  },
+  {
+   "word": "structure",
+   "count": 12,
+   "example": "STRUC+TURE"
+  },
+  {
+   "word": "concomitant",
+   "count": 12,
+   "example": "concomitan+t"
+  },
+  {
+   "word": "insomniac",
+   "count": 12,
+   "example": "Insomnia+C"
+  },
+  {
+   "word": "figured",
+   "count": 12,
+   "example": "Figure+D"
+  },
+  {
+   "word": "possible",
+   "count": 12,
+   "example": "Possibl+e"
+  },
+  {
+   "word": "children",
+   "count": 12,
+   "example": "chil+dren"
+  },
+  {
+   "word": "rhinitis",
+   "count": 12,
+   "example": "Rhin+itis"
+  },
+  {
+   "word": "footnoted",
+   "count": 12,
+   "example": "footnote+d"
+  },
+  {
+   "word": "augusta",
+   "count": 12,
+   "example": "August+a"
+  },
+  {
+   "word": "bepaid",
+   "count": 12,
+   "example": "be+paid"
+  },
+  {
+   "word": "diabetes",
+   "count": 12,
+   "example": "DIAB+ETES"
+  },
+  {
+   "word": "artery",
+   "count": 12,
+   "example": "arter+y"
+  },
+  {
+   "word": "hernia",
+   "count": 12,
+   "example": "her+nia"
+  },
+  {
+   "word": "phosphatase",
+   "count": 12,
+   "example": "Phosphata+se"
+  },
+  {
+   "word": "disorder",
+   "count": 12,
+   "example": "disord+er"
+  },
+  {
+   "word": "abnormality",
+   "count": 12,
+   "example": "abnorma+lity"
+  },
+  {
+   "word": "intensive",
+   "count": 12,
+   "example": "intensiv+e"
+  },
+  {
+   "word": "recent",
+   "count": 12,
+   "example": "rece+nt"
+  },
+  {
+   "word": "pregnant",
+   "count": 12,
+   "example": "preg+nant"
+  },
+  {
+   "word": "abaff",
+   "count": 11,
+   "example": "aba+ff"
+  },
+  {
+   "word": "chank",
+   "count": 11,
+   "example": "Chan+K"
+  },
+  {
+   "word": "thrombocytopenia",
+   "count": 11,
+   "example": "Thrombocytopen+ia"
+  },
+  {
+   "word": "cardiac",
+   "count": 11,
+   "example": "CAR+DIAC"
+  },
+  {
+   "word": "tachycardiac",
+   "count": 11,
+   "example": "tachycardia+C"
+  },
+  {
+   "word": "kingdom",
+   "count": 11,
+   "example": "KINGDO+M"
+  },
+  {
+   "word": "congenital",
+   "count": 11,
+   "example": "congenit+al"
+  },
+  {
+   "word": "preset",
+   "count": 11,
+   "example": "pre+set"
+  },
+  {
+   "word": "resolve",
+   "count": 11,
+   "example": "RESO+LVE"
+  },
+  {
+   "word": "reflux",
+   "count": 11,
+   "example": "reflu+x"
+  },
+  {
+   "word": "carcinoma",
+   "count": 11,
+   "example": "carcino+ma"
+  },
+  {
+   "word": "fracture",
+   "count": 11,
+   "example": "fract+ure"
+  },
+  {
+   "word": "distribution",
+   "count": 10,
+   "example": "distribu+tion"
+  },
+  {
+   "word": "graves",
+   "count": 10,
+   "example": "GRAVE+S"
+  },
+  {
+   "word": "replacement",
+   "count": 10,
+   "example": "replaceme+nt"
+  },
+  {
+   "word": "activity",
+   "count": 10,
+   "example": "activ+ity"
+  },
+  {
+   "word": "under",
+   "count": 10,
+   "example": "un+der"
+  },
+  {
+   "word": "comus",
+   "count": 10,
+   "example": "com+US"
+  },
+  {
+   "word": "casey",
+   "count": 10,
+   "example": "Case+y"
+  },
+  {
+   "word": "thiamine",
+   "count": 10,
+   "example": "THIA+MINE"
+  },
+  {
+   "word": "unknow",
+   "count": 10,
+   "example": "Unk+now"
+  },
+  {
+   "word": "calcium",
+   "count": 10,
+   "example": "CALC+IUM"
+  },
+  {
+   "word": "cholecystectomy",
+   "count": 10,
+   "example": "Cholecystecto+my"
+  },
+  {
+   "word": "protection",
+   "count": 10,
+   "example": "protec+tion"
+  },
+  {
+   "word": "pasty",
+   "count": 10,
+   "example": "past+y"
+  },
+  {
+   "word": "enable",
+   "count": 10,
+   "example": "Enabl+e"
+  },
+  {
+   "word": "randomization",
+   "count": 10,
+   "example": "randomizat+ion"
+  },
+  {
+   "word": "involved",
+   "count": 10,
+   "example": "invol+ved"
+  },
+  {
+   "word": "diathesis",
+   "count": 10,
+   "example": "diath+esis"
+  },
+  {
+   "word": "query",
+   "count": 10,
+   "example": "Quer+y"
+  },
+  {
+   "word": "pseudoephedrine",
+   "count": 9,
+   "example": "PSEUDOEPHEDRIN+E"
+  },
+  {
+   "word": "pulmonary",
+   "count": 9,
+   "example": "pulmo+nary"
+  },
+  {
+   "word": "gastroesophageal",
+   "count": 9,
+   "example": "GASTROESOPHAG+EAL"
+  },
+  {
+   "word": "cumulative",
+   "count": 9,
+   "example": "Cumulati+ve"
+  },
+  {
+   "word": "exposure",
+   "count": 9,
+   "example": "expo+sure"
+  },
+  {
+   "word": "depression",
+   "count": 9,
+   "example": "Depressi+on"
+  },
+  {
+   "word": "serous",
+   "count": 9,
+   "example": "ser+ous"
+  },
+  {
+   "word": "breathe",
+   "count": 9,
+   "example": "breath+e"
+  },
+  {
+   "word": "myocardial",
+   "count": 9,
+   "example": "myocardi+al"
+  },
+  {
+   "word": "injury",
+   "count": 9,
+   "example": "injur+y"
+  },
+  {
+   "word": "receive",
+   "count": 9,
+   "example": "rece+ive"
+  },
+  {
+   "word": "stage",
+   "count": 9,
+   "example": "sta+ge"
+  },
+  {
+   "word": "octavia",
+   "count": 8,
+   "example": "Oct+Avia"
+  },
+  {
+   "word": "bacca",
+   "count": 8,
+   "example": "ba+cca"
+  },
+  {
+   "word": "fibrillation",
+   "count": 8,
+   "example": "Fibrillat+ion"
+  },
+  {
+   "word": "menopausal",
+   "count": 8,
+   "example": "Menopaus+al"
+  },
+  {
+   "word": "selenium",
+   "count": 8,
+   "example": "SELE+NIUM"
+  },
+  {
+   "word": "biflex",
+   "count": 8,
+   "example": "BI+FLEX"
+  },
+  {
+   "word": "benet",
+   "count": 8,
+   "example": "bene+t"
+  },
+  {
+   "word": "activation",
+   "count": 8,
+   "example": "activa+tion"
+  },
+  {
+   "word": "production",
+   "count": 8,
+   "example": "produc+tion"
+  },
+  {
+   "word": "potential",
+   "count": 8,
+   "example": "poten+tial"
+  },
+  {
+   "word": "country",
+   "count": 8,
+   "example": "Coun+try"
+  },
+  {
+   "word": "status",
+   "count": 8,
+   "example": "ST+ATUS"
+  },
+  {
+   "word": "discrepancy",
+   "count": 8,
+   "example": "Discrep+ancy"
+  },
+  {
+   "word": "opinion",
+   "count": 8,
+   "example": "opin+ion"
+  },
+  {
+   "word": "inflammation",
+   "count": 8,
+   "example": "inflamma+tion"
+  },
+  {
+   "word": "neurological",
+   "count": 8,
+   "example": "Neurologica+l"
+  },
+  {
+   "word": "which",
+   "count": 8,
+   "example": "whi+ch"
+  },
+  {
+   "word": "retia",
+   "count": 8,
+   "example": "Reti+a"
+  },
+  {
+   "word": "pneumonia",
+   "count": 8,
+   "example": "pneumo+nia"
+  },
+  {
+   "word": "repair",
+   "count": 8,
+   "example": "repa+ir"
+  },
+  {
+   "word": "sodium",
+   "count": 7,
+   "example": "SO+DIUM"
+  },
+  {
+   "word": "spoof",
+   "count": 7,
+   "example": "SpO+of"
+  },
+  {
+   "word": "citrated",
+   "count": 7,
+   "example": "CITRATE+D"
+  },
+  {
+   "word": "tonsillectomy",
+   "count": 7,
+   "example": "TONSILLECT+OMY"
+  },
+  {
+   "word": "dysfunction",
+   "count": 7,
+   "example": "DYSFUNCTI+ON"
+  },
+  {
+   "word": "appendicitis",
+   "count": 7,
+   "example": "APPENDICITI+S"
+  },
+  {
+   "word": "appendectomy",
+   "count": 7,
+   "example": "APPENDECT+OMY"
+  },
+  {
+   "word": "hysterectomy",
+   "count": 7,
+   "example": "HYSTERECT+OMY"
+  },
+  {
+   "word": "retina",
+   "count": 7,
+   "example": "RETIN+A"
+  },
+  {
+   "word": "panela",
+   "count": 7,
+   "example": "Panel+A"
+  },
+  {
+   "word": "martinet",
+   "count": 7,
+   "example": "Martin+et"
+  },
+  {
+   "word": "tempo",
+   "count": 7,
+   "example": "Temp+O"
+  },
+  {
+   "word": "control",
+   "count": 7,
+   "example": "con+trol"
+  },
+  {
+   "word": "unassessable",
+   "count": 7,
+   "example": "unassess+able"
+  },
+  {
+   "word": "chary",
+   "count": 7,
+   "example": "Char+Y"
+  },
+  {
+   "word": "replication",
+   "count": 7,
+   "example": "replica+tion"
+  },
+  {
+   "word": "pressure",
+   "count": 7,
+   "example": "pres+sure"
+  },
+  {
+   "word": "center",
+   "count": 7,
+   "example": "cen+ter"
+  },
+  {
+   "word": "decoct",
+   "count": 7,
+   "example": "Dec+Oct"
+  },
+  {
+   "word": "nasopharyngitis",
+   "count": 7,
+   "example": "Nasopharyngiti+s"
+  },
+  {
+   "word": "criteria",
+   "count": 7,
+   "example": "Crite+ria"
+  },
+  {
+   "word": "tabler",
+   "count": 7,
+   "example": "Table+R"
+  },
+  {
+   "word": "masse",
+   "count": 7,
+   "example": "mass+e"
+  },
+  {
+   "word": "plane",
+   "count": 7,
+   "example": "plan+e"
+  },
+  {
+   "word": "releasee",
+   "count": 7,
+   "example": "release+e"
+  },
+  {
+   "word": "abusee",
+   "count": 7,
+   "example": "abuse+e"
+  },
+  {
+   "word": "removal",
+   "count": 7,
+   "example": "REMOVA+L"
+  },
+  {
+   "word": "insertion",
+   "count": 7,
+   "example": "INSER+TION"
+  },
+  {
+   "word": "humane",
+   "count": 7,
+   "example": "Human+e"
+  },
+  {
+   "word": "withdrawn",
+   "count": 7,
+   "example": "WITHD+RAWN"
+  },
+  {
+   "word": "haver",
+   "count": 7,
+   "example": "have+r"
+  },
+  {
+   "word": "efficacy",
+   "count": 6,
+   "example": "effi+cacy"
+  },
+  {
+   "word": "classic",
+   "count": 6,
+   "example": "CLASS+IC"
+  },
+  {
+   "word": "virole",
+   "count": 6,
+   "example": "Virol+e"
+  },
+  {
+   "word": "exacerbation",
+   "count": 6,
+   "example": "EXACERBAT+ION"
+  },
+  {
+   "word": "unkin",
+   "count": 6,
+   "example": "UNK+in"
+  },
+  {
+   "word": "latera",
+   "count": 6,
+   "example": "later+a"
+  },
+  {
+   "word": "ration",
+   "count": 6,
+   "example": "Ratio+N"
+  },
+  {
+   "word": "octan",
+   "count": 6,
+   "example": "Oct+an"
+  },
+  {
+   "word": "investigation",
+   "count": 6,
+   "example": "investiga+tion"
+  },
+  {
+   "word": "transcription",
+   "count": 6,
+   "example": "transcrip+tion"
+  },
+  {
+   "word": "nephropathy",
+   "count": 6,
+   "example": "nephropat+hy"
+  },
+  {
+   "word": "schizophreniac",
+   "count": 6,
+   "example": "Schizophrenia+C"
+  },
+  {
+   "word": "viand",
+   "count": 6,
+   "example": "VI+and"
+  },
+  {
+   "word": "lymph",
+   "count": 6,
+   "example": "lymp+h"
+  },
+  {
+   "word": "childe",
+   "count": 6,
+   "example": "child+e"
+  },
+  {
+   "word": "molecular",
+   "count": 6,
+   "example": "MOLECUL+AR"
+  },
+  {
+   "word": "dischargee",
+   "count": 6,
+   "example": "discharge+e"
+  },
+  {
+   "word": "listed",
+   "count": 6,
+   "example": "liste+d"
+  },
+  {
+   "word": "tract",
+   "count": 6,
+   "example": "tra+ct"
+  },
+  {
+   "word": "neuropathy",
+   "count": 6,
+   "example": "neurop+athy"
+  },
+  {
+   "word": "swelling",
+   "count": 6,
+   "example": "SWELLIN+G"
+  },
+  {
+   "word": "chronic",
+   "count": 6,
+   "example": "chroni+c"
+  },
+  {
+   "word": "informed",
+   "count": 6,
+   "example": "info+rmed"
+  },
+  {
+   "word": "giving",
+   "count": 6,
+   "example": "givi+ng"
+  },
+  {
+   "word": "method",
+   "count": 6,
+   "example": "Meth+od"
+  },
+  {
+   "word": "allowance",
+   "count": 6,
+   "example": "allowanc+e"
+  },
+  {
+   "word": "panel",
+   "count": 6,
+   "example": "Pa+nel"
+  },
+  {
+   "word": "human",
+   "count": 6,
+   "example": "huma+n"
+  },
+  {
+   "word": "inial",
+   "count": 6,
+   "example": "In+ial"
+  },
+  {
+   "word": "mechanics",
+   "count": 6,
+   "example": "Mechanic+s"
+  },
+  {
+   "word": "times",
+   "count": 5,
+   "example": "time+S"
+  },
+  {
+   "word": "doser",
+   "count": 5,
+   "example": "Dose+R"
+  },
+  {
+   "word": "constipation",
+   "count": 5,
+   "example": "CONSTIPAT+ION"
+  },
+  {
+   "word": "severity",
+   "count": 5,
+   "example": "Sever+ity"
+  },
+  {
+   "word": "strand",
+   "count": 5,
+   "example": "str+and"
+  },
+  {
+   "word": "cella",
+   "count": 5,
+   "example": "cell+a"
+  },
+  {
+   "word": "generalized",
+   "count": 5,
+   "example": "GENERALIZE+D"
+  },
+  {
+   "word": "participant",
+   "count": 5,
+   "example": "participan+t"
+  },
+  {
+   "word": "mechanism",
+   "count": 5,
+   "example": "mecha+nism"
+  },
+  {
+   "word": "estimate",
+   "count": 5,
+   "example": "esti+mate"
+  },
+  {
+   "word": "vitamin",
+   "count": 5,
+   "example": "VITAMI+N"
+  },
+  {
+   "word": "decan",
+   "count": 5,
+   "example": "Dec+an"
+  },
+  {
+   "word": "several",
+   "count": 5,
+   "example": "sev+eral"
+  },
+  {
+   "word": "convalescent",
+   "count": 5,
+   "example": "convales+cent"
+  },
+  {
+   "word": "expression",
+   "count": 5,
+   "example": "expres+sion"
+  },
+  {
+   "word": "factor",
+   "count": 5,
+   "example": "fac+tor"
+  },
+  {
+   "word": "delivery",
+   "count": 5,
+   "example": "deliv+ery"
+  },
+  {
+   "word": "havent",
+   "count": 5,
+   "example": "haven+t"
+  },
+  {
+   "word": "glomerulonephritis",
+   "count": 5,
+   "example": "Glomerulonephr+itis"
+  },
+  {
+   "word": "neuralgiac",
+   "count": 5,
+   "example": "neuralgia+C"
+  },
+  {
+   "word": "obesity",
+   "count": 5,
+   "example": "obesit+y"
+  },
+  {
+   "word": "werent",
+   "count": 5,
+   "example": "weren+t"
+  },
+  {
+   "word": "chude",
+   "count": 5,
+   "example": "CHU+de"
+  },
+  {
+   "word": "provide",
+   "count": 5,
+   "example": "pro+vide"
+  },
+  {
+   "word": "function",
+   "count": 5,
+   "example": "func+tion"
+  },
+  {
+   "word": "influenza",
+   "count": 5,
+   "example": "influ+enza"
+  },
+  {
+   "word": "population",
+   "count": 5,
+   "example": "popula+tion"
+  },
+  {
+   "word": "considered",
+   "count": 5,
+   "example": "consid+ered"
+  },
+  {
+   "word": "longer",
+   "count": 5,
+   "example": "LONGE+R"
+  },
+  {
+   "word": "usings",
+   "count": 5,
+   "example": "using+S"
+  },
+  {
+   "word": "muller",
+   "count": 5,
+   "example": "Mu+ller"
+  },
+  {
+   "word": "reactive",
+   "count": 5,
+   "example": "Reactiv+e"
+  },
+  {
+   "word": "hospital",
+   "count": 5,
+   "example": "hospi+tal"
+  },
+  {
+   "word": "thyroid",
+   "count": 5,
+   "example": "thyroi+d"
+  },
+  {
+   "word": "decision",
+   "count": 5,
+   "example": "DECISIO+N"
+  },
+  {
+   "word": "bilirubin",
+   "count": 5,
+   "example": "Bilirub+in"
+  },
+  {
+   "word": "abdomen",
+   "count": 5,
+   "example": "ABDO+MEN"
+  },
+  {
+   "word": "induced",
+   "count": 5,
+   "example": "induce+d"
+  },
+  {
+   "word": "abdominal",
+   "count": 5,
+   "example": "ABDOM+INAL"
+  },
+  {
+   "word": "apnea",
+   "count": 5,
+   "example": "Apn+ea"
+  },
+  {
+   "word": "sequelae",
+   "count": 5,
+   "example": "SEQU+ELAE"
+  },
+  {
+   "word": "tiredness",
+   "count": 5,
+   "example": "TIREDN+ESS"
+  },
+  {
+   "word": "discharge",
+   "count": 5,
+   "example": "discharg+e"
+  },
+  {
+   "word": "coronary",
+   "count": 5,
+   "example": "coro+nary"
+  },
+  {
+   "word": "menopause",
+   "count": 5,
+   "example": "MENOPAUS+E"
+  },
+  {
+   "word": "semis",
+   "count": 5,
+   "example": "SEM+is"
+  },
+  {
+   "word": "local",
+   "count": 5,
+   "example": "loca+l"
+  },
+  {
+   "word": "arrest",
+   "count": 5,
+   "example": "arre+st"
+  },
+  {
+   "word": "shoulder",
+   "count": 5,
+   "example": "shoul+der"
+  },
+  {
+   "word": "resent",
+   "count": 5,
+   "example": "resen+t"
+  },
+  {
+   "word": "myalgia",
+   "count": 5,
+   "example": "MYALGI+A"
+  },
+  {
+   "word": "spece",
+   "count": 5,
+   "example": "Spec+e"
+  },
+  {
+   "word": "hyperplasia",
+   "count": 5,
+   "example": "hyperplas+ia"
+  },
+  {
+   "word": "suspected",
+   "count": 5,
+   "example": "suspec+ted"
+  },
+  {
+   "word": "failure",
+   "count": 5,
+   "example": "failu+re"
+  }
+ ]
+}

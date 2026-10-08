@@ -3,7 +3,7 @@
 // cluster using the BONSAI_URL secret (which embeds the credentials), so the
 // search key never reaches the browser. Only _search is exposed.
 
-const INDEX = "foia_pages_v2";
+const INDEX = "foia_pages_v3";
 const ALLOW_ORIGINS = new Set([
   "https://foia.coviddocuments.com",
   "https://coviddocuments.com",

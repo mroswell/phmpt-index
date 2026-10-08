@@ -1,0 +1,249 @@
+{
+ "sample": 20,
+ "pages_scored": 212948,
+ "pages_sparse": 1066,
+ "bad_pages": 1066,
+ "bad_pct": 0.5,
+ "worst_docs": [
+  {
+   "doc_id": 3069,
+   "filename": "78G_BLA 125752-0_01-11-2022_Memo_Committee Memo_Review.pdf",
+   "bad_ratio": 0.444,
+   "scored_pages": 18
+  },
+  {
+   "doc_id": 5565,
+   "filename": "125742_S1_M5_CRF_c4591001-1133-11331317.pdf",
+   "bad_ratio": 0.429,
+   "scored_pages": 7
+  },
+  {
+   "doc_id": 3007,
+   "filename": "30_BLA 125752-0_10-29-2021_Telecon_Other.pdf",
+   "bad_ratio": 0.381,
+   "scored_pages": 21
+  },
+  {
+   "doc_id": 7528,
+   "filename": "27034_S2_M5_CRF_c4591001-1231-12311579.pdf",
+   "bad_ratio": 0.375,
+   "scored_pages": 8
+  },
+  {
+   "doc_id": 5800,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12311081.pdf",
+   "bad_ratio": 0.364,
+   "scored_pages": 11
+  },
+  {
+   "doc_id": 7518,
+   "filename": "27034_S2_M5_CRF_c4591001-1226-12261769.pdf",
+   "bad_ratio": 0.333,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 6704,
+   "filename": "125742_S1_M5_CRF_c4591001-1077-10771137.pdf",
+   "bad_ratio": 0.333,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 7577,
+   "filename": "27034_S2_M5_CRF_c4591001-1248-12481218.pdf",
+   "bad_ratio": 0.333,
+   "scored_pages": 6
+  },
+  {
+   "doc_id": 5780,
+   "filename": "125742_S1_M5_CRF_c4591001-1226-12261714.pdf",
+   "bad_ratio": 0.3,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 7466,
+   "filename": "27034_S2_M5_CRF_c4591001-1146-11461200.pdf",
+   "bad_ratio": 0.286,
+   "scored_pages": 7
+  },
+  {
+   "doc_id": 6823,
+   "filename": "125742_S1_M5_CRF_c4591001-1140-11401282.pdf",
+   "bad_ratio": 0.286,
+   "scored_pages": 7
+  },
+  {
+   "doc_id": 6073,
+   "filename": "125742_S1_M5_CRF_c4591001-1110-11101160.pdf",
+   "bad_ratio": 0.286,
+   "scored_pages": 7
+  },
+  {
+   "doc_id": 7525,
+   "filename": "27034_S2_M5_CRF_c4591001-1231-12311315.pdf",
+   "bad_ratio": 0.273,
+   "scored_pages": 11
+  },
+  {
+   "doc_id": 6782,
+   "filename": "125742_S1_M5_CRF_c4591001-1107-11071191.pdf",
+   "bad_ratio": 0.25,
+   "scored_pages": 12
+  },
+  {
+   "doc_id": 7568,
+   "filename": "27034_S2_M5_CRF_c4591001-1241-12411766.pdf",
+   "bad_ratio": 0.25,
+   "scored_pages": 8
+  },
+  {
+   "doc_id": 7328,
+   "filename": "27034_S2_M5_CRF_c4591001-1027-10271054.pdf",
+   "bad_ratio": 0.25,
+   "scored_pages": 8
+  },
+  {
+   "doc_id": 6735,
+   "filename": "125742_S1_M5_CRF_c4591001-1084-10841317.pdf",
+   "bad_ratio": 0.25,
+   "scored_pages": 8
+  },
+  {
+   "doc_id": 5858,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12312893.pdf",
+   "bad_ratio": 0.25,
+   "scored_pages": 8
+  },
+  {
+   "doc_id": 4683,
+   "filename": "125742_S1_M5_CRF_c4591001-1013-10131656.pdf",
+   "bad_ratio": 0.25,
+   "scored_pages": 8
+  },
+  {
+   "doc_id": 5841,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12312420.pdf",
+   "bad_ratio": 0.231,
+   "scored_pages": 13
+  },
+  {
+   "doc_id": 7524,
+   "filename": "27034_S2_M5_CRF_c4591001-1231-12311281.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 7523,
+   "filename": "27034_S2_M5_CRF_c4591001-1231-12311205.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 7366,
+   "filename": "27034_S2_M5_CRF_c4591001-1084-10841219.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 6058,
+   "filename": "125742_S1_M5_CRF_c4591001-1090-10901394.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 5862,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12313028.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 5838,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12312335.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 5816,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12311538.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 5594,
+   "filename": "125742_S1_M5_CRF_c4591001-1147-11471007.pdf",
+   "bad_ratio": 0.222,
+   "scored_pages": 9
+  },
+  {
+   "doc_id": 6876,
+   "filename": "125742_S1_M5_CRF_c4591001-1241-12411887.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 15
+  },
+  {
+   "doc_id": 5966,
+   "filename": "125742_S1_M5_CRF_c4591001-1019-10191229.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 15
+  },
+  {
+   "doc_id": 7368,
+   "filename": "27034_S2_M5_CRF_c4591001-1084-10841480.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 6889,
+   "filename": "125742_S1_M5_CRF_c4591001-1241-12412263.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 6882,
+   "filename": "125742_S1_M5_CRF_c4591001-1241-12412053.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 6879,
+   "filename": "125742_S1_M5_CRF_c4591001-1241-12411967.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 6810,
+   "filename": "125742_S1_M5_CRF_c4591001-1139-11391024.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 5877,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12313715.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 5856,
+   "filename": "125742_S1_M5_CRF_c4591001-1231-12312883.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 5770,
+   "filename": "125742_S1_M5_CRF_c4591001-1226-12261417.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 5314,
+   "filename": "125742_S1_M5_CRF_c4591001-1005-10051069.pdf",
+   "bad_ratio": 0.2,
+   "scored_pages": 10
+  },
+  {
+   "doc_id": 5301,
+   "filename": "125742_S1_M5_CRF_c4591001-1001-10011093.pdf",
+   "bad_ratio": 0.19,
+   "scored_pages": 21
+  }
+ ]
+}

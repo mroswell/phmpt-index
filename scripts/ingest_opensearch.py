@@ -30,6 +30,38 @@ INDEX_NAME = "foia_pages"
 
 MARKER_RE = re.compile(r"\(b\)\(\d+\)(?:\([A-F]\))?", re.I)
 
+# OCR split-word rejoin: fold curated splits ("TREATME NT" -> "TREATMENT") so
+# search finds them. Curated list from scripts/ocr_split_report.py review.
+SPLIT_APPROVED_FILE = DATA / "ocr_split_approved.json"
+TOKEN_RE = re.compile(r"[A-Za-z]+")
+try:
+    SPLIT_APPROVED = set(json.load(open(SPLIT_APPROVED_FILE)).get("words", []))
+except Exception:
+    SPLIT_APPROVED = set()
+
+
+def rejoin_splits(text: str) -> str:
+    """Merge adjacent fragments split across whitespace when their lowercased
+    concatenation is an approved join (Injec ion -> injection). Only touches
+    those specific gaps; all other text/formatting is preserved."""
+    if not SPLIT_APPROVED or not text:
+        return text
+    toks = [(m.group(), m.start(), m.end()) for m in TOKEN_RE.finditer(text)]
+    out, last, j = [], 0, 0
+    while j < len(toks) - 1:
+        a, _as, ae = toks[j]
+        b, bs, _be = toks[j + 1]
+        gap = text[ae:bs]
+        if gap and not gap.strip() and len(a) >= 2 and len(b) <= 4 \
+                and len(a) + len(b) >= 5 and (a + b).lower() in SPLIT_APPROVED:
+            out.append(text[last:ae])   # keep 'a', drop the whitespace gap
+            last = bs
+            j += 2
+        else:
+            j += 1
+    out.append(text[last:])
+    return "".join(out)
+
 STUDY_PATTERNS = [
     re.compile(r"c4591\d{3}", re.I),
     re.compile(r"bnt162-?\d+", re.I),
@@ -101,7 +133,7 @@ def doc_stream(meta: dict, batch: str | None, index_name: str = INDEX_NAME):
                 m = meta.get(rec["doc_id"])
                 if not m:
                     continue
-                text = rec.get("text", "")
+                text = rejoin_splits(rec.get("text", ""))
                 body = {"doc_id": rec["doc_id"], "page": rec["page"], "text": text,
                         "markers": sorted({mk.upper() for mk in MARKER_RE.findall(text)})}
                 body.update(m)
