@@ -85,7 +85,7 @@ def build_meta() -> dict:
     return meta
 
 
-def doc_stream(meta: dict, batch: str | None):
+def doc_stream(meta: dict, batch: str | None, index_name: str = INDEX_NAME):
     files = sorted(FULLTEXT.glob("*.jsonl"))
     if batch:
         files = [FULLTEXT / f"{batch}.jsonl"]
@@ -105,28 +105,30 @@ def doc_stream(meta: dict, batch: str | None):
                 body = {"doc_id": rec["doc_id"], "page": rec["page"], "text": text,
                         "markers": sorted({mk.upper() for mk in MARKER_RE.findall(text)})}
                 body.update(m)
-                yield {"_index": INDEX_NAME, "_id": f'{rec["doc_id"]}:{rec["page"]}', "_source": body}
+                yield {"_index": index_name, "_id": f'{rec["doc_id"]}:{rec["page"]}', "_source": body}
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--batch", help="only this batch_code's jsonl")
+    ap.add_argument("--index", default=INDEX_NAME, help="target index name (default foia_pages)")
     ap.add_argument("--dry-run", action="store_true", help="build docs, print a sample, do not connect")
     ap.add_argument("--batch-size", type=int, default=2000)
     args = ap.parse_args()
+    index_name = args.index
 
     meta = build_meta()
     print(f"metadata for {len(meta):,} documents loaded")
 
     if args.dry_run:
         n = 0
-        for d in doc_stream(meta, args.batch):
+        for d in doc_stream(meta, args.batch, index_name):
             if n < 3:
                 sample = dict(d["_source"])
                 sample["text"] = sample["text"][:160] + ("…" if len(sample["text"]) > 160 else "")
                 print(json.dumps({"_id": d["_id"], "_source": sample}, ensure_ascii=False, indent=2))
             n += 1
-        print(f"\nDRY RUN: {n:,} page-documents would be indexed into '{INDEX_NAME}'. No cluster contacted.")
+        print(f"\nDRY RUN: {n:,} page-documents would be indexed into '{index_name}'. No cluster contacted.")
         return
 
     from opensearchpy import OpenSearch, helpers
@@ -138,20 +140,20 @@ def main() -> None:
     client = OpenSearch([url], timeout=60, max_retries=3, retry_on_timeout=True)
 
     mapping = json.load(open(MAPPING))
-    if not client.indices.exists(index=INDEX_NAME):
-        client.indices.create(index=INDEX_NAME, body=mapping)
-        print(f"created index '{INDEX_NAME}'")
+    if not client.indices.exists(index=index_name):
+        client.indices.create(index=index_name, body=mapping)
+        print(f"created index '{index_name}'")
     # speed up bulk load: no replicas, no refresh
-    client.indices.put_settings(index=INDEX_NAME,
+    client.indices.put_settings(index=index_name,
                                 body={"index": {"number_of_replicas": 0, "refresh_interval": "-1"}})
-    ok, errs = helpers.bulk(client, doc_stream(meta, args.batch),
+    ok, errs = helpers.bulk(client, doc_stream(meta, args.batch, index_name),
                             chunk_size=args.batch_size, raise_on_error=False, stats_only=False)
     print(f"indexed {ok:,} docs; {len(errs)} errors")
     # restore production settings + make searchable
-    client.indices.put_settings(index=INDEX_NAME,
+    client.indices.put_settings(index=index_name,
                                 body={"index": {"number_of_replicas": 1, "refresh_interval": "30s"}})
-    client.indices.refresh(index=INDEX_NAME)
-    print(f"count now: {client.count(index=INDEX_NAME)['count']:,}")
+    client.indices.refresh(index=index_name)
+    print(f"count now: {client.count(index=index_name)['count']:,}")
 
 
 if __name__ == "__main__":

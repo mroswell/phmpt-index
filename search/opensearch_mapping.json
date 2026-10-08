@@ -29,7 +29,7 @@
       "filter": {
         "english_possessive": { "type": "stemmer", "language": "possessive_english" },
         "english_stop": { "type": "stop", "stopwords": "_english_" },
-        "kstem_light": { "type": "kstem" },
+        "english_minimal": { "type": "stemmer", "language": "minimal_english" },
         "bates_delimiter": {
           "type": "word_delimiter_graph",
           "preserve_original": true,
@@ -45,7 +45,7 @@
           "type": "custom",
           "char_filter": ["redaction_markers"],
           "tokenizer": "standard",
-          "filter": ["english_possessive", "lowercase", "english_stop", "kstem_light"]
+          "filter": ["english_possessive", "lowercase", "english_stop", "english_minimal"]
         },
         "foia_exact": {
           "type": "custom",
