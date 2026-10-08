@@ -423,5 +423,7 @@ tr:hover td { background: var(--accent-soft); }
 .ft-hit { border: 1px solid #e2e7ee; border-radius: 10px; padding: 10px 12px; background: #fff; }
 .ft-hit-head a { font-weight: 600; }
 .ft-hit-meta { color: #5b6673; font-size: 12.5px; }
+.ft-hit-meta .ft-pg { color: var(--accent); text-decoration: none; }
+.ft-hit-meta .ft-pg:hover { text-decoration: underline; }
 .ft-snip { margin-top: 5px; font-size: 13.5px; line-height: 1.5; color: #333; }
 .ft-snip em { background: #fde68a; font-style: normal; padding: 0 1px; border-radius: 2px; }

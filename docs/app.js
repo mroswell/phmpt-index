@@ -698,15 +698,35 @@ load().catch((e) => {
   // match. Show at most PAGE_LIST_CAP page numbers; big safety reports can
   // match a term on hundreds of pages, so the rest roll into "(+N more)".
   const PAGE_LIST_CAP = 10;
-  function fmtPages(h) {
+  // Append "· Pages 63, 423 (+N more) of 13,123" to `meta`, with each page
+  // number a link that opens the PDF at that page (native #page=N). Only link
+  // when the hit URL is a PDF; otherwise render the numbers as plain text.
+  function appendPages(meta, h) {
     const pages = h.pages || [];
-    if (!pages.length) return "";
+    if (!pages.length) return;
     const total = h.pages_total || pages.length;
     const shown = pages.slice(0, PAGE_LIST_CAP);
-    let str = (total === 1 ? "Page " : "Pages ") + shown.map((p) => p.toLocaleString()).join(", ");
-    if (total > shown.length) str += " (+" + (total - shown.length).toLocaleString() + " more)";
-    if (h.total_pages) str += " of " + h.total_pages.toLocaleString();
-    return str;
+    const canLink = !!h.url && /\.pdf\b/i.test(h.url);
+    meta.appendChild(document.createTextNode(" · " + (total === 1 ? "Page " : "Pages ")));
+    shown.forEach((p, i) => {
+      if (i) meta.appendChild(document.createTextNode(", "));
+      const label = p.toLocaleString();
+      if (canLink) {
+        const a = document.createElement("a");
+        a.className = "ft-pg";
+        a.href = h.url + "#page=" + p;
+        a.target = "_blank"; a.rel = "noopener";
+        a.title = "Open the PDF at page " + label;
+        a.textContent = label;
+        meta.appendChild(a);
+      } else {
+        meta.appendChild(document.createTextNode(label));
+      }
+    });
+    if (total > shown.length)
+      meta.appendChild(document.createTextNode(" (+" + (total - shown.length).toLocaleString() + " more)"));
+    if (h.total_pages)
+      meta.appendChild(document.createTextNode(" of " + h.total_pages.toLocaleString()));
   }
 
   function renderHits(hits) {
@@ -721,10 +741,10 @@ load().catch((e) => {
         head.appendChild(a);
       } else head.appendChild(document.createTextNode(h.filename));
       const meta = document.createElement("span"); meta.className = "ft-hit-meta";
-      const pageStr = fmtPages(h);
+      appendPages(meta, h);
       const extra = (h.company ? " · " + h.company : "") + (h.module ? " · " + h.module : "") +
                     (h.license ? " · " + h.license : "");
-      meta.textContent = (pageStr ? " · " + pageStr : "") + extra;
+      if (extra) meta.appendChild(document.createTextNode(extra));
       head.appendChild(meta); card.appendChild(head);
       if (h.snippet) {
         const s = document.createElement("div"); s.className = "ft-snip";
