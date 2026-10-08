@@ -759,9 +759,12 @@ load().catch((e) => {
   }
 
   function updateBanner() {
+    // strip the user's surrounding exact-phrase quotes so the banner reads
+    // match “adverse events”, not match “"adverse events"”
+    const shownQ = curQuery.replace(/^"(.*)"$/, "$1");
     let t = `${docTotal.toLocaleString()} document${docTotal === 1 ? "" : "s"}` +
             ` (${pagesMatched.toLocaleString()} page${pagesMatched === 1 ? "" : "s"})` +
-            ` match “${curQuery}”`;
+            ` match “${shownQ}”`;
     const filters = activeFilterSummary();
     if (filters.length) t += ` · filtered by ${filters.join(" · ")}`;
     if (docTotal > FROM_CAP) t += ` · first ${FROM_CAP.toLocaleString()} shown`;

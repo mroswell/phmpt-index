@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tags — PHMPT FOIA Index</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    header { display: flex; flex-direction: column; }
+    .title-nav-row {
+      display: grid; grid-template-columns: 1fr auto 1fr;
+      align-items: center; width: 100%;
+    }
+    .title-nav-row h1 { margin: 0; justify-self: start; }
+    .title-nav-row .nav-menu { justify-self: center; }
+    .nav-menu { display: flex; gap: 16px; font-size: 14px; margin: 0; flex-wrap: wrap; }
+    .nav-menu a {
+      color: var(--accent); text-decoration: none; padding: 8px 12px;
+      border-radius: 4px; border: 1px solid var(--line); background: var(--surface);
+    }
+    .nav-menu a:hover { background: #f8f9fa; }
+    .nav-menu a[aria-current="page"] { background: var(--accent-soft, #eef); font-weight: 600; }
+
+    .tags-wrap { padding: 0 24px 48px; }
+    .tg-summary {
+      background: #f8f9fa; border: 1px solid #e9ecef; padding: 14px 18px;
+      border-radius: 6px; margin: 16px 0; font-size: 14px; line-height: 1.6;
+    }
+    .tg-summary .num { font-weight: 600; font-size: 18px; color: var(--accent); }
+    .tg-note { color: var(--muted); font-size: 13px; }
+
+    .tg-search { position: relative; max-width: 480px; margin: 12px 0 18px; }
+    .tg-search input {
+      width: 100%; height: 38px; padding: 0 12px 0 38px; font: inherit;
+      border: 1px solid #c7cedb; border-radius: 8px; background: var(--surface); color: var(--ink);
+    }
+    .tg-search input:focus { outline: none; border-color: #2f6fd0; box-shadow: 0 0 0 3px rgba(47,111,208,.15); }
+    .tg-search svg { position: absolute; left: 12px; top: 10px; color: #6b7684; pointer-events: none; }
+
+    /* sticky A–Z bar */
+    .alpha-bar {
+      position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; gap: 4px;
+      padding: 10px 0; background: var(--bg); border-bottom: 1px solid var(--line); margin-bottom: 8px;
+    }
+    .alpha-bar a {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 28px; height: 28px; padding: 0 6px; border-radius: 4px;
+      border: 1px solid var(--line); background: var(--surface);
+      color: var(--accent); text-decoration: none; font-size: 13px; font-weight: 600;
+    }
+    .alpha-bar a:hover { background: var(--accent-soft, #eef); }
+    .alpha-bar a.empty { color: #bbb; border-color: #eee; pointer-events: none; }
+
+    .tg-group { margin: 18px 0 6px; }
+    .tg-group h2 {
+      font-size: 15px; margin: 0 0 8px; color: var(--accent);
+      border-bottom: 2px solid var(--accent-soft, #eef); padding-bottom: 4px; scroll-margin-top: 52px;
+    }
+    .tg-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tg {
+      display: inline-flex; align-items: baseline;
+      padding: 4px 10px; border: 1px solid var(--line); border-radius: 14px;
+      background: var(--surface); color: var(--ink); text-decoration: none; font-size: 13px;
+    }
+    .tg:hover { background: var(--accent-soft, #eef); border-color: var(--accent); }
+    .tg-empty { color: var(--muted); padding: 24px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="title-nav-row">
+    <h1>Tags</h1>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="duplicates.html">Content Overlap</a>
+      <a href="pharmacovigilance.html">Pharmacovigilance</a>
+      <a href="exemptions.html">Exemptions</a>
+      <a href="statutes.html">Statutes</a>
+      <a href="hidden.html">Redaction Topics</a>
+      <a href="search-terms.html" aria-current="page">Tags</a>
+    </nav>
+  </div>
+  <p class="subtitle">
+    Topic tags harvested from the companion site
+    <a href="https://coviddocuments.com/" target="_blank" rel="noopener">coviddocuments.com</a>.
+    Click a tag to run it as a full-text search over this corpus.
+  </p>
+</header>
+
+<div class="tags-wrap">
+  <div class="tg-summary" id="summary">Loading tags…</div>
+
+  <div class="tg-search">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            d="M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-4.3-4.3"/>
+    </svg>
+    <input type="search" id="tag-filter" autocomplete="off" list="tag-options"
+           placeholder="Filter tags — e.g. adverse, protocol, myocarditis…">
+    <datalist id="tag-options"></datalist>
+  </div>
+
+  <nav class="alpha-bar" id="alpha-bar" aria-label="Jump to letter"></nav>
+  <div id="tag-list"></div>
+</div>
+
+<script src="search-terms.js"></script>
+</body>
+</html>
