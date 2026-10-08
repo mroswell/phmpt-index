@@ -10,8 +10,6 @@ const FIELD_PARAMS = {
   "f-license":    "license",
   "f-age":        "age",
   "f-individual": "availability",
-  "f-date-from":  "date_from",
-  "f-date-to":    "date_to",
   "f-pages-min":  "pages_min",
   "f-pages-max":  "pages_max",
   "f-bates":      "bates",
@@ -23,8 +21,8 @@ const state = {
   mode: "filter",   // "filter" (table) | "search" (full-text results)
   searchQuery: "",  // active full-text query (search mode), for URL state
   page: 0,
-  sortKey: "modified",
-  sortDir: -1,
+  sortKey: "filename",
+  sortDir: 1,
   extSelected: new Set(),
   modSelected: new Set(),
   // Set to true while we're loading state from URL/saved-search,
@@ -77,8 +75,6 @@ function applyFilters() {
   const license = $("f-license").value;
   const age = $("f-age").value;
   const individual = $("f-individual").value;
-  const dateFrom = $("f-date-from").value;
-  const dateTo = $("f-date-to").value;
   const pMinV = $("f-pages-min").value;
   const pMaxV = $("f-pages-max").value;
   const pMin = pMinV === "" ? null : Number(pMinV);
@@ -96,8 +92,6 @@ function applyFilters() {
     if (individual === "both"  && !(r.zip_source && (r.individual_url || r.hosted_url))) return false;
     if (individual === "zip"   && !(r.zip_source && !(r.individual_url || r.hosted_url))) return false;
     if (individual === "indiv" && !(!r.zip_source && r.individual_url)) return false;
-    if (dateFrom && (!r.modified || r.modified.slice(0, 10) < dateFrom)) return false;
-    if (dateTo && (!r.modified || r.modified.slice(0, 10) > dateTo)) return false;
     if (pMin != null) {
       if (r.page_count == null || r.page_count < pMin) return false;
     }
@@ -221,10 +215,6 @@ function rowEl(r) {
   }
   tr.appendChild(tdPages);
 
-  const tdDate = document.createElement("td");
-  tdDate.textContent = fmtDate(r.modified);
-  tr.appendChild(tdDate);
-
   const tdCo = document.createElement("td");
   if (r.company) tdCo.appendChild(tag(r.company.toLowerCase(), r.company));
   tr.appendChild(tdCo);
@@ -308,7 +298,7 @@ function currentParams() {
   }
   if (state.extSelected.size) params.set("filetype", [...state.extSelected].sort().join(","));
   if (state.modSelected.size) params.set("module", [...state.modSelected].sort().join(","));
-  if (state.sortKey !== "modified" || state.sortDir !== -1) {
+  if (state.sortKey !== "filename" || state.sortDir !== 1) {
     params.set("sort", state.sortKey);
     params.set("dir", state.sortDir > 0 ? "asc" : "desc");
   }
@@ -338,8 +328,8 @@ function applyParamsToControls(params) {
     // Re-sync the existing checkbox UIs.
     for (const cb of document.querySelectorAll("#f-ext input")) cb.checked = state.extSelected.has(cb.value);
     for (const cb of document.querySelectorAll("#f-module input")) cb.checked = state.modSelected.has(cb.value);
-    state.sortKey = params.get("sort") || "modified";
-    state.sortDir = params.get("dir") === "asc" ? 1 : -1;
+    state.sortKey = params.get("sort") || "filename";
+    state.sortDir = params.get("dir") === "desc" ? -1 : 1;
   } finally {
     state.applyingExternal = false;
   }
@@ -510,13 +500,13 @@ function showToast(msg) {
 }
 
 function resetAllFilters() {
-  for (const id of ["f-name", "f-date-from", "f-date-to", "f-pages-min", "f-pages-max", "f-bates"]) $(id).value = "";
+  for (const id of ["f-name", "f-pages-min", "f-pages-max", "f-bates"]) $(id).value = "";
   for (const id of ["f-company", "f-license", "f-age", "f-individual"]) $(id).value = "";
   state.extSelected.clear();
   state.modSelected.clear();
   for (const cb of document.querySelectorAll("#f-ext input, #f-module input")) cb.checked = false;
-  state.sortKey = "modified";
-  state.sortDir = -1;
+  state.sortKey = "filename";
+  state.sortDir = 1;
   applyFilters();
 }
 
@@ -559,7 +549,7 @@ function buildCheckboxFilter(wrapId, valueKey, stateSet, orderFn) {
 
 function init() {
   const debounced = debounce(applyFilters, 120);
-  for (const id of ["f-name", "f-date-from", "f-date-to", "f-pages-min", "f-pages-max", "f-bates"]) {
+  for (const id of ["f-name", "f-pages-min", "f-pages-max", "f-bates"]) {
     $(id).addEventListener("input", debounced);
   }
   for (const id of ["f-company", "f-license", "f-age", "f-individual"]) {
@@ -581,7 +571,7 @@ function init() {
     th.addEventListener("click", () => {
       const key = th.dataset.sort;
       if (state.sortKey === key) state.sortDir = -state.sortDir;
-      else { state.sortKey = key; state.sortDir = key === "modified" ? -1 : 1; }
+      else { state.sortKey = key; state.sortDir = 1; }
       applyFilters();
     });
   }
@@ -653,7 +643,7 @@ function applyHashToState() {
 }
 
 load().catch((e) => {
-  $("rows").innerHTML = `<tr><td colspan="12" style="padding:24px;color:#900">load failed: ${e}</td></tr>`;
+  $("rows").innerHTML = `<tr><td colspan="11" style="padding:24px;color:#900">load failed: ${e}</td></tr>`;
 });
 
 /* ---- Full-text document search (OpenSearch via Cloudflare Worker) ----
