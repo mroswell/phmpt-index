@@ -163,6 +163,90 @@ function render() {
   }
 }
 
+// ── citations (Cite button) ─────────────────────────────────────────
+let TITLES = {};   // id -> {title, document_type?, date?, people?, src}
+
+function filenameTitle(fn) {
+  return (fn || "").replace(/\.[A-Za-z0-9]+$/, "").replace(/_/g, " ").replace(/\s+/g, " ").trim();
+}
+function citeYear(d) {
+  if (!d) return "n.d.";
+  const m = String(d).match(/(19|20)\d{2}/);
+  return m ? m[0] : "n.d.";
+}
+function vaccineLabel(r) {
+  const base = r.company === "Pfizer" ? "Pfizer-BioNTech COVID-19 Vaccine"
+             : r.company === "Moderna" ? "Moderna COVID-19 Vaccine"
+             : "COVID-19 Vaccine";
+  return `${base}${r.license ? " " + r.license : ""} Documents`;
+}
+// Build citation parts. Display shows the zip source as a subtle link; the
+// copyable plain text uses just the zip filename (no long S3 URL).
+function citation(r) {
+  const t = TITLES[String(r.id)] || {};
+  const title = t.title || filenameTitle(r.filename);
+  const author = (t.people ? t.people.split(",")[0].trim() : "") || "FDA";
+  const docType = t.document_type ? ` [${t.document_type}]` : "";
+  const moduleSec = r.module ? `, Module ${String(r.module).replace(/^M/, "")}` : "";
+  const prefix = `${author}. (${citeYear(t.date)}). ${title}${docType}. ${vaccineLabel(r)}${moduleSec}. Retrieved from `;
+  let url = null, zipName = null, zipUrl = null;
+  if (r.individual_url) url = r.individual_url;
+  else if (r.hosted_url) { url = r.hosted_url; zipName = r.zip_source; zipUrl = r.zip_url; }
+  else if (r.dataset_zip_url) { url = r.dataset_zip_url; zipName = r.zip_source; zipUrl = r.zip_url; }
+  else if (r.ican_url) url = r.ican_url;
+  else { zipName = r.zip_source; zipUrl = r.zip_url; }
+  const plain = prefix + (url || "") + (zipName ? ` (${zipName})` : "");
+  return { prefix, url, zipName, zipUrl, plain };
+}
+
+let citePopupEl = null;
+function closeCitePopup() {
+  if (citePopupEl) { citePopupEl.remove(); citePopupEl = null; document.removeEventListener("click", onCiteDocClick, true); }
+}
+function onCiteDocClick(e) {
+  if (citePopupEl && !citePopupEl.contains(e.target) && e.target !== citePopupEl.anchor) closeCitePopup();
+}
+function showCitePopup(anchor, r) {
+  const open = citePopupEl && citePopupEl.anchor === anchor;
+  closeCitePopup();
+  if (open) return;   // toggle off
+  const c = citation(r);
+  const pop = document.createElement("div"); pop.className = "cite-popup"; pop.anchor = anchor;
+  const bar = document.createElement("div"); bar.className = "cite-bar";
+  const copy = document.createElement("button"); copy.className = "cite-copy"; copy.textContent = "Copy";
+  copy.addEventListener("click", async () => {
+    try { await navigator.clipboard.writeText(c.plain); copy.textContent = "Copied!"; setTimeout(() => (copy.textContent = "Copy"), 1500); }
+    catch { prompt("Copy citation:", c.plain); }
+  });
+  const x = document.createElement("button"); x.className = "cite-x"; x.textContent = "×";
+  x.addEventListener("click", closeCitePopup);
+  bar.append(copy, x);
+  const body = document.createElement("div"); body.className = "cite-text";
+  body.appendChild(document.createTextNode(c.prefix));
+  if (c.url) {
+    const a = document.createElement("a"); a.className = "cite-url";
+    a.href = c.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = c.url;
+    body.appendChild(a);
+  }
+  if (c.zipName) {
+    body.appendChild(document.createTextNode(" ("));
+    if (c.zipUrl) {
+      const z = document.createElement("a"); z.className = "cite-zip";
+      z.href = c.zipUrl; z.target = "_blank"; z.rel = "noopener"; z.textContent = c.zipName;
+      body.appendChild(z);
+    } else body.appendChild(document.createTextNode(c.zipName));
+    body.appendChild(document.createTextNode(")"));
+  }
+  pop.append(bar, body);
+  document.body.appendChild(pop);
+  const rect = anchor.getBoundingClientRect();
+  pop.style.top = (window.scrollY + rect.bottom + 6) + "px";
+  const maxLeft = window.scrollX + document.documentElement.clientWidth - pop.offsetWidth - 16;
+  pop.style.left = Math.max(8, Math.min(window.scrollX + rect.left, maxLeft)) + "px";
+  citePopupEl = pop;
+  setTimeout(() => document.addEventListener("click", onCiteDocClick, true), 0);
+}
+
 function rowEl(r) {
   const tr = document.createElement("tr");
 
@@ -193,6 +277,14 @@ function rowEl(r) {
   } else {
     tdName.textContent = r.filename;
   }
+  const cite = document.createElement("a");
+  cite.className = "cite-link";
+  cite.href = "#";
+  cite.textContent = "cite";
+  cite.title = "Get a citation for this document";
+  cite.addEventListener("click", (e) => { e.preventDefault(); showCitePopup(cite, r); });
+  tdName.appendChild(document.createTextNode(" "));
+  tdName.appendChild(cite);
   tr.appendChild(tdName);
 
   const tdExt = document.createElement("td");
@@ -612,6 +704,7 @@ async function load() {
   init();
   const r = await fetch("data/index.json");
   state.rows = await r.json();
+  try { TITLES = await (await fetch("data/titles.json")).json(); } catch { TITLES = {}; }
   const totalPages = state.rows.reduce((s, r) => s + (r.page_count || 0), 0);
   $("stats").textContent =
     ` ${state.rows.length.toLocaleString()} files · ${totalPages.toLocaleString()} pages`;
