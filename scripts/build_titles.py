@@ -148,7 +148,9 @@ def main() -> None:
             out[str(rid)] = {"title": filename_title(r.get("filename")), "src": "filename"}
             n_file += 1
             if (r.get("filename") or "").lower().endswith(".pdf"):
-                pending_pdfs.append((rid, r.get("filename"), r.get("doc_id")))
+                # fulltext is keyed by doc_id, which == the index row's id
+                # (see ingest_opensearch.py join); use that for the text lookup.
+                pending_pdfs.append((rid, r.get("filename"), rid))
 
     print(f"  scraped: {n_scraped:,} | filename-fallback: {n_file:,} "
           f"(of which untitled PDFs eligible for Claude: {len(pending_pdfs):,})")
