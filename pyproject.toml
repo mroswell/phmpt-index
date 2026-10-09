@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=1.12.1",
     "boto3>=1.43.108",
     "curl-cffi>=0.15.0",
     "httpx>=0.28.1",

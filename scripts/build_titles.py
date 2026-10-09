@@ -99,7 +99,7 @@ def claude_titles(pending, text_by_doc, limit):
             f"Filename: {filename}\nContent excerpt:\n{content}"
         )
         try:
-            resp = client.messages.create(model=MODEL, max_tokens=200, temperature=0.2,
+            resp = client.messages.create(model=MODEL, max_tokens=200,
                                           messages=[{"role": "user", "content": prompt}])
             txt = resp.content[0].text.strip()
             txt = txt[txt.index("{"): txt.rindex("}") + 1]
